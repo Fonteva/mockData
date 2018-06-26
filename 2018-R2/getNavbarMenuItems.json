@@ -1,0 +1,10 @@
+[
+  { "href" : "#", "label" : "Lorem ipsum dolor" },
+  { "href" : "#2", "label" : "sit amet, consetetur sadipscing" },
+  { "href" : "#3", "label" : "elitr, sed diam nonumy" },
+  { "href" : "#4", "label" : "eirmod tempor" },
+  { "href" : "#5", "label" : "invidunt ut labore" },
+  { "href" : "#6", "label" : "et dolore magna aliquyam erat, sed diam voluptua." },
+  { "href" : "#7", "label" : "At vero eos et accusam et" },
+  { "href" : "#8", "label" : "justo duo dolores et" }
+]

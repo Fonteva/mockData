@@ -1,7 +1,9 @@
 # mockData
 
 This repo stores data that powers the mock UI. To enable it, in the Chrome/Firefox console, type
-> `sessionStorage.setItem('mock', true)`
+> `$A.getCallback(() => window.sessionStorage.setItem('mock', true))()`
+
+(stupid LockerService)
 
 ### Scenarios
 You can store multiple result sets for each action. The variations of these results are called scenarios. 
@@ -12,8 +14,8 @@ You have a call `getItems` which returns some sample data. Now you want to test 
 1. In this repo, in the branch gh-pages, create `/2018-R2/getItems.zero.json` with appropriate contents (e.g. `[]`)
 1. Commit and push
 1. In your browser console
-  1. `sessionStorage.setItem('mock', true)`
-  1. `sessionStorage.setItem('scenario', 'zero')`
+  1. `$A.getCallback(() => window.sessionStorage.setItem('mock', true))()`
+  1. `$A.getCallback(() => window.sessionStorage.setItem('scenario', 'zero'))()`
 1. Navigate to your page that calls `getItems`
 
 

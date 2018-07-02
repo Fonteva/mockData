@@ -47,6 +47,279 @@
       }
     },
     {
+      "name": "London Summer Festival 2",
+      "description": "It's happening!!",
+      "date": "2017-09-01T12:00:00Z",
+      "lat": 34.3324,
+      "lon": -83.30094,
+      "filterFields": {
+        "EventApi__RegistrationType__c": "Conference",
+        "Custom__IsWheelchairAccessible__c": true,
+        "Custom__EstimatedAttendance__c": 100
+      }
+    },
+    {
+      "name": "London Summer Festival 3",
+      "description": "It's happening!!",
+      "date": "2017-09-01T12:00:00Z",
+      "lat": 34.3324,
+      "lon": -83.30094,
+      "filterFields": {
+        "EventApi__RegistrationType__c": "Conference",
+        "Custom__IsWheelchairAccessible__c": true,
+        "Custom__EstimatedAttendance__c": 100
+      }
+    },
+    {
+      "name": "London Summer Festival 4",
+      "description": "It's happening!!",
+      "date": "2017-09-01T12:00:00Z",
+      "lat": 34.3324,
+      "lon": -83.30094,
+      "filterFields": {
+        "EventApi__RegistrationType__c": "Conference",
+        "Custom__IsWheelchairAccessible__c": true,
+        "Custom__EstimatedAttendance__c": 100
+      }
+    },
+    {
+      "name": "London Summer Festival 5",
+      "description": "It's happening!!",
+      "date": "2017-09-01T12:00:00Z",
+      "lat": 34.3324,
+      "lon": -83.30094,
+      "filterFields": {
+        "EventApi__RegistrationType__c": "Conference",
+        "Custom__IsWheelchairAccessible__c": true,
+        "Custom__EstimatedAttendance__c": 100
+      }
+    },
+    {
+      "name": "London Summer Festival 6",
+      "description": "It's happening!!",
+      "date": "2017-09-01T12:00:00Z",
+      "lat": 34.3324,
+      "lon": -83.30094,
+      "filterFields": {
+        "EventApi__RegistrationType__c": "Conference",
+        "Custom__IsWheelchairAccessible__c": true,
+        "Custom__EstimatedAttendance__c": 100
+      }
+    },
+    {
+      "name": "London Summer Festival 7",
+      "description": "It's happening!!",
+      "date": "2017-09-01T12:00:00Z",
+      "lat": 34.3324,
+      "lon": -83.30094,
+      "filterFields": {
+        "EventApi__RegistrationType__c": "Conference",
+        "Custom__IsWheelchairAccessible__c": true,
+        "Custom__EstimatedAttendance__c": 100
+      }
+    },
+    {
+      "name": "London Summer Festival 8",
+      "description": "It's happening!!",
+      "date": "2017-09-01T12:00:00Z",
+      "lat": 34.3324,
+      "lon": -83.30094,
+      "filterFields": {
+        "EventApi__RegistrationType__c": "Conference",
+        "Custom__IsWheelchairAccessible__c": true,
+        "Custom__EstimatedAttendance__c": 100
+      }
+    },
+    {
+      "name": "London Summer Festival 9",
+      "description": "It's happening!!",
+      "date": "2017-09-01T12:00:00Z",
+      "lat": 34.3324,
+      "lon": -83.30094,
+      "filterFields": {
+        "EventApi__RegistrationType__c": "Conference",
+        "Custom__IsWheelchairAccessible__c": true,
+        "Custom__EstimatedAttendance__c": 100
+      }
+    },
+    {
+      "name": "London Summer Festival 10",
+      "description": "It's happening!!",
+      "date": "2017-09-01T12:00:00Z",
+      "lat": 34.3324,
+      "lon": -83.30094,
+      "filterFields": {
+        "EventApi__RegistrationType__c": "Conference",
+        "Custom__IsWheelchairAccessible__c": true,
+        "Custom__EstimatedAttendance__c": 100
+      }
+    },
+    {
+      "name": "London Summer Festival 11",
+      "description": "It's happening!!",
+      "date": "2017-09-01T12:00:00Z",
+      "lat": 34.3324,
+      "lon": -83.30094,
+      "filterFields": {
+        "EventApi__RegistrationType__c": "Conference",
+        "Custom__IsWheelchairAccessible__c": true,
+        "Custom__EstimatedAttendance__c": 100
+      }
+    },
+    {
+      "name": "London Summer Festival 12",
+      "description": "It's happening!!",
+      "date": "2017-09-01T12:00:00Z",
+      "lat": 34.3324,
+      "lon": -83.30094,
+      "filterFields": {
+        "EventApi__RegistrationType__c": "Conference",
+        "Custom__IsWheelchairAccessible__c": true,
+        "Custom__EstimatedAttendance__c": 100
+      }
+    },
+    {
+      "name": "London Summer Festival 13",
+      "description": "It's happening!!",
+      "date": "2017-09-01T12:00:00Z",
+      "lat": 34.3324,
+      "lon": -83.30094,
+      "filterFields": {
+        "EventApi__RegistrationType__c": "Conference",
+        "Custom__IsWheelchairAccessible__c": true,
+        "Custom__EstimatedAttendance__c": 100
+      }
+    },
+    {
+      "name": "London Summer Festival 14",
+      "description": "It's happening!!",
+      "date": "2017-09-01T12:00:00Z",
+      "lat": 34.3324,
+      "lon": -83.30094,
+      "filterFields": {
+        "EventApi__RegistrationType__c": "Conference",
+        "Custom__IsWheelchairAccessible__c": true,
+        "Custom__EstimatedAttendance__c": 100
+      }
+    },
+    {
+      "name": "London Summer Festival XV",
+      "description": "It's happening!!",
+      "date": "2017-09-01T12:00:00Z",
+      "lat": 34.3324,
+      "lon": -83.30094,
+      "filterFields": {
+        "EventApi__RegistrationType__c": "Conference",
+        "Custom__IsWheelchairAccessible__c": true,
+        "Custom__EstimatedAttendance__c": 100
+      }
+    },
+    {
+      "name": "London Summer Festival 2^4",
+      "description": "It's happening!!",
+      "date": "2017-09-01T12:00:00Z",
+      "lat": 34.3324,
+      "lon": -83.30094,
+      "filterFields": {
+        "EventApi__RegistrationType__c": "Conference",
+        "Custom__IsWheelchairAccessible__c": true,
+        "Custom__EstimatedAttendance__c": 100
+      }
+    },
+    {
+      "name": "London Summer Festival 17",
+      "description": "It's happening!!",
+      "date": "2017-09-01T12:00:00Z",
+      "lat": 34.3324,
+      "lon": -83.30094,
+      "filterFields": {
+        "EventApi__RegistrationType__c": "Conference",
+        "Custom__IsWheelchairAccessible__c": true,
+        "Custom__EstimatedAttendance__c": 100
+      }
+    },
+    {
+      "name": "London Summer Festival 18",
+      "description": "It's happening!!",
+      "date": "2017-09-01T12:00:00Z",
+      "lat": 34.3324,
+      "lon": -83.30094,
+      "filterFields": {
+        "EventApi__RegistrationType__c": "Conference",
+        "Custom__IsWheelchairAccessible__c": true,
+        "Custom__EstimatedAttendance__c": 100
+      }
+    },
+    {
+      "name": "London Summer Festival 19",
+      "description": "It's happening!!",
+      "date": "2017-09-01T12:00:00Z",
+      "lat": 34.3324,
+      "lon": -83.30094,
+      "filterFields": {
+        "EventApi__RegistrationType__c": "Conference",
+        "Custom__IsWheelchairAccessible__c": true,
+        "Custom__EstimatedAttendance__c": 100
+      }
+    },
+    {
+      "name": "London Summer Festival XX",
+      "description": "It's happening!!",
+      "date": "2017-09-01T12:00:00Z",
+      "lat": 34.3324,
+      "lon": -83.30094,
+      "filterFields": {
+        "EventApi__RegistrationType__c": "Conference",
+        "Custom__IsWheelchairAccessible__c": true,
+        "Custom__EstimatedAttendance__c": 100
+      }
+    },    {
+      "name": "London Summer Festival XXI",
+      "description": "It's happening!!",
+      "date": "2017-09-01T12:00:00Z",
+      "lat": 34.3324,
+      "lon": -83.30094,
+      "filterFields": {
+        "EventApi__RegistrationType__c": "Conference",
+        "Custom__IsWheelchairAccessible__c": true,
+        "Custom__EstimatedAttendance__c": 100
+      }
+    },    {
+      "name": "London Summer Festival XXII",
+      "description": "It's happening!!",
+      "date": "2017-09-01T12:00:00Z",
+      "lat": 34.3324,
+      "lon": -83.30094,
+      "filterFields": {
+        "EventApi__RegistrationType__c": "Conference",
+        "Custom__IsWheelchairAccessible__c": true,
+        "Custom__EstimatedAttendance__c": 100
+      }
+    },    {
+      "name": "London Summer Festival XXIII",
+      "description": "It's happening!!",
+      "date": "2017-09-01T12:00:00Z",
+      "lat": 34.3324,
+      "lon": -83.30094,
+      "filterFields": {
+        "EventApi__RegistrationType__c": "Conference",
+        "Custom__IsWheelchairAccessible__c": true,
+        "Custom__EstimatedAttendance__c": 100
+      }
+    },
+    {
+      "name": "London Summer Festival XXIV",
+      "description": "It's happening!!",
+      "date": "2017-09-01T12:00:00Z",
+      "lat": 34.3324,
+      "lon": -83.30094,
+      "filterFields": {
+        "EventApi__RegistrationType__c": "Conference",
+        "Custom__IsWheelchairAccessible__c": true,
+        "Custom__EstimatedAttendance__c": 100
+      }
+    },
+    {
       "name": "Roachella 2019",
       "description": "It's happening!!",
       "date": "2017-09-01T12:00:00Z",

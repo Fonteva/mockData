@@ -164,7 +164,7 @@
         "recordId" : "234567123",
         "name": "Pokemon",
         "commId" : 1,
-        "isDefault" : false,
+        "isDefault" : true,
         "isPublished" : false,
         "enableCookie" : false,
         "enableAccessPermissions" : false,

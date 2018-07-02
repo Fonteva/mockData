@@ -1,7 +1,7 @@
 [
     {
         "recordId" : "234567890",
-        "name": "Transformers",
+        "label": "Transformers",
         "commId" : 0,
         "isDefault" : false,
         "isPublished" : false,
@@ -19,7 +19,7 @@
         "menuItems" : [
             {
                 "recordId" : "345678901212",
-                "name" : "Optimus Prime",
+                "label" : "Optimus Prime",
                 "parent" : "Autobot",
                 "type" : "Community Page",
                 "page" : "testpage",
@@ -39,7 +39,7 @@
             },
             {
                 "recordId" : "87921489721",
-                "name" : "Grimlock",
+                "label" : "Grimlock",
                 "parent" : "Autobot",
                 "type" : "Global Action",
                 "page" : "testpage",
@@ -59,7 +59,7 @@
             },
             {
                 "recordId" : "089741827",
-                "name" : "Bumblebee",
+                "label" : "Bumblebee",
                 "parent" : "Autobot",
                 "type" : "Menu Label",
                 "page" : "testpage",
@@ -79,7 +79,7 @@
             },
             {
                 "recordId" : "831902",
-                "name" : "Ironhide",
+                "label" : "Ironhide",
                 "parent" : "Autobot",
                 "type" : "Navigational Topic",
                 "page" : "testpage",
@@ -99,7 +99,7 @@
             },
             {
                 "recordId" : "901209470192",
-                "name" : "Hound",
+                "label" : "Hound",
                 "parent" : "Autobot",
                 "type" : "Salesforce Object",
                 "page" : "testpage",
@@ -119,7 +119,7 @@
             },
             {
                 "recordId" : "81280983",
-                "name" : "Grimlock",
+                "label" : "Grimlock",
                 "parent" : "Autobot",
                 "type" : "External URL",
                 "page" : "testpage",
@@ -140,7 +140,7 @@
             },
             {
                 "recordId" : "827301",
-                "name" : "Bumblebee",
+                "label" : "Bumblebee",
                 "parent" : "",
                 "type" : "Menu Label",
                 "page" : "testpage",

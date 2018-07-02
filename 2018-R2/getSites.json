@@ -1,21 +1,28 @@
 [
     {
-        "recordId" : "234567890",
+        "recordId": "234567890",
         "name": "Transformers",
-        "commId" : 0,
-        "isDefault" : false,
-        "isPublished" : false,
-        "enableCookie" : false,
-        "enableAccessPermissions" : false,
-        "cookieUrl" : "",
-        "acctOverrideUrl" : "",
-        "defaultEventListing" : "List",
-        "logoImage" : "",
-        "logoUrl" : "",
+        "commId": 0,
+        "isDefault": false,
+        "isPublished": false,
+        "enableCookie": false,
+        "enableAccessPermissions": false,
+        "cookieUrl": "",
+        "acctOverrideUrl": "",
+        "defaultEventListing": "List",
+        "logoImage": "",
+        "logoUrl": "",
         "languages": [
-            { "name" : "ENG", "language" : "english" },
-            { "name" : "JPN", "language" : "japanese"}
+            {
+                "name": "ENG",
+                "language": "english"
+            },
+            {
+                "name": "JPN",
+                "language": "japanese"
+            }
         ]
+    }
 //        "menuItems" : [
 //            {
 //                "recordId" : "345678901212",

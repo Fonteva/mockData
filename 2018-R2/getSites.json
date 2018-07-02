@@ -34,7 +34,7 @@
                 "order" : 0,
                 "languages" : [
                     { "name" : "ENG", "language" : "english" },
-                    { "name" : "JPN", "language" : "japanese"},
+                    { "name" : "JPN", "language" : "japanese"}
                 ]
             },
             {
@@ -54,7 +54,7 @@
                 "order" : 0,
                 "languages" : [
                     { "name" : "ENG", "language" : "english" },
-                    { "name" : "JPN", "language" : "japanese"},
+                    { "name" : "JPN", "language" : "japanese"}
                 ]
             },
             {
@@ -74,7 +74,7 @@
                 "order" : 0,
                 "languages" : [
                     { "name" : "ENG", "language" : "english" },
-                    { "name" : "JPN", "language" : "japanese"},
+                    { "name" : "JPN", "language" : "japanese"}
                 ]
             },
             {
@@ -94,7 +94,7 @@
                 "order" : 0,
                 "languages" : [
                     { "name" : "ENG", "language" : "english" },
-                    { "name" : "JPN", "language" : "japanese"},
+                    { "name" : "JPN", "language" : "japanese"}
                 ]
             },
             {
@@ -114,7 +114,7 @@
                 "order" : 0,
                 "languages" : [
                     { "name" : "ENG", "language" : "english" },
-                    { "name" : "JPN", "language" : "japanese"},
+                    { "name" : "JPN", "language" : "japanese"}
                 ]
             },
             {
@@ -135,7 +135,7 @@
                 "order" : 0,
                 "languages" : [
                     { "name" : "ENG", "language" : "english" },
-                    { "name" : "JPN", "language" : "japanese"},
+                    { "name" : "JPN", "language" : "japanese"}
                 ]
             },
             {
@@ -155,7 +155,7 @@
                 "order" : 0,
                 "languages" : [
                     { "name" : "ENG", "language" : "english" },
-                    { "name" : "JPN", "language" : "japanese"},
+                    { "name" : "JPN", "language" : "japanese"}
                 ]
             },
         ]
@@ -196,7 +196,7 @@
                 "order" : 0,
                 "languages" : [
                     { "name" : "ENG", "language" : "english" },
-                    { "name" : "JPN", "language" : "japanese"},
+                    { "name" : "JPN", "language" : "japanese"}
                 ]
             },
             {
@@ -216,7 +216,7 @@
                 "order" : 0,
                 "languages" : [
                     { "name" : "ENG", "language" : "english" },
-                    { "name" : "JPN", "language" : "japanese"},
+                    { "name" : "JPN", "language" : "japanese"}
                 ]
             },
             {
@@ -236,7 +236,7 @@
                 "order" : 0,
                 "languages" : [
                     { "name" : "ENG", "language" : "english" },
-                    { "name" : "JPN", "language" : "japanese"},
+                    { "name" : "JPN", "language" : "japanese"}
                 ]
             },
             {
@@ -256,7 +256,7 @@
                 "order" : 0,
                 "languages" : [
                     { "name" : "ENG", "language" : "english" },
-                    { "name" : "JPN", "language" : "japanese"},
+                    { "name" : "JPN", "language" : "japanese"}
                 ]
             },
             {
@@ -276,7 +276,7 @@
                 "order" : 0,
                 "languages" : [
                     { "name" : "ENG", "language" : "english" },
-                    { "name" : "JPN", "language" : "japanese"},
+                    { "name" : "JPN", "language" : "japanese"}
                 ]
             },
             {
@@ -297,7 +297,7 @@
                 "order" : 0,
                 "languages" : [
                     { "name" : "ENG", "language" : "english" },
-                    { "name" : "JPN", "language" : "japanese"},
+                    { "name" : "JPN", "language" : "japanese"}
                 ]
             },
             {
@@ -317,9 +317,9 @@
                 "order" : 0,
                 "languages" : [
                     { "name" : "ENG", "language" : "english" },
-                    { "name" : "JPN", "language" : "japanese"},
+                    { "name" : "JPN", "language" : "japanese"}
                 ]
-            },
+            }
         ]
     }
 ]

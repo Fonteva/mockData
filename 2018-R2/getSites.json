@@ -464,6 +464,66 @@
                     { "name" : "ENG", "language" : "english" },
                     { "name" : "JPN", "language" : "japanese"}
                 ]
+            },
+            {
+                "recordId" : "947123",
+                "name" : "Squirtle",
+                "parent" : "Water",
+                "type" : "Menu Label",
+                "page" : "testpage",
+                "url" : "https://google.com",
+                "action" : "",
+                "openNewTab" : false,
+                "moreLink" : false,
+                "objType" : "",
+                "defaultListView" : "",
+                "enableAccessPermissions" : false,
+                "isPublic" : false,
+                "order" : 0,
+                "languages" : [
+                    { "name" : "ENG", "language" : "english" },
+                    { "name" : "JPN", "language" : "japanese"}
+                ]
+            },
+            {
+                "recordId" : "90487123",
+                "name" : "Wartortle",
+                "parent" : "Water",
+                "type" : "Menu Label",
+                "page" : "testpage",
+                "url" : "https://google.com",
+                "action" : "",
+                "openNewTab" : false,
+                "moreLink" : false,
+                "objType" : "",
+                "defaultListView" : "",
+                "enableAccessPermissions" : false,
+                "isPublic" : false,
+                "order" : 0,
+                "languages" : [
+                    { "name" : "ENG", "language" : "english" },
+                    { "name" : "JPN", "language" : "japanese"}
+                ]
+            },
+            {
+                "recordId" : "90487123",
+                "name" : "Blastoise",
+                "parent" : "Water",
+                "type" : "Menu Label",
+                "page" : "testpage",
+                "url" : "https://google.com",
+                "action" : "",
+                "openNewTab" : false,
+                "moreLink" : false,
+                "objType" : "",
+                "defaultListView" : "",
+                "enableAccessPermissions" : false,
+                "isPublic" : false,
+                "order" : 0,
+                "languages" : [
+                    { "name" : "ENG", "language" : "english" },
+                    { "name" : "JPN", "language" : "japanese"}
+                ]
             }
         ]
     }

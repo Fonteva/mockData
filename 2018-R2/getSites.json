@@ -343,7 +343,7 @@
             {
                 "recordId" : "312431124123",
                 "name" : "Ivysa1ur",
-                "parent" : "",
+                "parent" : "g1",
                 "type" : "Global Action",
                 "page" : "testpage",
                 "url" : "g1",
@@ -468,6 +468,26 @@
             {
                 "recordId" : "904874123",
                 "name" : "Squi2rtle1",
+                "parent" : "g5",
+                "type" : "Menu Label",
+                "page" : "testpage",
+                "url" : "https://google.com",
+                "action" : "",
+                "openNewTab" : false,
+                "moreLink" : false,
+                "objType" : "",
+                "defaultListView" : "",
+                "enableAccessPermissions" : false,
+                "isPublic" : false,
+                "order" : 0,
+                "languages" : [
+                    { "name" : "ENG", "language" : "english" },
+                    { "name" : "JPN", "language" : "japanese"}
+                ]
+            },
+            {
+                "recordId" : "904874123",
+                "name" : "Squi2r12tle1",
                 "parent" : "g5",
                 "type" : "Menu Label",
                 "page" : "testpage",

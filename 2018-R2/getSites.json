@@ -439,6 +439,10 @@
                 "languages" : [
                     { "name" : "ENG", "language" : "english" },
                     { "name" : "JPN", "language" : "japanese"}
+                ],
+                "children" : [
+                    { "name" : "something here", "url" : "https://android.com" },
+                    { "name" : "oh look at that, something else", "language" : "https://android.com"}
                 ]
             },
             {

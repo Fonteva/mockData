@@ -323,7 +323,7 @@
             {
                 "recordId" : "89789123",
                 "name" : "Bulba1saur",
-                "parent" : "Grass",
+                "parent" : "",
                 "type" : "Community Page",
                 "page" : "testpage",
                 "url" : "",
@@ -343,7 +343,7 @@
             {
                 "recordId" : "3124123",
                 "name" : "Ivysa1ur",
-                "parent" : "Grass",
+                "parent" : "",
                 "type" : "Global Action",
                 "page" : "testpage",
                 "url" : "",
@@ -363,7 +363,7 @@
             {
                 "recordId" : "1234123",
                 "name" : "Venusa1ur",
-                "parent" : "Grass",
+                "parent" : "",
                 "type" : "Menu Label",
                 "page" : "testpage",
                 "url" : "",
@@ -383,7 +383,7 @@
             {
                 "recordId" : "4109283",
                 "name" : "Charmande1r",
-                "parent" : "Fire",
+                "parent" : "",
                 "type" : "Navigational Topic",
                 "page" : "testpage",
                 "url" : "",
@@ -403,7 +403,7 @@
             {
                 "recordId" : "90841203",
                 "name" : "Charmeleon1",
-                "parent" : "Fire",
+                "parent" : "",
                 "type" : "Salesforce Object",
                 "page" : "testpage",
                 "url" : "",
@@ -423,7 +423,7 @@
             {
                 "recordId" : "1238990",
                 "name" : "Charizard1",
-                "parent" : "Fire",
+                "parent" : "",
                 "type" : "External URL",
                 "page" : "testpage",
                 "isDefault" : false,

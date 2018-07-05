@@ -177,7 +177,7 @@
             { "name" : "ENG", "language" : "English" },
             { "name" : "JPN", "language" : "Japanese"},
             { "name" : "PKMN", "language" : "Pokemon" }
-        ]
+        ],
         "menuItems" : [
             {
                 "recordId" : "89789123",
@@ -197,9 +197,6 @@
                 "languages" : [
                     { "name" : "ENG", "language" : "English" },
                     { "name" : "JPN", "language" : "Japanese"}
-                ],
-                "children" : [
-                    { "name" : "something different here", "url" : "https://android.com" }
                 ]
             },
             {

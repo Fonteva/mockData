@@ -1,161 +1,78 @@
 [
     {
-        "recordId" : "234567890",
+        "recordId": "234567890",
         "name": "Transformers",
-        "commId" : 0,
-        "isDefault" : false,
-        "isPublished" : false,
-        "enableCookie" : false,
-        "enableAccessPermissions" : false,
-        "cookieUrl" : "https://bing.com",
-        "acctOverrideUrl" : "https://yahoo.com",
-        "defaultEventListing" : "List",
-        "logoImage" : "https://placehold.it/200x100",
-        "logoUrl" : "https://google.com/",
+        "commId": 0,
+        "isDefault": false,
+        "isPublished": false,
+        "enableCookie": false,
+        "enableAccessPermissions": false,
+        "cookieUrl": "https://bing.com",
+        "acctOverrideUrl": "https://yahoo.com",
+        "defaultEventListing": "List",
+        "logoImage": "https://placehold.it/200x100",
+        "logoUrl": "https://google.com/",
         "languages": [
-            { "name" : "ENG", "language" : "English" },
-            { "name" : "JPN", "language" : "Japanese"}
+            {
+                "name": "ENG",
+                "language": "English"
+            },
+            {
+                "name": "JPN",
+                "language": "Japanese"
+            }
         ],
-        "menuItems" : [
+        "menuItems": [
             {
-                "recordId" : "345678901212",
-                "name" : "Optimus Prime",
-                "parent" : "Autobot",
-                "type" : "Community Page",
-                "page" : "testpage",
-                "url" : "",
-                "action" : "",
-                "openNewTab" : false,
-                "moreLink" : false,
-                "objType" : "",
-                "defaultListView" : "",
-                "enableAccessPermissions" : false,
-                "isPublic" : false,
-                "order" : 0,
-                "languages" : [
-                    { "name" : "ENG", "language" : "English" },
-                    { "name" : "JPN", "language" : "Japanese"}
+                "recordId": "345678901212",
+                "name": "Optimus Prime",
+                "parent": "",
+                "type": "Community Page",
+                "page": "testpage",
+                "url": "",
+                "action": "",
+                "openNewTab": false,
+                "moreLink": false,
+                "objType": "",
+                "defaultListView": "",
+                "enableAccessPermissions": false,
+                "isPublic": false,
+                "order": 0,
+                "languages": [
+                    {
+                        "name": "ENG",
+                        "language": "English"
+                    },
+                    {
+                        "name": "JPN",
+                        "language": "Japanese"
+                    }
                 ]
             },
             {
-                "recordId" : "87921489721",
-                "name" : "Grimlock",
-                "parent" : "Autobot",
-                "type" : "Global Action",
-                "page" : "testpage",
-                "url" : "",
-                "action" : "",
-                "openNewTab" : false,
-                "moreLink" : false,
-                "objType" : "",
-                "defaultListView" : "",
-                "enableAccessPermissions" : false,
-                "isPublic" : false,
-                "order" : 0,
-                "languages" : [
-                    { "name" : "ENG", "language" : "English" },
-                    { "name" : "JPN", "language" : "Japanese"}
-                ]
-            },
-            {
-                "recordId" : "089741827",
-                "name" : "Bumblebee",
-                "parent" : "Autobot",
-                "type" : "Menu Label",
-                "page" : "testpage",
-                "url" : "",
-                "action" : "",
-                "openNewTab" : false,
-                "moreLink" : false,
-                "objType" : "",
-                "defaultListView" : "",
-                "enableAccessPermissions" : false,
-                "isPublic" : false,
-                "order" : 0,
-                "languages" : [
-                    { "name" : "ENG", "language" : "English" },
-                    { "name" : "JPN", "language" : "Japanese"}
-                ]
-            },
-            {
-                "recordId" : "831902",
-                "name" : "Ironhide",
-                "parent" : "Autobot",
-                "type" : "Navigational Topic",
-                "page" : "testpage",
-                "url" : "",
-                "action" : "",
-                "openNewTab" : false,
-                "moreLink" : false,
-                "objType" : "",
-                "defaultListView" : "",
-                "enableAccessPermissions" : false,
-                "isPublic" : false,
-                "order" : 0,
-                "languages" : [
-                    { "name" : "ENG", "language" : "English" },
-                    { "name" : "JPN", "language" : "Japanese"}
-                ]
-            },
-            {
-                "recordId" : "901209470192",
-                "name" : "Hound",
-                "parent" : "Autobot",
-                "type" : "Salesforce Object",
-                "page" : "testpage",
-                "url" : "",
-                "action" : "",
-                "openNewTab" : false,
-                "moreLink" : false,
-                "objType" : "",
-                "defaultListView" : "",
-                "enableAccessPermissions" : false,
-                "isPublic" : false,
-                "order" : 0,
-                "languages" : [
-                    { "name" : "ENG", "language" : "English" },
-                    { "name" : "JPN", "language" : "Japanese"}
-                ]
-            },
-            {
-                "recordId" : "81280983",
-                "name" : "Grimlock",
-                "parent" : "Autobot",
-                "type" : "External URL",
-                "page" : "testpage",
-                "isDefault" : false,
-                "url" : "",
-                "action" : "",
-                "openNewTab" : false,
-                "moreLink" : false,
-                "objType" : "",
-                "defaultListView" : "",
-                "enableAccessPermissions" : false,
-                "isPublic" : false,
-                "order" : 0,
-                "languages" : [
-                    { "name" : "ENG", "language" : "English" },
-                    { "name" : "JPN", "language" : "Japanese"}
-                ]
-            },
-            {
-                "recordId" : "827301",
-                "name" : "Bumblebee",
-                "parent" : "",
-                "type" : "Menu Label",
-                "page" : "testpage",
-                "url" : "",
-                "action" : "",
-                "openNewTab" : false,
-                "moreLink" : false,
-                "objType" : "",
-                "defaultListView" : "",
-                "enableAccessPermissions" : false,
-                "isPublic" : false,
-                "order" : 0,
-                "languages" : [
-                    { "name" : "ENG", "language" : "English" },
-                    { "name" : "JPN", "language" : "Japanese"}
+                "recordId": "34567328901212",
+                "name": "Bumblebee",
+                "parent": "Autobot",
+                "type": "Community Page",
+                "page": "testpage",
+                "url": "",
+                "action": "",
+                "openNewTab": false,
+                "moreLink": false,
+                "objType": "",
+                "defaultListView": "",
+                "enableAccessPermissions": false,
+                "isPublic": false,
+                "order": 0,
+                "languages": [
+                    {
+                        "name": "ENG",
+                        "language": "English"
+                    },
+                    {
+                        "name": "JPN",
+                        "language": "Japanese"
+                    }
                 ]
             }
         ]

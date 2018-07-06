@@ -3,7 +3,7 @@
         "recordId": "234567890",
         "name": "Transformers",
         "commId": 0,
-        "isDefault": false,
+        "isDefault": true,
         "isPublished": false,
         "enableCookie": false,
         "enableAccessPermissions": false,

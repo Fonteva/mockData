@@ -48,6 +48,32 @@
                         "language": "Japanese"
                     }
                 ]
+            },
+            {
+                "recordId": "34567328901212",
+                "name": "Bumblebee",
+                "parent": "Autobot",
+                "type": "Community Page",
+                "page": "testpage",
+                "url": "",
+                "action": "",
+                "openNewTab": false,
+                "moreLink": false,
+                "objType": "",
+                "defaultListView": "",
+                "enableAccessPermissions": false,
+                "isPublic": false,
+                "order": 0,
+                "languages": [
+                    {
+                        "name": "ENG",
+                        "language": "English"
+                    },
+                    {
+                        "name": "JPN",
+                        "language": "Japanese"
+                    }
+                ]
             }
         ]
     }

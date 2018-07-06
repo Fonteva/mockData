@@ -633,7 +633,7 @@
             {
                 "recordId" : "9045287123",
                 "name" : "Blastoise This Guy",
-                "parent" : "Water Tada 4",
+                "parent" : "parent with kids",
                 "type" : "Menu Label",
                 "page" : "testpage",
                 "url" : "https://google.com",
@@ -658,7 +658,7 @@
             {
                 "recordId" : "9045287123",
                 "name" : "Blastoise This Guy",
-                "parent" : "Water Tada asd242",
+                "parent" : "parent with kids",
                 "type" : "Menu Label",
                 "page" : "testpage",
                 "url" : "https://google.com",
@@ -683,7 +683,7 @@
             {
                 "recordId" : "9045287123",
                 "name" : "Blastoise This Guy",
-                "parent" : "Water Tada asd4",
+                "parent" : "parent with kids",
                 "type" : "Menu Label",
                 "page" : "testpage",
                 "url" : "https://google.com",
@@ -698,6 +698,11 @@
                 "languages" : [
                     { "name" : "ENG", "language" : "english" },
                     { "name" : "JPN", "language" : "japanese"}
+                ],
+                "childMenuItems" : [
+                    { "name" : "child 1", "url" : "https://google.com/" },
+                    { "name" : "child 2", "url" : "https://google.com/" },
+                    { "name" : "child 3", "url" : "https://google.com/" }
                 ]
             }
         ]

@@ -1,0 +1,56 @@
+{
+  "filterFields": [
+    {
+      "name": "EventApi__RegistrationType__c",
+      "label": "Registration Type",
+      "type": "picklist",
+      "values": [
+        "Simple",
+        "Conference",
+        "Lightning"
+      ]
+    },
+    {
+      "name": "Custom__IsWheelchairAccessible__c",
+      "label": "Wheelchair Accessible",
+      "type": "boolean"
+    },
+    {
+      "name": "Custom__EstimatedAttendance__c",
+      "label": "Estimated Attendance",
+      "type": "integer"
+    }
+  ],
+  "items": [
+    {
+      "name": "FunCon 2017",
+      "id": "a1f1I000000hpToQAI",
+      "description": "It's happening!!",
+      "imageUrl": "https://placehold.it/300x300",
+      "startDate": "2017-09-01",
+      "endDate": "2017-09-01",
+      "lat": 34.3324,
+      "lon": -83.30094,
+      "filterFields": {
+        "EventApi__RegistrationType__c": "Conference",
+        "Custom__IsWheelchairAccessible__c": true,
+        "Custom__EstimatedAttendance__c": 100
+      }
+    },
+        {
+      "name": "FunCon 2019",
+      "id": "a1f1I000000hpToQAI",
+      "description": "It's happening again!!",
+      "imageUrl": "https://placehold.it/300x300",
+      "startDate": "2019-09-01",
+      "endDate": "2019-09-01",
+      "lat": 34.3324,
+      "lon": -83.30094,
+      "filterFields": {
+        "EventApi__RegistrationType__c": "Conference",
+        "Custom__IsWheelchairAccessible__c": true,
+        "Custom__EstimatedAttendance__c": 100
+      }
+      }
+  ]
+}

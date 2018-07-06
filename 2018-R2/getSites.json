@@ -100,6 +100,32 @@
                         "language": "Japanese"
                     }
                 ]
+            },
+            {
+                "recordId": "345678901212",
+                "name": "Megatron",
+                "parent": "Deceptacon",
+                "type": "Community Page",
+                "page": "testpage",
+                "url": "",
+                "action": "",
+                "openNewTab": false,
+                "moreLink": false,
+                "objType": "",
+                "defaultListView": "",
+                "enableAccessPermissions": false,
+                "isPublic": false,
+                "order": 0,
+                "languages": [
+                    {
+                        "name": "ENG",
+                        "language": "English"
+                    },
+                    {
+                        "name": "JPN",
+                        "language": "Japanese"
+                    }
+                ]
             }
         ]
     },

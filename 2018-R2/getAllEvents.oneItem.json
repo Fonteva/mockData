@@ -27,7 +27,8 @@
       "id": "a1f1I000000hpToQAI",
       "description": "It's happening!!",
       "imageUrl": "https://placehold.it/300x300",
-      "date": "2017-09-01T12:00:00Z",
+      "startDate": "2017-09-01",
+      "endDate": "2017-09-01",
       "lat": 34.3324,
       "lon": -83.30094,
       "filterFields": {

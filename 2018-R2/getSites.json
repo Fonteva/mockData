@@ -187,7 +187,7 @@
                 "page" : "testpage",
                 "url" : "https://google.com",
                 "action" : "",
-                "openNewTab" : true,
+                "openNewTab" : false,
                 "moreLink" : false,
                 "objType" : "",
                 "defaultListView" : "",
@@ -197,6 +197,11 @@
                 "languages" : [
                     { "name" : "ENG", "language" : "English" },
                     { "name" : "JPN", "language" : "Japanese"}
+                ],
+                "childMenuItems" : [
+                    { "name" : "child 1", "url" : "https://google.com/" },
+                    { "name" : "child 2", "url" : "https://google.com/" },
+                    { "name" : "child 3", "url" : "https://google.com/" }
                 ]
             },
             {
@@ -217,6 +222,11 @@
                 "languages" : [
                     { "name" : "ENG", "language" : "English" },
                     { "name" : "JPN", "language" : "Japanese"}
+                ],
+                "childMenuItems" : [
+                    { "name" : "child 1", "url" : "https://google.com/" },
+                    { "name" : "child 2", "url" : "https://google.com/" },
+                    { "name" : "child 3", "url" : "https://google.com/" }
                 ]
             },
             {
@@ -237,6 +247,11 @@
                 "languages" : [
                     { "name" : "ENG", "language" : "English" },
                     { "name" : "JPN", "language" : "Japanese"}
+                ],
+                "childMenuItems" : [
+                    { "name" : "child 1", "url" : "https://google.com/" },
+                    { "name" : "child 2", "url" : "https://google.com/" },
+                    { "name" : "child 3", "url" : "https://google.com/" }
                 ]
             },
             {

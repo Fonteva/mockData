@@ -32,7 +32,7 @@
       "lat": 34.3324,
       "lon": -83.30094,
       "filterFields": {
-        "EventApi__RegistrationType__c": "Conference",
+        "EventApi__RegistrationType__c": "Simple",
         "Custom__IsWheelchairAccessible__c": true,
         "Custom__EstimatedAttendance__c": 100
       }
@@ -92,7 +92,7 @@
       "lat": 34.3324,
       "lon": -83.30094,
       "filterFields": {
-        "EventApi__RegistrationType__c": "Lightning",
+        "EventApi__RegistrationType__c": "Simple",
         "Custom__IsWheelchairAccessible__c": true,
         "Custom__EstimatedAttendance__c": 100
       }
@@ -152,7 +152,7 @@
       "lat": 34.3324,
       "lon": -83.30094,
       "filterFields": {
-        "EventApi__RegistrationType__c": "Conference",
+        "EventApi__RegistrationType__c": "Simple",
         "Custom__IsWheelchairAccessible__c": false,
         "Custom__EstimatedAttendance__c": 1000
       }
@@ -197,7 +197,7 @@
       "lat": 34.3324,
       "lon": -83.30094,
       "filterFields": {
-        "EventApi__RegistrationType__c": "Conference",
+        "EventApi__RegistrationType__c": "Simple",
         "Custom__IsWheelchairAccessible__c": true,
         "Custom__EstimatedAttendance__c": 500
       }
@@ -242,7 +242,7 @@
       "lat": 34.3324,
       "lon": -83.30094,
       "filterFields": {
-        "EventApi__RegistrationType__c": "Conference",
+        "EventApi__RegistrationType__c": "Simple",
         "Custom__IsWheelchairAccessible__c": true,
         "Custom__EstimatedAttendance__c": 100
       }

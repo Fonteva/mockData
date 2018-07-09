@@ -31,7 +31,7 @@
                 "page": "testpage",
                 "url": "https://google.com",
                 "action": "",
-                "openNewTab": false,
+                "openNewTab": true,
                 "moreLink": false,
                 "objType": "",
                 "defaultListView": "",
@@ -708,6 +708,81 @@
                 "url" : "https://google.com",
                 "action" : "",
                 "openNewTab" : false,
+                "moreLink" : false,
+                "objType" : "",
+                "defaultListView" : "",
+                "enableAccessPermissions" : false,
+                "isPublic" : false,
+                "order" : 0,
+                "languages" : [
+                    { "name" : "ENG", "language" : "english" },
+                    { "name" : "JPN", "language" : "japanese"}
+                ],
+                "childMenuItems" : [
+                    { "name" : "child 1", "url" : "https://google.com/" },
+                    { "name" : "child 2", "url" : "https://google.com/" },
+                    { "name" : "child 3", "url" : "https://google.com/" }
+                ]
+            },
+            {
+                "recordId" : "9045212387123",
+                "name" : "Pikachu",
+                "parent" : "Electric",
+                "type" : "Menu Label",
+                "page" : "testpage",
+                "url" : "https://google.com",
+                "action" : "",
+                "openNewTab" : false,
+                "moreLink" : false,
+                "objType" : "",
+                "defaultListView" : "",
+                "enableAccessPermissions" : false,
+                "isPublic" : false,
+                "order" : 0,
+                "languages" : [
+                    { "name" : "ENG", "language" : "english" },
+                    { "name" : "JPN", "language" : "japanese"}
+                ],
+                "childMenuItems" : [
+                    { "name" : "child 1", "url" : "https://google.com/" },
+                    { "name" : "child 2", "url" : "https://google.com/" },
+                    { "name" : "child 3", "url" : "https://google.com/" }
+                ]
+            },
+            {
+                "recordId" : "9045212387123",
+                "name" : "Pikachu",
+                "parent" : "Electric2",
+                "type" : "Menu Label",
+                "page" : "testpage",
+                "url" : "https://google.com",
+                "action" : "",
+                "openNewTab" : false,
+                "moreLink" : false,
+                "objType" : "",
+                "defaultListView" : "",
+                "enableAccessPermissions" : false,
+                "isPublic" : false,
+                "order" : 0,
+                "languages" : [
+                    { "name" : "ENG", "language" : "english" },
+                    { "name" : "JPN", "language" : "japanese"}
+                ],
+                "childMenuItems" : [
+                    { "name" : "child 1", "url" : "https://google.com/" },
+                    { "name" : "child 2", "url" : "https://google.com/" },
+                    { "name" : "child 3", "url" : "https://google.com/" }
+                ]
+            },
+            {
+                "recordId" : "9045212387123",
+                "name" : "Pikachu",
+                "parent" : "Electric3",
+                "type" : "Menu Label",
+                "page" : "testpage",
+                "url" : "https://google.com",
+                "action" : "",
+                "openNewTab" : true,
                 "moreLink" : false,
                 "objType" : "",
                 "defaultListView" : "",

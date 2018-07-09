@@ -109,7 +109,7 @@
                 "page": "testpage",
                 "url": "https://google.com",
                 "action": "",
-                "openNewTab": false,
+                "openNewTab": true,
                 "moreLink": false,
                 "objType": "",
                 "defaultListView": "",

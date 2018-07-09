@@ -36,6 +36,51 @@
         "Custom__IsWheelchairAccessible__c": true,
         "Custom__EstimatedAttendance__c": 100
       }
+    },
+      {
+      "name": " 1234 London Summer Festival Welcome to the MDN Learning Area. This set of articles aims to provide complete beginners to web development with all they need to start coding simple websites.",
+      "id": "a1f1I000000hpToQAI",
+      "description": "It's happening!!",
+      "imageUrl": "https://placehold.it/300x300",
+      "startDate": "2020-09-01",
+      "endDate": "2020-09-01",
+      "lat": 34.3324,
+      "lon": -83.30094,
+      "filterFields": {
+        "EventApi__RegistrationType__c": "Conference",
+        "Custom__IsWheelchairAccessible__c": true,
+        "Custom__EstimatedAttendance__c": 100
+      }
+    },
+      {
+      "name": "ABC London Summer Festival Welcome to the MDN Learning Area. This set of articles aims to provide complete beginners to web development with all they need to start coding simple websites.",
+      "id": "a1f1I000000hpToQAI",
+      "description": "It's happening!!",
+      "imageUrl": "https://placehold.it/300x300",
+      "startDate": "2020-09-01",
+      "endDate": "2020-09-01",
+      "lat": 34.3324,
+      "lon": -83.30094,
+      "filterFields": {
+        "EventApi__RegistrationType__c": "Conference",
+        "Custom__IsWheelchairAccessible__c": true,
+        "Custom__EstimatedAttendance__c": 100
+      }
+    },
+     {
+      "name": "London Summer Festival Welcome to the MDN Learning Area. This set of articles aims to provide complete beginners to web development with all they need to start coding simple websites.",
+      "id": "a1f1I000000hpToQAI",
+      "description": "It's happening!!",
+      "imageUrl": "https://placehold.it/300x300",
+      "startDate": "2020-09-01",
+      "endDate": "2020-09-01",
+      "lat": 34.3324,
+      "lon": -83.30094,
+      "filterFields": {
+        "EventApi__RegistrationType__c": "Conference",
+        "Custom__IsWheelchairAccessible__c": true,
+        "Custom__EstimatedAttendance__c": 100
+      }
     }
   ]
 }

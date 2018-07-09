@@ -1,0 +1,237 @@
+
+{
+  "filterFields": [
+    {
+      "name": "EventApi__RegistrationType__c",
+      "label": "Registration Type",
+      "type": "picklist",
+      "values": [
+        "Simple",
+        "Conference",
+        "Lightning"
+      ]
+    },
+    {
+      "name": "Custom__IsWheelchairAccessible__c",
+      "label": "Wheelchair Accessible",
+      "type": "boolean"
+    },
+    {
+      "name": "Custom__EstimatedAttendance__c",
+      "label": "Estimated Attendance",
+      "type": "integer"
+    }
+  ],
+  "items": [
+    {
+      "name": "Event A",
+      "id": "a1f1I000000hpToQAI",
+      "description": "printing and typesetting unknown printer took a galleyectronic typesetting",
+     "imageUrl": "https://fonteva-customer-media.s3.amazonaws.com/00D6A000001LqnYUAS/hcYHeaBF_35mi4w9.jpg",
+      "startDate": "2018-09-01",
+      "endDate": "2017-09-01",
+      "lat": 34.3324,
+      "lon": -83.30094,
+      "filterFields": {
+        "EventApi__RegistrationType__c": "Conference",
+        "Custom__IsWheelchairAccessible__c": true,
+        "Custom__EstimatedAttendance__c": 100
+      }
+    },
+      {
+      "name": " 1234 Event",
+      "id": "a1f1I000000hpToQAI",
+      "description": "It's happening!!",
+      "imageUrl": "https://wallpaperbrowse.com/media/images/th.jpg",
+      "startDate": "2020-09-01",
+      "endDate": "2020-09-01",
+      "lat": 34.3324,
+      "lon": -83.30094,
+      "filterFields": {
+        "EventApi__RegistrationType__c": "Conference",
+        "Custom__IsWheelchairAccessible__c": true,
+        "Custom__EstimatedAttendance__c": 100
+      }
+    },
+         {
+      "name": "Event B",
+      "id": "a1f1I000000hpToQAI",
+      "description": "It's happening!!",
+      "imageUrl": "https://fonteva-customer-media.s3.amazonaws.com/00D6A000001LqnYUAS/hcYHeaBF_35mi4w9.jpg",
+      "startDate": "2020-09-01",
+      "endDate": "2020-09-01",
+      "lat": 34.3324,
+      "lon": -83.30094,
+      "filterFields": {
+        "EventApi__RegistrationType__c": "Conference",
+        "Custom__IsWheelchairAccessible__c": true,
+        "Custom__EstimatedAttendance__c": 100
+      }
+    },
+      {
+      "name": "Event C",
+      "id": "a1f1I000000hpToQAI",
+      "description": "It's happening!!",
+      "imageUrl": "https://fonteva-customer-media.s3.amazonaws.com/00D6A000001LqnYUAS/hcYHeaBF_35mi4w9.jpg",
+      "startDate": "2020-09-01",
+      "endDate": "2020-09-01",
+      "lat": 34.3324,
+      "lon": -83.30094,
+      "filterFields": {
+        "EventApi__RegistrationType__c": "Conference",
+        "Custom__IsWheelchairAccessible__c": true,
+        "Custom__EstimatedAttendance__c": 100
+      }
+    },
+    {
+    "name": "London Event",
+      "id": "a1f1I000000hpToQAI",
+      "description": "It's happening!!",
+      "imageUrl": "https://wallpaperbrowse.com/media/images/trolltunga.jpg",
+      "startDate": "2017-09-01",
+      "endDate": "2017-09-10",
+      "lat": 34.3324,
+      "lon": -83.30094,
+      "filterFields": {
+        "EventApi__RegistrationType__c": "Conference",
+        "Custom__IsWheelchairAccessible__c": true,
+        "Custom__EstimatedAttendance__c": 1000
+      }
+    },
+    {
+      "name": "Summer Festival",
+      "id": "a1f1I000000hpToQAI",
+      "description": "It's happening!!",
+      "imageUrl": "https://wallpaperbrowse.com/media/images/desktop-year-of-the-tiger-images-wallpaper.jpg",
+      "startDate": "2017-09-01",
+      "endDate": "2017-09-10",
+      "lat": 34.3324,
+      "lon": -83.30094,
+      "filterFields": {
+        "EventApi__RegistrationType__c": "Simple",
+        "Custom__IsWheelchairAccessible__c": true,
+        "Custom__EstimatedAttendance__c": 500
+      }
+    },
+    {
+      "name": "Festival Event",
+      "id": "a1f1I000000hpToQAI",
+      "description": "It's happening!!",
+      "imageUrl": "https://wallpaperbrowse.com/media/images/434976-happy-valentines-day-timeline-cover.jpg",
+      "startDate": "2017-09-01",
+      "endDate": "2017-09-10",
+      "lat": 34.3324,
+      "lon": -83.30094,
+      "filterFields": {
+        "EventApi__RegistrationType__c": "Conference",
+        "Custom__IsWheelchairAccessible__c": true,
+        "Custom__EstimatedAttendance__c": 50
+      }
+    },
+    {
+      "name": "Beginners Event",
+      "id": "a1f1I000000hpToQAI",
+      "description": "It's happening!!",
+      "imageUrl": "https://wallpaperbrowse.com/media/images/nasas-1-billion-jupiter-probe-just-sent-back-breathtaking-new-images-of-the-gas-giant.jpg",
+      "startDate": "2017-09-01",
+      "endDate": "2017-09-10",
+      "lat": 34.3324,
+      "lon": -83.30094,
+      "filterFields": {
+        "EventApi__RegistrationType__c": "Conference",
+        "Custom__IsWheelchairAccessible__c": true,
+        "Custom__EstimatedAttendance__c": 5
+      }
+    },
+    {
+      "name": "Dev Event",
+      "id": "a1f1I000000hpToQAI",
+      "description": "It's happening!!",
+      "imageUrl": "https://wallpaperbrowse.com/media/images/pexels-photo-115045.jpeg",
+      "startDate": "2017-09-01",
+      "endDate": "2017-09-10",
+      "lat": 34.3324,
+      "lon": -83.30094,
+      "filterFields": {
+        "EventApi__RegistrationType__c": "Simple",
+        "Custom__IsWheelchairAccessible__c": true,
+        "Custom__EstimatedAttendance__c": 100
+      }
+    },
+    {
+      "name": "London Summer QA ",
+      "id": "a1f1I000000hpToQAI",
+      "description": "It's happening!!",
+      "imageUrl": "https://placehold.it/300x300",
+      "startDate": "2017-09-01",
+      "endDate": "2017-09-10",
+      "lat": 34.3324,
+      "lon": -83.30094,
+      "filterFields": {
+        "EventApi__RegistrationType__c": "Conference",
+        "Custom__IsWheelchairAccessible__c": true,
+        "Custom__EstimatedAttendance__c": 100
+      }
+    },
+    {
+      "name": "",
+      "id": "a1f1I000000hpToQAI",
+      "description": "It's happening!!",
+      "imageUrl": "https://placehold.it/300x300",
+      "startDate": "2017-09-01",
+      "endDate": "2017-09-10",
+      "lat": 34.3324,
+      "lon": -83.30094,
+      "filterFields": {
+        "EventApi__RegistrationType__c": "Conference",
+        "Custom__IsWheelchairAccessible__c": true,
+        "Custom__EstimatedAttendance__c": 100
+      }
+    },
+    {
+      "name": "London Summer Festival 17",
+      "id": "a1f1I000000hpToQAI",
+      "description": "It's happening!!",
+      "imageUrl": "https://placehold.it/350x350",
+      "startDate": "",
+      "endDate": "2017-09-10",
+      "lat": 34.3324,
+      "lon": -83.30094,
+      "filterFields": {
+        "EventApi__RegistrationType__c": "Conference",
+        "Custom__IsWheelchairAccessible__c": true,
+        "Custom__EstimatedAttendance__c": 100
+      }
+    },
+    {
+      "name": "London Summer Festival 18",
+      "id": "a1f1I000000hpToQAI",
+      "description": "It's happening!!",
+      "imageUrl": "https://thumbs.dreamstime.com/z/surreal-summer-night-man-arch-utah-mountains-usa-starry-landscapewith-desert-southwest-120418128.jpg",
+      "startDate": "",
+      "endDate": "",
+      "lat": 34.3324,
+      "lon": -83.30094,
+      "filterFields": {
+        "EventApi__RegistrationType__c": "Conference",
+        "Custom__IsWheelchairAccessible__c": true,
+        "Custom__EstimatedAttendance__c": 100
+      }
+    },
+     {
+      "name": "Learning Area",
+      "id": "a1f1I000000hpToQAI",
+      "description": "It's happening!!",
+      "imageUrl": "https://thumbs.dreamstime.com/z/sleeping-newborn-cap-pants-grey-natural-wool-knitted-hat-dark-blue-blanket-home-photo-shoot-s-boy-120480996.jpg",
+      "startDate": "2020-09-01",
+      "endDate": "2020-09-01",
+      "lat": 34.3324,
+      "lon": -83.30094,
+      "filterFields": {
+        "EventApi__RegistrationType__c": "Conference",
+        "Custom__IsWheelchairAccessible__c": true,
+        "Custom__EstimatedAttendance__c": 100
+      }
+    }
+  ]
+}

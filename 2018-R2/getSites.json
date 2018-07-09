@@ -726,7 +726,7 @@
             },
             {
                 "recordId" : "9045212387123",
-                "name" : "Pikachu",
+                "name" : "Raichu",
                 "parent" : "Electric",
                 "type" : "Menu Label",
                 "page" : "testpage",
@@ -751,8 +751,8 @@
             },
             {
                 "recordId" : "9045212387123",
-                "name" : "Pikachu",
-                "parent" : "Electric2",
+                "name" : "Sandshrew",
+                "parent" : "Ground",
                 "type" : "Menu Label",
                 "page" : "testpage",
                 "url" : "",
@@ -776,8 +776,8 @@
             },
             {
                 "recordId" : "9045212387123",
-                "name" : "Pikachu",
-                "parent" : "Electric3",
+                "name" : "Sandslash",
+                "parent" : "Ground",
                 "type" : "Menu Label",
                 "page" : "testpage",
                 "url" : "",
@@ -797,6 +797,26 @@
                     { "name" : "child 1", "url" : "https://google.com/" },
                     { "name" : "child 2", "url" : "https://google.com/" },
                     { "name" : "child 3", "url" : "https://google.com/" }
+                ]
+            },
+            {
+                "recordId" : "9045212387123",
+                "name" : "Red",
+                "parent" : "",
+                "type" : "Menu Label",
+                "page" : "testpage",
+                "url" : "https://pokemon.com",
+                "action" : "",
+                "openNewTab" : true,
+                "moreLink" : false,
+                "objType" : "",
+                "defaultListView" : "",
+                "enableAccessPermissions" : false,
+                "isPublic" : false,
+                "order" : 0,
+                "languages" : [
+                    { "name" : "ENG", "language" : "english" },
+                    { "name" : "JPN", "language" : "japanese"}
                 ]
             }
         ]

@@ -1,0 +1,236 @@
+{
+  "filterFields": [
+    {
+      "name": "EventApi__RegistrationType__c",
+      "label": "Registration Type",
+      "type": "picklist",
+      "values": [
+        "Simple",
+        "Conference",
+        "Lightning"
+      ]
+    },
+    {
+      "name": "Custom__IsWheelchairAccessible__c",
+      "label": "Wheelchair Accessible",
+      "type": "boolean"
+    },
+    {
+      "name": "Custom__EstimatedAttendance__c",
+      "label": "Estimated Attendance",
+      "type": "integer"
+    }
+  ],
+  "items": [
+    {
+      "name": "FunCon 2017 There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. ",
+      "id": "a1f1I000000hpToQAI",
+      "description": "It's happening Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum!!",
+      "imageUrl": "https://fonteva-customer-media.s3.amazonaws.com/00D6A000001LqnYUAS/VHBpDCDY_f221.png",
+      "startDate": "2018-09-01",
+      "endDate": "2017-09-01",
+      "lat": 34.3324,
+      "lon": -83.30094,
+      "filterFields": {
+        "EventApi__RegistrationType__c": "Conference",
+        "Custom__IsWheelchairAccessible__c": true,
+        "Custom__EstimatedAttendance__c": 100
+      }
+    },
+      {
+      "name": " 1234 London Summer Festival Welcome to the MDN Learning Area. This set of articles aims to provide complete beginners to web development with all they need to start coding simple websites.",
+      "id": "a1f1I000000hpToQAI",
+      "description": "It's happening!!",
+      "imageUrl": "https://placehold.it/300x300",
+      "startDate": "2020-09-01",
+      "endDate": "2020-09-01",
+      "lat": 34.3324,
+      "lon": -83.30094,
+      "filterFields": {
+        "EventApi__RegistrationType__c": "Conference",
+        "Custom__IsWheelchairAccessible__c": true,
+        "Custom__EstimatedAttendance__c": 100
+      }
+    },
+         {
+      "name": "MDN Learning Area. This set of articles aims to provide complete beginners to web development with all they need to start coding simple websites.",
+      "id": "a1f1I000000hpToQAI",
+      "description": "It's happening!!",
+      "imageUrl": "https://fonteva-customer-media.s3.amazonaws.com/00D6A000001LqnYUAS/hcYHeaBF_35mi4w9.jpg",
+      "startDate": "2020-09-01",
+      "endDate": "2020-09-01",
+      "lat": 34.3324,
+      "lon": -83.30094,
+      "filterFields": {
+        "EventApi__RegistrationType__c": "Conference",
+        "Custom__IsWheelchairAccessible__c": true,
+        "Custom__EstimatedAttendance__c": 100
+      }
+    },
+      {
+      "name": "ABC London Summer Festival Welcome to the MDN Learning Area. This set of articles aims to provide complete beginners to web development with all they need to start coding simple websites.",
+      "id": "a1f1I000000hpToQAI",
+      "description": "It's happening!!",
+      "imageUrl": "https://fonteva-customer-media.s3.amazonaws.com/00D6A000001LqnYUAS/hcYHeaBF_35mi4w9.jpg",
+      "startDate": "2020-09-01",
+      "endDate": "2020-09-01",
+      "lat": 34.3324,
+      "lon": -83.30094,
+      "filterFields": {
+        "EventApi__RegistrationType__c": "Conference",
+        "Custom__IsWheelchairAccessible__c": true,
+        "Custom__EstimatedAttendance__c": 100
+      }
+    },
+    {
+    "name": "London Summer Festival 10 articles aims to provide complete beginners to web development with all they need to start coding simple ",
+      "id": "a1f1I000000hpToQAI",
+      "description": "It's happening!!",
+      "imageUrl": "https://www.gettyimages.ie/gi-resources/images/Homepage/Hero/UK/CMS_Creative_164657191_Kingfisher.jpg",
+      "startDate": "2017-09-01",
+      "endDate": "2017-09-10",
+      "lat": 34.3324,
+      "lon": -83.30094,
+      "filterFields": {
+        "EventApi__RegistrationType__c": "Conference",
+        "Custom__IsWheelchairAccessible__c": true,
+        "Custom__EstimatedAttendance__c": 1000
+      }
+    },
+    {
+      "name": "London Summer Festival 11 articles aims to provide complete beginners to web development with all they need to start coding simple ",
+      "id": "a1f1I000000hpToQAI",
+      "description": "It's happening!!",
+      "imageUrl": "https://fonteva-customer-media.s3.amazonaws.com/00D6A000001LqnYUAS/hcYHeaBF_35mi4w9.jpg",
+      "startDate": "2017-09-01",
+      "endDate": "2017-09-10",
+      "lat": 34.3324,
+      "lon": -83.30094,
+      "filterFields": {
+        "EventApi__RegistrationType__c": "Simple",
+        "Custom__IsWheelchairAccessible__c": true,
+        "Custom__EstimatedAttendance__c": 500
+      }
+    },
+    {
+      "name": "London Summer Festival 12 articles aims to provide complete beginners to web development with all they need to start coding simple ",
+      "id": "a1f1I000000hpToQAI",
+      "description": "It's happening!!",
+      "imageUrl": "https://placehold.it/350x350",
+      "startDate": "2017-09-01",
+      "endDate": "2017-09-10",
+      "lat": 34.3324,
+      "lon": -83.30094,
+      "filterFields": {
+        "EventApi__RegistrationType__c": "Conference",
+        "Custom__IsWheelchairAccessible__c": true,
+        "Custom__EstimatedAttendance__c": 50
+      }
+    },
+    {
+      "name": "London Summer Festival 13 articles aims to provide complete beginners to web development with all they need to start coding simple ",
+      "id": "a1f1I000000hpToQAI",
+      "description": "It's happening!!",
+      "imageUrl": "",
+      "startDate": "2017-09-01",
+      "endDate": "2017-09-10",
+      "lat": 34.3324,
+      "lon": -83.30094,
+      "filterFields": {
+        "EventApi__RegistrationType__c": "Conference",
+        "Custom__IsWheelchairAccessible__c": true,
+        "Custom__EstimatedAttendance__c": 5
+      }
+    },
+    {
+      "name": "London Summer Festival 14",
+      "id": "a1f1I000000hpToQAI",
+      "description": "It's happening!!",
+      "imageUrl": "https://placehold.it/300x300",
+      "startDate": "2017-09-01",
+      "endDate": "2017-09-10",
+      "lat": 34.3324,
+      "lon": -83.30094,
+      "filterFields": {
+        "EventApi__RegistrationType__c": "Simple",
+        "Custom__IsWheelchairAccessible__c": true,
+        "Custom__EstimatedAttendance__c": 100
+      }
+    },
+    {
+      "name": "London Summer Festival XV articles aims to provide complete beginners to web development with all they need to start coding simple ",
+      "id": "a1f1I000000hpToQAI",
+      "description": "It's happening!!",
+      "imageUrl": "https://placehold.it/300x300",
+      "startDate": "2017-09-01",
+      "endDate": "2017-09-10",
+      "lat": 34.3324,
+      "lon": -83.30094,
+      "filterFields": {
+        "EventApi__RegistrationType__c": "Conference",
+        "Custom__IsWheelchairAccessible__c": true,
+        "Custom__EstimatedAttendance__c": 100
+      }
+    },
+    {
+      "name": "London Summer Festival 2^4 articles aims to provide complete beginners to web development with all they need to start coding simple ",
+      "id": "a1f1I000000hpToQAI",
+      "description": "It's happening!!",
+      "imageUrl": "https://placehold.it/300x300",
+      "startDate": "2017-09-01",
+      "endDate": "2017-09-10",
+      "lat": 34.3324,
+      "lon": -83.30094,
+      "filterFields": {
+        "EventApi__RegistrationType__c": "Conference",
+        "Custom__IsWheelchairAccessible__c": true,
+        "Custom__EstimatedAttendance__c": 100
+      }
+    },
+    {
+      "name": "London Summer Festival 17",
+      "id": "a1f1I000000hpToQAI",
+      "description": "It's happening!!",
+      "imageUrl": "https://placehold.it/300x300",
+      "startDate": "2017-09-01",
+      "endDate": "2017-09-10",
+      "lat": 34.3324,
+      "lon": -83.30094,
+      "filterFields": {
+        "EventApi__RegistrationType__c": "Conference",
+        "Custom__IsWheelchairAccessible__c": true,
+        "Custom__EstimatedAttendance__c": 100
+      }
+    },
+    {
+      "name": "London Summer Festival 18",
+      "id": "a1f1I000000hpToQAI",
+      "description": "It's happening!!",
+      "imageUrl": "https://placehold.it/300x300",
+      "startDate": "2017-09-01",
+      "endDate": "2017-09-10",
+      "lat": 34.3324,
+      "lon": -83.30094,
+      "filterFields": {
+        "EventApi__RegistrationType__c": "Conference",
+        "Custom__IsWheelchairAccessible__c": true,
+        "Custom__EstimatedAttendance__c": 100
+      }
+    },
+     {
+      "name": "London Summer Festival Welcome to the MDN Learning Area. This set of articles aims to provide complete beginners to web development with all they need to start coding simple websites.",
+      "id": "a1f1I000000hpToQAI",
+      "description": "It's happening!!",
+      "imageUrl": "https://placehold.it/300x300",
+      "startDate": "2020-09-01",
+      "endDate": "2020-09-01",
+      "lat": 34.3324,
+      "lon": -83.30094,
+      "filterFields": {
+        "EventApi__RegistrationType__c": "Conference",
+        "Custom__IsWheelchairAccessible__c": true,
+        "Custom__EstimatedAttendance__c": 100
+      }
+    }
+  ]
+}

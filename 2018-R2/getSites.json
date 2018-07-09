@@ -1,161 +1,130 @@
 [
     {
-        "recordId" : "234567890",
+        "recordId": "234567890",
         "name": "Transformers",
-        "commId" : 0,
-        "isDefault" : false,
-        "isPublished" : false,
-        "enableCookie" : false,
-        "enableAccessPermissions" : false,
-        "cookieUrl" : "https://bing.com",
-        "acctOverrideUrl" : "https://yahoo.com",
-        "defaultEventListing" : "List",
-        "logoImage" : "https://placehold.it/200x100",
-        "logoUrl" : "https://google.com/",
+        "commId": 0,
+        "isDefault": false,
+        "isPublished": false,
+        "enableCookie": false,
+        "enableAccessPermissions": false,
+        "cookieUrl": "https://bing.com",
+        "acctOverrideUrl": "https://yahoo.com",
+        "defaultEventListing": "List",
+        "logoImage": "https://placehold.it/200x100",
+        "logoUrl": "https://google.com/",
         "languages": [
-            { "name" : "ENG", "language" : "English" },
-            { "name" : "JPN", "language" : "Japanese"}
+            {
+                "name": "ENG",
+                "language": "English"
+            },
+            {
+                "name": "JPN",
+                "language": "Japanese"
+            }
         ],
-        "menuItems" : [
+        "menuItems": [
             {
-                "recordId" : "345678901212",
-                "name" : "Optimus Prime",
-                "parent" : "Autobot",
-                "type" : "Community Page",
-                "page" : "testpage",
-                "url" : "",
-                "action" : "",
-                "openNewTab" : false,
-                "moreLink" : false,
-                "objType" : "",
-                "defaultListView" : "",
-                "enableAccessPermissions" : false,
-                "isPublic" : false,
-                "order" : 0,
-                "languages" : [
-                    { "name" : "ENG", "language" : "English" },
-                    { "name" : "JPN", "language" : "Japanese"}
+                "recordId": "345678901212",
+                "name": "Optimus Prime",
+                "parent": "",
+                "type": "Community Page",
+                "page": "testpage",
+                "url": "https://google.com",
+                "action": "",
+                "openNewTab": true,
+                "moreLink": false,
+                "objType": "",
+                "defaultListView": "",
+                "enableAccessPermissions": false,
+                "isPublic": false,
+                "order": 0,
+                "languages": [
+                    {
+                        "name": "ENG",
+                        "language": "English"
+                    },
+                    {
+                        "name": "JPN",
+                        "language": "Japanese"
+                    }
                 ]
             },
             {
-                "recordId" : "87921489721",
-                "name" : "Grimlock",
-                "parent" : "Autobot",
-                "type" : "Global Action",
-                "page" : "testpage",
-                "url" : "",
-                "action" : "",
-                "openNewTab" : false,
-                "moreLink" : false,
-                "objType" : "",
-                "defaultListView" : "",
-                "enableAccessPermissions" : false,
-                "isPublic" : false,
-                "order" : 0,
-                "languages" : [
-                    { "name" : "ENG", "language" : "English" },
-                    { "name" : "JPN", "language" : "Japanese"}
+                "recordId": "34567328901212",
+                "name": "Bumblebee",
+                "parent": "Autobot",
+                "type": "Community Page",
+                "page": "testpage",
+                "url": "https://google.com",
+                "action": "",
+                "openNewTab": false,
+                "moreLink": false,
+                "objType": "",
+                "defaultListView": "",
+                "enableAccessPermissions": false,
+                "isPublic": false,
+                "order": 0,
+                "languages": [
+                    {
+                        "name": "ENG",
+                        "language": "English"
+                    },
+                    {
+                        "name": "JPN",
+                        "language": "Japanese"
+                    }
                 ]
             },
             {
-                "recordId" : "089741827",
-                "name" : "Bumblebee",
-                "parent" : "Autobot",
-                "type" : "Menu Label",
-                "page" : "testpage",
-                "url" : "",
-                "action" : "",
-                "openNewTab" : false,
-                "moreLink" : false,
-                "objType" : "",
-                "defaultListView" : "",
-                "enableAccessPermissions" : false,
-                "isPublic" : false,
-                "order" : 0,
-                "languages" : [
-                    { "name" : "ENG", "language" : "English" },
-                    { "name" : "JPN", "language" : "Japanese"}
+                "recordId": "345678901212",
+                "name": "Lockjaw",
+                "parent": "",
+                "type": "Community Page",
+                "page": "testpage",
+                "url": "https://google.com",
+                "action": "",
+                "openNewTab": false,
+                "moreLink": false,
+                "objType": "",
+                "defaultListView": "",
+                "enableAccessPermissions": false,
+                "isPublic": false,
+                "order": 0,
+                "languages": [
+                    {
+                        "name": "ENG",
+                        "language": "English"
+                    },
+                    {
+                        "name": "JPN",
+                        "language": "Japanese"
+                    }
                 ]
             },
             {
-                "recordId" : "831902",
-                "name" : "Ironhide",
-                "parent" : "Autobot",
-                "type" : "Navigational Topic",
-                "page" : "testpage",
-                "url" : "",
-                "action" : "",
-                "openNewTab" : false,
-                "moreLink" : false,
-                "objType" : "",
-                "defaultListView" : "",
-                "enableAccessPermissions" : false,
-                "isPublic" : false,
-                "order" : 0,
-                "languages" : [
-                    { "name" : "ENG", "language" : "English" },
-                    { "name" : "JPN", "language" : "Japanese"}
-                ]
-            },
-            {
-                "recordId" : "901209470192",
-                "name" : "Hound",
-                "parent" : "Autobot",
-                "type" : "Salesforce Object",
-                "page" : "testpage",
-                "url" : "",
-                "action" : "",
-                "openNewTab" : false,
-                "moreLink" : false,
-                "objType" : "",
-                "defaultListView" : "",
-                "enableAccessPermissions" : false,
-                "isPublic" : false,
-                "order" : 0,
-                "languages" : [
-                    { "name" : "ENG", "language" : "English" },
-                    { "name" : "JPN", "language" : "Japanese"}
-                ]
-            },
-            {
-                "recordId" : "81280983",
-                "name" : "Grimlock",
-                "parent" : "Autobot",
-                "type" : "External URL",
-                "page" : "testpage",
-                "isDefault" : false,
-                "url" : "",
-                "action" : "",
-                "openNewTab" : false,
-                "moreLink" : false,
-                "objType" : "",
-                "defaultListView" : "",
-                "enableAccessPermissions" : false,
-                "isPublic" : false,
-                "order" : 0,
-                "languages" : [
-                    { "name" : "ENG", "language" : "English" },
-                    { "name" : "JPN", "language" : "Japanese"}
-                ]
-            },
-            {
-                "recordId" : "827301",
-                "name" : "Bumblebee",
-                "parent" : "",
-                "type" : "Menu Label",
-                "page" : "testpage",
-                "url" : "",
-                "action" : "",
-                "openNewTab" : false,
-                "moreLink" : false,
-                "objType" : "",
-                "defaultListView" : "",
-                "enableAccessPermissions" : false,
-                "isPublic" : false,
-                "order" : 0,
-                "languages" : [
-                    { "name" : "ENG", "language" : "English" },
-                    { "name" : "JPN", "language" : "Japanese"}
+                "recordId": "345678901212",
+                "name": "Megatron",
+                "parent": "Deceptacon",
+                "type": "Community Page",
+                "page": "testpage",
+                "url": "https://google.com",
+                "action": "",
+                "openNewTab": true,
+                "moreLink": false,
+                "objType": "",
+                "defaultListView": "",
+                "enableAccessPermissions": false,
+                "isPublic": false,
+                "order": 0,
+                "languages": [
+                    {
+                        "name": "ENG",
+                        "language": "English"
+                    },
+                    {
+                        "name": "JPN",
+                        "language": "Japanese"
+                    }
                 ]
             }
         ]
@@ -187,7 +156,7 @@
                 "page" : "testpage",
                 "url" : "https://google.com",
                 "action" : "",
-                "openNewTab" : false,
+                "openNewTab" : true,
                 "moreLink" : false,
                 "objType" : "",
                 "defaultListView" : "",
@@ -197,6 +166,11 @@
                 "languages" : [
                     { "name" : "ENG", "language" : "English" },
                     { "name" : "JPN", "language" : "Japanese"}
+                ],
+                "childMenuItems" : [
+                    { "name" : "child 1", "url" : "https://google.com/" },
+                    { "name" : "child 2", "url" : "https://google.com/" },
+                    { "name" : "child 3", "url" : "https://google.com/" }
                 ]
             },
             {
@@ -217,6 +191,11 @@
                 "languages" : [
                     { "name" : "ENG", "language" : "English" },
                     { "name" : "JPN", "language" : "Japanese"}
+                ],
+                "childMenuItems" : [
+                    { "name" : "child 1", "url" : "https://google.com/" },
+                    { "name" : "child 2", "url" : "https://google.com/" },
+                    { "name" : "child 3", "url" : "https://google.com/" }
                 ]
             },
             {
@@ -237,6 +216,11 @@
                 "languages" : [
                     { "name" : "ENG", "language" : "English" },
                     { "name" : "JPN", "language" : "Japanese"}
+                ],
+                "childMenuItems" : [
+                    { "name" : "child 1", "url" : "https://google.com/" },
+                    { "name" : "child 2", "url" : "https://google.com/" },
+                    { "name" : "child 3", "url" : "https://google.com/" }
                 ]
             },
             {
@@ -303,7 +287,7 @@
             {
                 "recordId" : "90487123",
                 "name" : "Squirtle",
-                "parent" : "",
+                "parent" : "Water",
                 "type" : "Menu Label",
                 "page" : "testpage",
                 "url" : "",
@@ -322,8 +306,8 @@
             },
             {
                 "recordId" : "8765439789123",
-                "name" : "Bulba1saur",
-                "parent" : "g1",
+                "name" : "Wartortle",
+                "parent" : "Water",
                 "type" : "Community Page",
                 "page" : "testpage",
                 "url" : "",
@@ -342,8 +326,8 @@
             },
             {
                 "recordId" : "312431124123",
-                "name" : "Ivysa1ur",
-                "parent" : "g1",
+                "name" : "Blastoise",
+                "parent" : "Water",
                 "type" : "Global Action",
                 "page" : "testpage",
                 "url" : "g1",
@@ -362,8 +346,8 @@
             },
             {
                 "recordId" : "123765434123",
-                "name" : "Venusa1ur",
-                "parent" : "g2",
+                "name" : "Caterpie",
+                "parent" : "Bug",
                 "type" : "Menu Label",
                 "page" : "testpage",
                 "url" : "",
@@ -382,8 +366,8 @@
             },
             {
                 "recordId" : "41065439283",
-                "name" : "Charmande1r",
-                "parent" : "g2",
+                "name" : "Metapod",
+                "parent" : "Bug",
                 "type" : "Navigational Topic",
                 "page" : "testpage",
                 "url" : "",
@@ -402,8 +386,8 @@
             },
             {
                 "recordId" : "95230841203",
-                "name" : "Charmeleon1",
-                "parent" : "g3",
+                "name" : "Butterfree",
+                "parent" : "Bug",
                 "type" : "Salesforce Object",
                 "page" : "testpage",
                 "url" : "",
@@ -422,8 +406,8 @@
             },
             {
                 "recordId" : "123548990",
-                "name" : "Charizard1",
-                "parent" : "g3",
+                "name" : "Weedle",
+                "parent" : "Bug",
                 "type" : "External URL",
                 "page" : "testpage",
                 "isDefault" : false,
@@ -447,8 +431,8 @@
             },
             {
                 "recordId" : "910487123",
-                "name" : "Squirtle1",
-                "parent" : "g4",
+                "name" : "Kakuna",
+                "parent" : "Bug",
                 "type" : "Menu Label",
                 "page" : "testpage",
                 "url" : "https://google.com",
@@ -467,8 +451,8 @@
             },
             {
                 "recordId" : "904874123",
-                "name" : "Squi2rtle1",
-                "parent" : "Water Tada 4",
+                "name" : "Beedrill",
+                "parent" : "Bug",
                 "type" : "Menu Label",
                 "page" : "testpage",
                 "url" : "https://google.com",
@@ -483,12 +467,17 @@
                 "languages" : [
                     { "name" : "ENG", "language" : "english" },
                     { "name" : "JPN", "language" : "japanese"}
+                ],
+                "childMenuItems" : [
+                    { "name" : "child 1", "url" : "https://google.com/" },
+                    { "name" : "child 2", "url" : "https://google.com/" },
+                    { "name" : "child 3", "url" : "https://google.com/" }
                 ]
             },
             {
                 "recordId" : "904874123",
-                "name" : "Squi2r12tle1",
-                "parent" : "Water Tada asd4",
+                "name" : "Pidgey",
+                "parent" : "Normal",
                 "type" : "Menu Label",
                 "page" : "testpage",
                 "url" : "https://google.com",
@@ -503,12 +492,17 @@
                 "languages" : [
                     { "name" : "ENG", "language" : "english" },
                     { "name" : "JPN", "language" : "japanese"}
+                ],
+                "childMenuItems" : [
+                    { "name" : "child 1", "url" : "https://google.com/" },
+                    { "name" : "child 2", "url" : "https://google.com/" },
+                    { "name" : "child 3", "url" : "https://google.com/" }
                 ]
             },
             {
                 "recordId" : "947123",
-                "name" : "Squirtle",
-                "parent" : "Water Tada asd3",
+                "name" : "Pidgeotto",
+                "parent" : "Normal",
                 "type" : "Menu Label",
                 "page" : "testpage",
                 "url" : "https://google.com",
@@ -523,12 +517,17 @@
                 "languages" : [
                     { "name" : "ENG", "language" : "english" },
                     { "name" : "JPN", "language" : "japanese"}
+                ],
+                "childMenuItems" : [
+                    { "name" : "child 1", "url" : "https://google.com/" },
+                    { "name" : "child 2", "url" : "https://google.com/" },
+                    { "name" : "child 3", "url" : "https://google.com/" }
                 ]
             },
             {
-                "recordId" : "904487123",
-                "name" : "Wartortle",
-                "parent" : "Water Tada asd3",
+                "recordId" : "12354152",
+                "name" : "Pidgeot",
+                "parent" : "Normal",
                 "type" : "Menu Label",
                 "page" : "testpage",
                 "url" : "https://google.com",
@@ -543,12 +542,17 @@
                 "languages" : [
                     { "name" : "ENG", "language" : "english" },
                     { "name" : "JPN", "language" : "japanese"}
+                ],
+                "childMenuItems" : [
+                    { "name" : "child 1", "url" : "https://google.com/" },
+                    { "name" : "child 2", "url" : "https://google.com/" },
+                    { "name" : "child 3", "url" : "https://google.com/" }
                 ]
             },
             {
-                "recordId" : "9045287123",
-                "name" : "Blastoise",
-                "parent" : "Water Tada asd2",
+                "recordId" : "902134287123",
+                "name" : "Rattata",
+                "parent" : "Dark",
                 "type" : "Menu Label",
                 "page" : "testpage",
                 "url" : "https://google.com",
@@ -563,12 +567,17 @@
                 "languages" : [
                     { "name" : "ENG", "language" : "english" },
                     { "name" : "JPN", "language" : "japanese"}
+                ],
+                "childMenuItems" : [
+                    { "name" : "child 1", "url" : "https://google.com/" },
+                    { "name" : "child 2", "url" : "https://google.com/" },
+                    { "name" : "child 3", "url" : "https://google.com/" }
                 ]
             },
             {
-                "recordId" : "9045287123",
-                "name" : "Blastoise This Guy",
-                "parent" : "Water Tada asd2",
+                "recordId" : "904521643587123",
+                "name" : "Raticate",
+                "parent" : "Dark",
                 "type" : "Menu Label",
                 "page" : "testpage",
                 "url" : "https://google.com",
@@ -583,12 +592,17 @@
                 "languages" : [
                     { "name" : "ENG", "language" : "english" },
                     { "name" : "JPN", "language" : "japanese"}
+                ],
+                "childMenuItems" : [
+                    { "name" : "child 1", "url" : "https://google.com/" },
+                    { "name" : "child 2", "url" : "https://google.com/" },
+                    { "name" : "child 3", "url" : "https://google.com/" }
                 ]
             },
             {
-                "recordId" : "9045287123",
-                "name" : "Blastoise This Guy",
-                "parent" : "Water Tada 4",
+                "recordId" : "9012345287123",
+                "name" : "Spearow",
+                "parent" : "Normal",
                 "type" : "Menu Label",
                 "page" : "testpage",
                 "url" : "https://google.com",
@@ -603,12 +617,17 @@
                 "languages" : [
                     { "name" : "ENG", "language" : "english" },
                     { "name" : "JPN", "language" : "japanese"}
+                ],
+                "childMenuItems" : [
+                    { "name" : "child 1", "url" : "https://google.com/" },
+                    { "name" : "child 2", "url" : "https://google.com/" },
+                    { "name" : "child 3", "url" : "https://google.com/" }
                 ]
             },
             {
-                "recordId" : "9045287123",
-                "name" : "Blastoise This Guy",
-                "parent" : "Water Tada asd242",
+                "recordId" : "9045543287123",
+                "name" : "Fearow",
+                "parent" : "Normal",
                 "type" : "Menu Label",
                 "page" : "testpage",
                 "url" : "https://google.com",
@@ -623,17 +642,172 @@
                 "languages" : [
                     { "name" : "ENG", "language" : "english" },
                     { "name" : "JPN", "language" : "japanese"}
+                ],
+                "childMenuItems" : [
+                    { "name" : "child 1", "url" : "https://google.com/" },
+                    { "name" : "child 2", "url" : "https://google.com/" },
+                    { "name" : "child 3", "url" : "https://google.com/" }
                 ]
             },
             {
-                "recordId" : "9045287123",
-                "name" : "Blastoise This Guy",
-                "parent" : "Water Tada asd4",
+                "recordId" : "9123045287123",
+                "name" : "Ekans",
+                "parent" : "Poison",
                 "type" : "Menu Label",
                 "page" : "testpage",
                 "url" : "https://google.com",
                 "action" : "",
                 "openNewTab" : false,
+                "moreLink" : false,
+                "objType" : "",
+                "defaultListView" : "",
+                "enableAccessPermissions" : false,
+                "isPublic" : false,
+                "order" : 0,
+                "languages" : [
+                    { "name" : "ENG", "language" : "english" },
+                    { "name" : "JPN", "language" : "japanese"}
+                ],
+                "childMenuItems" : [
+                    { "name" : "child 1", "url" : "https://google.com/" },
+                    { "name" : "child 2", "url" : "https://google.com/" },
+                    { "name" : "child 3", "url" : "https://google.com/" }
+                ]
+            },
+            {
+                "recordId" : "9045284127123",
+                "name" : "Arbok",
+                "parent" : "Poison",
+                "type" : "Menu Label",
+                "page" : "testpage",
+                "url" : "https://google.com",
+                "action" : "",
+                "openNewTab" : false,
+                "moreLink" : false,
+                "objType" : "",
+                "defaultListView" : "",
+                "enableAccessPermissions" : false,
+                "isPublic" : false,
+                "order" : 0,
+                "languages" : [
+                    { "name" : "ENG", "language" : "english" },
+                    { "name" : "JPN", "language" : "japanese"}
+                ],
+                "childMenuItems" : [
+                    { "name" : "child 1", "url" : "https://google.com/" },
+                    { "name" : "child 2", "url" : "https://google.com/" },
+                    { "name" : "child 3", "url" : "https://google.com/" }
+                ]
+            },
+            {
+                "recordId" : "9045212387123",
+                "name" : "Pikachu",
+                "parent" : "Electric",
+                "type" : "Menu Label",
+                "page" : "testpage",
+                "url" : "https://google.com",
+                "action" : "",
+                "openNewTab" : false,
+                "moreLink" : false,
+                "objType" : "",
+                "defaultListView" : "",
+                "enableAccessPermissions" : false,
+                "isPublic" : false,
+                "order" : 0,
+                "languages" : [
+                    { "name" : "ENG", "language" : "english" },
+                    { "name" : "JPN", "language" : "japanese"}
+                ],
+                "childMenuItems" : [
+                    { "name" : "child 1", "url" : "https://google.com/" },
+                    { "name" : "child 2", "url" : "https://google.com/" },
+                    { "name" : "child 3", "url" : "https://google.com/" }
+                ]
+            },
+            {
+                "recordId" : "9045212387123",
+                "name" : "Raichu",
+                "parent" : "Electric",
+                "type" : "Menu Label",
+                "page" : "testpage",
+                "url" : "",
+                "action" : "",
+                "openNewTab" : false,
+                "moreLink" : false,
+                "objType" : "",
+                "defaultListView" : "",
+                "enableAccessPermissions" : false,
+                "isPublic" : false,
+                "order" : 0,
+                "languages" : [
+                    { "name" : "ENG", "language" : "english" },
+                    { "name" : "JPN", "language" : "japanese"}
+                ],
+                "childMenuItems" : [
+                    { "name" : "child 1", "url" : "https://google.com/" },
+                    { "name" : "child 2", "url" : "https://google.com/" },
+                    { "name" : "child 3", "url" : "https://google.com/" }
+                ]
+            },
+            {
+                "recordId" : "9045212387123",
+                "name" : "Sandshrew",
+                "parent" : "Ground",
+                "type" : "Menu Label",
+                "page" : "testpage",
+                "url" : "",
+                "action" : "",
+                "openNewTab" : false,
+                "moreLink" : false,
+                "objType" : "",
+                "defaultListView" : "",
+                "enableAccessPermissions" : false,
+                "isPublic" : false,
+                "order" : 0,
+                "languages" : [
+                    { "name" : "ENG", "language" : "english" },
+                    { "name" : "JPN", "language" : "japanese"}
+                ],
+                "childMenuItems" : [
+                    { "name" : "child 1", "url" : "https://google.com/" },
+                    { "name" : "child 2", "url" : "https://yahoo.com/" },
+                    { "name" : "child 3", "url" : "https://bing.com/" }
+                ]
+            },
+            {
+                "recordId" : "9045212387123",
+                "name" : "Sandslash",
+                "parent" : "Ground",
+                "type" : "Menu Label",
+                "page" : "testpage",
+                "url" : "",
+                "action" : "",
+                "openNewTab" : true,
+                "moreLink" : false,
+                "objType" : "",
+                "defaultListView" : "",
+                "enableAccessPermissions" : false,
+                "isPublic" : false,
+                "order" : 0,
+                "languages" : [
+                    { "name" : "ENG", "language" : "english" },
+                    { "name" : "JPN", "language" : "japanese"}
+                ],
+                "childMenuItems" : [
+                    { "name" : "child 1", "url" : "https://google.com/" },
+                    { "name" : "child 2", "url" : "https://google.com/" },
+                    { "name" : "child 3", "url" : "https://google.com/" }
+                ]
+            },
+            {
+                "recordId" : "9045212387123",
+                "name" : "Red",
+                "parent" : "",
+                "type" : "Menu Label",
+                "page" : "testpage",
+                "url" : "https://www.pokemon.com",
+                "action" : "",
+                "openNewTab" : true,
                 "moreLink" : false,
                 "objType" : "",
                 "defaultListView" : "",

@@ -805,7 +805,7 @@
                 "parent" : "",
                 "type" : "Menu Label",
                 "page" : "testpage",
-                "url" : "https://pokemon.com",
+                "url" : "https://www.pokemon.com",
                 "action" : "",
                 "openNewTab" : true,
                 "moreLink" : false,

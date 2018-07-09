@@ -1,4 +1,3 @@
-
 {
   "filterFields": [
     {
@@ -24,10 +23,10 @@
   ],
   "items": [
     {
-      "name": "Event A",
+      "name": "FunCon 2017 ",
       "id": "a1f1I000000hpToQAI",
-      "description": "printing and typesetting unknown printer took a galleyectronic typesetting",
-     "imageUrl": "https://fonteva-customer-media.s3.amazonaws.com/00D6A000001LqnYUAS/hcYHeaBF_35mi4w9.jpg",
+      "description": "It's happening Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+      "imageUrl": "https://wallpaperbrowse.com/media/images/trolltunga.jpg",
       "startDate": "2018-09-01",
       "endDate": "2017-09-01",
       "lat": 34.3324,
@@ -39,10 +38,10 @@
       }
     },
       {
-      "name": " 1234 Event",
+      "name": " 1234 London ",
       "id": "a1f1I000000hpToQAI",
       "description": "It's happening!!",
-      "imageUrl": "https://wallpaperbrowse.com/media/images/th.jpg",
+      "imageUrl": "https://placehold.it/300x300",
       "startDate": "2020-09-01",
       "endDate": "2020-09-01",
       "lat": 34.3324,
@@ -54,7 +53,7 @@
       }
     },
          {
-      "name": "Event B",
+      "name": "MDN Learning Area",
       "id": "a1f1I000000hpToQAI",
       "description": "It's happening!!",
       "imageUrl": "https://fonteva-customer-media.s3.amazonaws.com/00D6A000001LqnYUAS/hcYHeaBF_35mi4w9.jpg",
@@ -69,7 +68,7 @@
       }
     },
       {
-      "name": "Event C",
+      "name": "ABC London Summer Festival Welcome to the MDN Learning Area. This set of articles aims to provide complete beginners to web development with all they need to start coding simple websites.",
       "id": "a1f1I000000hpToQAI",
       "description": "It's happening!!",
       "imageUrl": "https://fonteva-customer-media.s3.amazonaws.com/00D6A000001LqnYUAS/hcYHeaBF_35mi4w9.jpg",
@@ -84,10 +83,10 @@
       }
     },
     {
-    "name": "London Event",
+    "name": "Complete beginners ",
       "id": "a1f1I000000hpToQAI",
       "description": "It's happening!!",
-      "imageUrl": "https://wallpaperbrowse.com/media/images/trolltunga.jpg",
+      "imageUrl": "https://www.gettyimages.ie/gi-resources/images/Homepage/Hero/UK/CMS_Creative_164657191_Kingfisher.jpg",
       "startDate": "2017-09-01",
       "endDate": "2017-09-10",
       "lat": 34.3324,
@@ -99,10 +98,10 @@
       }
     },
     {
-      "name": "Summer Festival",
+      "name": "Web development ",
       "id": "a1f1I000000hpToQAI",
       "description": "It's happening!!",
-      "imageUrl": "https://wallpaperbrowse.com/media/images/desktop-year-of-the-tiger-images-wallpaper.jpg",
+      "imageUrl": "https://fonteva-customer-media.s3.amazonaws.com/00D6A000001LqnYUAS/hcYHeaBF_35mi4w9.jpg",
       "startDate": "2017-09-01",
       "endDate": "2017-09-10",
       "lat": 34.3324,
@@ -114,10 +113,10 @@
       }
     },
     {
-      "name": "Festival Event",
+      "name": "Start coding simple ",
       "id": "a1f1I000000hpToQAI",
       "description": "It's happening!!",
-      "imageUrl": "https://wallpaperbrowse.com/media/images/434976-happy-valentines-day-timeline-cover.jpg",
+      "imageUrl": "https://thumbs.dreamstime.com/z/sleeping-newborn-cap-pants-grey-natural-wool-knitted-hat-dark-blue-blanket-home-photo-shoot-s-boy-120480996.jpg",
       "startDate": "2017-09-01",
       "endDate": "2017-09-10",
       "lat": 34.3324,
@@ -129,10 +128,10 @@
       }
     },
     {
-      "name": "Beginners Event",
+      "name": "Festival simple ",
       "id": "a1f1I000000hpToQAI",
       "description": "It's happening!!",
-      "imageUrl": "https://wallpaperbrowse.com/media/images/nasas-1-billion-jupiter-probe-just-sent-back-breathtaking-new-images-of-the-gas-giant.jpg",
+      "imageUrl": "https://wallpaperbrowse.com/media/images/trolltunga.jpg",
       "startDate": "2017-09-01",
       "endDate": "2017-09-10",
       "lat": 34.3324,
@@ -144,10 +143,10 @@
       }
     },
     {
-      "name": "Dev Event",
+      "name": "London Summer Festival 14",
       "id": "a1f1I000000hpToQAI",
       "description": "It's happening!!",
-      "imageUrl": "https://wallpaperbrowse.com/media/images/pexels-photo-115045.jpeg",
+      "imageUrl": "https://thumbs.dreamstime.com/z/surreal-summer-night-man-arch-utah-mountains-usa-starry-landscapewith-desert-southwest-120418128.jpg",
       "startDate": "2017-09-01",
       "endDate": "2017-09-10",
       "lat": 34.3324,
@@ -159,10 +158,10 @@
       }
     },
     {
-      "name": "London Summer QA ",
+      "name": " XV articles",
       "id": "a1f1I000000hpToQAI",
       "description": "It's happening!!",
-      "imageUrl": "https://placehold.it/300x300",
+      "imageUrl": "https://wallpaperbrowse.com/media/images/pexels-photo-115045.jpeg",
       "startDate": "2017-09-01",
       "endDate": "2017-09-10",
       "lat": 34.3324,
@@ -174,10 +173,10 @@
       }
     },
     {
-      "name": "",
+      "name": "Beginners simple ",
       "id": "a1f1I000000hpToQAI",
       "description": "It's happening!!",
-      "imageUrl": "https://placehold.it/300x300",
+      "imageUrl": "https://wallpaperbrowse.com/media/images/nasas-1-billion-jupiter-probe-just-sent-back-breathtaking-new-images-of-the-gas-giant.jpg",
       "startDate": "2017-09-01",
       "endDate": "2017-09-10",
       "lat": 34.3324,
@@ -192,8 +191,8 @@
       "name": "London Summer Festival 17",
       "id": "a1f1I000000hpToQAI",
       "description": "It's happening!!",
-      "imageUrl": "https://placehold.it/350x350",
-      "startDate": "",
+      "imageUrl": "https://wallpaperbrowse.com/media/images/434976-happy-valentines-day-timeline-cover.jpg",
+      "startDate": "2017-09-01",
       "endDate": "2017-09-10",
       "lat": 34.3324,
       "lon": -83.30094,
@@ -207,9 +206,9 @@
       "name": "London Summer Festival 18",
       "id": "a1f1I000000hpToQAI",
       "description": "It's happening!!",
-      "imageUrl": "https://thumbs.dreamstime.com/z/surreal-summer-night-man-arch-utah-mountains-usa-starry-landscapewith-desert-southwest-120418128.jpg",
-      "startDate": "",
-      "endDate": "",
+      "imageUrl": "https://wallpaperbrowse.com/media/images/trolltunga.jpg",
+      "startDate": "2017-09-01",
+      "endDate": "2017-09-10",
       "lat": 34.3324,
       "lon": -83.30094,
       "filterFields": {
@@ -219,10 +218,10 @@
       }
     },
      {
-      "name": "Learning Area",
+      "name": "Articles aims",
       "id": "a1f1I000000hpToQAI",
       "description": "It's happening!!",
-      "imageUrl": "https://thumbs.dreamstime.com/z/sleeping-newborn-cap-pants-grey-natural-wool-knitted-hat-dark-blue-blanket-home-photo-shoot-s-boy-120480996.jpg",
+      "imageUrl": "https://wallpaperbrowse.com/media/images/th.jpg",
       "startDate": "2020-09-01",
       "endDate": "2020-09-01",
       "lat": 34.3324,

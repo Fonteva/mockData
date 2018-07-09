@@ -16,6 +16,26 @@
       "type": "boolean"
     },
     {
+      "name": "Custom__EarlyBird",
+      "label": "Early Bird Date",
+      "type": "date"
+    },
+    {
+      "name": "Custom__EarlyBirdPrice",
+      "label": "Early Bird Price",
+      "type": "currency"
+    },
+    {
+      "name": "Custom__WalkabilityScore",
+      "label": "Walkability Score",
+      "type": "decimal"
+    },
+    {
+      "name": "Custom__PartyTime",
+      "label": "Party Time",
+      "type": "datetime"
+    },
+    {
       "name": "Custom__EstimatedAttendance__c",
       "label": "Estimated Attendance",
       "type": "integer"
@@ -34,6 +54,10 @@
       "filterFields": {
         "EventApi__RegistrationType__c": "Simple",
         "Custom__IsWheelchairAccessible__c": true,
+        "Custom_EarlyBird": "2018-10-10",
+        "Custom_EarlyBirdPrice": "25.50",
+        "Custom_WalkabilityScore": 12.0,
+        "Custom_PartyTime": "2019-01-15T16:00:00Z",
         "Custom__EstimatedAttendance__c": 100
       }
     },
@@ -49,6 +73,10 @@
       "filterFields": {
         "EventApi__RegistrationType__c": "Conference",
         "Custom__IsWheelchairAccessible__c": true,
+        "Custom_EarlyBird": "2018-10-10",
+        "Custom_EarlyBirdPrice": "125.50",
+        "Custom_WalkabilityScore": 6.9,
+        "Custom_PartyTime": "2019-01-15T16:00:00Z",
         "Custom__EstimatedAttendance__c": 100
       }
     },
@@ -64,6 +92,10 @@
       "filterFields": {
         "EventApi__RegistrationType__c": "Lightning",
         "Custom__IsWheelchairAccessible__c": true,
+        "Custom_EarlyBird": "2018-10-10",
+        "Custom_EarlyBirdPrice": "25.50",
+        "Custom_WalkabilityScore": 6.9,
+        "Custom_PartyTime": "2019-01-30T16:00:00Z",
         "Custom__EstimatedAttendance__c": 100
       }
     },
@@ -79,6 +111,10 @@
       "filterFields": {
         "EventApi__RegistrationType__c": "Lightning",
         "Custom__IsWheelchairAccessible__c": true,
+        "Custom_EarlyBird": "2018-10-10",
+        "Custom_EarlyBirdPrice": "125.50",
+        "Custom_WalkabilityScore": 16.9,
+        "Custom_PartyTime": "2019-01-15T16:00:00Z",
         "Custom__EstimatedAttendance__c": 100
       }
     },
@@ -94,6 +130,10 @@
       "filterFields": {
         "EventApi__RegistrationType__c": "Simple",
         "Custom__IsWheelchairAccessible__c": true,
+        "Custom_EarlyBird": "2018-08-10",
+        "Custom_EarlyBirdPrice": "25.50",
+        "Custom_WalkabilityScore": 0.9,
+        "Custom_PartyTime": "2019-02-15T16:00:00Z",
         "Custom__EstimatedAttendance__c": 100
       }
     },
@@ -109,6 +149,10 @@
       "filterFields": {
         "EventApi__RegistrationType__c": "Conference",
         "Custom__IsWheelchairAccessible__c": true,
+        "Custom_EarlyBird": "2018-10-10",
+        "Custom_EarlyBirdPrice": "25.00",
+        "Custom_WalkabilityScore": 6.9,
+        "Custom_PartyTime": "2019-01-15T20:00:00Z",
         "Custom__EstimatedAttendance__c": 100
       }
     },
@@ -139,6 +183,10 @@
       "filterFields": {
         "EventApi__RegistrationType__c": "Conference",
         "Custom__IsWheelchairAccessible__c": true,
+        "Custom_EarlyBird": "2018-10-10",
+        "Custom_EarlyBirdPrice": "25.50",
+        "Custom_WalkabilityScore": 6.9,
+        "Custom_PartyTime": "2019-01-15T16:00:00Z",
         "Custom__EstimatedAttendance__c": 100
       }
     },
@@ -169,6 +217,10 @@
       "filterFields": {
         "EventApi__RegistrationType__c": "Conference",
         "Custom__IsWheelchairAccessible__c": true,
+        "Custom_EarlyBird": "2018-10-10",
+        "Custom_EarlyBirdPrice": "25.50",
+        "Custom_WalkabilityScore": 6.9,
+        "Custom_PartyTime": "2019-01-15T16:00:00Z",
         "Custom__EstimatedAttendance__c": 10
       }
     },
@@ -184,6 +236,10 @@
       "filterFields": {
         "EventApi__RegistrationType__c": "Conference",
         "Custom__IsWheelchairAccessible__c": true,
+        "Custom_EarlyBird": "2018-10-10",
+        "Custom_EarlyBirdPrice": "25.50",
+        "Custom_WalkabilityScore": 6.9,
+        "Custom_PartyTime": "2019-01-15T16:00:00Z",
         "Custom__EstimatedAttendance__c": 1000
       }
     },
@@ -199,6 +255,10 @@
       "filterFields": {
         "EventApi__RegistrationType__c": "Simple",
         "Custom__IsWheelchairAccessible__c": true,
+        "Custom_EarlyBird": "2018-10-10",
+        "Custom_EarlyBirdPrice": "25.50",
+        "Custom_WalkabilityScore": 6.9,
+        "Custom_PartyTime": "2019-01-15T16:00:00Z",
         "Custom__EstimatedAttendance__c": 500
       }
     },
@@ -214,6 +274,10 @@
       "filterFields": {
         "EventApi__RegistrationType__c": "Conference",
         "Custom__IsWheelchairAccessible__c": true,
+        "Custom_EarlyBird": "2018-10-10",
+        "Custom_EarlyBirdPrice": "25.50",
+        "Custom_WalkabilityScore": 6.9,
+        "Custom_PartyTime": "2019-01-15T16:00:00Z",
         "Custom__EstimatedAttendance__c": 50
       }
     },
@@ -229,6 +293,10 @@
       "filterFields": {
         "EventApi__RegistrationType__c": "Conference",
         "Custom__IsWheelchairAccessible__c": true,
+        "Custom_EarlyBird": "2018-10-10",
+        "Custom_EarlyBirdPrice": "25.50",
+        "Custom_WalkabilityScore": 6.9,
+        "Custom_PartyTime": "2019-01-15T16:00:00Z",
         "Custom__EstimatedAttendance__c": 5
       }
     },
@@ -244,6 +312,10 @@
       "filterFields": {
         "EventApi__RegistrationType__c": "Simple",
         "Custom__IsWheelchairAccessible__c": true,
+        "Custom_EarlyBird": "2018-10-10",
+        "Custom_EarlyBirdPrice": "25.50",
+        "Custom_WalkabilityScore": 6.9,
+        "Custom_PartyTime": "2019-01-15T16:00:00Z",
         "Custom__EstimatedAttendance__c": 100
       }
     },
@@ -259,6 +331,10 @@
       "filterFields": {
         "EventApi__RegistrationType__c": "Conference",
         "Custom__IsWheelchairAccessible__c": true,
+        "Custom_EarlyBird": "2018-10-10",
+        "Custom_EarlyBirdPrice": "25.50",
+        "Custom_WalkabilityScore": 6.9,
+        "Custom_PartyTime": "2019-01-15T16:00:00Z",
         "Custom__EstimatedAttendance__c": 100
       }
     },
@@ -274,6 +350,10 @@
       "filterFields": {
         "EventApi__RegistrationType__c": "Conference",
         "Custom__IsWheelchairAccessible__c": true,
+        "Custom_EarlyBird": "2018-10-10",
+        "Custom_EarlyBirdPrice": "25.50",
+        "Custom_WalkabilityScore": 6.9,
+        "Custom_PartyTime": "2019-01-15T16:00:00Z",
         "Custom__EstimatedAttendance__c": 100
       }
     },
@@ -289,6 +369,10 @@
       "filterFields": {
         "EventApi__RegistrationType__c": "Conference",
         "Custom__IsWheelchairAccessible__c": true,
+        "Custom_EarlyBird": "2018-10-10",
+        "Custom_EarlyBirdPrice": "25.50",
+        "Custom_WalkabilityScore": 6.9,
+        "Custom_PartyTime": "2019-01-15T16:00:00Z",
         "Custom__EstimatedAttendance__c": 100
       }
     },
@@ -304,6 +388,10 @@
       "filterFields": {
         "EventApi__RegistrationType__c": "Conference",
         "Custom__IsWheelchairAccessible__c": true,
+        "Custom_EarlyBird": "2018-10-10",
+        "Custom_EarlyBirdPrice": "25.50",
+        "Custom_WalkabilityScore": 6.9,
+        "Custom_PartyTime": "2019-01-15T16:00:00Z",
         "Custom__EstimatedAttendance__c": 100
       }
     },
@@ -319,6 +407,10 @@
       "filterFields": {
         "EventApi__RegistrationType__c": "Conference",
         "Custom__IsWheelchairAccessible__c": true,
+        "Custom_EarlyBird": "2018-10-10",
+        "Custom_EarlyBirdPrice": "25.50",
+        "Custom_WalkabilityScore": 6.9,
+        "Custom_PartyTime": "2019-01-15T16:00:00Z",
         "Custom__EstimatedAttendance__c": 100
       }
     },
@@ -334,6 +426,10 @@
       "filterFields": {
         "EventApi__RegistrationType__c": "Conference",
         "Custom__IsWheelchairAccessible__c": true,
+        "Custom_EarlyBird": "2018-10-10",
+        "Custom_EarlyBirdPrice": "25.50",
+        "Custom_WalkabilityScore": 6.9,
+        "Custom_PartyTime": "2019-01-15T16:00:00Z",
         "Custom__EstimatedAttendance__c": 100
       }
     },
@@ -349,6 +445,10 @@
       "filterFields": {
         "EventApi__RegistrationType__c": "Conference",
         "Custom__IsWheelchairAccessible__c": true,
+        "Custom_EarlyBird": "2018-10-10",
+        "Custom_EarlyBirdPrice": "25.50",
+        "Custom_WalkabilityScore": 6.9,
+        "Custom_PartyTime": "2019-01-15T16:00:00Z",
         "Custom__EstimatedAttendance__c": 100
       }
     },
@@ -364,6 +464,10 @@
       "filterFields": {
         "EventApi__RegistrationType__c": "Conference",
         "Custom__IsWheelchairAccessible__c": true,
+        "Custom_EarlyBird": "2018-10-10",
+        "Custom_EarlyBirdPrice": "25.50",
+        "Custom_WalkabilityScore": 6.9,
+        "Custom_PartyTime": "2019-01-15T16:00:00Z",
         "Custom__EstimatedAttendance__c": 100
       }
     },
@@ -379,6 +483,10 @@
       "filterFields": {
         "EventApi__RegistrationType__c": "Conference",
         "Custom__IsWheelchairAccessible__c": true,
+        "Custom_EarlyBird": "2018-10-10",
+        "Custom_EarlyBirdPrice": "25.50",
+        "Custom_WalkabilityScore": 6.9,
+        "Custom_PartyTime": "2019-01-15T16:00:00Z",
         "Custom__EstimatedAttendance__c": 100
       }
     },
@@ -394,6 +502,10 @@
       "filterFields": {
         "EventApi__RegistrationType__c": "Conference",
         "Custom__IsWheelchairAccessible__c": true,
+        "Custom_EarlyBird": "2018-10-10",
+        "Custom_EarlyBirdPrice": "25.50",
+        "Custom_WalkabilityScore": 6.9,
+        "Custom_PartyTime": "2019-01-15T16:00:00Z",
         "Custom__EstimatedAttendance__c": 100
       }
     },
@@ -409,6 +521,10 @@
       "filterFields": {
         "EventApi__RegistrationType__c": "Conference",
         "Custom__IsWheelchairAccessible__c": true,
+        "Custom_EarlyBird": "2018-10-10",
+        "Custom_EarlyBirdPrice": "25.50",
+        "Custom_WalkabilityScore": 6.9,
+        "Custom_PartyTime": "2019-01-15T16:00:00Z",
         "Custom__EstimatedAttendance__c": 100
       }
     }

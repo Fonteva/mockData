@@ -270,7 +270,7 @@
                 "type" : "External URL",
                 "page" : "testpage",
                 "isDefault" : false,
-                "url" : "",
+                "url" : "https://www.pokemon.com",
                 "action" : "",
                 "openNewTab" : true,
                 "moreLink" : false,

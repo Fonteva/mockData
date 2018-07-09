@@ -730,7 +730,7 @@
                 "parent" : "Electric",
                 "type" : "Menu Label",
                 "page" : "testpage",
-                "url" : "https://google.com",
+                "url" : "",
                 "action" : "",
                 "openNewTab" : false,
                 "moreLink" : false,
@@ -755,7 +755,7 @@
                 "parent" : "Electric2",
                 "type" : "Menu Label",
                 "page" : "testpage",
-                "url" : "https://google.com",
+                "url" : "",
                 "action" : "",
                 "openNewTab" : false,
                 "moreLink" : false,
@@ -770,8 +770,8 @@
                 ],
                 "childMenuItems" : [
                     { "name" : "child 1", "url" : "https://google.com/" },
-                    { "name" : "child 2", "url" : "https://google.com/" },
-                    { "name" : "child 3", "url" : "https://google.com/" }
+                    { "name" : "child 2", "url" : "https://yahoo.com/" },
+                    { "name" : "child 3", "url" : "https://bing.com/" }
                 ]
             },
             {
@@ -780,7 +780,7 @@
                 "parent" : "Electric3",
                 "type" : "Menu Label",
                 "page" : "testpage",
-                "url" : "https://google.com",
+                "url" : "",
                 "action" : "",
                 "openNewTab" : true,
                 "moreLink" : false,

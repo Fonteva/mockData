@@ -10,7 +10,7 @@
         "cookieUrl": "https://bing.com",
         "acctOverrideUrl": "https://yahoo.com",
         "defaultEventListing": "List",
-        "logoImage": "https://is1-ssl.mzstatic.com/image/thumb/Purple115/v4/04/3d/92/043d923b-7c12-b7e7-e7d4-672d72342e51/AppIcon-1x_U007emarketing-85-220-0-6.png/246x0w.jpg",
+        "logoImage": "https://staticaltmetric.s3.amazonaws.com/uploads/2015/10/dark-logo-for-site.png",
         "logoUrl": "https://google.com/",
         "languages": [
             {

@@ -50,5 +50,57 @@
                 ]
             }
         ]
-    }
+    },
+    {
+        "recordId": "2345678912",
+        "name": "Bats",
+        "commId": 0,
+        "isDefault": true,
+        "isPublished": false,
+        "enableCookie": false,
+        "enableAccessPermissions": false,
+        "cookieUrl": "https://bing.com",
+        "acctOverrideUrl": "https://yahoo.com",
+        "defaultEventListing": "List",
+        "logoImage": "http://1.bp.blogspot.com/-5sV6e6Vk7CU/TcIoMe4zwPI/AAAAAAAAAIU/i5rO6mtmBp8/s1600/SWPackfront.jpg",
+        "logoUrl": "https://google.com/",
+        "languages": [
+            {
+                "name": "ENG",
+                "language": "English"
+            },
+            {
+                "name": "PLY",
+                "language": "Samoan"
+            }
+        ],
+        "menuItems": [
+            {
+                "recordId": "345678901212",
+                "name": "Dwayne 'The Rock' Johnson",
+                "parent": "WWE",
+                "type": "External URL",
+                "page": "testpage",
+                "url": "https://therock.com",
+                "action": "",
+                "openNewTab": true,
+                "moreLink": false,
+                "objType": "",
+                "defaultListView": "",
+                "enableAccessPermissions": false,
+                "isPublic": false,
+                "order": 0,
+                "languages": [
+                    {
+                        "name": "ENG",
+                        "language": "English"
+                    },
+                    {
+                        "name": "ASN",
+                        "language": "Asian"
+                    }
+                ]
+            }
+        ]
+    },
 ]

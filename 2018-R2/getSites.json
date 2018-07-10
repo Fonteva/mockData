@@ -5,7 +5,7 @@
         "commId": 0,
         "isDefault": false,
         "isPublished": false,
-        "enableCookie": false,
+        "enableCookie": true,
         "enableAccessPermissions": false,
         "cookieUrl": "https://bing.com",
         "acctOverrideUrl": "https://yahoo.com",

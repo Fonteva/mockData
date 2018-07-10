@@ -63,12 +63,8 @@
         "acctOverrideUrl": "https://yahoo.com",
         "defaultEventListing": "List",
         "logoImage": "https://res.cloudinary.com/teepublic/image/private/s--fRlSQ6Y8--/t_Preview/b_rgb:ffffff,c_limit,f_jpg,h_630,q_90,w_630/v1523824983/production/designs/2593397_0.jpg",
-        "logoUrl": "https://google.com/",
+        "logoUrl": "",
         "languages": [
-            {
-                "name": "ENG",
-                "language": "English"
-            },
             {
                 "name": "PLY",
                 "language": "Samoan"

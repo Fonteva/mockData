@@ -814,6 +814,46 @@
                     { "name" : "ENG", "language" : "english" },
                     { "name" : "JPN", "language" : "japanese"}
                 ]
+            },
+            {
+                "recordId" : "21312412",
+                "name" : "Blue",
+                "parent" : "",
+                "type" : "Menu Label",
+                "page" : "testpage",
+                "url" : "https://www.pokemon.com",
+                "action" : "",
+                "openNewTab" : true,
+                "moreLink" : false,
+                "objType" : "",
+                "defaultListView" : "",
+                "enableAccessPermissions" : false,
+                "isPublic" : false,
+                "order" : 0,
+                "languages" : [
+                    { "name" : "ENG", "language" : "english" },
+                    { "name" : "JPN", "language" : "japanese"}
+                ]
+            },
+            {
+                "recordId" : "412451",
+                "name" : "Yellow",
+                "parent" : "",
+                "type" : "Menu Label",
+                "page" : "testpage",
+                "url" : "https://www.pokemon.com",
+                "action" : "",
+                "openNewTab" : true,
+                "moreLink" : false,
+                "objType" : "",
+                "defaultListView" : "",
+                "enableAccessPermissions" : false,
+                "isPublic" : false,
+                "order" : 0,
+                "languages" : [
+                    { "name" : "ENG", "language" : "english" },
+                    { "name" : "JPN", "language" : "japanese"}
+                ]
             }
         ]
     }

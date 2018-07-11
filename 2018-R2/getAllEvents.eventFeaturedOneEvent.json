@@ -31,7 +31,7 @@
       "endDate": "2019-03-09",
       "lat": 34.3324,
       "lon": -83.30094,
-      "isFeatured": true,
+      "isFeatured": false,
       "filterFields": {
         "EventApi__RegistrationType__c": "Simple",
         "Custom__IsWheelchairAccessible__c": true,

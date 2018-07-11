@@ -73,7 +73,7 @@
       "endDate": "2019-03-09",
       "lat": 34.3324,
       "lon": -83.30094,
-      "isFeatured": false,
+      "isFeatured": true,
       "bannerImageURL": "https://thumbs.dreamstime.com/z/modern-abstract-motion-banner-dark-background-colourful-light-76877365.jpg",
       "filterFields": {
         "EventApi__RegistrationType__c": "Simple",

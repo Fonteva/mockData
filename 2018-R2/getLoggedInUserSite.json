@@ -12,7 +12,7 @@
     "defaultEventListing": "List",
     "logoImage": "https://placehold.it/200x100",
     "logoUrl": "https://google.com/",
-    "featuredEventCarouselTimer" : 5,
+    "featuredEventCarouselTimer" : 5000,
     "languages": [
       {
         "name": "ENG",

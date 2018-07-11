@@ -1,0 +1,47 @@
+{
+  "filterFields": [
+    {
+      "name": "EventApi__RegistrationType__c",
+      "label": "Registration Type",
+      "type": "picklist",
+      "values": [
+        "Simple",
+        "Conference",
+        "Lightning"
+      ]
+    },
+    {
+      "name": "Custom__IsWheelchairAccessible__c",
+      "label": "Wheelchair Accessible",
+      "type": "boolean"
+    },
+    {
+      "name": "Custom__EstimatedAttendance__c",
+      "label": "Estimated Attendance",
+      "type": "integer"
+    }
+  ],
+  "items": [
+    {
+      "name": "FunCon 2017",
+      "id": "a1f1I000000hpToQAI",
+      "description": "It's happening!!",
+      "imageUrl": "https://wallpaperbrowse.com/media/images/trolltunga.jpg",
+      "startDate": "2019-03-09",
+      "endDate": "2019-03-09",
+      "lat": 34.3324,
+      "lon": -83.30094,
+      "isFeatured": true,
+      "bannerImageURL": "https://www.ple.com/wallpaper/yellow-checkered-squares-blue-1920x1080-c2-ffd700-afeeee-l-1400-a-65-f-2.svg",
+      "filterFields": {
+        "EventApi__RegistrationType__c": "Simple",
+        "Custom__IsWheelchairAccessible__c": true,
+        "Custom__EarlyBird": "2018-10-10",
+        "Custom__EarlyBirdPrice": "25.50",
+        "Custom__WalkabilityScore": 12.0,
+        "Custom__PartyTime": "2019-01-15T16:00:00Z",
+        "Custom__EstimatedAttendance__c": 100
+      }
+      }
+      ]
+}

@@ -56,7 +56,7 @@
       "lat": 34.3324,
       "lon": -83.30094,
       "isFeatured": true,
-      "bannerImageURL": "https://placehold.it/300x300",
+      "bannerImageURL": "https://www.publicdomainpictures.net/pictures/150000/velka/banner-header-tapete-145002399028x.jpg",
       "filterFields": {
         "EventApi__RegistrationType__c": "Simple",
         "Custom__IsWheelchairAccessible__c": true,
@@ -98,7 +98,7 @@
       "lat": 34.3324,
       "lon": -83.30094,
       "isFeatured": true,
-      "bannerImageURL": "https://placehold.it/300x300",
+      "bannerImageURL": "https://www.publicdomainpictures.net/pictures/150000/velka/banner-header-tapete-145002399028x.jpg",
       "filterFields": {
         "EventApi__RegistrationType__c": "Lightning",
         "Custom__IsWheelchairAccessible__c": true,
@@ -119,7 +119,7 @@
       "lat": 34.3324,
       "lon": -83.30094,
       "isFeatured": true,
-      "bannerImageURL": "https://placehold.it/300x300",
+      "bannerImageURL": "http://www.appshark.com/wp-content/uploads/2017/04/Salesforce-Services-Banner.jpg",
       "filterFields": {
         "EventApi__RegistrationType__c": "Lightning",
         "Custom__IsWheelchairAccessible__c": true,
@@ -161,7 +161,7 @@
       "lat": 34.3324,
       "lon": -83.30094,
       "isFeatured": false,
-      "bannerImageURL": "https://placehold.it/300x300",
+      "bannerImageURL": "http://www.appshark.com/wp-content/uploads/2017/04/Salesforce-Services-Banner.jpg",
       "filterFields": {
         "EventApi__RegistrationType__c": "Conference",
         "Custom__IsWheelchairAccessible__c": true,

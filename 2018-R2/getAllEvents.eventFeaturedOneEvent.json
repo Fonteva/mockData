@@ -42,6 +42,23 @@
         "Custom__PartyTime": "2019-01-15T16:00:00Z",
         "Custom__EstimatedAttendance__c": 100
       }
+      },
+    {
+      "name": "London Summer Festival 18",
+      "id": "a1f1I000000hpToQAI",
+      "description": "It's happening!!",
+      "imageUrl": "https://placehold.it/300x300",
+      "startDate": "2016-09-01",
+      "endDate": "2016-09-10",
+      "lat": 34.3324,
+      "lon": -83.30094,
+      "isFeatured": true,
+      "bannerImageURL": "https://www.publicdomainpictures.net/pictures/150000/velka/banner-header-tapete-145002399028x.jpg",
+      "filterFields": {
+        "EventApi__RegistrationType__c": "Conference",
+        "Custom__IsWheelchairAccessible__c": true,
+        "Custom__EstimatedAttendance__c": 100
       }
+    }
       ]
 }

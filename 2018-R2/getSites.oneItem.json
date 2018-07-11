@@ -26,7 +26,7 @@
             {
                 "recordId": "345678901212",
                 "name": "Optimus Prime",
-                "parent": "",
+                "parent": "Autobot",
                 "type": "Community Page",
                 "page": "testpage",
                 "url": "",

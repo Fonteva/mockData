@@ -1,0 +1,655 @@
+{
+  "filterFields": [
+    {
+      "name": "EventApi__RegistrationType__c",
+      "label": "Registration Type",
+      "type": "picklist",
+      "values": [
+        "Simple",
+        "Conference",
+        "Lightning"
+      ]
+    },
+    {
+      "name": "Custom__IsWheelchairAccessible__c",
+      "label": "Wheelchair Accessible",
+      "type": "boolean"
+    },
+    {
+      "name": "Custom__EstimatedAttendance__c",
+      "label": "Estimated Attendance",
+      "type": "integer"
+    }
+  ],
+  "items": [
+    {
+      "name": "FunCon 2017",
+      "id": "a1f1I000000hpToQAI",
+      "description": "It's happening!!",
+      "imageUrl": "https://wallpaperbrowse.com/media/images/trolltunga.jpg",
+      "startDate": "2019-03-09",
+      "endDate": "2019-03-09",
+      "lat": 34.3324,
+      "lon": -83.30094,
+      "isFeatured": true,
+      "bannerImageURL": "https://www.xmple.com/wallpaper/yellow-checkered-squares-blue-1920x1080-c2-ffd700-afeeee-l-1400-a-65-f-2.svg",
+      "filterFields": {
+        "EventApi__RegistrationType__c": "Simple",
+        "Custom__IsWheelchairAccessible__c": true,
+        "Custom__EarlyBird": "2018-10-10",
+        "Custom__EarlyBirdPrice": "25.50",
+        "Custom__WalkabilityScore": 12.0,
+        "Custom__PartyTime": "2019-01-15T16:00:00Z",
+        "Custom__EstimatedAttendance__c": 100
+      }
+    },
+    {
+      "name": "London Summer Festival",
+      "id": "a1f1I000000hpToQAI",
+      "description": "It's happening!!",
+      "imageUrl": "https://wallpaperbrowse.com/media/images/trolltunga.jpg",
+      "startDate": "2020-09-01",
+      "endDate": "2020-09-01",
+      "lat": 34.3324,
+      "lon": -83.30094,
+      "isFeatured": true,
+      "bannerImageURL": "https://www.publicdomainpictures.net/pictures/150000/velka/banner-header-tapete-145002399028x.jpg",
+      "filterFields": {
+        "EventApi__RegistrationType__c": "Conference",
+        "Custom__IsWheelchairAccessible__c": true,
+        "Custom__EarlyBird": "2018-10-10",
+        "Custom__EarlyBirdPrice": "125.50",
+        "Custom__WalkabilityScore": 6.9,
+        "Custom__PartyTime": "2019-01-15T16:00:00Z",
+        "Custom__EstimatedAttendance__c": 100
+      }
+    },
+    {
+      "name": "London Summer Festival 2",
+      "id": "a1f1I000000hpToQAI",
+      "description": "It's happening!!",
+      "imageUrl": "",
+      "startDate": "2017-01-01",
+      "endDate": "2017-01-10",
+      "lat": 34.3324,
+      "lon": -83.30094,
+      "isFeatured": true,
+      "bannerImageURL": "https://www.publicdomainpictures.net/pictures/150000/velka/banner-header-tapete-145002399028x.jpg",
+      "filterFields": {
+        "EventApi__RegistrationType__c": "Lightning",
+        "Custom__IsWheelchairAccessible__c": true,
+        "Custom__EarlyBird": "2018-10-10",
+        "Custom__EarlyBirdPrice": "25.50",
+        "Custom__WalkabilityScore": 6.9,
+        "Custom__PartyTime": "2019-01-30T16:00:00Z",
+        "Custom__EstimatedAttendance__c": 100
+      }
+    },
+    {
+      "name": "London Summer Festival 3",
+      "id": "a1f1I000000hpToQAI",
+      "description": "It's happening!!",
+      "imageUrl": "https://aaaaaaa.it/300x300",
+      "startDate": "2017-09-01",
+      "endDate": "2017-09-10",
+      "lat": 34.3324,
+      "lon": -83.30094,
+      "isFeatured": true,
+      "bannerImageURL": "https://www.xmple.com/wallpaper/black-triangle-white-2560x1080-c2-000000-f0fff0-l2-280-1400-a-105-f-10.svg",
+      "filterFields": {
+        "EventApi__RegistrationType__c": "Lightning",
+        "Custom__IsWheelchairAccessible__c": true,
+        "Custom__EarlyBird": "2018-10-10",
+        "Custom__EarlyBirdPrice": "125.50",
+        "Custom__WalkabilityScore": 16.9,
+        "Custom__PartyTime": "2019-01-15T16:00:00Z",
+        "Custom__EstimatedAttendance__c": 100
+      }
+    },
+    {
+      "name": "London Summer Festival 4",
+      "id": "a1f1I000000hpToQAI",
+      "description": "It's happening!!",
+      "imageUrl": "https://placehold.it/300x300",
+      "startDate": "2017-09-01",
+      "endDate": "2017-09-10",
+      "lat": 34.3324,
+      "lon": -83.30094,
+      "isFeatured": true,
+      "bannerImageURL": "https://www.publicdomainpictures.net/pictures/150000/velka/banner-header-tapete-145002399028x.jpg",
+      "filterFields": {
+        "EventApi__RegistrationType__c": "Simple",
+        "Custom__IsWheelchairAccessible__c": true,
+        "Custom__EarlyBird": "2018-08-10",
+        "Custom__EarlyBirdPrice": "25.50",
+        "Custom__WalkabilityScore": 0.9,
+        "Custom__PartyTime": "2019-02-15T16:00:00Z",
+        "Custom__EstimatedAttendance__c": 100
+      }
+    },
+    {
+      "name": "London Summer Festival 5",
+      "id": "a1f1I000000hpToQAI",
+      "description": "It's happening!!",
+      "imageUrl": "https://placehold.it/300x300",
+      "startDate": "2017-09-01",
+      "endDate": "2017-09-10",
+      "lat": 34.3324,
+      "lon": -83.30094,
+      "isFeatured": true,
+      "bannerImageURL": "https://www.publicdomainpictures.net/pictures/150000/velka/banner-header-tapete-145002399028x.jpg",
+      "filterFields": {
+        "EventApi__RegistrationType__c": "Conference",
+        "Custom__IsWheelchairAccessible__c": true,
+        "Custom__EarlyBird": "2018-10-10",
+        "Custom__EarlyBirdPrice": "25.00",
+        "Custom__WalkabilityScore": 6.9,
+        "Custom__PartyTime": "2019-01-15T20:00:00Z",
+        "Custom__EstimatedAttendance__c": 100
+      }
+    },
+    {
+      "name": "London Summer Festival 6",
+      "id": "a1f1I000000hpToQAI",
+      "description": "It's happening!!",
+      "imageUrl": "https://placehold.it/300x300",
+      "startDate": "2017-09-01",
+      "endDate": "2017-09-10",
+      "lat": 34.3324,
+      "lon": -83.30094,
+      "isFeatured": true,
+      "bannerImageURL": "https://www.publicdomainpictures.net/pictures/150000/velka/banner-header-tapete-145002399028x.jpg",
+      "filterFields": {
+        "EventApi__RegistrationType__c": "Conference",
+        "Custom__IsWheelchairAccessible__c": false,
+        "Custom__EstimatedAttendance__c": 100
+      }
+    },
+    {
+      "name": "London Summer Festival 7",
+      "id": "a1f1I000000hpToQAI",
+      "description": "It's happening!!",
+      "imageUrl": "https://placehold.it/300x300",
+      "startDate": "2017-09-01",
+      "endDate": "2017-09-10",
+      "lat": 34.3324,
+      "lon": -83.30094,
+      "isFeatured": true,
+      "bannerImageURL": "https://www.publicdomainpictures.net/pictures/150000/velka/banner-header-tapete-145002399028x.jpg",
+      "filterFields": {
+        "EventApi__RegistrationType__c": "Conference",
+        "Custom__IsWheelchairAccessible__c": true,
+        "Custom__EarlyBird": "2018-10-10",
+        "Custom__EarlyBirdPrice": "25.50",
+        "Custom__WalkabilityScore": 6.9,
+        "Custom__PartyTime": "2019-01-15T16:00:00Z",
+        "Custom__EstimatedAttendance__c": 100
+      }
+    },
+    {
+      "name": "London Summer Festival 8",
+      "id": "a1f1I000000hpToQAI",
+      "description": "It's happening!!",
+      "imageUrl": "https://placehold.it/300x300",
+      "startDate": "2017-09-01",
+      "endDate": "2017-09-10",
+      "lat": 34.3324,
+      "lon": -83.30094,
+      "filterFields": {
+        "EventApi__RegistrationType__c": "Simple",
+        "Custom__IsWheelchairAccessible__c": false,
+        "Custom__EstimatedAttendance__c": 1000
+      }
+    },
+    {
+      "name": "London Summer Festival 9",
+      "id": "a1f1I000000hpToQAI",
+      "description": "It's happening!!",
+      "imageUrl": "https://placehold.it/300x300",
+      "startDate": "2017-04-22",
+      "endDate": "2017-04-25",
+      "lat": 34.3324,
+      "lon": -83.30094,
+      "filterFields": {
+        "EventApi__RegistrationType__c": "Conference",
+        "Custom__IsWheelchairAccessible__c": true,
+        "Custom__EarlyBird": "2018-10-10",
+        "Custom__EarlyBirdPrice": "25.50",
+        "Custom__WalkabilityScore": 6.9,
+        "Custom__PartyTime": "2019-01-15T16:00:00Z",
+        "Custom__EstimatedAttendance__c": 10
+      }
+    },
+    {
+      "name": "London Summer Festival 10",
+      "id": "a1f1I000000hpToQAI",
+      "description": "It's happening!!",
+      "imageUrl": "https://placehold.it/300x300",
+      "startDate": "2017-09-01",
+      "endDate": "2017-09-10",
+      "lat": 34.3324,
+      "lon": -83.30094,
+      "filterFields": {
+        "EventApi__RegistrationType__c": "Conference",
+        "Custom__IsWheelchairAccessible__c": true,
+        "Custom__EarlyBird": "2018-10-10",
+        "Custom__EarlyBirdPrice": "25.50",
+        "Custom__WalkabilityScore": 6.9,
+        "Custom__PartyTime": "2019-01-15T16:00:00Z",
+        "Custom__EstimatedAttendance__c": 1000
+      }
+    },
+    {
+      "name": "London Summer Festival 11",
+      "id": "a1f1I000000hpToQAI",
+      "description": "It's happening!!",
+      "imageUrl": "https://placehold.it/300x300",
+      "startDate": "2017-09-01",
+      "endDate": "2017-09-10",
+      "lat": 34.3324,
+      "lon": -83.30094,
+      "filterFields": {
+        "EventApi__RegistrationType__c": "Simple",
+        "Custom__IsWheelchairAccessible__c": true,
+        "Custom__EarlyBird": "2018-10-10",
+        "Custom__EarlyBirdPrice": "25.50",
+        "Custom__WalkabilityScore": 6.9,
+        "Custom__PartyTime": "2019-01-15T16:00:00Z",
+        "Custom__EstimatedAttendance__c": 500
+      }
+    },
+    {
+      "name": "London Summer Festival 12",
+      "id": "a1f1I000000hpToQAI",
+      "description": "It's happening!!",
+      "imageUrl": "https://placehold.it/300x300",
+      "startDate": "2017-09-01",
+      "endDate": "2017-09-10",
+      "lat": 34.3324,
+      "lon": -83.30094,
+      "filterFields": {
+        "EventApi__RegistrationType__c": "Conference",
+        "Custom__IsWheelchairAccessible__c": true,
+        "Custom__EarlyBird": "2018-10-10",
+        "Custom__EarlyBirdPrice": "25.50",
+        "Custom__WalkabilityScore": 6.9,
+        "Custom__PartyTime": "2019-01-15T16:00:00Z",
+        "Custom__EstimatedAttendance__c": 50
+      }
+    },
+    {
+      "name": "London Summer Festival 13",
+      "id": "a1f1I000000hpToQAI",
+      "description": "It's happening!!",
+      "imageUrl": "https://placehold.it/300x300",
+      "startDate": "2017-09-01",
+      "endDate": "2017-09-10",
+      "lat": 34.3324,
+      "lon": -83.30094,
+      "filterFields": {
+        "EventApi__RegistrationType__c": "Conference",
+        "Custom__IsWheelchairAccessible__c": true,
+        "Custom__EarlyBird": "2018-10-10",
+        "Custom__EarlyBirdPrice": "25.50",
+        "Custom__WalkabilityScore": 6.9,
+        "Custom__PartyTime": "2019-01-15T16:00:00Z",
+        "Custom__EstimatedAttendance__c": 5
+      }
+    },
+    {
+      "name": "London Summer Festival 14",
+      "id": "a1f1I000000hpToQAI",
+      "description": "It's happening!!",
+      "imageUrl": "https://placehold.it/300x300",
+      "startDate": "2017-09-01",
+      "endDate": "2017-09-10",
+      "lat": 34.3324,
+      "lon": -83.30094,
+      "filterFields": {
+        "EventApi__RegistrationType__c": "Simple",
+        "Custom__IsWheelchairAccessible__c": true,
+        "Custom__EarlyBird": "2018-10-10",
+        "Custom__EarlyBirdPrice": "25.50",
+        "Custom__WalkabilityScore": 6.9,
+        "Custom__PartyTime": "2019-01-15T16:00:00Z",
+        "Custom__EstimatedAttendance__c": 100
+      }
+    },
+    {
+      "name": "London Summer Festival XV",
+      "id": "a1f1I000000hpToQAI",
+      "description": "It's happening!!",
+      "imageUrl": "https://placehold.it/300x300",
+      "startDate": "2017-09-01",
+      "endDate": "2017-09-10",
+      "lat": 34.3324,
+      "lon": -83.30094,
+      "filterFields": {
+        "EventApi__RegistrationType__c": "Conference",
+        "Custom__IsWheelchairAccessible__c": true,
+        "Custom__EarlyBird": "2018-10-10",
+        "Custom__EarlyBirdPrice": "25.50",
+        "Custom__WalkabilityScore": 6.9,
+        "Custom__PartyTime": "2019-01-15T16:00:00Z",
+        "Custom__EstimatedAttendance__c": 100
+      }
+    },
+    {
+      "name": "FunCon 2017 ",
+      "id": "a1f1I000000hpToQAI",
+      "description": "It's happening Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum!!",
+      "imageUrl": "https://wallpaperbrowse.com/media/images/trolltunga.jpg",
+      "startDate": "2018-09-01",
+      "endDate": "2017-09-01",
+      "lat": 34.3324,
+      "lon": -83.30094,
+      "filterFields": {
+        "EventApi__RegistrationType__c": "Conference",
+        "Custom__IsWheelchairAccessible__c": true,
+        "Custom__EstimatedAttendance__c": 100
+      }
+    },
+      {
+      "name": " 1234 London ",
+      "id": "a1f1I000000hpToQAI",
+      "description": "It's happening!!",
+      "imageUrl": "https://wallpaperbrowse.com/media/images/trolltunga.jpg",
+      "startDate": "2020-09-01",
+      "endDate": "2020-09-01",
+      "lat": 34.3324,
+      "lon": -83.30094,
+      "filterFields": {
+        "EventApi__RegistrationType__c": "Conference",
+        "Custom__IsWheelchairAccessible__c": true,
+        "Custom__EstimatedAttendance__c": 100
+      }
+    },
+         {
+      "name": "MDN Learning Area",
+      "id": "a1f1I000000hpToQAI",
+      "description": "It's happening!!",
+      "imageUrl": "https://fonteva-customer-media.s3.amazonaws.com/00D6A000001LqnYUAS/hcYHeaBF_35mi4w9.jpg",
+      "startDate": "2020-09-01",
+      "endDate": "2020-09-01",
+      "lat": 34.3324,
+      "lon": -83.30094,
+      "filterFields": {
+        "EventApi__RegistrationType__c": "Conference",
+        "Custom__IsWheelchairAccessible__c": true,
+        "Custom__EstimatedAttendance__c": 100
+      }
+    },
+      {
+      "name": "ABC London",
+      "id": "a1f1I000000hpToQAI",
+      "description": "It's happening!!",
+      "imageUrl": "https://fonteva-customer-media.s3.amazonaws.com/00D6A000001LqnYUAS/hcYHeaBF_35mi4w9.jpg",
+      "startDate": "2020-09-01",
+      "endDate": "2020-09-01",
+      "lat": 34.3324,
+      "lon": -83.30094,
+      "filterFields": {
+        "EventApi__RegistrationType__c": "Conference",
+        "Custom__IsWheelchairAccessible__c": true,
+        "Custom__EstimatedAttendance__c": 100
+      }
+    },
+    {
+    "name": "London Summer Festival",
+      "id": "a1f1I000000hpToQAI",
+      "description": "It's happening!!",
+      "imageUrl": "https://www.gettyimages.ie/gi-resources/images/Homepage/Hero/UK/CMS_Creative_164657191_Kingfisher.jpg",
+      "startDate": "2017-09-01",
+      "endDate": "2017-09-10",
+      "lat": 34.3324,
+      "lon": -83.30094,
+      "filterFields": {
+        "EventApi__RegistrationType__c": "Conference",
+        "Custom__IsWheelchairAccessible__c": true,
+        "Custom__EstimatedAttendance__c": 1000
+      }
+    },
+    {
+      "name": "London Summer",
+      "id": "a1f1I000000hpToQAI",
+      "description": "It's happening!!",
+      "imageUrl": "https://fonteva-customer-media.s3.amazonaws.com/00D6A000001LqnYUAS/hcYHeaBF_35mi4w9.jpg",
+      "startDate": "2017-09-01",
+      "endDate": "2017-09-10",
+      "lat": 34.3324,
+      "lon": -83.30094,
+      "filterFields": {
+        "EventApi__RegistrationType__c": "Simple",
+        "Custom__IsWheelchairAccessible__c": true,
+        "Custom__EstimatedAttendance__c": 500
+      }
+    },
+    {
+      "name": "Festival 12",
+      "id": "a1f1I000000hpToQAI",
+      "description": "It's happening!!",
+      "imageUrl": "https://fonteva-customer-media.s3.amazonaws.com/00D6A000001LqnYUAS/hcYHeaBF_35mi4w9.jpg",
+      "startDate": "2017-09-01",
+      "endDate": "2017-09-10",
+      "lat": 34.3324,
+      "lon": -83.30094,
+      "filterFields": {
+        "EventApi__RegistrationType__c": "Conference",
+        "Custom__IsWheelchairAccessible__c": true,
+        "Custom__EstimatedAttendance__c": 50
+      }
+    },
+    {
+      "name": "London Event ",
+      "id": "a1f1I000000hpToQAI",
+      "description": "It's happening!!",
+      "imageUrl": "https://wallpaperbrowse.com/media/images/trolltunga.jpg",
+      "startDate": "2017-09-01",
+      "endDate": "2017-09-10",
+      "lat": 34.3324,
+      "lon": -83.30094,
+      "filterFields": {
+        "EventApi__RegistrationType__c": "Conference",
+        "Custom__IsWheelchairAccessible__c": true,
+        "Custom__EstimatedAttendance__c": 5
+      }
+    },
+    {
+      "name": "London Summer Festival 14",
+      "id": "a1f1I000000hpToQAI",
+      "description": "It's happening!!",
+      "imageUrl": "https://wallpaperbrowse.com/media/images/trolltunga.jpg",
+      "startDate": "2017-09-01",
+      "endDate": "2017-09-10",
+      "lat": 34.3324,
+      "lon": -83.30094,
+      "filterFields": {
+        "EventApi__RegistrationType__c": "Simple",
+        "Custom__IsWheelchairAccessible__c": true,
+        "Custom__EstimatedAttendance__c": 100
+      }
+    },
+    {
+     "name": "Articles coding simple ",
+      "id": "a1f1I000000hpToQAI",
+      "description": "It's happening!!",
+      "imageUrl": "https://www.gettyimages.ie/gi-resources/images/Homepage/Hero/UK/CMS_Creative_164657191_Kingfisher.jpg",
+      "startDate": "2017-09-01",
+      "endDate": "2017-09-10",
+      "lat": 34.3324,
+      "lon": -83.30094,
+      "filterFields": {
+        "EventApi__RegistrationType__c": "Conference",
+        "Custom__IsWheelchairAccessible__c": true,
+        "Custom__EstimatedAttendance__c": 1000
+      }
+    },
+    {
+      "name": "Beginners development ",
+      "id": "a1f1I000000hpToQAI",
+      "description": "It's happening!!",
+      "imageUrl": "https://fonteva-customer-media.s3.amazonaws.com/00D6A000001LqnYUAS/hcYHeaBF_35mi4w9.jpg",
+      "startDate": "2017-09-01",
+      "endDate": "2017-09-10",
+      "lat": 34.3324,
+      "lon": -83.30094,
+      "filterFields": {
+        "EventApi__RegistrationType__c": "Simple",
+        "Custom__IsWheelchairAccessible__c": true,
+        "Custom__EstimatedAttendance__c": 500
+      }
+    },
+    {
+      "name": "Aims provide coding",
+      "id": "a1f1I000000hpToQAI",
+      "description": "It's happening!!",
+      "imageUrl": "https://placehold.it/350x350",
+      "startDate": "2017-09-01",
+      "endDate": "2017-09-10",
+      "lat": 34.3324,
+      "lon": -83.30094,
+      "filterFields": {
+        "EventApi__RegistrationType__c": "Conference",
+        "Custom__IsWheelchairAccessible__c": true,
+        "Custom__EstimatedAttendance__c": 50
+      }
+    },
+    {
+      "name": "Development coding simple ",
+      "id": "a1f1I000000hpToQAI",
+      "description": "It's happening!!",
+      "imageUrl": "https://wallpaperbrowse.com/media/images/trolltunga.jpg",
+      "startDate": "2017-09-01",
+      "endDate": "2017-09-10",
+      "lat": 34.3324,
+      "lon": -83.30094,
+      "filterFields": {
+        "EventApi__RegistrationType__c": "Conference",
+        "Custom__IsWheelchairAccessible__c": true,
+        "Custom__EstimatedAttendance__c": 5
+      }
+    },
+    {
+      "name": "London Summer Festival XV articles aims to provide complete beginners to web development with all they need to start coding simple ",
+      "id": "a1f1I000000hpToQAI",
+      "description": "It's happening!!",
+      "imageUrl": "https://placehold.it/300x300",
+      "startDate": "2017-09-01",
+      "endDate": "2017-09-10",
+      "lat": 34.3324,
+      "lon": -83.30094,
+      "filterFields": {
+        "EventApi__RegistrationType__c": "Conference",
+        "Custom__IsWheelchairAccessible__c": true,
+        "Custom__EstimatedAttendance__c": 100
+      }
+    },
+    {
+      "name": "London Summer Festival 2^4 articles aims to provide complete beginners to web development with all they need to start coding simple ",
+      "id": "a1f1I000000hpToQAI",
+      "description": "It's happening!!",
+      "imageUrl": "https://placehold.it/300x300",
+      "startDate": "2017-09-01",
+      "endDate": "2017-09-10",
+      "lat": 34.3324,
+      "lon": -83.30094,
+      "filterFields": {
+        "EventApi__RegistrationType__c": "Conference",
+        "Custom__IsWheelchairAccessible__c": true,
+        "Custom__EstimatedAttendance__c": 100
+      }
+    },
+     {
+      "name": "London Summer Festival 2^4 articles aims to provide complete beginners to web development with all they need to start coding simple ",
+      "id": "a1f1I000000hpToQAI",
+      "description": "It's happening!!",
+      "imageUrl": "https://placehold.it/300x300",
+      "startDate": "2017-09-01",
+      "endDate": "2017-09-10",
+      "lat": 34.3324,
+      "lon": -83.30094,
+      "filterFields": {
+        "EventApi__RegistrationType__c": "Conference",
+        "Custom__IsWheelchairAccessible__c": true,
+        "Custom__EstimatedAttendance__c": 100
+      }
+    },
+     {
+      "name": "London Summer Festival 2^4 articles aims to provide complete beginners to web development with all they need to start coding simple ",
+      "id": "a1f1I000000hpToQAI",
+      "description": "It's happening!!",
+      "imageUrl": "https://placehold.it/300x300",
+      "startDate": "2017-09-01",
+      "endDate": "2017-09-10",
+      "lat": 34.3324,
+      "lon": -83.30094,
+      "filterFields": {
+        "EventApi__RegistrationType__c": "Conference",
+        "Custom__IsWheelchairAccessible__c": true,
+        "Custom__EstimatedAttendance__c": 100
+      }
+    },
+     {
+      "name": "London Summer Festival 2^4 articles aims to provide complete beginners to web development with all they need to start coding simple ",
+      "id": "a1f1I000000hpToQAI",
+      "description": "It's happening!!",
+      "imageUrl": "https://placehold.it/300x300",
+      "startDate": "2017-09-01",
+      "endDate": "2017-09-10",
+      "lat": 34.3324,
+      "lon": -83.30094,
+      "filterFields": {
+        "EventApi__RegistrationType__c": "Conference",
+        "Custom__IsWheelchairAccessible__c": true,
+        "Custom__EstimatedAttendance__c": 100
+      }
+    },
+    {
+      "name": "London Summer Festival 17",
+      "id": "a1f1I000000hpToQAI",
+      "description": "It's happening!!",
+      "imageUrl": "https://placehold.it/300x300",
+      "startDate": "2017-09-01",
+      "endDate": "2017-09-10",
+      "lat": 34.3324,
+      "lon": -83.30094,
+      "filterFields": {
+        "EventApi__RegistrationType__c": "Conference",
+        "Custom__IsWheelchairAccessible__c": true,
+        "Custom__EstimatedAttendance__c": 100
+      }
+    },
+    {
+      "name": "London Summer Festival 18",
+      "id": "a1f1I000000hpToQAI",
+      "description": "It's happening!!",
+      "imageUrl": "https://placehold.it/300x300",
+      "startDate": "2017-09-01",
+      "endDate": "2017-09-10",
+      "lat": 34.3324,
+      "lon": -83.30094,
+      "isFeatured": true,
+      "bannerImageURL": "https://www.publicdomainpictures.net/pictures/150000/velka/banner-header-tapete-145002399028x.jpg",
+      "filterFields": {
+        "EventApi__RegistrationType__c": "Conference",
+        "Custom__IsWheelchairAccessible__c": true,
+        "Custom__EstimatedAttendance__c": 100
+      }
+    },
+     {
+      "name": "London ",
+      "id": "a1f1I000000hpToQAI",
+      "description": "It's happening!!",
+      "imageUrl": "https://placehold.it/300x300",
+      "startDate": "2020-09-01",
+      "endDate": "2020-09-01",
+      "lat": 34.3324,
+      "lon": -83.30094,
+      "filterFields": {
+        "EventApi__RegistrationType__c": "Conference",
+        "Custom__IsWheelchairAccessible__c": true,
+        "Custom__EstimatedAttendance__c": 100
+      }
+    }
+  ]
+}

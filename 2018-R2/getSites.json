@@ -172,9 +172,34 @@
         ],
         "menuItems" : [
             {
+                "recordId" : "14123",
+                "name" : "Grass",
+                "parent" : "",
+                "type" : "Community Page",
+                "page" : "testpage",
+                "url" : "https://google.com",
+                "action" : "",
+                "openNewTab" : true,
+                "moreLink" : false,
+                "objType" : "",
+                "defaultListView" : "",
+                "enableAccessPermissions" : false,
+                "isPublic" : false,
+                "order" : 0,
+                "languages" : [
+                    { "name" : "ENG", "language" : "English" },
+                    { "name" : "JPN", "language" : "Japanese"}
+                ],
+                "childMenuItems" : [
+                    { "name" : "child 1", "url" : "https://google.com/" },
+                    { "name" : "child 2", "url" : "https://google.com/" },
+                    { "name" : "child 3", "url" : "https://google.com/" }
+                ]
+            },
+            {
                 "recordId" : "89789123",
                 "name" : "Bulbasaur",
-                "parent" : "Grass",
+                "parent" : "14123",
                 "type" : "Community Page",
                 "page" : "testpage",
                 "url" : "https://google.com",
@@ -199,7 +224,7 @@
             {
                 "recordId" : "3124123",
                 "name" : "Ivysaur",
-                "parent" : "Grass",
+                "parent" : "14123",
                 "type" : "Global Action",
                 "page" : "testpage",
                 "url" : "",
@@ -224,7 +249,7 @@
             {
                 "recordId" : "1234123",
                 "name" : "Venusaur",
-                "parent" : "Grass",
+                "parent" : "14123",
                 "type" : "Menu Label",
                 "page" : "testpage",
                 "url" : "",

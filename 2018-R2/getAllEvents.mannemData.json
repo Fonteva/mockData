@@ -10,6 +10,11 @@
         "Lightning"
       ]
     },
+     {
+      "name": "EventApi__Start_Date__c",
+      "label": "Start Date",
+      "type": "date"
+    },
     {
       "name": "Custom__IsWheelchairAccessible__c",
       "label": "Wheelchair Accessible",

@@ -2,6 +2,7 @@
     {
         "recordId": "234567890",
         "name": "Transformers",
+        "isDefault": true,
         "menuItems": [
             {
                 "recordId": "1234123",

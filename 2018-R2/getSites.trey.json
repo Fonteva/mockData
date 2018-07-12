@@ -23,7 +23,7 @@
                 "name": "Child 2",
                 "parent": "12345",
                 "url": "https://google.com/child2",
-                childMenuItems : [
+                "childMenuItems" : [
                   {"recordId": "345678901212", "name" :"grand child 1", "url": "https://google.com/child3"}
                 ]
             },

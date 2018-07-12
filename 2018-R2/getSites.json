@@ -60,6 +60,7 @@
                 "enableAccessPermissions": false,
                 "isPublic": false,
                 "order": 0,
+
                 "languages": [
                     {
                         "name": "ENG",
@@ -773,7 +774,7 @@
             {
                 "recordId" : "9045212387123",
                 "name" : "Sandslash",
-                "parent" : "Ground",
+                "parent" : "671523789",
                 "type" : "Menu Label",
                 "page" : "testpage",
                 "url" : "",
@@ -794,6 +795,12 @@
                     { "name" : "child 2", "url" : "https://google.com/" },
                     { "name" : "child 3", "url" : "https://google.com/" }
                 ]
+            },
+            {
+                "name" : "Ground",
+                "url" : 'www.example.com',
+                "recordId" : '671523789',
+                "isParent" : true
             },
             {
                 "recordId" : "9045212387123",

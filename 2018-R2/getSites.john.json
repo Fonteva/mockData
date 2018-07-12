@@ -11,19 +11,16 @@
                 "url": "https://google.com"
             },
             {
-                "recordId": "345678901212",
+                "recordId": "345612378901212",
                 "name": "Pptus prime 2",
-                "parent": "Something",
+                "parent": "1234123",
                 "url": "https://google.com"
             },
             {
                 "recordId": "345678901212",
                 "name": "Optimus Prime",
-                "parent": "Something",
-                "url": "https://google.com",
-                "childMenuItems" : [
-                    {"name" : "Name 2", "url" : "https://google.co.au"}
-                ]
+                "parent": "1234123",
+                "url": "https://google.com"
             }
         ]
     }

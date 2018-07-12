@@ -7,17 +7,17 @@
                 "recordId": "1234123",
                 "name": "Something",
                 "parent": "",
-                "url": "https://google.com",
+                "url": "https://google.com"
             },
             {
                 "recordId": "345678901212",
-                "name": "Optimus Prime",
+                "name": "Pptus prime 2",
                 "parent": "Something",
                 "url": "https://google.com"
             },
             {
-                "recordId": "34567812",
-                "name": "Something Else",
+                "recordId": "345678901212",
+                "name": "Optimus Prime",
                 "parent": "Something",
                 "url": "https://google.com",
                 "childMenuItems" : [

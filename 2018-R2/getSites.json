@@ -853,9 +853,6 @@
                 "languages" : [
                     { "name" : "ENG", "language" : "english" },
                     { "name" : "JPN", "language" : "japanese"}
-                ],
-                "childMenuItems" : [
-                    {"name" : "Name 2", "url" : "https://google.co.au"}
                 ]
             }
         ]

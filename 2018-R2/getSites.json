@@ -74,7 +74,7 @@
             {
                 "recordId": "34567328901212",
                 "name": "Bumblebee",
-                "parent": "Autobot",
+                "parent": "",
                 "type": "Community Page",
                 "page": "testpage",
                 "url": "https://google.com",

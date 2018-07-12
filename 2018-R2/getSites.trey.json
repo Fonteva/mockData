@@ -69,34 +69,4 @@
                 "name": "PLY",
                 "language": "Samoan"
             }
-        ],
-        "menuItems": [
-            {
-                "recordId": "345678901212",
-                "name": "Dwayne 'The Rock' Johnson",
-                "parent": "WWE",
-                "type": "External URL",
-                "page": "testpage",
-                "url": "https://therock.com",
-                "action": "",
-                "openNewTab": true,
-                "moreLink": false,
-                "objType": "",
-                "defaultListView": "",
-                "enableAccessPermissions": false,
-                "isPublic": false,
-                "order": 0,
-                "languages": [
-                    {
-                        "name": "ENG",
-                        "language": "English"
-                    },
-                    {
-                        "name": "ASN",
-                        "language": "Asian"
-                    }
-                ]
-            }
-        ]
-    }
 ]

@@ -26,6 +26,12 @@
       "type": "integer"
     }
   ],
+  "radiusOptions": [
+    5,
+    20,
+    80,
+    160
+  ],
   "items": [
     {
       "name": "FunCon 2017",

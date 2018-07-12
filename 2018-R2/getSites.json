@@ -20,9 +20,35 @@
         ],
         "menuItems": [
             {
+                "recordId": "412312",
+                "name": "Autobot",
+                "parent": "",
+                "type": "Community Page",
+                "page": "testpage",
+                "url": "https://google.com",
+                "action": "",
+                "openNewTab": true,
+                "moreLink": false,
+                "objType": "",
+                "defaultListView": "",
+                "enableAccessPermissions": false,
+                "isPublic": false,
+                "order": 0,
+                "languages": [
+                    {
+                        "name": "ENG",
+                        "language": "English"
+                    },
+                    {
+                        "name": "JPN",
+                        "language": "Japanese"
+                    }
+                ]
+            },
+            {
                 "recordId": "345678901212",
                 "name": "Optimus Prime",
-                "parent": "",
+                "parent": "412312",
                 "type": "Community Page",
                 "page": "testpage",
                 "url": "https://google.com",

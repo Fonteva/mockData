@@ -1,0 +1,30 @@
+[
+    {
+        "recordId": "234567890",
+        "name": "Transformers",
+        "isDefault": true,
+        "menuItems": [
+            {
+                "recordId": "1234123",
+                "name": "Something",
+                "parent": "",
+                "url": "https://google.com"
+            },
+            {
+                "recordId": "345678901212",
+                "name": "Pptus prime 2",
+                "parent": "Something",
+                "url": "https://google.com"
+            },
+            {
+                "recordId": "345678901212",
+                "name": "Optimus Prime",
+                "parent": "Something",
+                "url": "https://google.com",
+                "childMenuItems" : [
+                    {"name" : "Name 2", "url" : "https://google.co.au"}
+                ]
+            }
+        ]
+    }
+]

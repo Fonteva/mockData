@@ -60,6 +60,7 @@
                 "enableAccessPermissions": false,
                 "isPublic": false,
                 "order": 0,
+
                 "languages": [
                     {
                         "name": "ENG",
@@ -773,7 +774,6 @@
             {
                 "recordId" : "9045212387123",
                 "name" : "Sandslash",
-                "parent" : "Ground",
                 "type" : "Menu Label",
                 "page" : "testpage",
                 "url" : "",

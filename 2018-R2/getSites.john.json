@@ -21,6 +21,27 @@
                 "name": "Optimus Prime",
                 "parent": "1234123",
                 "url": "https://google.com"
+            },
+
+
+            //2nd menu Item
+            {
+                "recordId": "781364",
+                "name": "Something 2",
+                "parent": "",
+                "url": "https://google.com"
+            },
+            {
+                "recordId": "i485901234",
+                "name": "Something 2 Child 1",
+                "parent": "781364",
+                "url": "https://google.com"
+            },
+            {
+                "recordId": "9302849023",
+                "name": "Something 2 Child 2",
+                "parent": "781364",
+                "url": "https://google.com"
             }
         ]
     }

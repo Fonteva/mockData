@@ -200,8 +200,8 @@
       "filterFields": {
         "EventApi__RegistrationType__c": "Simple",
         "Custom__IsWheelchairAccessible__c": false,
-        "Custom__EstimatedAttendance__c": 1000
-         "Custom__WalkabilityScore": 20,
+        "Custom__EstimatedAttendance__c": 1000,
+         "Custom__WalkabilityScore": 20
       }
     },
     {

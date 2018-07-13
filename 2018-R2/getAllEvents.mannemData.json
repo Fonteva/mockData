@@ -20,6 +20,11 @@
       "label": "Wheelchair Accessible",
       "type": "boolean"
     },
+       {
+      "name": "Custom__WalkabilityScore",
+      "label": "Walkability Score",
+      "type": "decimal"
+    },
     {
       "name": "Custom__EstimatedAttendance__c",
       "label": "Estimated Attendance",
@@ -178,7 +183,7 @@
         "Custom__IsWheelchairAccessible__c": true,
         "Custom__EarlyBird": "2018-10-10",
         "Custom__EarlyBirdPrice": "25.50",
-        "Custom__WalkabilityScore": 6.9,
+        "Custom__WalkabilityScore": 20,
         "Custom__PartyTime": "2019-01-15T16:00:00Z",
         "Custom__EstimatedAttendance__c": 100
       }
@@ -196,6 +201,7 @@
         "EventApi__RegistrationType__c": "Simple",
         "Custom__IsWheelchairAccessible__c": false,
         "Custom__EstimatedAttendance__c": 1000
+         "Custom__WalkabilityScore": 20,
       }
     },
     {

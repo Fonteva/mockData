@@ -90,8 +90,8 @@
       "imageUrl": "https://placehold.it/300x300",
       "startDate": "2017-01-01",
       "endDate": "2017-01-10",
-      "lat": 34.3324,
-      "lon": -83.30094,
+      "lat": 38.881621,
+      "lon": -77.090981,
       "filterFields": {
         "EventApi__RegistrationType__c": "Lightning",
         "Custom__IsWheelchairAccessible__c": true,

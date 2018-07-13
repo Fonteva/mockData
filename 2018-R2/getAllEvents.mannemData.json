@@ -42,8 +42,8 @@
       "imageUrl": "https://wallpaperbrowse.com/media/images/trolltunga.jpg",
       "startDate": "2019-03-09",
       "endDate": "2019-03-09",
-      "lat": 39.179852,
-      "lon": -77.239110,
+      "lat": 39.178906,
+      "lon": -77.239183,
       "filterFields": {
         "EventApi__RegistrationType__c": "Simple",
         "Custom__IsWheelchairAccessible__c": true,

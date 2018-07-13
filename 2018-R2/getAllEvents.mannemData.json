@@ -20,6 +20,11 @@
       "label": "Wheelchair Accessible",
       "type": "boolean"
     },
+       {
+      "name": "Custom__WalkabilityScore",
+      "label": "Walkability Score",
+      "type": "decimal"
+    },
     {
       "name": "Custom__EstimatedAttendance__c",
       "label": "Estimated Attendance",
@@ -42,8 +47,8 @@
       "imageUrl": "https://wallpaperbrowse.com/media/images/trolltunga.jpg",
       "startDate": "2019-03-09",
       "endDate": "2019-03-09",
-      "lat": 39.178906,
-      "lon": -77.239183,
+      "lat": 38.8448791,
+      "lon": -77.4758938,
       "filterFields": {
         "EventApi__RegistrationType__c": "Simple",
         "Custom__IsWheelchairAccessible__c": true,
@@ -171,14 +176,14 @@
       "imageUrl": "https://placehold.it/300x300",
       "startDate": "2017-09-01",
       "endDate": "2017-09-10",
-      "lat": 34.3324,
-      "lon": -83.30094,
+       "lat": 38.8448791,
+      "lon": -77.4758938,
       "filterFields": {
         "EventApi__RegistrationType__c": "Conference",
         "Custom__IsWheelchairAccessible__c": true,
         "Custom__EarlyBird": "2018-10-10",
         "Custom__EarlyBirdPrice": "25.50",
-        "Custom__WalkabilityScore": 6.9,
+        "Custom__WalkabilityScore": 20,
         "Custom__PartyTime": "2019-01-15T16:00:00Z",
         "Custom__EstimatedAttendance__c": 100
       }
@@ -190,12 +195,13 @@
       "imageUrl": "https://placehold.it/300x300",
       "startDate": "2017-09-01",
       "endDate": "2017-09-10",
-      "lat": 34.3324,
-      "lon": -83.30094,
+       "lat": 38.8448791,
+      "lon": -77.4758938,
       "filterFields": {
         "EventApi__RegistrationType__c": "Simple",
         "Custom__IsWheelchairAccessible__c": false,
-        "Custom__EstimatedAttendance__c": 1000
+        "Custom__EstimatedAttendance__c": 1000,
+         "Custom__WalkabilityScore": 20
       }
     },
     {

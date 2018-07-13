@@ -3,7 +3,7 @@
         "recordId": "234567890",
         "name": "Transformers",
         "commId": 0,
-        "isDefault": false,
+        "isDefault": true,
         "isPublished": false,
         "enableCookie": true,
         "enableAccessPermissions": false,
@@ -16,39 +16,17 @@
             {
                 "name": "ENG",
                 "language": "English"
+            },
+            {
+                "name": "JPN",
+                "language": "Japanese"
             }
         ],
         "menuItems": [
             {
-                "recordId": "412312",
-                "name": "Autobot",
-                "parent": "",
-                "type": "Community Page",
-                "page": "testpage",
-                "url": "https://google.com",
-                "action": "",
-                "openNewTab": true,
-                "moreLink": false,
-                "objType": "",
-                "defaultListView": "",
-                "enableAccessPermissions": false,
-                "isPublic": false,
-                "order": 0,
-                "languages": [
-                    {
-                        "name": "ENG",
-                        "language": "English"
-                    },
-                    {
-                        "name": "JPN",
-                        "language": "Japanese"
-                    }
-                ]
-            },
-            {
                 "recordId": "345678901212",
                 "name": "Optimus Prime",
-                "parent": "412312",
+                "parent": "",
                 "type": "Community Page",
                 "page": "testpage",
                 "url": "https://google.com",
@@ -74,7 +52,7 @@
             {
                 "recordId": "34567328901212",
                 "name": "Bumblebee",
-                "parent": "",
+                "parent": "Autobot",
                 "type": "Community Page",
                 "page": "testpage",
                 "url": "https://google.com",
@@ -86,7 +64,6 @@
                 "enableAccessPermissions": false,
                 "isPublic": false,
                 "order": 0,
-
                 "languages": [
                     {
                         "name": "ENG",
@@ -153,10 +130,10 @@
         ]
     },
     {
-        "recordId" : "a22f4000000NeZWAA0",
+        "recordId" : "234567123",
         "name": "Pokemon",
         "commId" : 1,
-        "isDefault" : true,
+        "isDefault" : false,
         "isPublished" : false,
         "enableCookie" : false,
         "enableAccessPermissions" : false,
@@ -172,37 +149,12 @@
         ],
         "menuItems" : [
             {
-                "recordId" : "14123",
-                "name" : "Grass",
-                "parent" : "",
-                "type" : "Community Page",
-                "page" : "testpage",
-                "url" : "https://google.com",
-                "action" : "",
-                "openNewTab" : true,
-                "moreLink" : false,
-                "objType" : "",
-                "defaultListView" : "",
-                "enableAccessPermissions" : false,
-                "isPublic" : false,
-                "order" : 0,
-                "languages" : [
-                    { "name" : "ENG", "language" : "English" },
-                    { "name" : "JPN", "language" : "Japanese"}
-                ],
-                "childMenuItems" : [
-                    { "name" : "child 1", "url" : "https://google.com/" },
-                    { "name" : "child 2", "url" : "https://google.com/" },
-                    { "name" : "child 3", "url" : "https://google.com/" }
-                ]
-            },
-            {
                 "recordId" : "89789123",
                 "name" : "Bulbasaur",
-                "parent" : "14123",
+                "parent" : "Grass",
                 "type" : "Community Page",
                 "page" : "testpage",
-                "url" : "https://googlesadf.com",
+                "url" : "https://facebook.com",
                 "action" : "",
                 "openNewTab" : true,
                 "moreLink" : false,
@@ -224,7 +176,7 @@
             {
                 "recordId" : "3124123",
                 "name" : "Ivysaur",
-                "parent" : "14123",
+                "parent" : "Grass",
                 "type" : "Global Action",
                 "page" : "testpage",
                 "url" : "",
@@ -249,7 +201,7 @@
             {
                 "recordId" : "1234123",
                 "name" : "Venusaur",
-                "parent" : "14123",
+                "parent" : "Grass",
                 "type" : "Menu Label",
                 "page" : "testpage",
                 "url" : "",
@@ -825,6 +777,7 @@
             {
                 "recordId" : "9045212387123",
                 "name" : "Sandslash",
+                "parent" : "Ground",
                 "type" : "Menu Label",
                 "page" : "testpage",
                 "url" : "",
@@ -849,46 +802,6 @@
             {
                 "recordId" : "9045212387123",
                 "name" : "Red",
-                "parent" : "",
-                "type" : "Menu Label",
-                "page" : "testpage",
-                "url" : "https://www.pokemon.com",
-                "action" : "",
-                "openNewTab" : true,
-                "moreLink" : false,
-                "objType" : "",
-                "defaultListView" : "",
-                "enableAccessPermissions" : false,
-                "isPublic" : false,
-                "order" : 0,
-                "languages" : [
-                    { "name" : "ENG", "language" : "english" },
-                    { "name" : "JPN", "language" : "japanese"}
-                ]
-            },
-            {
-                "recordId" : "21312412",
-                "name" : "Blue",
-                "parent" : "",
-                "type" : "Menu Label",
-                "page" : "testpage",
-                "url" : "https://www.pokemon.com",
-                "action" : "",
-                "openNewTab" : true,
-                "moreLink" : false,
-                "objType" : "",
-                "defaultListView" : "",
-                "enableAccessPermissions" : false,
-                "isPublic" : false,
-                "order" : 0,
-                "languages" : [
-                    { "name" : "ENG", "language" : "english" },
-                    { "name" : "JPN", "language" : "japanese"}
-                ]
-            },
-            {
-                "recordId" : "412451",
-                "name" : "Yellow",
                 "parent" : "",
                 "type" : "Menu Label",
                 "page" : "testpage",

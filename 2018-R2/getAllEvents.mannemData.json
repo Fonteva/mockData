@@ -171,7 +171,7 @@
       "imageUrl": "https://placehold.it/300x300",
       "startDate": "2017-09-01",
       "endDate": "2017-09-10",
-      "lat": 38.8448791,
+       "lat": 38.8448791,
       "lon": -77.4758938,
       "filterFields": {
         "EventApi__RegistrationType__c": "Conference",
@@ -190,8 +190,8 @@
       "imageUrl": "https://placehold.it/300x300",
       "startDate": "2017-09-01",
       "endDate": "2017-09-10",
-      "lat": 34.3324,
-      "lon": -83.30094,
+       "lat": 38.8448791,
+      "lon": -77.4758938,
       "filterFields": {
         "EventApi__RegistrationType__c": "Simple",
         "Custom__IsWheelchairAccessible__c": false,

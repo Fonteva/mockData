@@ -81,7 +81,7 @@
       "startDate": "2017-01-01",
       "endDate": "2017-01-10",
       "lat": 39.178906,
-      "lon": -77.239183,,
+      "lon": -77.239183,
       "filterFields": {
         "EventApi__RegistrationType__c": "Lightning",
         "Custom__IsWheelchairAccessible__c": true,

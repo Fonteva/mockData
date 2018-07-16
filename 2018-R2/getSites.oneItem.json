@@ -1,1 +1,54 @@
-'[{"recordId": "234567890", "name": "Transformers", "commId": 0, "isDefault": true, "isPublished": false, "enableCookie": false, "enableAccessPermissions": false, "cookieUrl": "https://bing.com", "acctOverrideUrl": "https://yahoo.com", "defaultEventListing": "List", "logoImage": "https://placehold.it/200x100", "logoUrl": "https://google.com/", "languages": [{"name": "ENG", "language": "English"}, {"name": "JPN", "language": "Japanese"}], "menuItems": [{"recordId": "345678901212", "name": "Optimus Prime", "parent": "Autobot", "type": "Community Page", "page": "testpage", "url": "", "action": "", "openNewTab": false, "moreLink": false, "objType": "", "defaultListView": "", "enableAccessPermissions": false, "isPublic": false, "order": 0, "languages": [{"name": "ENG", "language": "English"}, {"name": "JPN", "language": "Japanese"}]}]}]'
+[
+  {
+    "recordId": "234567890",
+    "name": "Transformers",
+    "commId": 0,
+    "isDefault": true,
+    "isPublished": false,
+    "enableCookie": false,
+    "enableAccessPermissions": false,
+    "cookieUrl": "https://bing.com",
+    "acctOverrideUrl": "https://yahoo.com",
+    "defaultEventListing": "List",
+    "logoImage": "https://placehold.it/200x100",
+    "logoUrl": "https://google.com/",
+    "languages": [
+      {
+        "name": "ENG",
+        "language": "English"
+      },
+      {
+        "name": "JPN",
+        "language": "Japanese"
+      }
+    ],
+    "menuItems": [
+      {
+        "recordId": "345678901212",
+        "name": "Optimus Prime",
+        "parent": "Autobot",
+        "type": "Community Page",
+        "page": "testpage",
+        "url": "",
+        "action": "",
+        "openNewTab": false,
+        "moreLink": false,
+        "objType": "",
+        "defaultListView": "",
+        "enableAccessPermissions": false,
+        "isPublic": false,
+        "order": 0,
+        "languages": [
+          {
+            "name": "ENG",
+            "language": "English"
+          },
+          {
+            "name": "JPN",
+            "language": "Japanese"
+          }
+        ]
+      }
+    ]
+  }
+]

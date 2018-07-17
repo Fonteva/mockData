@@ -100,7 +100,7 @@
   "id":"a1L1I000002BZ1FUAW",
   "isFreeOrder":false,
   "isMultiCurrencyOrg":false,
-  "isPosted":false,
+  "isPosted":true,
   "itemIds":[
     "a171I000000GUf1QAG",
     "a171I000000GUf1QAG"

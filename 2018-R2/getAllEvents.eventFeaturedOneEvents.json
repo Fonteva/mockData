@@ -23,7 +23,7 @@
   ],
   "items": [
     {
-      "name": "FunCon 2017",
+      "name": "FunCon 2018",
       "id": "a1f1I000000hpToQAI",
       "description": "It's happening!!",
       "imageUrl": "https://wallpaperbrowse.com/media/images/trolltunga.jpg",
@@ -32,7 +32,7 @@
       "lat": 34.3324,
       "lon": -83.30094,
       "isFeatured": true,
-      "bannerImageURL": "https://www.xmple.com/wallpaper/yellow-checkered-squares-blue-1920x1080-c2-ffd700-afeeee-l-1400-a-65-f-2.svg",
+      "bannerImageURL": "https://thumbs.dreamstime.com/z/healthy-fresh-raw-food-heart-banner-format-rustic-wood-salmon-assorted-spices-herbs-nuts-peppers-blueberries-90782739.jpg",
       "filterFields": {
         "EventApi__RegistrationType__c": "Simple",
         "Custom__IsWheelchairAccessible__c": true,
@@ -42,23 +42,6 @@
         "Custom__PartyTime": "2019-01-15T16:00:00Z",
         "Custom__EstimatedAttendance__c": 100
       }
-      },
-    {
-      "name": "London Summer Festival 18",
-      "id": "a1f1I000000hpToQAI",
-      "description": "It's happening!!",
-      "imageUrl": "https://placehold.it/300x300",
-      "startDate": "2016-09-01",
-      "endDate": "2016-09-10",
-      "lat": 34.3324,
-      "lon": -83.30094,
-      "isFeatured": true,
-      "bannerImageURL": "https://www.publicdomainpictures.net/pictures/150000/velka/banner-header-tapete-145002399028x.jpg",
-      "filterFields": {
-        "EventApi__RegistrationType__c": "Conference",
-        "Custom__IsWheelchairAccessible__c": true,
-        "Custom__EstimatedAttendance__c": 100
-      }
+      } 
+    ]
     }
-      ]
-}

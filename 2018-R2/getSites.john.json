@@ -1,0 +1,46 @@
+[
+    {
+        "recordId": "234567890",
+        "name": "Transformers",
+        "isDefault": true,
+        "menuItems": [
+            {
+                "recordId": "1234123",
+                "name": "Something",
+                "parent": "",
+                "url": "https://google.com"
+            },
+            {
+                "recordId": "345612378901212",
+                "name": "Pptus prime 2",
+                "parent": "1234123",
+                "url": "https://google.com"
+            },
+            {
+                "recordId": "345678901212",
+                "name": "Optimus Prime",
+                "parent": "1234123",
+                "url": "https://google.com"
+            },
+            
+            {
+                "recordId": "781364",
+                "name": "Something 2",
+                "parent": "",
+                "url": "https://google.com"
+            },
+            {
+                "recordId": "i485901234",
+                "name": "Something 2 Child 1",
+                "parent": "781364",
+                "url": "https://google.com"
+            },
+            {
+                "recordId": "9302849023",
+                "name": "Something 2 Child 2",
+                "parent": "781364",
+                "url": "https://google.com"
+            }
+        ]
+    }
+]

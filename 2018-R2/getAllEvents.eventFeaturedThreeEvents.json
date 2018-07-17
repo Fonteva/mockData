@@ -21,7 +21,7 @@
       "type": "integer"
     }
   ],
-  "items": [
+  "events": [
     {
       "name": "FunCon 2018",
       "id": "a1f1I000000hpToQAI",

@@ -39,6 +39,7 @@
     80,
     160
   ],
+  "enableFilters": true,
   "events": [
     {
       "name": "FunCon 2017",

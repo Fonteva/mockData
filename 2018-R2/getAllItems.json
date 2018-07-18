@@ -69,7 +69,7 @@
   ],
   "items": [
     {
-      "catalogId": "merch",
+      "catalogs": ["merch"],
       "displayName": "Vibram Five Fingers",
       "id": "a1f1I000000hpToQAI",
       "description": "You will love these shoes",

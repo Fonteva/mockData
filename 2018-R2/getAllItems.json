@@ -1,0 +1,94 @@
+{
+  "catalogs": [
+    {
+      "name": "All Catalogs",
+      "size": 590,
+      "id": ""
+    },
+    {
+      "name": "Memberships",
+      "size": 142,
+      "id": "mem"
+    },
+    {
+      "name": "Merchandise",
+      "size": 590,
+      "id": "merch"
+    },
+    {
+      "name": "Publications",
+      "size": 590,
+      "id": "pub"
+    }
+  ],
+  "filterFields": [
+    {
+      "name": "EventApi__RegistrationType__c",
+      "label": "Registration Type",
+      "type": "picklist",
+      "values": [
+        "Simple",
+        "Conference",
+        "Lightning",
+        "Not Used1",
+        "Not Used2",
+        "Not Used3",
+        "Not Used4"
+      ]
+    },
+    {
+      "name": "Custom__IsWheelchairAccessible__c",
+      "label": "Wheelchair Accessible",
+      "type": "boolean"
+    },
+    {
+      "name": "Custom__EarlyBird",
+      "label": "Early Bird Date",
+      "type": "date"
+    },
+    {
+      "name": "Custom__EarlyBirdPrice",
+      "label": "Early Bird Price",
+      "type": "currency"
+    },
+    {
+      "name": "Custom__WalkabilityScore",
+      "label": "Walkability Score",
+      "type": "decimal"
+    },
+    {
+      "name": "Custom__PartyTime",
+      "label": "Party Time",
+      "type": "datetime"
+    },
+    {
+      "name": "Custom__EstimatedAttendance__c",
+      "label": "Estimated Attendance",
+      "type": "integer"
+    }
+  ],
+  "items": [
+    {
+      "catalogId": "merch",
+      "displayName": "Vibram Five Fingers",
+      "id": "a1f1I000000hpToQAI",
+      "description": "You will love these shoes",
+      "imageUrl": "https://placehold.it/300x300",
+      "price": 79.99,
+      "formattedPrice": "$79.99",
+      "priceLabel": "List Price",
+      "formattedDiscountPrice": "$59.99",
+      "discountPrice": 59.99,
+      "discountLabel": "Member Price",
+      "filterFields": {
+        "EventApi__RegistrationType__c": "Simple",
+        "Custom__IsWheelchairAccessible__c": true,
+        "Custom__EarlyBird": "2018-10-10",
+        "Custom__EarlyBirdPrice": "25.50",
+        "Custom__WalkabilityScore": 12.0,
+        "Custom__PartyTime": "2019-01-15T16:00:00Z",
+        "Custom__EstimatedAttendance__c": 100
+      }
+    }
+  ]
+}

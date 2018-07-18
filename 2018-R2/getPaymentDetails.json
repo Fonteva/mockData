@@ -1,0 +1,47 @@
+{
+  "salesOrder" : {
+    "contactName":"Ashish Gupta(P)",
+    "currencyISOCode":"USD",
+    "customerId":"0031I000003BzaWQAS",
+    "contactId": "0031I000003BzaWQAS",
+    "dateFormat":"MM/DD/YYYY",
+    "eCheckRedirectUrl":"https://ashishltef-developer-edition.na73.force.com/apex/orderapif1__epayment_post?gateway_token=<<gatewayToken>>&sales_order=a1L1I000002BZ1FUAW&customerId=<<customerId>>&contactId=<<contactId>>",
+    "enableDiscountCount":true,
+    "enableSavePayment":true,
+    "hasTaxItems":false,
+    "id":"a1L1I000002BZ1FUAW",
+    "isMultiCurrencyOrg":false,
+    "isPosted":false
+  },
+  "store" : {
+    "accountMatchCriteria":"All Accounts",
+    "businessGroup":"a0p1I000000Qa6eQAC",
+    "contactMatchRule":"EMAIL",
+    "defaultCheckout":"Guest Checkout",
+    "enableAccountSearch":false,
+    "enableInvoicePayment":true,
+    "environmentKey":"5qioLVp7qJfaCzf1VB5GuFtplXG",
+    "gateway":"a1A1I000000QxJwUAK",
+    "guestCheckoutEnabled":true,
+    "id":"a1S1I0000006Q7qUAE",
+    "name":"ltestore",
+    "requireContactMatchRuleField":false,
+    "showMatchField":false
+  },
+  "site" : {
+    "id":"a0c1I000000MypPQAS",
+    "name":"ltesite",
+    "pathPrefix":"/s",
+    "socialUrlsEnabled":false,
+    "store":"a1S1I0000006Q7qUAE"
+  },
+  "user" : {
+    "accountId":"0011I00000OTa5SQAT",
+    "contactId":"0031I000003BzaWQAS",
+    "id":"0051I000000a5qUQAQ",
+    "isAuthenticated":true,
+    "isContactAuthenticated":false,
+    "smallPhotoUrl":"/profilephoto/005/T",
+    "usrName":"Ashish Gupta(P)"
+  }
+}

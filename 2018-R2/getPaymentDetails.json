@@ -8,7 +8,6 @@
     "eCheckRedirectUrl":"https://ashishltef-developer-edition.na73.force.com/apex/orderapif1__epayment_post?gateway_token=<<gatewayToken>>&sales_order=a1L1I000002BZ1FUAW&customerId=<<customerId>>&contactId=<<contactId>>",
     "enableDiscountCount":true,
     "enableSavePayment":true,
-    "hasTaxItems":false,
     "id":"a1L1I000002BZ1FUAW",
     "isMultiCurrencyOrg":false,
     "isPosted":false
@@ -21,7 +20,7 @@
     "enableAccountSearch":false,
     "enableInvoicePayment":true,
     "environmentKey":"5qioLVp7qJfaCzf1VB5GuFtplXG",
-    "gateway":"a1A1I000000QxJwUAK",
+    "paymentGateway":"a1A1I000000QxJwUAK",
     "guestCheckoutEnabled":true,
     "id":"a1S1I0000006Q7qUAE",
     "name":"ltestore",
@@ -42,6 +41,6 @@
     "isAuthenticated":true,
     "isContactAuthenticated":false,
     "smallPhotoUrl":"/profilephoto/005/T",
-    "usrName":"Ashish Gupta(P)"
+    "name":"Ashish Gupta(P)"
   }
 }

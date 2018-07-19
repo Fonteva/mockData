@@ -20,7 +20,7 @@
     "enableAccountSearch":false,
     "enableInvoicePayment":true,
     "environmentKey":"5qioLVp7qJfaCzf1VB5GuFtplXG",
-    "paymentGateway":"a1A1I000000QxJwUAK",
+    "gateway":"a1A1I000000QxJwUAK",
     "guestCheckoutEnabled":true,
     "id":"a1Uf200000AoF3p",
     "name":"ltestore",
@@ -41,6 +41,6 @@
     "isAuthenticated":true,
     "isContactAuthenticated":false,
     "smallPhotoUrl":"/profilephoto/005/T",
-    "name":"Ashish Gupta(P)"
+    "usrName":"Ashish Gupta(P)"
   }
 }

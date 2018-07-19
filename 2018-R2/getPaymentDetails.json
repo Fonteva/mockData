@@ -27,13 +27,6 @@
     "requireContactMatchRuleField":false,
     "showMatchField":false
   },
-  "site" : {
-    "id":"a24f2000000NlJb",
-    "name":"Community First Site",
-    "pathPrefix":"/s",
-    "socialUrlsEnabled":false,
-    "store":"a1S1I0000006Q7qUAE"
-  },
   "user" : {
     "accountId":"001f200001ZYMyr",
     "contactId":"003f200002QyqPP",

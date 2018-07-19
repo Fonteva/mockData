@@ -69,10 +69,11 @@
   ],
   "items": [
     {
-      "catalogs": ["merch"],
+      "catalogs": ["item_catalog__c.catalog_id__c"],
       "displayName": "Vibram Five Fingers",
       "id": "a1f1I000000hpToQAI",
-      "description": "You will love these shoes",
+      "lineDescription": "You will love these shoes",
+      "description": "Also Zoidberg. I just want to talk. It has nothing to do with mating. Fry, that doesn't make sense. I'm just glad my fat, ugly mama isn't alive to see this day. I decline the title of Iron Cook and accept the lesser title of Zinc Saucier, which I just made up. Uhh… also, comes with double prize money.",
       "imageUrl": "https://placehold.it/300x300",
       "price": 79.99,
       "formattedPrice": "$79.99",

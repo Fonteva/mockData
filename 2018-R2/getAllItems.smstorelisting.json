@@ -21,7 +21,7 @@
       "id": "pub"
     }
   ],
-  "currencyIsoCode": "USD",
+  "currencyIsoCode": "GBP",
   "isMultiCurrencyOrg": false,
   "filterFields": [
     {
@@ -155,6 +155,44 @@
       "lineDescription": "Because 6 is better than 5.",
       "description": "Also Zoidberg. I just want to talk. It has nothing to do with mating. Fry, that doesn't make sense. I'm just glad my fat, ugly mama isn't alive to see this day. I decline the title of Iron Cook and accept the lesser title of Zinc Saucier, which I just made up. Uhh… also, comes with double prize money.",
       "imageUrl": "https://placehold.it/300x300",
+      "price": 89.99,
+      "priceLabel": "Sweet Price",
+      "filterFields": {
+        "EventApi__RegistrationType__c": "Simple",
+        "Custom__IsWheelchairAccessible__c": true,
+        "Custom__EarlyBird": "2018-10-10",
+        "Custom__EarlyBirdPrice": "25.50",
+        "Custom__WalkabilityScore": 12.0,
+        "Custom__PartyTime": "2019-01-15T16:00:00Z",
+        "Custom__EstimatedAttendance__c": 100
+      }
+    },
+      {
+      "catalogs": ["item_catalog__c.catalog_id__c"],
+      "displayName": "Book",
+      "id": "a1f1I000000hpToQE",
+      "lineDescription": "Because 6 is better than 5.",
+      "description": "Also Zoidberg. I just want to talk. It has nothing to do with mating. Fry, that doesn't make sense. I'm just glad my fat, ugly mama isn't alive to see this day. I decline the title of Iron Cook and accept the lesser title of Zinc Saucier, which I just made up. Uhh… also, comes with double prize money.",
+      "imageUrl": "https://mk0ryrobg0ysk5t06n.kinstacdn.com/wp-content/uploads/2017/03/Best-Business-Books-Start-With-Why-Simon-Sinek.jpg",
+      "price": 89.99,
+      "priceLabel": "Sweet Price",
+      "filterFields": {
+        "EventApi__RegistrationType__c": "Simple",
+        "Custom__IsWheelchairAccessible__c": true,
+        "Custom__EarlyBird": "2018-10-10",
+        "Custom__EarlyBirdPrice": "25.50",
+        "Custom__WalkabilityScore": 12.0,
+        "Custom__PartyTime": "2019-01-15T16:00:00Z",
+        "Custom__EstimatedAttendance__c": 100
+      }
+    },
+    {
+      "catalogs": ["item_catalog__c.catalog_id__c"],
+      "displayName": "Notepad",
+      "id": "a1f1I000000hpToQF",
+      "lineDescription": "Because 6 is better than 5.",
+      "description": "Also Zoidberg. I just want to talk. It has nothing to do with mating. Fry, that doesn't make sense. I'm just glad my fat, ugly mama isn't alive to see this day. I decline the title of Iron Cook and accept the lesser title of Zinc Saucier, which I just made up. Uhh… also, comes with double prize money.",
+      "imageUrl": "https://ii.worldmarket.com/fcgi-bin/iipsrv.fcgi?FIF=/images/worldmarket/source/30376_XXX_v1.tif&wid=650&cvt=jpeg",
       "price": 89.99,
       "priceLabel": "Sweet Price",
       "filterFields": {

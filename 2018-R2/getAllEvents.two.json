@@ -21,6 +21,7 @@
       "type": "integer"
     }
   ],
+  "enableFilters": true,
   "events": [
     {
       "name": "FunCon 2017",

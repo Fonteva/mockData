@@ -162,9 +162,9 @@
       "description": "Also Zoidberg. I just want to talk. It has nothing to do with mating. Fry, that doesn't make sense. I'm just glad my fat, ugly mama isn't alive to see this day. I decline the title of Iron Cook and accept the lesser title of Zinc Saucier, which I just made up. Uhh… also, comes with double prize money.",
       "imageUrl": "https://socialmediaseo.net/wp-content/uploads/2010/05/500px-android-logosvg-300x300.png",
       "price": 79.99,
-      "priceLabel": "List Price",
+      "priceLabel": "conditional type mappings List Price",
       "discountPrice": 59.99,
-      "discountLabel": "Member Price",
+      "discountLabel": "conditional type mappings Member Price",
       "filterFields": {
         "EventApi__RegistrationType__c": "Simple",
         "Custom__IsWheelchairAccessible__c": true,

@@ -80,7 +80,7 @@
       "price": 79.99,
       "priceLabel": "mannemStoreListing List Price",
       "discountPrice": 59.99,
-      "discountLabel": "mannemStoreListing Member Price",
+      "discountLabel": "mannemStoreListing Member Price conditional type mappings",
       "filterFields": {
         "EventApi__RegistrationType__c": "Simple",
         "Custom__IsWheelchairAccessible__c": true,

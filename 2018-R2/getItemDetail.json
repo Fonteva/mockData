@@ -1,0 +1,13 @@
+{
+  "id": "abc",
+  "displayName": "Vibram Five Fingers",
+  "categoryPath": "Merchandise > Mens > Shoes > Running",
+  "lineDescription": "Hi-Tech meets high impact in these durable performance-based Vibram Five-Fingers athletic shoes",
+  "images": ["https://placehold.it/425x425",
+    "https://placehold.it/425x425",
+    "https://placehold.it/425x425",
+    "https://placehold.it/425x425"],
+  "attributes": [],
+  "sharing": [],
+  "bundledItems": []
+}

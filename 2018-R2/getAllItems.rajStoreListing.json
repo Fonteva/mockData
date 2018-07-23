@@ -40,7 +40,25 @@
     160
   ],
   "enableFilters": true,
-  "events": [
+  "events": [ {
+      "name": "London Summer Festival 7",
+      "id": "a1f1I000000hpToQAI",
+      "description": "It's happening!!",
+      "imageUrl": "https://placehold.it/300x300",
+      "startDate": "2017-09-01",
+      "endDate": "2017-09-10",
+      "lat": 33.3324,
+      "lon": -82.30094,
+      "filterFields": {
+        "EventApi__RegistrationType__c": "Conference",
+        "Custom__IsWheelchairAccessible__c": true,
+        "Custom__EarlyBird": "2018-10-10",
+        "Custom__EarlyBirdPrice": "25.50",
+        "Custom__WalkabilityScore": 6.9,
+        "Custom__PartyTime": "2019-01-15T16:00:00Z",
+        "Custom__EstimatedAttendance__c": 100
+      }
+    },
     {
       "name": "FunCon 2017",
       "id": "a1f1I000000hpToQAI",

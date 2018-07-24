@@ -8,6 +8,10 @@
     "https://placehold.it/424x424",
     "https://placehold.it/423x423",
     "https://placehold.it/422x422"],
+  "price": 79.99,
+  "priceLabel": "List Price",
+  "discountPrice": 59.99,
+  "discountLabel": "Member Price",
   "attributes": [],
   "sharing": [],
   "bundledItems": []

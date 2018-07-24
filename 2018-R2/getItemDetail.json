@@ -12,6 +12,7 @@
   "priceLabel": "List Price",
   "discountPrice": 59.99,
   "discountLabel": "Member Price",
+  "inventoryMessage": "Buy this! Now!",
   "attributes": [],
   "sharing": [],
   "bundledItems": []

@@ -1,0 +1,147 @@
+{
+  "catalogs": [
+    {
+      "name": "Memberships",
+      "size": 142,
+      "id": "mem"
+    },
+    {
+      "name": "Merchandise",
+      "size": 590,
+      "id": "merch"
+    },
+    {
+      "name": "Publications",
+      "size": 590,
+      "id": "pub"
+    }
+  ],
+  "currencyIsoCode": "USD",
+  "isMultiCurrencyOrg": false,
+  "filterFields": [
+    {
+      "name": "EventApi__RegistrationType__c",
+      "label": "Registration Type",
+      "type": "picklist",
+      "values": [
+        "Simple",
+        "Conference",
+        "Lightning",
+        "Not Used1",
+        "Not Used2",
+        "Not Used3",
+        "Not Used4"
+      ]
+    },
+    {
+      "name": "Custom__IsWheelchairAccessible__c",
+      "label": "Wheelchair Accessible",
+      "type": "boolean"
+    },
+    {
+      "name": "Custom__EarlyBird",
+      "label": "Early Bird Date",
+      "type": "date"
+    },
+    {
+      "name": "Custom__EarlyBirdPrice",
+      "label": "Early Bird Price",
+      "type": "currency"
+    },
+    {
+      "name": "Custom__WalkabilityScore",
+      "label": "Walkability Score",
+      "type": "decimal"
+    },
+    {
+      "name": "Custom__PartyTime",
+      "label": "Party Time",
+      "type": "datetime"
+    },
+    {
+      "name": "Custom__EstimatedAttendance__c",
+      "label": "Estimated Attendance",
+      "type": "integer"
+    }
+  ],
+  "items": [
+    {
+      "catalogs": ["item_catalog__c.catalog_id__c"],
+      "displayName": "Vibram Five Fingers",
+      "id": "a1f1I000000hpToQAI",
+      "lineDescription": "You will love these shoes",
+      "description": "Also Zoidberg. I just want to talk. It has nothing to do with mating. Fry, that doesn't make sense. I'm just glad my fat, ugly mama isn't alive to see this day. I decline the title of Iron Cook and accept the lesser title of Zinc Saucier, which I just made up. Uhh… also, comes with double prize money.",
+      "imageUrl": "https://placehold.it/300x300",
+      "price": 79.99,
+      "priceLabel": "List Price",
+      "discountPrice": 59.99,
+      "discountLabel": "Member Price",
+      "filterFields": {
+        "EventApi__RegistrationType__c": "Simple",
+        "Custom__IsWheelchairAccessible__c": true,
+        "Custom__EarlyBird": "2018-10-10",
+        "Custom__EarlyBirdPrice": "25.50",
+        "Custom__WalkabilityScore": 12.0,
+        "Custom__PartyTime": "2019-01-15T16:00:00Z",
+        "Custom__EstimatedAttendance__c": 100
+      }
+    },
+    {
+      "catalogs": ["item_catalog__c.catalog_id__c"],
+      "displayName": "Vibram Six Fingers",
+      "id": "a1f1I000000hpToQA",
+      "lineDescription": "Because 6 is better than 5.",
+      "description": "Also Zoidberg. I just want to talk. It has nothing to do with mating. Fry, that doesn't make sense. I'm just glad my fat, ugly mama isn't alive to see this day. I decline the title of Iron Cook and accept the lesser title of Zinc Saucier, which I just made up. Uhh… also, comes with double prize money.",
+      "imageUrl": "https://placehold.it/300x300",
+      "price": 89.99,
+      "priceLabel": "Sweet Price",
+      "filterFields": {
+        "EventApi__RegistrationType__c": "Simple",
+        "Custom__IsWheelchairAccessible__c": true,
+        "Custom__EarlyBird": "2018-10-10",
+        "Custom__EarlyBirdPrice": "25.50",
+        "Custom__WalkabilityScore": 12.0,
+        "Custom__PartyTime": "2019-01-15T16:00:00Z",
+        "Custom__EstimatedAttendance__c": 100
+      }
+    },
+    {
+      "catalogs": ["item_catalog__c.catalog_id__c"],
+      "displayName": "Vibram Seven Fingers",
+      "id": "a1f1I000000hpToQC",
+      "lineDescription": "Because 7 is better than 6.",
+      "description": "Also Zoidberg. I just want to talk. It has nothing to do with mating. Fry, that doesn't make sense. I'm just glad my fat, ugly mama isn't alive to see this day. I decline the title of Iron Cook and accept the lesser title of Zinc Saucier, which I just made up. Uhh… also, comes with double prize money.",
+      "imageUrl": "https://placehold.it/300x300",
+      "price": 89.99,
+      "priceLabel": "Sweet Price",
+      "filterFields": {
+        "EventApi__RegistrationType__c": "Simple",
+        "Custom__IsWheelchairAccessible__c": true,
+        "Custom__EarlyBird": "2018-10-10",
+        "Custom__EarlyBirdPrice": "25.50",
+        "Custom__WalkabilityScore": 12.0,
+        "Custom__PartyTime": "2019-01-15T16:00:00Z",
+        "Custom__EstimatedAttendance__c": 100
+      }
+    },
+    {
+      "catalogs": ["item_catalog__c.catalog_id__c"],
+      "displayName": "Vibram Eight Fingers",
+      "id": "a1f1I000000hpToQB",
+      "lineDescription": "No!! Not eight. Seven!",
+      "description": "Also Zoidberg. I just want to talk. It has nothing to do with mating. Fry, that doesn't make sense. I'm just glad my fat, ugly mama isn't alive to see this day. I decline the title of Iron Cook and accept the lesser title of Zinc Saucier, which I just made up. Uhh… also, comes with double prize money.",
+      "imageUrl": "https://placehold.it/300x300",
+      "price": 89.99,
+      "priceLabel": "Sweet Price",
+      "filterFields": {
+        "EventApi__RegistrationType__c": "Simple",
+        "Custom__IsWheelchairAccessible__c": true,
+        "Custom__EarlyBird": "2018-10-10",
+        "Custom__EarlyBirdPrice": "25.50",
+        "Custom__WalkabilityScore": 12.0,
+        "Custom__PartyTime": "2019-01-15T16:00:00Z",
+        "Custom__EstimatedAttendance__c": 100
+      }
+    }
+  ]
+}

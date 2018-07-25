@@ -2,17 +2,14 @@
   "catalogs": [
     {
       "name": "Memberships",
-      "size": 142,
       "id": "mem"
     },
     {
       "name": "Merchandise",
-      "size": 590,
       "id": "merch"
     },
     {
       "name": "Publications",
-      "size": 590,
       "id": "pub"
     }
   ],

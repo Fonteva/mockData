@@ -5,6 +5,26 @@
       "id": "mem"
     },
     {
+      "name": "Shoes",
+      "id": "shoe",
+      "parent": "merch"
+    },
+    {
+      "name": "Towels",
+      "id": "towels",
+      "parent": "merch"
+    },
+    {
+      "name": "Coffee",
+      "id": "coffee",
+      "parent": "merch"
+    },
+    {
+      "name": "Guns",
+      "id": "gun",
+      "parent": "merch"
+    },
+    {
       "name": "Merchandise",
       "id": "merch"
     },

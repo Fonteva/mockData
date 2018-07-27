@@ -1,10 +1,15 @@
 {
   "id":"a1L1I000002BZ1FUAW",
   "total": 1300,
+  "displayOrder": [
+    "events",
+    "subscriptions",
+    "others"
+  ],
   "events": [
 
     {
-      "eventDisplayName": "Dreamforce 2020",
+      "displayName": "Dreamforce 2020",
       "total": 400,
       "ticketQuantity": 1,
       "sessionQuantity": 1,
@@ -12,7 +17,7 @@
       "imageURL": "https://is3-ssl.mzstatic.com/image/thumb/Purple3/v4/86/a7/13/86a713b1-9c0e-8bbd-8eda-61d4963faa85/mzl.hkweszdo.png/246x0w.jpg"
     },
     {
-      "eventDisplayName": "Dreamforce 2021",
+      "displayName": "Dreamforce 2021",
       "total": 1400,
       "ticketQuantity": 2,
       "sessionQuantity": 1,
@@ -20,7 +25,7 @@
       "imageURL": "https://is3-ssl.mzstatic.com/image/thumb/Purple3/v4/86/a7/13/86a713b1-9c0e-8bbd-8eda-61d4963faa85/mzl.hkweszdo.png/246x0w.jpg"
     },
     {
-      "eventDisplayName": "Dreamforce 2022",
+      "displayName": "Dreamforce 2022",
       "total": 2400,
       "ticketQuantity": 4,
       "sessionQuantity": 1,

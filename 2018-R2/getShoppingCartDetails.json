@@ -6,6 +6,8 @@
     "subscriptions",
     "others"
   ],
+  "isMultiCurrencyOrg" : true,
+  "currencyISOCode": "USD",
   "events": [
 
     {

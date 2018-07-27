@@ -35,6 +35,12 @@
   ],
   "currencyIsoCode": "USD",
   "isMultiCurrencyOrg": false,
+  "sortFields" : [
+    {
+      "name" : "Custom__EarlyBirdPrice",
+      "label" : "Price" 
+    }
+  ],
   "filterFields": [
     {
       "name": "EventApi__RegistrationType__c",
@@ -93,6 +99,9 @@
       "priceLabel": "List Price",
       "discountPrice": 59.99,
       "discountLabel": "Member Price",
+      "sortFields": {
+        "Custom__EarlyBirdPrice": "25.50"
+      },
       "filterFields": {
         "EventApi__RegistrationType__c": "Simple",
         "Custom__IsWheelchairAccessible__c": true,
@@ -112,6 +121,9 @@
       "imageUrl": "https://placehold.it/300x300",
       "price": 89.99,
       "priceLabel": "Sweet Price",
+       "sortFields": {
+        "Custom__EarlyBirdPrice": "34.50"
+      },
       "filterFields": {
         "EventApi__RegistrationType__c": "Simple",
         "Custom__IsWheelchairAccessible__c": true,
@@ -131,6 +143,9 @@
       "imageUrl": "https://placehold.it/300x300",
       "price": 89.99,
       "priceLabel": "Sweet Price",
+      "sortFields": {
+        "Custom__EarlyBirdPrice": "42.50"
+      },
       "filterFields": {
         "EventApi__RegistrationType__c": "Simple",
         "Custom__IsWheelchairAccessible__c": true,
@@ -150,6 +165,9 @@
       "imageUrl": "https://placehold.it/300x300",
       "price": 89.99,
       "priceLabel": "Sweet Price",
+      "sortFields": {
+        "Custom__EarlyBirdPrice": "2.50"
+      },
       "filterFields": {
         "EventApi__RegistrationType__c": "Simple",
         "Custom__IsWheelchairAccessible__c": true,

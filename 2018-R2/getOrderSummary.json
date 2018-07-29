@@ -3,5 +3,7 @@
     "itemCount": 8,
     "shipping": 110,
     "tax": 46.20,
-    "total": 706.20
+    "total": 706.20,
+    "subtotal": 604,
+    "isDiscountEnabledOnCheckout" : true
 }

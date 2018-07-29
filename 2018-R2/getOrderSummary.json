@@ -5,5 +5,7 @@
     "tax": 46.20,
     "total": 706.20,
     "subtotal": 604,
-    "isDiscountEnabledOnCheckout" : true
+    "isDiscountEnabledOnCheckout" : true,
+    "isMultiCurrencyOrg" : true,
+    "currencyISOCode" : "USD"
 }

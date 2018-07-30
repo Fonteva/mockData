@@ -94,7 +94,7 @@
   "items": [
     {
       "catalogs": ["item_catalog__c.catalog_id__c"],
-      "displayName": "Vibram Five Fingers",
+      "displayName": "Z Item",
       "id": "a1f1I000000hpToQAI",
       "lineDescription": "You will love these shoes",
       "description": "Also Zoidberg. I just want to talk. It has nothing to do with mating. Fry, that doesn't make sense. I'm just glad my fat, ugly mama isn't alive to see this day. I decline the title of Iron Cook and accept the lesser title of Zinc Saucier, which I just made up. Uhh… also, comes with double prize money.",
@@ -118,7 +118,7 @@
     },
      {
       "catalogs": ["item_catalog__c.catalog_id__c"],
-      "displayName": "Vibram Six Fingers",
+      "displayName": "Item Six",
       "id": "a1f1I000000hpToQA",
       "lineDescription": "Because 6 is better than 5.",
       "description": "Also Zoidberg. I just want to talk. It has nothing to do with mating. Fry, that doesn't make sense. I'm just glad my fat, ugly mama isn't alive to see this day. I decline the title of Iron Cook and accept the lesser title of Zinc Saucier, which I just made up. Uhh… also, comes with double prize money.",
@@ -140,7 +140,7 @@
     },
     {
       "catalogs": ["item_catalog__c.catalog_id__c"],
-      "displayName": "Vibram Seven Fingers",
+      "displayName": "Item Seven Fingers",
       "id": "a1f1I000000hpToQC",
       "lineDescription": "Because 7 is better than 6.",
       "description": "Also Zoidberg. I just want to talk. It has nothing to do with mating. Fry, that doesn't make sense. I'm just glad my fat, ugly mama isn't alive to see this day. I decline the title of Iron Cook and accept the lesser title of Zinc Saucier, which I just made up. Uhh… also, comes with double prize money.",

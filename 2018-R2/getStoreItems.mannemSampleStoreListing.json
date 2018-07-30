@@ -40,6 +40,26 @@
       "name" : "Custom__EarlyBirdPrice",
       "label" : "Price" 
     },
+    {
+      "name" : "Custom__IsWheelchairAccessible__c",
+      "label" : "Wheelchair Accessible" 
+    },
+    {
+      "name" : "Custom__EarlyBird",
+      "label" : "Early Bird Date" 
+    },
+    {
+      "name" : "Custom__WalkabilityScore",
+      "label" : "Walkability Score" 
+    },
+    {
+      "name" : "Custom__PartyTime",
+      "label" : "Party Time" 
+    },
+    {
+      "name" : "Custom__EstimatedAttendance__c",
+      "label" : "Estimated Attendance" 
+    },
      {
       "name" : "Custom__Name",
       "label" : "Name" 

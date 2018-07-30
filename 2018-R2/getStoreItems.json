@@ -174,7 +174,6 @@
       "sortFields": {
         "Custom__EarlyBirdPrice": "25.50",
       "Custom__Name" : " Item A Name" 
-    }
       },
       "filterFields": {
         "EventApi__RegistrationType__c": "Simple",

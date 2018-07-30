@@ -124,6 +124,8 @@
       "discountPrice": 59.99,
       "discountLabel": "Member Price",
       "sortFields": {
+        "Custom__WalkabilityScore": 12.0,
+        "Custom__IsWheelchairAccessible__c": true,
         "Custom__EarlyBirdPrice": "25.50"
       },
       "filterFields": {

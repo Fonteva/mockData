@@ -85,6 +85,9 @@
       "imageUrl": "https://socialmediaseo.net/wp-content/uploads/2010/05/500px-android-logosvg-300x300.png",
       "discountPrice": 59.99,
       "discountLabel": "Store Listing Member Price conditional type mappings",
+       "sortFields": {
+        "Custom__EarlyBirdPrice": "25.50"
+      },
       "filterFields": {
         "EventApi__RegistrationType__c": "Simple",
         "Custom__IsWheelchairAccessible__c": true,

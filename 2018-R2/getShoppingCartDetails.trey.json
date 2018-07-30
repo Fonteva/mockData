@@ -44,7 +44,7 @@
       "total" : 1200,
       "imageURL": "https://is3-ssl.mzstatic.com/image/thumb/Purple3/v4/86/a7/13/86a713b1-9c0e-8bbd-8eda-61d4963faa85/mzl.hkweszdo.png/246x0w.jpg",
       "quantity": 1,
-      "listPrice": 1200
+      "salePrice": 1200
     },
     {
       "displayName": "Fonteva Silver Membership",
@@ -52,7 +52,7 @@
       "total": 600,
       "imageURL": "https://is3-ssl.mzstatic.com/image/thumb/Purple3/v4/86/a7/13/86a713b1-9c0e-8bbd-8eda-61d4963faa85/mzl.hkweszdo.png/246x0w.jpg",
       "quantity": 1,
-      "listPrice": 600
+      "salePrice": 600
     },
     {
       "displayName": "Fonteva Platinum Membership",
@@ -60,7 +60,7 @@
       "total": 300,
       "imageURL": "https://is3-ssl.mzstatic.com/image/thumb/Purple3/v4/86/a7/13/86a713b1-9c0e-8bbd-8eda-61d4963faa85/mzl.hkweszdo.png/246x0w.jpg",
       "quantity": 1,
-      "listPrice": 300
+      "salePrice": 300
     }
   ],
   "others" : [
@@ -70,7 +70,7 @@
       "total": 5,
       "imageURL": "",
       "quantity": 1,
-      "listPrice": 0
+      "salePrice": 25
     },
     {
       "displayName": "National Childrens Book Library",
@@ -78,7 +78,7 @@
       "total": 300,
       "imageURL": "https://is3-ssl.mzstatic.com/image/thumb/Purple3/v4/86/a7/13/86a713b1-9c0e-8bbd-8eda-61d4963faa85/mzl.hkweszdo.png/246x0w.jpg",
       "quantity": 1,
-      "listPrice": 250
+      "salePrice": 250
     },
     {
       "displayName": "Fonteva Mug",
@@ -86,7 +86,7 @@
       "total": 400,
       "imageURL": "https://is3-ssl.mzstatic.com/image/thumb/Purple3/v4/86/a7/13/86a713b1-9c0e-8bbd-8eda-61d4963faa85/mzl.hkweszdo.png/246x0w.jpg",
       "quantity": 1,
-      "listPrice": 340
+      "salePrice": 340
     }
   ]
 }

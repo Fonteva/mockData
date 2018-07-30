@@ -1,0 +1,11 @@
+{
+    "salesOrderId" : "a1L1I000002BZ1FUAW",
+    "itemCount": 5,
+    "shipping": 100.20,
+    "tax": 46.20,
+    "total": 706.20,
+    "subtotal": 604,
+    "isDiscountEnabledOnCheckout" : true,
+    "isMultiCurrencyOrg" : false,
+    "currencyISOCode" : "USD"
+}

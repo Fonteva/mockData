@@ -37,12 +37,12 @@
   "isMultiCurrencyOrg": false,
   "sortFields" : [
     {
-      "name" : "Custom__EarlyBirdPrice",
-      "label" : "Price" 
-    },
-     {
       "name" : "Custom__Name",
       "label" : "Name" 
+    },
+    {
+      "name" : "Custom__EarlyBirdPrice",
+      "label" : "Price" 
     }
   ],
   "filterFields": [

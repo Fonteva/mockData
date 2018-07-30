@@ -1,33 +1,61 @@
 {
   "catalogs": [
     {
-      "name": "All Catalogs",
-      "size": 590,
-      "id": "ABC"
-    },
-    {
       "name": "Memberships",
-      "size": 142,
       "id": "mem"
     },
     {
+      "name": "Shoes",
+      "id": "shoe",
+      "parent": "merch"
+    },
+    {
+      "name": "Towels & Mats",
+      "id": "towels",
+      "parent": "merch"
+    },
+    {
+      "name": "Coffee",
+      "id": "coffee",
+      "parent": "merch"
+    },
+    {
+      "name": "Guns",
+      "id": "gun",
+      "parent": "merch"
+    },
+    {
       "name": "Merchandise",
-      "size": 590,
       "id": "merch"
     },
     {
       "name": "Publications",
-      "size": 590,
       "id": "pub"
     }
   ],
-  "currencyIsoCode": "GBP",
+  "currencyIsoCode": "USD",
   "isMultiCurrencyOrg": false,
   "sortFields" : [
     {
       "name" : "Custom__EarlyBirdPrice",
       "label" : "Price" 
-    } 
+    },
+    {
+      "name" : "Custom__WalkabilityScore",
+      "label" : "WalkabilityScore" 
+    },
+    {
+      "name" : "EventApi__RegistrationType__c",
+      "label" : "RegistrationType" 
+    },
+    {
+      "name" : "Custom__PartyTime",
+      "label" : "PartyTime" 
+    },
+     {
+      "name" : "Custom__Name",
+      "label" : "Name" 
+    }
   ],
   "filterFields": [
     {
@@ -82,10 +110,156 @@
       "id": "a1f1I000000hpToQAI",
       "lineDescription": "You will love these shoes",
       "description": "Also Zoidberg. I just want to talk. It has nothing to do with mating. Fry, that doesn't make sense. I'm just glad my fat, ugly mama isn't alive to see this day. I decline the title of Iron Cook and accept the lesser title of Zinc Saucier, which I just made up. Uhh… also, comes with double prize money.",
-      "imageUrl": "https://socialmediaseo.net/wp-content/uploads/2010/05/500px-android-logosvg-300x300.png",
+      "imageUrl": "https://placehold.it/300x300",
+      "price": 79.99,
+      "priceLabel": "List Price",
       "discountPrice": 59.99,
-      "discountLabel": "Store Listing Member Price conditional type mappings",
+      "discountLabel": "Member Price",
+      "sortFields": {
+      "EventApi__RegistrationType__c": "Simple",
+        "Custom__IsWheelchairAccessible__c": true,
+        "Custom__EarlyBird": "2018-10-10",
+        "Custom__EarlyBirdPrice": "25.50",
+        "Custom__WalkabilityScore": 12.0,
+        "Custom__PartyTime": "2019-01-15T16:00:00Z",
+        "Custom__EstimatedAttendance__c": 100
+      },
+      "filterFields": {
+        "EventApi__RegistrationType__c": "Simple",
+        "Custom__IsWheelchairAccessible__c": true,
+        "Custom__EarlyBird": "2018-10-10",
+        "Custom__EarlyBirdPrice": "25.50",
+        "Custom__WalkabilityScore": 12.0,
+        "Custom__PartyTime": "2019-01-15T16:00:00Z",
+        "Custom__EstimatedAttendance__c": 100
+      }
+    },
+     {
+      "catalogs": ["item_catalog__c.catalog_id__c"],
+      "displayName": "Vibram Six Fingers",
+      "id": "a1f1I000000hpToQA",
+      "lineDescription": "Because 6 is better than 5.",
+      "description": "Also Zoidberg. I just want to talk. It has nothing to do with mating. Fry, that doesn't make sense. I'm just glad my fat, ugly mama isn't alive to see this day. I decline the title of Iron Cook and accept the lesser title of Zinc Saucier, which I just made up. Uhh… also, comes with double prize money.",
+      "imageUrl": "https://placehold.it/300x300",
+      "price": 89.99,
+      "priceLabel": "Sweet Price",
        "sortFields": {
+        "Custom__EarlyBirdPrice": "34.50"
+      },
+      "filterFields": {
+        "EventApi__RegistrationType__c": "Simple",
+        "Custom__IsWheelchairAccessible__c": true,
+        "Custom__EarlyBird": "2018-10-10",
+        "Custom__EarlyBirdPrice": "25.50",
+        "Custom__WalkabilityScore": 12.0,
+        "Custom__PartyTime": "2019-01-15T16:00:00Z",
+        "Custom__EstimatedAttendance__c": 100
+      }
+    },
+    {
+      "catalogs": ["item_catalog__c.catalog_id__c"],
+      "displayName": "Vibram Seven Fingers",
+      "id": "a1f1I000000hpToQC",
+      "lineDescription": "Because 7 is better than 6.",
+      "description": "Also Zoidberg. I just want to talk. It has nothing to do with mating. Fry, that doesn't make sense. I'm just glad my fat, ugly mama isn't alive to see this day. I decline the title of Iron Cook and accept the lesser title of Zinc Saucier, which I just made up. Uhh… also, comes with double prize money.",
+      "imageUrl": "https://placehold.it/300x300",
+      "price": 89.99,
+      "priceLabel": "Sweet Price",
+      "sortFields": {
+        "Custom__EarlyBirdPrice": "42.50"
+      },
+      "filterFields": {
+        "EventApi__RegistrationType__c": "Simple",
+        "Custom__IsWheelchairAccessible__c": true,
+        "Custom__EarlyBird": "2018-10-10",
+        "Custom__EarlyBirdPrice": "25.50",
+        "Custom__WalkabilityScore": 12.0,
+        "Custom__PartyTime": "2019-01-15T16:00:00Z",
+        "Custom__EstimatedAttendance__c": 100
+      }
+    },
+    {
+      "catalogs": ["item_catalog__c.catalog_id__c"],
+      "displayName": "Item A",
+      "id": "a1f1I000000hpToQAI",
+      "lineDescription": "You will love these shoes",
+      "description": "Also Zoidberg. I just want to talk. It has nothing to do with mating. Fry, that doesn't make sense. I'm just glad my fat, ugly mama isn't alive to see this day. I decline the title of Iron Cook and accept the lesser title of Zinc Saucier, which I just made up. Uhh… also, comes with double prize money.",
+      "imageUrl": "https://placehold.it/300x300",
+      "price": 79.99,
+      "priceLabel": "List Price",
+      "discountPrice": 59.99,
+      "discountLabel": "Member Price",
+      "sortFields": {
+        "Custom__EarlyBirdPrice": "25.50",
+      "Custom__Name" : " Item A Name" 
+      },
+      "filterFields": {
+        "EventApi__RegistrationType__c": "Simple",
+        "Custom__IsWheelchairAccessible__c": true,
+        "Custom__EarlyBird": "2018-10-10",
+        "Custom__EarlyBirdPrice": "25.50",
+        "Custom__WalkabilityScore": 12.0,
+        "Custom__PartyTime": "2019-01-15T16:00:00Z",
+        "Custom__EstimatedAttendance__c": 100
+      }
+    },
+     {
+      "catalogs": ["item_catalog__c.catalog_id__c"],
+      "displayName": "Item B",
+      "id": "a1f1I000000hpToQA",
+      "lineDescription": "Because 6 is better than 5.",
+      "description": "Also Zoidberg. I just want to talk. It has nothing to do with mating. Fry, that doesn't make sense. I'm just glad my fat, ugly mama isn't alive to see this day. I decline the title of Iron Cook and accept the lesser title of Zinc Saucier, which I just made up. Uhh… also, comes with double prize money.",
+      "imageUrl": "https://placehold.it/300x300",
+      "price": 89.99,
+      "priceLabel": "Sweet Price",
+       "sortFields": {
+        "Custom__EarlyBirdPrice": "34.50",
+         "Custom__Name" : " Item B Name" 
+      },
+      "filterFields": {
+        "EventApi__RegistrationType__c": "Simple",
+        "Custom__IsWheelchairAccessible__c": true,
+        "Custom__EarlyBird": "2018-10-10",
+        "Custom__EarlyBirdPrice": "25.50",
+        "Custom__WalkabilityScore": 12.0,
+        "Custom__PartyTime": "2019-01-15T16:00:00Z",
+        "Custom__EstimatedAttendance__c": 100
+      }
+    },
+    {
+      "catalogs": ["item_catalog__c.catalog_id__c"],
+      "displayName": "Vibram Seven Fingers",
+      "id": "a1f1I000000hpToQC",
+      "lineDescription": "Because 7 is better than 6.",
+      "description": "Also Zoidberg. I just want to talk. It has nothing to do with mating. Fry, that doesn't make sense. I'm just glad my fat, ugly mama isn't alive to see this day. I decline the title of Iron Cook and accept the lesser title of Zinc Saucier, which I just made up. Uhh… also, comes with double prize money.",
+      "imageUrl": "https://placehold.it/300x300",
+      "price": 89.99,
+      "priceLabel": "Sweet Price",
+      "sortFields": {
+        "Custom__EarlyBirdPrice": "42.50"
+      },
+      "filterFields": {
+        "EventApi__RegistrationType__c": "Simple",
+        "Custom__IsWheelchairAccessible__c": true,
+        "Custom__EarlyBird": "2018-10-10",
+        "Custom__EarlyBirdPrice": "25.50",
+        "Custom__WalkabilityScore": 12.0,
+        "Custom__PartyTime": "2019-01-15T16:00:00Z",
+        "Custom__EstimatedAttendance__c": 100
+      }
+    },
+    {
+      "catalogs": ["item_catalog__c.catalog_id__c"],
+      "displayName": "Vibram Five Fingers",
+      "id": "a1f1I000000hpToQAI",
+      "lineDescription": "You will love these shoes",
+      "description": "Also Zoidberg. I just want to talk. It has nothing to do with mating. Fry, that doesn't make sense. I'm just glad my fat, ugly mama isn't alive to see this day. I decline the title of Iron Cook and accept the lesser title of Zinc Saucier, which I just made up. Uhh… also, comes with double prize money.",
+      "imageUrl": "https://placehold.it/300x300",
+      "price": 79.99,
+      "priceLabel": "List Price",
+      "discountPrice": 59.99,
+      "discountLabel": "Member Price",
+      "sortFields": {
         "Custom__EarlyBirdPrice": "25.50"
       },
       "filterFields": {
@@ -100,16 +274,14 @@
     },
      {
       "catalogs": ["item_catalog__c.catalog_id__c"],
-      "displayName": "Pot Hit",
-      "id": "a1f1I000000hpToQAI",
-      "lineDescription": "You will love these shoes",
+      "displayName": "Vibram Six Fingers",
+      "id": "a1f1I000000hpToQA",
+      "lineDescription": "Because 6 is better than 5.",
       "description": "Also Zoidberg. I just want to talk. It has nothing to do with mating. Fry, that doesn't make sense. I'm just glad my fat, ugly mama isn't alive to see this day. I decline the title of Iron Cook and accept the lesser title of Zinc Saucier, which I just made up. Uhh… also, comes with double prize money.",
-      "imageUrl": "https://socialmediaseo.net/wp-content/uploads/2010/05/500px-android-logosvg-300x300.png",
-      "price": 79.99,
-      "priceLabel": "List Price",
-      "discountPrice": 59.99,
-      "discountLabel": "Member Price",
-        "sortFields": {
+      "imageUrl": "https://placehold.it/300x300",
+      "price": 89.99,
+      "priceLabel": "Sweet Price",
+       "sortFields": {
         "Custom__EarlyBirdPrice": "34.50"
       },
       "filterFields": {
@@ -122,19 +294,41 @@
         "Custom__EstimatedAttendance__c": 100
       }
     },
-     {
+    {
       "catalogs": ["item_catalog__c.catalog_id__c"],
-      "displayName": "Iphone Screen",
+      "displayName": "Vibram Seven Fingers",
+      "id": "a1f1I000000hpToQC",
+      "lineDescription": "Because 7 is better than 6.",
+      "description": "Also Zoidberg. I just want to talk. It has nothing to do with mating. Fry, that doesn't make sense. I'm just glad my fat, ugly mama isn't alive to see this day. I decline the title of Iron Cook and accept the lesser title of Zinc Saucier, which I just made up. Uhh… also, comes with double prize money.",
+      "imageUrl": "https://placehold.it/300x300",
+      "price": 89.99,
+      "priceLabel": "Sweet Price",
+      "sortFields": {
+        "Custom__EarlyBirdPrice": "42.50"
+      },
+      "filterFields": {
+        "EventApi__RegistrationType__c": "Simple",
+        "Custom__IsWheelchairAccessible__c": true,
+        "Custom__EarlyBird": "2018-10-10",
+        "Custom__EarlyBirdPrice": "25.50",
+        "Custom__WalkabilityScore": 12.0,
+        "Custom__PartyTime": "2019-01-15T16:00:00Z",
+        "Custom__EstimatedAttendance__c": 100
+      }
+    },
+    {
+      "catalogs": ["item_catalog__c.catalog_id__c"],
+      "displayName": "Vibram Five Fingers",
       "id": "a1f1I000000hpToQAI",
       "lineDescription": "You will love these shoes",
       "description": "Also Zoidberg. I just want to talk. It has nothing to do with mating. Fry, that doesn't make sense. I'm just glad my fat, ugly mama isn't alive to see this day. I decline the title of Iron Cook and accept the lesser title of Zinc Saucier, which I just made up. Uhh… also, comes with double prize money.",
-      "imageUrl": "https://socialmediaseo.net/wp-content/uploads/2010/05/500px-android-logosvg-300x300.png",
+      "imageUrl": "https://placehold.it/300x300",
       "price": 79.99,
       "priceLabel": "List Price",
       "discountPrice": 59.99,
       "discountLabel": "Member Price",
-        "sortFields": {
-        "Custom__EarlyBirdPrice": "94.50"
+      "sortFields": {
+        "Custom__EarlyBirdPrice": "25.50"
       },
       "filterFields": {
         "EventApi__RegistrationType__c": "Simple",
@@ -148,17 +342,61 @@
     },
      {
       "catalogs": ["item_catalog__c.catalog_id__c"],
-      "displayName": "HeadSet 1",
+      "displayName": "Vibram Six Fingers",
+      "id": "a1f1I000000hpToQA",
+      "lineDescription": "Because 6 is better than 5.",
+      "description": "Also Zoidberg. I just want to talk. It has nothing to do with mating. Fry, that doesn't make sense. I'm just glad my fat, ugly mama isn't alive to see this day. I decline the title of Iron Cook and accept the lesser title of Zinc Saucier, which I just made up. Uhh… also, comes with double prize money.",
+      "imageUrl": "https://placehold.it/300x300",
+      "price": 89.99,
+      "priceLabel": "Sweet Price",
+       "sortFields": {
+        "Custom__EarlyBirdPrice": "34.50"
+      },
+      "filterFields": {
+        "EventApi__RegistrationType__c": "Simple",
+        "Custom__IsWheelchairAccessible__c": true,
+        "Custom__EarlyBird": "2018-10-10",
+        "Custom__EarlyBirdPrice": "25.50",
+        "Custom__WalkabilityScore": 12.0,
+        "Custom__PartyTime": "2019-01-15T16:00:00Z",
+        "Custom__EstimatedAttendance__c": 100
+      }
+    },
+    {
+      "catalogs": ["item_catalog__c.catalog_id__c"],
+      "displayName": "Vibram Seven Fingers",
+      "id": "a1f1I000000hpToQC",
+      "lineDescription": "Because 7 is better than 6.",
+      "description": "Also Zoidberg. I just want to talk. It has nothing to do with mating. Fry, that doesn't make sense. I'm just glad my fat, ugly mama isn't alive to see this day. I decline the title of Iron Cook and accept the lesser title of Zinc Saucier, which I just made up. Uhh… also, comes with double prize money.",
+      "imageUrl": "https://placehold.it/300x300",
+      "price": 89.99,
+      "priceLabel": "Sweet Price",
+      "sortFields": {
+        "Custom__EarlyBirdPrice": "42.50"
+      },
+      "filterFields": {
+        "EventApi__RegistrationType__c": "Simple",
+        "Custom__IsWheelchairAccessible__c": true,
+        "Custom__EarlyBird": "2018-10-10",
+        "Custom__EarlyBirdPrice": "25.50",
+        "Custom__WalkabilityScore": 12.0,
+        "Custom__PartyTime": "2019-01-15T16:00:00Z",
+        "Custom__EstimatedAttendance__c": 100
+      }
+    },
+    {
+      "catalogs": ["item_catalog__c.catalog_id__c"],
+      "displayName": "Vibram Five Fingers",
       "id": "a1f1I000000hpToQAI",
       "lineDescription": "You will love these shoes",
       "description": "Also Zoidberg. I just want to talk. It has nothing to do with mating. Fry, that doesn't make sense. I'm just glad my fat, ugly mama isn't alive to see this day. I decline the title of Iron Cook and accept the lesser title of Zinc Saucier, which I just made up. Uhh… also, comes with double prize money.",
-      "imageUrl": "https:///2010/05/500px-android-logosvg-300x300.png",
+      "imageUrl": "https://placehold.it/300x300",
       "price": 79.99,
       "priceLabel": "List Price",
       "discountPrice": 59.99,
       "discountLabel": "Member Price",
-        "sortFields": {
-        "Custom__EarlyBirdPrice": "74.50"
+      "sortFields": {
+        "Custom__EarlyBirdPrice": "25.50"
       },
       "filterFields": {
         "EventApi__RegistrationType__c": "Simple",
@@ -172,17 +410,61 @@
     },
      {
       "catalogs": ["item_catalog__c.catalog_id__c"],
-      "displayName": "PAPER Cloth 1",
+      "displayName": "Vibram Six Fingers",
+      "id": "a1f1I000000hpToQA",
+      "lineDescription": "Because 6 is better than 5.",
+      "description": "Also Zoidberg. I just want to talk. It has nothing to do with mating. Fry, that doesn't make sense. I'm just glad my fat, ugly mama isn't alive to see this day. I decline the title of Iron Cook and accept the lesser title of Zinc Saucier, which I just made up. Uhh… also, comes with double prize money.",
+      "imageUrl": "https://placehold.it/300x300",
+      "price": 89.99,
+      "priceLabel": "Sweet Price",
+       "sortFields": {
+        "Custom__EarlyBirdPrice": "34.50"
+      },
+      "filterFields": {
+        "EventApi__RegistrationType__c": "Simple",
+        "Custom__IsWheelchairAccessible__c": true,
+        "Custom__EarlyBird": "2018-10-10",
+        "Custom__EarlyBirdPrice": "25.50",
+        "Custom__WalkabilityScore": 12.0,
+        "Custom__PartyTime": "2019-01-15T16:00:00Z",
+        "Custom__EstimatedAttendance__c": 100
+      }
+    },
+    {
+      "catalogs": ["item_catalog__c.catalog_id__c"],
+      "displayName": "Vibram Seven Fingers",
+      "id": "a1f1I000000hpToQC",
+      "lineDescription": "Because 7 is better than 6.",
+      "description": "Also Zoidberg. I just want to talk. It has nothing to do with mating. Fry, that doesn't make sense. I'm just glad my fat, ugly mama isn't alive to see this day. I decline the title of Iron Cook and accept the lesser title of Zinc Saucier, which I just made up. Uhh… also, comes with double prize money.",
+      "imageUrl": "https://placehold.it/300x300",
+      "price": 89.99,
+      "priceLabel": "Sweet Price",
+      "sortFields": {
+        "Custom__EarlyBirdPrice": "42.50"
+      },
+      "filterFields": {
+        "EventApi__RegistrationType__c": "Simple",
+        "Custom__IsWheelchairAccessible__c": true,
+        "Custom__EarlyBird": "2018-10-10",
+        "Custom__EarlyBirdPrice": "25.50",
+        "Custom__WalkabilityScore": 12.0,
+        "Custom__PartyTime": "2019-01-15T16:00:00Z",
+        "Custom__EstimatedAttendance__c": 100
+      }
+    },
+    {
+      "catalogs": ["item_catalog__c.catalog_id__c"],
+      "displayName": "Vibram Five Fingers",
       "id": "a1f1I000000hpToQAI",
       "lineDescription": "You will love these shoes",
       "description": "Also Zoidberg. I just want to talk. It has nothing to do with mating. Fry, that doesn't make sense. I'm just glad my fat, ugly mama isn't alive to see this day. I decline the title of Iron Cook and accept the lesser title of Zinc Saucier, which I just made up. Uhh… also, comes with double prize money.",
-      "imageUrl": "",
+      "imageUrl": "https://placehold.it/300x300",
       "price": 79.99,
       "priceLabel": "List Price",
       "discountPrice": 59.99,
       "discountLabel": "Member Price",
-        "sortFields": {
-        "Custom__EarlyBirdPrice": "9.50"
+      "sortFields": {
+        "Custom__EarlyBirdPrice": "25.50"
       },
       "filterFields": {
         "EventApi__RegistrationType__c": "Simple",
@@ -196,16 +478,61 @@
     },
      {
       "catalogs": ["item_catalog__c.catalog_id__c"],
-      "displayName": "Spinner Fingers",
+      "displayName": "Vibram Six Fingers",
+      "id": "a1f1I000000hpToQA",
+      "lineDescription": "Because 6 is better than 5.",
+      "description": "Also Zoidberg. I just want to talk. It has nothing to do with mating. Fry, that doesn't make sense. I'm just glad my fat, ugly mama isn't alive to see this day. I decline the title of Iron Cook and accept the lesser title of Zinc Saucier, which I just made up. Uhh… also, comes with double prize money.",
+      "imageUrl": "https://placehold.it/300x300",
+      "price": 89.99,
+      "priceLabel": "Sweet Price",
+       "sortFields": {
+        "Custom__EarlyBirdPrice": "34.50"
+      },
+      "filterFields": {
+        "EventApi__RegistrationType__c": "Simple",
+        "Custom__IsWheelchairAccessible__c": true,
+        "Custom__EarlyBird": "2018-10-10",
+        "Custom__EarlyBirdPrice": "25.50",
+        "Custom__WalkabilityScore": 12.0,
+        "Custom__PartyTime": "2019-01-15T16:00:00Z",
+        "Custom__EstimatedAttendance__c": 100
+      }
+    },
+    {
+      "catalogs": ["item_catalog__c.catalog_id__c"],
+      "displayName": "Vibram Seven Fingers",
+      "id": "a1f1I000000hpToQC",
+      "lineDescription": "Because 7 is better than 6.",
+      "description": "Also Zoidberg. I just want to talk. It has nothing to do with mating. Fry, that doesn't make sense. I'm just glad my fat, ugly mama isn't alive to see this day. I decline the title of Iron Cook and accept the lesser title of Zinc Saucier, which I just made up. Uhh… also, comes with double prize money.",
+      "imageUrl": "https://placehold.it/300x300",
+      "price": 89.99,
+      "priceLabel": "Sweet Price",
+      "sortFields": {
+        "Custom__EarlyBirdPrice": "42.50"
+      },
+      "filterFields": {
+        "EventApi__RegistrationType__c": "Simple",
+        "Custom__IsWheelchairAccessible__c": true,
+        "Custom__EarlyBird": "2018-10-10",
+        "Custom__EarlyBirdPrice": "25.50",
+        "Custom__WalkabilityScore": 12.0,
+        "Custom__PartyTime": "2019-01-15T16:00:00Z",
+        "Custom__EstimatedAttendance__c": 100
+      }
+    },
+    {
+      "catalogs": ["item_catalog__c.catalog_id__c"],
+      "displayName": "Vibram Five Fingers",
       "id": "a1f1I000000hpToQAI",
       "lineDescription": "You will love these shoes",
       "description": "Also Zoidberg. I just want to talk. It has nothing to do with mating. Fry, that doesn't make sense. I'm just glad my fat, ugly mama isn't alive to see this day. I decline the title of Iron Cook and accept the lesser title of Zinc Saucier, which I just made up. Uhh… also, comes with double prize money.",
-      "imageUrl": "https://socialmediaseo.net/wp-content/uploads/2010/05/500px-android-logosvg-300x300.png",
+      "imageUrl": "https://placehold.it/300x300",
       "price": 79.99,
       "priceLabel": "List Price",
       "discountPrice": 59.99,
       "discountLabel": "Member Price",
-        "sortFields": {
+      "sortFields": {
+        "Custom__EarlyBirdPrice": "25.50"
       },
       "filterFields": {
         "EventApi__RegistrationType__c": "Simple",
@@ -219,1852 +546,669 @@
     },
      {
       "catalogs": ["item_catalog__c.catalog_id__c"],
-      "displayName": "Red Hat Handbook Guide",
+      "displayName": "Vibram Six Fingers",
+      "id": "a1f1I000000hpToQA",
+      "lineDescription": "Because 6 is better than 5.",
+      "description": "Also Zoidberg. I just want to talk. It has nothing to do with mating. Fry, that doesn't make sense. I'm just glad my fat, ugly mama isn't alive to see this day. I decline the title of Iron Cook and accept the lesser title of Zinc Saucier, which I just made up. Uhh… also, comes with double prize money.",
+      "imageUrl": "https://placehold.it/300x300",
+      "price": 89.99,
+      "priceLabel": "Sweet Price",
+       "sortFields": {
+        "Custom__EarlyBirdPrice": "34.50"
+      },
+      "filterFields": {
+        "EventApi__RegistrationType__c": "Simple",
+        "Custom__IsWheelchairAccessible__c": true,
+        "Custom__EarlyBird": "2018-10-10",
+        "Custom__EarlyBirdPrice": "25.50",
+        "Custom__WalkabilityScore": 12.0,
+        "Custom__PartyTime": "2019-01-15T16:00:00Z",
+        "Custom__EstimatedAttendance__c": 100
+      }
+    },
+    {
+      "catalogs": ["item_catalog__c.catalog_id__c"],
+      "displayName": "Vibram Seven Fingers",
+      "id": "a1f1I000000hpToQC",
+      "lineDescription": "Because 7 is better than 6.",
+      "description": "Also Zoidberg. I just want to talk. It has nothing to do with mating. Fry, that doesn't make sense. I'm just glad my fat, ugly mama isn't alive to see this day. I decline the title of Iron Cook and accept the lesser title of Zinc Saucier, which I just made up. Uhh… also, comes with double prize money.",
+      "imageUrl": "https://placehold.it/300x300",
+      "price": 89.99,
+      "priceLabel": "Sweet Price",
+      "sortFields": {
+        "Custom__EarlyBirdPrice": "42.50"
+      },
+      "filterFields": {
+        "EventApi__RegistrationType__c": "Simple",
+        "Custom__IsWheelchairAccessible__c": true,
+        "Custom__EarlyBird": "2018-10-10",
+        "Custom__EarlyBirdPrice": "25.50",
+        "Custom__WalkabilityScore": 12.0,
+        "Custom__PartyTime": "2019-01-15T16:00:00Z",
+        "Custom__EstimatedAttendance__c": 100
+      }
+    },
+    {
+      "catalogs": ["item_catalog__c.catalog_id__c"],
+      "displayName": "Vibram Five Fingers",
       "id": "a1f1I000000hpToQAI",
       "lineDescription": "You will love these shoes",
       "description": "Also Zoidberg. I just want to talk. It has nothing to do with mating. Fry, that doesn't make sense. I'm just glad my fat, ugly mama isn't alive to see this day. I decline the title of Iron Cook and accept the lesser title of Zinc Saucier, which I just made up. Uhh… also, comes with double prize money.",
-      "imageUrl": "https://socialmediaseo.net/wp-content/uploads/2010/05/500px-android-logosvg-300x300.png",
+      "imageUrl": "https://placehold.it/300x300",
       "price": 79.99,
       "priceLabel": "List Price",
       "discountPrice": 59.99,
       "discountLabel": "Member Price",
+      "sortFields": {
+        "Custom__EarlyBirdPrice": "25.50"
+      },
+      "filterFields": {
+        "EventApi__RegistrationType__c": "Simple",
+        "Custom__IsWheelchairAccessible__c": true,
+        "Custom__EarlyBird": "2018-10-10",
+        "Custom__EarlyBirdPrice": "25.50",
+        "Custom__WalkabilityScore": 12.0,
+        "Custom__PartyTime": "2019-01-15T16:00:00Z",
+        "Custom__EstimatedAttendance__c": 100
+      }
+    },
+     {
+      "catalogs": ["item_catalog__c.catalog_id__c"],
+      "displayName": "Vibram Six Fingers",
+      "id": "a1f1I000000hpToQA",
+      "lineDescription": "Because 6 is better than 5.",
+      "description": "Also Zoidberg. I just want to talk. It has nothing to do with mating. Fry, that doesn't make sense. I'm just glad my fat, ugly mama isn't alive to see this day. I decline the title of Iron Cook and accept the lesser title of Zinc Saucier, which I just made up. Uhh… also, comes with double prize money.",
+      "imageUrl": "https://placehold.it/300x300",
+      "price": 89.99,
+      "priceLabel": "Sweet Price",
+       "sortFields": {
+        "Custom__EarlyBirdPrice": "34.50"
+      },
+      "filterFields": {
+        "EventApi__RegistrationType__c": "Simple",
+        "Custom__IsWheelchairAccessible__c": true,
+        "Custom__EarlyBird": "2018-10-10",
+        "Custom__EarlyBirdPrice": "25.50",
+        "Custom__WalkabilityScore": 12.0,
+        "Custom__PartyTime": "2019-01-15T16:00:00Z",
+        "Custom__EstimatedAttendance__c": 100
+      }
+    },
+    {
+      "catalogs": ["item_catalog__c.catalog_id__c"],
+      "displayName": "Vibram Seven Fingers",
+      "id": "a1f1I000000hpToQC",
+      "lineDescription": "Because 7 is better than 6.",
+      "description": "Also Zoidberg. I just want to talk. It has nothing to do with mating. Fry, that doesn't make sense. I'm just glad my fat, ugly mama isn't alive to see this day. I decline the title of Iron Cook and accept the lesser title of Zinc Saucier, which I just made up. Uhh… also, comes with double prize money.",
+      "imageUrl": "https://placehold.it/300x300",
+      "price": 89.99,
+      "priceLabel": "Sweet Price",
+      "sortFields": {
+        "Custom__EarlyBirdPrice": "42.50"
+      },
+      "filterFields": {
+        "EventApi__RegistrationType__c": "Simple",
+        "Custom__IsWheelchairAccessible__c": true,
+        "Custom__EarlyBird": "2018-10-10",
+        "Custom__EarlyBirdPrice": "25.50",
+        "Custom__WalkabilityScore": 12.0,
+        "Custom__PartyTime": "2019-01-15T16:00:00Z",
+        "Custom__EstimatedAttendance__c": 100
+      }
+    },{
+      "catalogs": ["item_catalog__c.catalog_id__c"],
+      "displayName": "Vibram Five Fingers",
+      "id": "a1f1I000000hpToQAI",
+      "lineDescription": "You will love these shoes",
+      "description": "Also Zoidberg. I just want to talk. It has nothing to do with mating. Fry, that doesn't make sense. I'm just glad my fat, ugly mama isn't alive to see this day. I decline the title of Iron Cook and accept the lesser title of Zinc Saucier, which I just made up. Uhh… also, comes with double prize money.",
+      "imageUrl": "https://placehold.it/300x300",
+      "price": 79.99,
+      "priceLabel": "List Price",
+      "discountPrice": 59.99,
+      "discountLabel": "Member Price",
+      "sortFields": {
+        "Custom__EarlyBirdPrice": "25.50"
+      },
+      "filterFields": {
+        "EventApi__RegistrationType__c": "Simple",
+        "Custom__IsWheelchairAccessible__c": true,
+        "Custom__EarlyBird": "2018-10-10",
+        "Custom__EarlyBirdPrice": "25.50",
+        "Custom__WalkabilityScore": 12.0,
+        "Custom__PartyTime": "2019-01-15T16:00:00Z",
+        "Custom__EstimatedAttendance__c": 100
+      }
+    },
+     {
+      "catalogs": ["item_catalog__c.catalog_id__c"],
+      "displayName": "Vibram Six Fingers",
+      "id": "a1f1I000000hpToQA",
+      "lineDescription": "Because 6 is better than 5.",
+      "description": "Also Zoidberg. I just want to talk. It has nothing to do with mating. Fry, that doesn't make sense. I'm just glad my fat, ugly mama isn't alive to see this day. I decline the title of Iron Cook and accept the lesser title of Zinc Saucier, which I just made up. Uhh… also, comes with double prize money.",
+      "imageUrl": "https://placehold.it/300x300",
+      "price": 89.99,
+      "priceLabel": "Sweet Price",
+       "sortFields": {
+        "Custom__EarlyBirdPrice": "34.50"
+      },
+      "filterFields": {
+        "EventApi__RegistrationType__c": "Simple",
+        "Custom__IsWheelchairAccessible__c": true,
+        "Custom__EarlyBird": "2018-10-10",
+        "Custom__EarlyBirdPrice": "25.50",
+        "Custom__WalkabilityScore": 12.0,
+        "Custom__PartyTime": "2019-01-15T16:00:00Z",
+        "Custom__EstimatedAttendance__c": 100
+      }
+    },
+    {
+      "catalogs": ["item_catalog__c.catalog_id__c"],
+      "displayName": "Vibram Seven Fingers",
+      "id": "a1f1I000000hpToQC",
+      "lineDescription": "Because 7 is better than 6.",
+      "description": "Also Zoidberg. I just want to talk. It has nothing to do with mating. Fry, that doesn't make sense. I'm just glad my fat, ugly mama isn't alive to see this day. I decline the title of Iron Cook and accept the lesser title of Zinc Saucier, which I just made up. Uhh… also, comes with double prize money.",
+      "imageUrl": "https://placehold.it/300x300",
+      "price": 89.99,
+      "priceLabel": "Sweet Price",
+      "sortFields": {
+        "Custom__EarlyBirdPrice": "42.50"
+      },
+      "filterFields": {
+        "EventApi__RegistrationType__c": "Simple",
+        "Custom__IsWheelchairAccessible__c": true,
+        "Custom__EarlyBird": "2018-10-10",
+        "Custom__EarlyBirdPrice": "25.50",
+        "Custom__WalkabilityScore": 12.0,
+        "Custom__PartyTime": "2019-01-15T16:00:00Z",
+        "Custom__EstimatedAttendance__c": 100
+      }
+    },{
+      "catalogs": ["item_catalog__c.catalog_id__c"],
+      "displayName": "Vibram Five Fingers",
+      "id": "a1f1I000000hpToQAI",
+      "lineDescription": "You will love these shoes",
+      "description": "Also Zoidberg. I just want to talk. It has nothing to do with mating. Fry, that doesn't make sense. I'm just glad my fat, ugly mama isn't alive to see this day. I decline the title of Iron Cook and accept the lesser title of Zinc Saucier, which I just made up. Uhh… also, comes with double prize money.",
+      "imageUrl": "https://placehold.it/300x300",
+      "price": 79.99,
+      "priceLabel": "List Price",
+      "discountPrice": 59.99,
+      "discountLabel": "Member Price",
+      "sortFields": {
+        "Custom__EarlyBirdPrice": "25.50"
+      },
+      "filterFields": {
+        "EventApi__RegistrationType__c": "Simple",
+        "Custom__IsWheelchairAccessible__c": true,
+        "Custom__EarlyBird": "2018-10-10",
+        "Custom__EarlyBirdPrice": "25.50",
+        "Custom__WalkabilityScore": 12.0,
+        "Custom__PartyTime": "2019-01-15T16:00:00Z",
+        "Custom__EstimatedAttendance__c": 100
+      }
+    },
+     {
+      "catalogs": ["item_catalog__c.catalog_id__c"],
+      "displayName": "Vibram Six Fingers",
+      "id": "a1f1I000000hpToQA",
+      "lineDescription": "Because 6 is better than 5.",
+      "description": "Also Zoidberg. I just want to talk. It has nothing to do with mating. Fry, that doesn't make sense. I'm just glad my fat, ugly mama isn't alive to see this day. I decline the title of Iron Cook and accept the lesser title of Zinc Saucier, which I just made up. Uhh… also, comes with double prize money.",
+      "imageUrl": "https://placehold.it/300x300",
+      "price": 89.99,
+      "priceLabel": "Sweet Price",
+       "sortFields": {
+        "Custom__EarlyBirdPrice": "34.50"
+      },
+      "filterFields": {
+        "EventApi__RegistrationType__c": "Simple",
+        "Custom__IsWheelchairAccessible__c": true,
+        "Custom__EarlyBird": "2018-10-10",
+        "Custom__EarlyBirdPrice": "25.50",
+        "Custom__WalkabilityScore": 12.0,
+        "Custom__PartyTime": "2019-01-15T16:00:00Z",
+        "Custom__EstimatedAttendance__c": 100
+      }
+    },
+    {
+      "catalogs": ["item_catalog__c.catalog_id__c"],
+      "displayName": "Vibram Seven Fingers",
+      "id": "a1f1I000000hpToQC",
+      "lineDescription": "Because 7 is better than 6.",
+      "description": "Also Zoidberg. I just want to talk. It has nothing to do with mating. Fry, that doesn't make sense. I'm just glad my fat, ugly mama isn't alive to see this day. I decline the title of Iron Cook and accept the lesser title of Zinc Saucier, which I just made up. Uhh… also, comes with double prize money.",
+      "imageUrl": "https://placehold.it/300x300",
+      "price": 89.99,
+      "priceLabel": "Sweet Price",
+      "sortFields": {
+        "Custom__EarlyBirdPrice": "42.50"
+      },
+      "filterFields": {
+        "EventApi__RegistrationType__c": "Simple",
+        "Custom__IsWheelchairAccessible__c": true,
+        "Custom__EarlyBird": "2018-10-10",
+        "Custom__EarlyBirdPrice": "25.50",
+        "Custom__WalkabilityScore": 12.0,
+        "Custom__PartyTime": "2019-01-15T16:00:00Z",
+        "Custom__EstimatedAttendance__c": 100
+      }
+    },
+    {
+      "catalogs": ["item_catalog__c.catalog_id__c"],
+      "displayName": "Vibram Five Fingers",
+      "id": "a1f1I000000hpToQAI",
+      "lineDescription": "You will love these shoes",
+      "description": "Also Zoidberg. I just want to talk. It has nothing to do with mating. Fry, that doesn't make sense. I'm just glad my fat, ugly mama isn't alive to see this day. I decline the title of Iron Cook and accept the lesser title of Zinc Saucier, which I just made up. Uhh… also, comes with double prize money.",
+      "imageUrl": "https://placehold.it/300x300",
+      "price": 79.99,
+      "priceLabel": "List Price",
+      "discountPrice": 59.99,
+      "discountLabel": "Member Price",
+      "sortFields": {
+        "Custom__EarlyBirdPrice": "25.50"
+      },
+      "filterFields": {
+        "EventApi__RegistrationType__c": "Simple",
+        "Custom__IsWheelchairAccessible__c": true,
+        "Custom__EarlyBird": "2018-10-10",
+        "Custom__EarlyBirdPrice": "25.50",
+        "Custom__WalkabilityScore": 12.0,
+        "Custom__PartyTime": "2019-01-15T16:00:00Z",
+        "Custom__EstimatedAttendance__c": 100
+      }
+    },
+     {
+      "catalogs": ["item_catalog__c.catalog_id__c"],
+      "displayName": "Vibram Six Fingers",
+      "id": "a1f1I000000hpToQA",
+      "lineDescription": "Because 6 is better than 5.",
+      "description": "Also Zoidberg. I just want to talk. It has nothing to do with mating. Fry, that doesn't make sense. I'm just glad my fat, ugly mama isn't alive to see this day. I decline the title of Iron Cook and accept the lesser title of Zinc Saucier, which I just made up. Uhh… also, comes with double prize money.",
+      "imageUrl": "https://placehold.it/300x300",
+      "price": 89.99,
+      "priceLabel": "Sweet Price",
+       "sortFields": {
+        "Custom__EarlyBirdPrice": "34.50"
+      },
+      "filterFields": {
+        "EventApi__RegistrationType__c": "Simple",
+        "Custom__IsWheelchairAccessible__c": true,
+        "Custom__EarlyBird": "2018-10-10",
+        "Custom__EarlyBirdPrice": "25.50",
+        "Custom__WalkabilityScore": 12.0,
+        "Custom__PartyTime": "2019-01-15T16:00:00Z",
+        "Custom__EstimatedAttendance__c": 100
+      }
+    },
+    {
+      "catalogs": ["item_catalog__c.catalog_id__c"],
+      "displayName": "Vibram Seven Fingers",
+      "id": "a1f1I000000hpToQC",
+      "lineDescription": "Because 7 is better than 6.",
+      "description": "Also Zoidberg. I just want to talk. It has nothing to do with mating. Fry, that doesn't make sense. I'm just glad my fat, ugly mama isn't alive to see this day. I decline the title of Iron Cook and accept the lesser title of Zinc Saucier, which I just made up. Uhh… also, comes with double prize money.",
+      "imageUrl": "https://placehold.it/300x300",
+      "price": 89.99,
+      "priceLabel": "Sweet Price",
+      "sortFields": {
+        "Custom__EarlyBirdPrice": "42.50"
+      },
+      "filterFields": {
+        "EventApi__RegistrationType__c": "Simple",
+        "Custom__IsWheelchairAccessible__c": true,
+        "Custom__EarlyBird": "2018-10-10",
+        "Custom__EarlyBirdPrice": "25.50",
+        "Custom__WalkabilityScore": 12.0,
+        "Custom__PartyTime": "2019-01-15T16:00:00Z",
+        "Custom__EstimatedAttendance__c": 100
+      }
+    },
+    {
+      "catalogs": ["item_catalog__c.catalog_id__c"],
+      "displayName": "Vibram Five Fingers",
+      "id": "a1f1I000000hpToQAI",
+      "lineDescription": "You will love these shoes",
+      "description": "Also Zoidberg. I just want to talk. It has nothing to do with mating. Fry, that doesn't make sense. I'm just glad my fat, ugly mama isn't alive to see this day. I decline the title of Iron Cook and accept the lesser title of Zinc Saucier, which I just made up. Uhh… also, comes with double prize money.",
+      "imageUrl": "https://placehold.it/300x300",
+      "price": 79.99,
+      "priceLabel": "List Price",
+      "discountPrice": 59.99,
+      "discountLabel": "Member Price",
+      "sortFields": {
+        "Custom__EarlyBirdPrice": "25.50"
+      },
+      "filterFields": {
+        "EventApi__RegistrationType__c": "Simple",
+        "Custom__IsWheelchairAccessible__c": true,
+        "Custom__EarlyBird": "2018-10-10",
+        "Custom__EarlyBirdPrice": "25.50",
+        "Custom__WalkabilityScore": 12.0,
+        "Custom__PartyTime": "2019-01-15T16:00:00Z",
+        "Custom__EstimatedAttendance__c": 100
+      }
+    },
+     {
+      "catalogs": ["item_catalog__c.catalog_id__c"],
+      "displayName": "Vibram Six Fingers",
+      "id": "a1f1I000000hpToQA",
+      "lineDescription": "Because 6 is better than 5.",
+      "description": "Also Zoidberg. I just want to talk. It has nothing to do with mating. Fry, that doesn't make sense. I'm just glad my fat, ugly mama isn't alive to see this day. I decline the title of Iron Cook and accept the lesser title of Zinc Saucier, which I just made up. Uhh… also, comes with double prize money.",
+      "imageUrl": "https://placehold.it/300x300",
+      "price": 89.99,
+      "priceLabel": "Sweet Price",
+       "sortFields": {
+        "Custom__EarlyBirdPrice": "34.50"
+      },
+      "filterFields": {
+        "EventApi__RegistrationType__c": "Simple",
+        "Custom__IsWheelchairAccessible__c": true,
+        "Custom__EarlyBird": "2018-10-10",
+        "Custom__EarlyBirdPrice": "25.50",
+        "Custom__WalkabilityScore": 12.0,
+        "Custom__PartyTime": "2019-01-15T16:00:00Z",
+        "Custom__EstimatedAttendance__c": 100
+      }
+    },
+    {
+      "catalogs": ["item_catalog__c.catalog_id__c"],
+      "displayName": "Vibram Seven Fingers",
+      "id": "a1f1I000000hpToQC",
+      "lineDescription": "Because 7 is better than 6.",
+      "description": "Also Zoidberg. I just want to talk. It has nothing to do with mating. Fry, that doesn't make sense. I'm just glad my fat, ugly mama isn't alive to see this day. I decline the title of Iron Cook and accept the lesser title of Zinc Saucier, which I just made up. Uhh… also, comes with double prize money.",
+      "imageUrl": "https://placehold.it/300x300",
+      "price": 89.99,
+      "priceLabel": "Sweet Price",
+      "sortFields": {
+        "Custom__EarlyBirdPrice": "42.50"
+      },
+      "filterFields": {
+        "EventApi__RegistrationType__c": "Simple",
+        "Custom__IsWheelchairAccessible__c": true,
+        "Custom__EarlyBird": "2018-10-10",
+        "Custom__EarlyBirdPrice": "25.50",
+        "Custom__WalkabilityScore": 12.0,
+        "Custom__PartyTime": "2019-01-15T16:00:00Z",
+        "Custom__EstimatedAttendance__c": 100
+      }
+    },{
+      "catalogs": ["item_catalog__c.catalog_id__c"],
+      "displayName": "Vibram Five Fingers",
+      "id": "a1f1I000000hpToQAI",
+      "lineDescription": "You will love these shoes",
+      "description": "Also Zoidberg. I just want to talk. It has nothing to do with mating. Fry, that doesn't make sense. I'm just glad my fat, ugly mama isn't alive to see this day. I decline the title of Iron Cook and accept the lesser title of Zinc Saucier, which I just made up. Uhh… also, comes with double prize money.",
+      "imageUrl": "https://placehold.it/300x300",
+      "price": 79.99,
+      "priceLabel": "List Price",
+      "discountPrice": 59.99,
+      "discountLabel": "Member Price",
+      "sortFields": {
+        "Custom__EarlyBirdPrice": "25.50"
+      },
+      "filterFields": {
+        "EventApi__RegistrationType__c": "Simple",
+        "Custom__IsWheelchairAccessible__c": true,
+        "Custom__EarlyBird": "2018-10-10",
+        "Custom__EarlyBirdPrice": "25.50",
+        "Custom__WalkabilityScore": 12.0,
+        "Custom__PartyTime": "2019-01-15T16:00:00Z",
+        "Custom__EstimatedAttendance__c": 100
+      }
+    },
+     {
+      "catalogs": ["item_catalog__c.catalog_id__c"],
+      "displayName": "Vibram Six Fingers",
+      "id": "a1f1I000000hpToQA",
+      "lineDescription": "Because 6 is better than 5.",
+      "description": "Also Zoidberg. I just want to talk. It has nothing to do with mating. Fry, that doesn't make sense. I'm just glad my fat, ugly mama isn't alive to see this day. I decline the title of Iron Cook and accept the lesser title of Zinc Saucier, which I just made up. Uhh… also, comes with double prize money.",
+      "imageUrl": "https://placehold.it/300x300",
+      "price": 89.99,
+      "priceLabel": "Sweet Price",
+       "sortFields": {
+        "Custom__EarlyBirdPrice": "34.50"
+      },
+      "filterFields": {
+        "EventApi__RegistrationType__c": "Simple",
+        "Custom__IsWheelchairAccessible__c": true,
+        "Custom__EarlyBird": "2018-10-10",
+        "Custom__EarlyBirdPrice": "25.50",
+        "Custom__WalkabilityScore": 12.0,
+        "Custom__PartyTime": "2019-01-15T16:00:00Z",
+        "Custom__EstimatedAttendance__c": 100
+      }
+    },
+    {
+      "catalogs": ["item_catalog__c.catalog_id__c"],
+      "displayName": "Vibram Seven Fingers",
+      "id": "a1f1I000000hpToQC",
+      "lineDescription": "Because 7 is better than 6.",
+      "description": "Also Zoidberg. I just want to talk. It has nothing to do with mating. Fry, that doesn't make sense. I'm just glad my fat, ugly mama isn't alive to see this day. I decline the title of Iron Cook and accept the lesser title of Zinc Saucier, which I just made up. Uhh… also, comes with double prize money.",
+      "imageUrl": "https://placehold.it/300x300",
+      "price": 89.99,
+      "priceLabel": "Sweet Price",
+      "sortFields": {
+        "Custom__EarlyBirdPrice": "42.50"
+      },
+      "filterFields": {
+        "EventApi__RegistrationType__c": "Simple",
+        "Custom__IsWheelchairAccessible__c": true,
+        "Custom__EarlyBird": "2018-10-10",
+        "Custom__EarlyBirdPrice": "25.50",
+        "Custom__WalkabilityScore": 12.0,
+        "Custom__PartyTime": "2019-01-15T16:00:00Z",
+        "Custom__EstimatedAttendance__c": 100
+      }
+    },{
+      "catalogs": ["item_catalog__c.catalog_id__c"],
+      "displayName": "Vibram Five Fingers",
+      "id": "a1f1I000000hpToQAI",
+      "lineDescription": "You will love these shoes",
+      "description": "Also Zoidberg. I just want to talk. It has nothing to do with mating. Fry, that doesn't make sense. I'm just glad my fat, ugly mama isn't alive to see this day. I decline the title of Iron Cook and accept the lesser title of Zinc Saucier, which I just made up. Uhh… also, comes with double prize money.",
+      "imageUrl": "https://placehold.it/300x300",
+      "price": 79.99,
+      "priceLabel": "List Price",
+      "discountPrice": 59.99,
+      "discountLabel": "Member Price",
+      "sortFields": {
+        "Custom__EarlyBirdPrice": "25.50"
+      },
+      "filterFields": {
+        "EventApi__RegistrationType__c": "Simple",
+        "Custom__IsWheelchairAccessible__c": true,
+        "Custom__EarlyBird": "2018-10-10",
+        "Custom__EarlyBirdPrice": "25.50",
+        "Custom__WalkabilityScore": 12.0,
+        "Custom__PartyTime": "2019-01-15T16:00:00Z",
+        "Custom__EstimatedAttendance__c": 100
+      }
+    },
+     {
+      "catalogs": ["item_catalog__c.catalog_id__c"],
+      "displayName": "Vibram Six Fingers",
+      "id": "a1f1I000000hpToQA",
+      "lineDescription": "Because 6 is better than 5.",
+      "description": "Also Zoidberg. I just want to talk. It has nothing to do with mating. Fry, that doesn't make sense. I'm just glad my fat, ugly mama isn't alive to see this day. I decline the title of Iron Cook and accept the lesser title of Zinc Saucier, which I just made up. Uhh… also, comes with double prize money.",
+      "imageUrl": "https://placehold.it/300x300",
+      "price": 89.99,
+      "priceLabel": "Sweet Price",
+       "sortFields": {
+        "Custom__EarlyBirdPrice": "34.50"
+      },
+      "filterFields": {
+        "EventApi__RegistrationType__c": "Simple",
+        "Custom__IsWheelchairAccessible__c": true,
+        "Custom__EarlyBird": "2018-10-10",
+        "Custom__EarlyBirdPrice": "25.50",
+        "Custom__WalkabilityScore": 12.0,
+        "Custom__PartyTime": "2019-01-15T16:00:00Z",
+        "Custom__EstimatedAttendance__c": 100
+      }
+    },
+    {
+      "catalogs": ["item_catalog__c.catalog_id__c"],
+      "displayName": "Vibram Seven Fingers",
+      "id": "a1f1I000000hpToQC",
+      "lineDescription": "Because 7 is better than 6.",
+      "description": "Also Zoidberg. I just want to talk. It has nothing to do with mating. Fry, that doesn't make sense. I'm just glad my fat, ugly mama isn't alive to see this day. I decline the title of Iron Cook and accept the lesser title of Zinc Saucier, which I just made up. Uhh… also, comes with double prize money.",
+      "imageUrl": "https://placehold.it/300x300",
+      "price": 89.99,
+      "priceLabel": "Sweet Price",
+      "sortFields": {
+        "Custom__EarlyBirdPrice": "42.50"
+      },
+      "filterFields": {
+        "EventApi__RegistrationType__c": "Simple",
+        "Custom__IsWheelchairAccessible__c": true,
+        "Custom__EarlyBird": "2018-10-10",
+        "Custom__EarlyBirdPrice": "25.50",
+        "Custom__WalkabilityScore": 12.0,
+        "Custom__PartyTime": "2019-01-15T16:00:00Z",
+        "Custom__EstimatedAttendance__c": 100
+      }
+    },{
+      "catalogs": ["item_catalog__c.catalog_id__c"],
+      "displayName": "Vibram Five Fingers",
+      "id": "a1f1I000000hpToQAI",
+      "lineDescription": "You will love these shoes",
+      "description": "Also Zoidberg. I just want to talk. It has nothing to do with mating. Fry, that doesn't make sense. I'm just glad my fat, ugly mama isn't alive to see this day. I decline the title of Iron Cook and accept the lesser title of Zinc Saucier, which I just made up. Uhh… also, comes with double prize money.",
+      "imageUrl": "https://placehold.it/300x300",
+      "price": 79.99,
+      "priceLabel": "List Price",
+      "discountPrice": 59.99,
+      "discountLabel": "Member Price",
+      "sortFields": {
+        "Custom__EarlyBirdPrice": "25.50"
+      },
+      "filterFields": {
+        "EventApi__RegistrationType__c": "Simple",
+        "Custom__IsWheelchairAccessible__c": true,
+        "Custom__EarlyBird": "2018-10-10",
+        "Custom__EarlyBirdPrice": "25.50",
+        "Custom__WalkabilityScore": 12.0,
+        "Custom__PartyTime": "2019-01-15T16:00:00Z",
+        "Custom__EstimatedAttendance__c": 100
+      }
+    },
+     {
+      "catalogs": ["item_catalog__c.catalog_id__c"],
+      "displayName": "Vibram Six Fingers",
+      "id": "a1f1I000000hpToQA",
+      "lineDescription": "Because 6 is better than 5.",
+      "description": "Also Zoidberg. I just want to talk. It has nothing to do with mating. Fry, that doesn't make sense. I'm just glad my fat, ugly mama isn't alive to see this day. I decline the title of Iron Cook and accept the lesser title of Zinc Saucier, which I just made up. Uhh… also, comes with double prize money.",
+      "imageUrl": "https://placehold.it/300x300",
+      "price": 89.99,
+      "priceLabel": "Sweet Price",
+       "sortFields": {
+        "Custom__EarlyBirdPrice": "34.50"
+      },
+      "filterFields": {
+        "EventApi__RegistrationType__c": "Simple",
+        "Custom__IsWheelchairAccessible__c": true,
+        "Custom__EarlyBird": "2018-10-10",
+        "Custom__EarlyBirdPrice": "25.50",
+        "Custom__WalkabilityScore": 12.0,
+        "Custom__PartyTime": "2019-01-15T16:00:00Z",
+        "Custom__EstimatedAttendance__c": 100
+      }
+    },
+    {
+      "catalogs": ["item_catalog__c.catalog_id__c"],
+      "displayName": "Vibram Seven Fingers",
+      "id": "a1f1I000000hpToQC",
+      "lineDescription": "Because 7 is better than 6.",
+      "description": "Also Zoidberg. I just want to talk. It has nothing to do with mating. Fry, that doesn't make sense. I'm just glad my fat, ugly mama isn't alive to see this day. I decline the title of Iron Cook and accept the lesser title of Zinc Saucier, which I just made up. Uhh… also, comes with double prize money.",
+      "imageUrl": "https://placehold.it/300x300",
+      "price": 89.99,
+      "priceLabel": "Sweet Price",
+      "sortFields": {
+        "Custom__EarlyBirdPrice": "42.50"
+      },
+      "filterFields": {
+        "EventApi__RegistrationType__c": "Simple",
+        "Custom__IsWheelchairAccessible__c": true,
+        "Custom__EarlyBird": "2018-10-10",
+        "Custom__EarlyBirdPrice": "25.50",
+        "Custom__WalkabilityScore": 12.0,
+        "Custom__PartyTime": "2019-01-15T16:00:00Z",
+        "Custom__EstimatedAttendance__c": 100
+      }
+    },{
+      "catalogs": ["item_catalog__c.catalog_id__c"],
+      "displayName": "Vibram Five Fingers",
+      "id": "a1f1I000000hpToQAI",
+      "lineDescription": "You will love these shoes",
+      "description": "Also Zoidberg. I just want to talk. It has nothing to do with mating. Fry, that doesn't make sense. I'm just glad my fat, ugly mama isn't alive to see this day. I decline the title of Iron Cook and accept the lesser title of Zinc Saucier, which I just made up. Uhh… also, comes with double prize money.",
+      "imageUrl": "https://placehold.it/300x300",
+      "price": 79.99,
+      "priceLabel": "List Price",
+      "discountPrice": 59.99,
+      "discountLabel": "Member Price",
+      "sortFields": {
+        "Custom__EarlyBirdPrice": "25.50"
+      },
+      "filterFields": {
+        "EventApi__RegistrationType__c": "Simple",
+        "Custom__IsWheelchairAccessible__c": true,
+        "Custom__EarlyBird": "2018-10-10",
+        "Custom__EarlyBirdPrice": "25.50",
+        "Custom__WalkabilityScore": 12.0,
+        "Custom__PartyTime": "2019-01-15T16:00:00Z",
+        "Custom__EstimatedAttendance__c": 100
+      }
+    },
+     {
+      "catalogs": ["item_catalog__c.catalog_id__c"],
+      "displayName": "Vibram Six Fingers",
+      "id": "a1f1I000000hpToQA",
+      "lineDescription": "Because 6 is better than 5.",
+      "description": "Also Zoidberg. I just want to talk. It has nothing to do with mating. Fry, that doesn't make sense. I'm just glad my fat, ugly mama isn't alive to see this day. I decline the title of Iron Cook and accept the lesser title of Zinc Saucier, which I just made up. Uhh… also, comes with double prize money.",
+      "imageUrl": "https://placehold.it/300x300",
+      "price": 89.99,
+      "priceLabel": "Sweet Price",
+       "sortFields": {
+        "Custom__EarlyBirdPrice": "34.50"
+      },
+      "filterFields": {
+        "EventApi__RegistrationType__c": "Simple",
+        "Custom__IsWheelchairAccessible__c": true,
+        "Custom__EarlyBird": "2018-10-10",
+        "Custom__EarlyBirdPrice": "25.50",
+        "Custom__WalkabilityScore": 12.0,
+        "Custom__PartyTime": "2019-01-15T16:00:00Z",
+        "Custom__EstimatedAttendance__c": 100
+      }
+    },
+    {
+      "catalogs": ["item_catalog__c.catalog_id__c"],
+      "displayName": "Vibram Seven Fingers",
+      "id": "a1f1I000000hpToQC",
+      "lineDescription": "Because 7 is better than 6.",
+      "description": "Also Zoidberg. I just want to talk. It has nothing to do with mating. Fry, that doesn't make sense. I'm just glad my fat, ugly mama isn't alive to see this day. I decline the title of Iron Cook and accept the lesser title of Zinc Saucier, which I just made up. Uhh… also, comes with double prize money.",
+      "imageUrl": "https://placehold.it/300x300",
+      "price": 89.99,
+      "priceLabel": "Sweet Price",
+      "sortFields": {
+        "Custom__EarlyBirdPrice": "42.50"
+      },
+      "filterFields": {
+        "EventApi__RegistrationType__c": "Simple",
+        "Custom__IsWheelchairAccessible__c": true,
+        "Custom__EarlyBird": "2018-10-10",
+        "Custom__EarlyBirdPrice": "25.50",
+        "Custom__WalkabilityScore": 12.0,
+        "Custom__PartyTime": "2019-01-15T16:00:00Z",
+        "Custom__EstimatedAttendance__c": 100
+      }
+    },
+    {
+      "catalogs": ["item_catalog__c.catalog_id__c"],
+      "displayName": "Vibram Eight Fingers",
+      "id": "a1f1I000000hpToQB",
+      "lineDescription": "No!! Not eight. Seven!",
+      "description": "Also Zoidberg. I just want to talk. It has nothing to do with mating. Fry, that doesn't make sense. I'm just glad my fat, ugly mama isn't alive to see this day. I decline the title of Iron Cook and accept the lesser title of Zinc Saucier, which I just made up. Uhh… also, comes with double prize money.",
+      "imageUrl": "https://placehold.it/300x300",
+      "price": 89.99,
+      "priceLabel": "Sweet Price",
       "sortFields": {
         "Custom__EarlyBirdPrice": "2.50"
       },
       "filterFields": {
         "EventApi__RegistrationType__c": "Simple",
         "Custom__IsWheelchairAccessible__c": true,
-        "Custom__EarlyBird": "2018-10-10",
-        "Custom__EarlyBirdPrice": "25.50",
-        "Custom__WalkabilityScore": 12.0,
-        "Custom__PartyTime": "2019-01-15T16:00:00Z",
-        "Custom__EstimatedAttendance__c": 100
-      }
-    },
-    
-    {
-      "catalogs": ["item_catalog__c.catalog_id__c"],
-      "displayName": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
-      "id": "a1f1I000000hpToQA",
-      "lineDescription": "Because 6 is better than 5.",
-      "description": "Also Zoidberg. I just want to talk. It has nothing to do with mating. Fry, that doesn't make sense. I'm just glad my fat, ugly mama isn't alive to see this day. I decline the title of Iron Cook and accept the lesser title of Zinc Saucier, which I just made up. Uhh… also, comes with double prize money.",
-      "imageUrl": "https://www.pizzahut.co.uk/order/images/icons/logo-300x300.ed09f0955306cb0be42c35092733b5c2.png",
-      "price": 89.99,
-      "priceLabel": "List Price",
-         "sortFields": {
-      },
-      "filterFields": {
-        "EventApi__RegistrationType__c": "Simple",
-        "Custom__IsWheelchairAccessible__c": true,
-        "Custom__EarlyBird": "2018-10-10",
-        "Custom__EarlyBirdPrice": "25.50",
-        "Custom__WalkabilityScore": 12.0,
-        "Custom__PartyTime": "2019-01-15T16:00:00Z",
-        "Custom__EstimatedAttendance__c": 100
-      }
-    },
-     {
-      "catalogs": ["item_catalog__c.catalog_id__c"],
-      "displayName": "T-Shirt",
-      "id": "a1f1I000000hpToQB",
-      "lineDescription": "Because 6 is better than 5.",
-      "description": "Also Zoidberg. I just want to talk. It has nothing to do with mating. Fry, that doesn't make sense. I'm just glad my fat, ugly mama isn't alive to see this day. I decline the title of Iron Cook and accept the lesser title of Zinc Saucier, which I just made up. Uhh… also, comes with double prize money.",
-      "imageUrl": "https://target.scene7.com/is/image/Target/14575222?wid=488&hei=488&fmt=pjpeg",
-      "price": 89.99,
-      "priceLabel": "List Price",
-          "sortFields": {
-      },
-      "filterFields": {
-        "EventApi__RegistrationType__c": "Simple",
-        "Custom__IsWheelchairAccessible__c": true,
-        "Custom__EarlyBird": "2018-10-10",
-        "Custom__EarlyBirdPrice": "25.50",
-        "Custom__WalkabilityScore": 12.0,
-        "Custom__PartyTime": "2019-01-15T16:00:00Z",
-        "Custom__EstimatedAttendance__c": 100
-      } 
-    },
-    {
-      "catalogs": ["item_catalog__c.catalog_id__c"],
-      "displayName": "Mug&Tea's",
-      "id": "a1f1I000000hpToQC",
-      "lineDescription": "Because 6 is better than 5.",
-      "description": "Also Zoidberg. I just want to talk. It has nothing to do with mating. Fry, that doesn't make sense. I'm just glad my fat, ugly mama isn't alive to see this day. I decline the title of Iron Cook and accept the lesser title of Zinc Saucier, which I just made up. Uhh… also, comes with double prize money.",
-      "imageUrl": "https://dpegb9ebondhq.cloudfront.net/product_photos/1553887/mug3e_original.jpg",
-      "price": 89.99,
-      "priceLabel": "List Price",
-         "sortFields": {
-      },
-      "filterFields": {
-        "EventApi__RegistrationType__c": "Simple",
-        "Custom__IsWheelchairAccessible__c": true,
-        "Custom__EarlyBird": "2018-10-10",
-        "Custom__EarlyBirdPrice": "25.50",
-        "Custom__WalkabilityScore": 12.0,
-        "Custom__PartyTime": "2019-01-15T16:00:00Z",
-        "Custom__EstimatedAttendance__c": 100
-      }
-    },
-     {
-      "catalogs": ["item_catalog__c.catalog_id__c"],
-      "displayName": "Membership",
-      "id": "a1f1I000000hpToQD",
-      "lineDescription": "Because 6 is better than 5.",
-      "description": "Also Zoidberg. I just want to talk. It has nothing to do with mating. Fry, that doesn't make sense. I'm just glad my fat, ugly mama isn't alive to see this day. I decline the title of Iron Cook and accept the lesser title of Zinc Saucier, which I just made up. Uhh… also, comes with double prize money.",
-      "imageUrl": "https://placehold.it/300x300",
-      "price": 89.99,
-      "priceLabel": "List Price",
-          "sortFields": {
-      },
-      "filterFields": {
-        "EventApi__RegistrationType__c": "Simple",
-        "Custom__IsWheelchairAccessible__c": true,
-        "Custom__EarlyBird": "2018-10-10",
-        "Custom__EarlyBirdPrice": "25.50",
-        "Custom__WalkabilityScore": 12.0,
-        "Custom__PartyTime": "2019-01-15T16:00:00Z",
-        "Custom__EstimatedAttendance__c": 100
-      }
-    },
-      {
-      "catalogs": ["item_catalog__c.catalog_id__c"],
-      "displayName": "Book",
-      "id": "a1f1I000000hpToQE",
-      "lineDescription": "Because 6 is better than 5.",
-      "description": "Also Zoidberg. I just want to talk. It has nothing to do with mating. Fry, that doesn't make sense. I'm just glad my fat, ugly mama isn't alive to see this day. I decline the title of Iron Cook and accept the lesser title of Zinc Saucier, which I just made up. Uhh… also, comes with double prize money.",
-      "imageUrl": "https://mk0ryrobg0ysk5t06n.kinstacdn.com/wp-content/uploads/2017/03/Best-Business-Books-Start-With-Why-Simon-Sinek.jpg",
-      "price": 89.99,
-      "priceLabel": "List Price",
-           "sortFields": {
-      },
-      "filterFields": {
-        "EventApi__RegistrationType__c": "Simple",
-        "Custom__IsWheelchairAccessible__c": true,
-        "Custom__EarlyBird": "2018-10-10",
-        "Custom__EarlyBirdPrice": "25.50",
-        "Custom__WalkabilityScore": 12.0,
-        "Custom__PartyTime": "2019-01-15T16:00:00Z",
-        "Custom__EstimatedAttendance__c": 100
-      }
-    },
-    {
-      "catalogs": ["item_catalog__c.catalog_id__c"],
-      "displayName": "Notepad",
-      "id": "a1f1I000000hpToQF",
-      "lineDescription": "Because 6 is better than 5.",
-      "description": "Also Zoidberg. I just want to talk. It has nothing to do with mating. Fry, that doesn't make sense. I'm just glad my fat, ugly mama isn't alive to see this day. I decline the title of Iron Cook and accept the lesser title of Zinc Saucier, which I just made up. Uhh… also, comes with double prize money.",
-      "imageUrl": "https://ii.worldmarket.com/fcgi-bin/iipsrv.fcgi?FIF=/images/worldmarket/source/30376_XXX_v1.tif&wid=650&cvt=jpeg",
-      "price": 89.99,
-      "priceLabel": "List Price",
-         "sortFields": {
-      },
-      "filterFields": {
-        "EventApi__RegistrationType__c": "Simple",
-        "Custom__IsWheelchairAccessible__c": true,
-        "Custom__EarlyBird": "2018-10-10",
-        "Custom__EarlyBirdPrice": "25.50",
-        "Custom__WalkabilityScore": 12.0,
-        "Custom__PartyTime": "2019-01-15T16:00:00Z",
-        "Custom__EstimatedAttendance__c": 100
-      }
-    },
-    {
-      "catalogs": ["item_catalog__c.catalog_id__c"],
-      "displayName": "Vibram Five Fingers",
-      "id": "a1f1I000000hpToQAI",
-      "lineDescription": "You will love these shoes",
-      "description": "Also Zoidberg. I just want to talk. It has nothing to do with mating. Fry, that doesn't make sense. I'm just glad my fat, ugly mama isn't alive to see this day. I decline the title of Iron Cook and accept the lesser title of Zinc Saucier, which I just made up. Uhh… also, comes with double prize money.",
-      "imageUrl": "https://socialmediaseo.net/wp-content/uploads/2010/05/500px-android-logosvg-300x300.png",
-      "price": 79.99,
-      "priceLabel": "mannemStoreListing List Price",
-      "discountPrice": 59.99,
-      "discountLabel": "mannemStoreListing Member Price conditional type mappings",
-         "sortFields": {
-      },
-      "filterFields": {
-        "EventApi__RegistrationType__c": "Simple",
-        "Custom__IsWheelchairAccessible__c": true,
-        "Custom__EarlyBird": "2018-10-10",
-        "Custom__EarlyBirdPrice": "25.50",
-        "Custom__WalkabilityScore": 12.0,
-        "Custom__PartyTime": "2019-01-15T16:00:00Z",
-        "Custom__EstimatedAttendance__c": 100
-      }
-    },
-     {
-      "catalogs": ["item_catalog__c.catalog_id__c"],
-      "displayName": "Pot Hit",
-      "id": "a1f1I000000hpToQAI",
-      "lineDescription": "You will love these shoes",
-      "description": "Also Zoidberg. I just want to talk. It has nothing to do with mating. Fry, that doesn't make sense. I'm just glad my fat, ugly mama isn't alive to see this day. I decline the title of Iron Cook and accept the lesser title of Zinc Saucier, which I just made up. Uhh… also, comes with double prize money.",
-      "imageUrl": "https://socialmediaseo.net/wp-content/uploads/2010/05/500px-android-logosvg-300x300.png",
-      "price": 79.99,
-      "priceLabel": "List Price",
-      "discountPrice": 59.99,
-      "discountLabel": "Member Price",
-          "sortFields": {
-      },
-      "filterFields": {
-        "EventApi__RegistrationType__c": "Simple",
-        "Custom__IsWheelchairAccessible__c": true,
-        "Custom__EarlyBird": "2018-10-10",
-        "Custom__EarlyBirdPrice": "25.50",
-        "Custom__WalkabilityScore": 12.0,
-        "Custom__PartyTime": "2019-01-15T16:00:00Z",
-        "Custom__EstimatedAttendance__c": 100
-      }
-    },
-     {
-      "catalogs": ["item_catalog__c.catalog_id__c"],
-      "displayName": "Iphone Screen",
-      "id": "a1f1I000000hpToQAI",
-      "lineDescription": "You will love these shoes",
-      "description": "Also Zoidberg. I just want to talk. It has nothing to do with mating. Fry, that doesn't make sense. I'm just glad my fat, ugly mama isn't alive to see this day. I decline the title of Iron Cook and accept the lesser title of Zinc Saucier, which I just made up. Uhh… also, comes with double prize money.",
-      "imageUrl": "https://socialmediaseo.net/wp-content/uploads/2010/05/500px-android-logosvg-300x300.png",
-      "price": 79.99,
-      "priceLabel": "List Price",
-      "discountPrice": 59.99,
-      "discountLabel": "Member Price",
-          "sortFields": {
-      },
-      "filterFields": {
-        "EventApi__RegistrationType__c": "Simple",
-        "Custom__IsWheelchairAccessible__c": true,
-        "Custom__EarlyBird": "2018-10-10",
-        "Custom__EarlyBirdPrice": "25.50",
-        "Custom__WalkabilityScore": 12.0,
-        "Custom__PartyTime": "2019-01-15T16:00:00Z",
-        "Custom__EstimatedAttendance__c": 100
-      }
-    },
-     {
-      "catalogs": ["item_catalog__c.catalog_id__c"],
-      "displayName": "HeadSet",
-      "id": "a1f1I000000hpToQAI",
-      "lineDescription": "You will love these shoes",
-      "description": "Also Zoidberg. I just want to talk. It has nothing to do with mating. Fry, that doesn't make sense. I'm just glad my fat, ugly mama isn't alive to see this day. I decline the title of Iron Cook and accept the lesser title of Zinc Saucier, which I just made up. Uhh… also, comes with double prize money.",
-      "imageUrl": "https://socialmediaseo.net/wp-content/uploads/2010/05/500px-android-logosvg-300x300.png",
-      "price": 79.99,
-      "priceLabel": "List Price",
-      "discountPrice": 59.99,
-      "discountLabel": "Member Price",
-          "sortFields": {
-      },
-      "filterFields": {
-        "EventApi__RegistrationType__c": "Simple",
-        "Custom__IsWheelchairAccessible__c": true,
-        "Custom__EarlyBird": "2018-10-10",
-        "Custom__EarlyBirdPrice": "25.50",
-        "Custom__WalkabilityScore": 12.0,
-        "Custom__PartyTime": "2019-01-15T16:00:00Z",
-        "Custom__EstimatedAttendance__c": 100
-      }
-    },
-     {
-      "catalogs": ["item_catalog__c.catalog_id__c"],
-      "displayName": "PAPER Cloth",
-      "id": "a1f1I000000hpToQAI",
-      "lineDescription": "You will love these shoes",
-      "description": "Also Zoidberg. I just want to talk. It has nothing to do with mating. Fry, that doesn't make sense. I'm just glad my fat, ugly mama isn't alive to see this day. I decline the title of Iron Cook and accept the lesser title of Zinc Saucier, which I just made up. Uhh… also, comes with double prize money.",
-      "imageUrl": "https://socialmediaseo.net/wp-content/uploads/2010/05/500px-android-logosvg-300x300.png",
-      "price": 79.99,
-      "priceLabel": "List Price",
-      "discountPrice": 59.99,
-      "discountLabel": "Member Price",
-          "sortFields": {
-      },
-      "filterFields": {
-        "EventApi__RegistrationType__c": "Simple",
-        "Custom__IsWheelchairAccessible__c": true,
-        "Custom__EarlyBird": "2018-10-10",
-        "Custom__EarlyBirdPrice": "25.50",
-        "Custom__WalkabilityScore": 12.0,
-        "Custom__PartyTime": "2019-01-15T16:00:00Z",
-        "Custom__EstimatedAttendance__c": 100
-      }
-    },
-     {
-      "catalogs": ["item_catalog__c.catalog_id__c"],
-      "displayName": "Spinner Fingers",
-      "id": "a1f1I000000hpToQAI",
-      "lineDescription": "You will love these shoes",
-      "description": "Also Zoidberg. I just want to talk. It has nothing to do with mating. Fry, that doesn't make sense. I'm just glad my fat, ugly mama isn't alive to see this day. I decline the title of Iron Cook and accept the lesser title of Zinc Saucier, which I just made up. Uhh… also, comes with double prize money.",
-      "imageUrl": "https://socialmediaseo.net/wp-content/uploads/2010/05/500px-android-logosvg-300x300.png",
-      "price": 79.99,
-      "priceLabel": "List Price",
-      "discountPrice": 59.99,
-      "discountLabel": "Member Price",
-          "sortFields": {
-      },
-      "filterFields": {
-        "EventApi__RegistrationType__c": "Simple",
-        "Custom__IsWheelchairAccessible__c": true,
-        "Custom__EarlyBird": "2018-10-10",
-        "Custom__EarlyBirdPrice": "25.50",
-        "Custom__WalkabilityScore": 12.0,
-        "Custom__PartyTime": "2019-01-15T16:00:00Z",
-        "Custom__EstimatedAttendance__c": 100
-      }
-    },
-     {
-      "catalogs": ["item_catalog__c.catalog_id__c"],
-      "displayName": "Red Hat Handbook Guide",
-      "id": "a1f1I000000hpToQAI",
-      "lineDescription": "You will love these shoes",
-      "description": "Also Zoidberg. I just want to talk. It has nothing to do with mating. Fry, that doesn't make sense. I'm just glad my fat, ugly mama isn't alive to see this day. I decline the title of Iron Cook and accept the lesser title of Zinc Saucier, which I just made up. Uhh… also, comes with double prize money.",
-      "imageUrl": "https://socialmediaseo.net/wp-content/uploads/2010/05/500px-android-logosvg-300x300.png",
-      "price": 79.99,
-      "priceLabel": "List Price",
-      "discountPrice": 59.99,
-      "discountLabel": "Member Price",
-          "sortFields": {
-      },
-      "filterFields": {
-        "EventApi__RegistrationType__c": "Simple",
-        "Custom__IsWheelchairAccessible__c": true,
-        "Custom__EarlyBird": "2018-10-10",
-        "Custom__EarlyBirdPrice": "25.50",
-        "Custom__WalkabilityScore": 12.0,
-        "Custom__PartyTime": "2019-01-15T16:00:00Z",
-        "Custom__EstimatedAttendance__c": 100
-      }
-    },
-    
-    {
-      "catalogs": ["item_catalog__c.catalog_id__c"],
-      "displayName": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
-      "id": "a1f1I000000hpToQA",
-      "lineDescription": "Because 6 is better than 5.",
-      "description": "Also Zoidberg. I just want to talk. It has nothing to do with mating. Fry, that doesn't make sense. I'm just glad my fat, ugly mama isn't alive to see this day. I decline the title of Iron Cook and accept the lesser title of Zinc Saucier, which I just made up. Uhh… also, comes with double prize money.",
-      "imageUrl": "https://www.pizzahut.co.uk/order/images/icons/logo-300x300.ed09f0955306cb0be42c35092733b5c2.png",
-      "price": 89.99,
-      "priceLabel": "List Price",
-         "sortFields": {
-      },
-      "filterFields": {
-        "EventApi__RegistrationType__c": "Simple",
-        "Custom__IsWheelchairAccessible__c": true,
-        "Custom__EarlyBird": "2018-10-10",
-        "Custom__EarlyBirdPrice": "25.50",
-        "Custom__WalkabilityScore": 12.0,
-        "Custom__PartyTime": "2019-01-15T16:00:00Z",
-        "Custom__EstimatedAttendance__c": 100
-      }
-    },
-     {
-      "catalogs": ["item_catalog__c.catalog_id__c"],
-      "displayName": "T-Shirt",
-      "id": "a1f1I000000hpToQB",
-      "lineDescription": "Because 6 is better than 5.",
-      "description": "Also Zoidberg. I just want to talk. It has nothing to do with mating. Fry, that doesn't make sense. I'm just glad my fat, ugly mama isn't alive to see this day. I decline the title of Iron Cook and accept the lesser title of Zinc Saucier, which I just made up. Uhh… also, comes with double prize money.",
-      "imageUrl": "https://target.scene7.com/is/image/Target/14575222?wid=488&hei=488&fmt=pjpeg",
-      "price": 89.99,
-      "priceLabel": "List Price",
-          "sortFields": {
-      },
-      "filterFields": {
-        "EventApi__RegistrationType__c": "Simple",
-        "Custom__IsWheelchairAccessible__c": true,
-        "Custom__EarlyBird": "2018-10-10",
-        "Custom__EarlyBirdPrice": "25.50",
-        "Custom__WalkabilityScore": 12.0,
-        "Custom__PartyTime": "2019-01-15T16:00:00Z",
-        "Custom__EstimatedAttendance__c": 100
-      } 
-    },
-    {
-      "catalogs": ["item_catalog__c.catalog_id__c"],
-      "displayName": "Mug&Tea's",
-      "id": "a1f1I000000hpToQC",
-      "lineDescription": "Because 6 is better than 5.",
-      "description": "Also Zoidberg. I just want to talk. It has nothing to do with mating. Fry, that doesn't make sense. I'm just glad my fat, ugly mama isn't alive to see this day. I decline the title of Iron Cook and accept the lesser title of Zinc Saucier, which I just made up. Uhh… also, comes with double prize money.",
-      "imageUrl": "https://dpegb9ebondhq.cloudfront.net/product_photos/1553887/mug3e_original.jpg",
-      "price": 89.99,
-      "priceLabel": "List Price",
-         "sortFields": {
-      },
-      "filterFields": {
-        "EventApi__RegistrationType__c": "Simple",
-        "Custom__IsWheelchairAccessible__c": true,
-        "Custom__EarlyBird": "2018-10-10",
-        "Custom__EarlyBirdPrice": "25.50",
-        "Custom__WalkabilityScore": 12.0,
-        "Custom__PartyTime": "2019-01-15T16:00:00Z",
-        "Custom__EstimatedAttendance__c": 100
-      }
-    },
-     {
-      "catalogs": ["item_catalog__c.catalog_id__c"],
-      "displayName": "Membership",
-      "id": "a1f1I000000hpToQD",
-      "lineDescription": "Because 6 is better than 5.",
-      "description": "Also Zoidberg. I just want to talk. It has nothing to do with mating. Fry, that doesn't make sense. I'm just glad my fat, ugly mama isn't alive to see this day. I decline the title of Iron Cook and accept the lesser title of Zinc Saucier, which I just made up. Uhh… also, comes with double prize money.",
-      "imageUrl": "https://placehold.it/300x300",
-      "price": 89.99,
-      "priceLabel": "List Price",
-          "sortFields": {
-      },
-      "filterFields": {
-        "EventApi__RegistrationType__c": "Simple",
-        "Custom__IsWheelchairAccessible__c": true,
-        "Custom__EarlyBird": "2018-10-10",
-        "Custom__EarlyBirdPrice": "25.50",
-        "Custom__WalkabilityScore": 12.0,
-        "Custom__PartyTime": "2019-01-15T16:00:00Z",
-        "Custom__EstimatedAttendance__c": 100
-      }
-    },
-      {
-      "catalogs": ["item_catalog__c.catalog_id__c"],
-      "displayName": "Book",
-      "id": "a1f1I000000hpToQE",
-      "lineDescription": "Because 6 is better than 5.",
-      "description": "Also Zoidberg. I just want to talk. It has nothing to do with mating. Fry, that doesn't make sense. I'm just glad my fat, ugly mama isn't alive to see this day. I decline the title of Iron Cook and accept the lesser title of Zinc Saucier, which I just made up. Uhh… also, comes with double prize money.",
-      "imageUrl": "https://mk0ryrobg0ysk5t06n.kinstacdn.com/wp-content/uploads/2017/03/Best-Business-Books-Start-With-Why-Simon-Sinek.jpg",
-      "price": 89.99,
-      "priceLabel": "List Price",
-           "sortFields": {
-      },
-      "filterFields": {
-        "EventApi__RegistrationType__c": "Simple",
-        "Custom__IsWheelchairAccessible__c": true,
-        "Custom__EarlyBird": "2018-10-10",
-        "Custom__EarlyBirdPrice": "25.50",
-        "Custom__WalkabilityScore": 12.0,
-        "Custom__PartyTime": "2019-01-15T16:00:00Z",
-        "Custom__EstimatedAttendance__c": 100
-      }
-    },
-    {
-      "catalogs": ["item_catalog__c.catalog_id__c"],
-      "displayName": "Notepad",
-      "id": "a1f1I000000hpToQF",
-      "lineDescription": "Because 6 is better than 5.",
-      "description": "Also Zoidberg. I just want to talk. It has nothing to do with mating. Fry, that doesn't make sense. I'm just glad my fat, ugly mama isn't alive to see this day. I decline the title of Iron Cook and accept the lesser title of Zinc Saucier, which I just made up. Uhh… also, comes with double prize money.",
-      "imageUrl": "https://ii.worldmarket.com/fcgi-bin/iipsrv.fcgi?FIF=/images/worldmarket/source/30376_XXX_v1.tif&wid=650&cvt=jpeg",
-      "price": 89.99,
-      "priceLabel": "List Price",
-         "sortFields": {
-      },
-      "filterFields": {
-        "EventApi__RegistrationType__c": "Simple",
-        "Custom__IsWheelchairAccessible__c": true,
-        "Custom__EarlyBird": "2018-10-10",
-        "Custom__EarlyBirdPrice": "25.50",
-        "Custom__WalkabilityScore": 12.0,
-        "Custom__PartyTime": "2019-01-15T16:00:00Z",
-        "Custom__EstimatedAttendance__c": 100
-      }
-    },
-    {
-      "catalogs": ["item_catalog__c.catalog_id__c"],
-      "displayName": "Vibram Five Fingers",
-      "id": "a1f1I000000hpToQAI",
-      "lineDescription": "You will love these shoes",
-      "description": "Also Zoidberg. I just want to talk. It has nothing to do with mating. Fry, that doesn't make sense. I'm just glad my fat, ugly mama isn't alive to see this day. I decline the title of Iron Cook and accept the lesser title of Zinc Saucier, which I just made up. Uhh… also, comes with double prize money.",
-      "imageUrl": "https://socialmediaseo.net/wp-content/uploads/2010/05/500px-android-logosvg-300x300.png",
-      "price": 79.99,
-      "priceLabel": "mannemStoreListing List Price",
-      "discountPrice": 59.99,
-      "discountLabel": "mannemStoreListing Member Price conditional type mappings",
-         "sortFields": {
-      },
-      "filterFields": {
-        "EventApi__RegistrationType__c": "Simple",
-        "Custom__IsWheelchairAccessible__c": true,
-        "Custom__EarlyBird": "2018-10-10",
-        "Custom__EarlyBirdPrice": "25.50",
-        "Custom__WalkabilityScore": 12.0,
-        "Custom__PartyTime": "2019-01-15T16:00:00Z",
-        "Custom__EstimatedAttendance__c": 100
-      }
-    },
-     {
-      "catalogs": ["item_catalog__c.catalog_id__c"],
-      "displayName": "Pot Hit",
-      "id": "a1f1I000000hpToQAI",
-      "lineDescription": "You will love these shoes",
-      "description": "Also Zoidberg. I just want to talk. It has nothing to do with mating. Fry, that doesn't make sense. I'm just glad my fat, ugly mama isn't alive to see this day. I decline the title of Iron Cook and accept the lesser title of Zinc Saucier, which I just made up. Uhh… also, comes with double prize money.",
-      "imageUrl": "https://socialmediaseo.net/wp-content/uploads/2010/05/500px-android-logosvg-300x300.png",
-      "price": 79.99,
-      "priceLabel": "List Price",
-      "discountPrice": 59.99,
-      "discountLabel": "Member Price",
-          "sortFields": {
-      },
-      "filterFields": {
-        "EventApi__RegistrationType__c": "Simple",
-        "Custom__IsWheelchairAccessible__c": true,
-        "Custom__EarlyBird": "2018-10-10",
-        "Custom__EarlyBirdPrice": "25.50",
-        "Custom__WalkabilityScore": 12.0,
-        "Custom__PartyTime": "2019-01-15T16:00:00Z",
-        "Custom__EstimatedAttendance__c": 100
-      }
-    },
-     {
-      "catalogs": ["item_catalog__c.catalog_id__c"],
-      "displayName": "Iphone Screen",
-      "id": "a1f1I000000hpToQAI",
-      "lineDescription": "You will love these shoes",
-      "description": "Also Zoidberg. I just want to talk. It has nothing to do with mating. Fry, that doesn't make sense. I'm just glad my fat, ugly mama isn't alive to see this day. I decline the title of Iron Cook and accept the lesser title of Zinc Saucier, which I just made up. Uhh… also, comes with double prize money.",
-      "imageUrl": "https://socialmediaseo.net/wp-content/uploads/2010/05/500px-android-logosvg-300x300.png",
-      "price": 79.99,
-      "priceLabel": "List Price",
-      "discountPrice": 59.99,
-      "discountLabel": "Member Price",
-          "sortFields": {
-      },
-      "filterFields": {
-        "EventApi__RegistrationType__c": "Simple",
-        "Custom__IsWheelchairAccessible__c": true,
-        "Custom__EarlyBird": "2018-10-10",
-        "Custom__EarlyBirdPrice": "25.50",
-        "Custom__WalkabilityScore": 12.0,
-        "Custom__PartyTime": "2019-01-15T16:00:00Z",
-        "Custom__EstimatedAttendance__c": 100
-      }
-    },
-     {
-      "catalogs": ["item_catalog__c.catalog_id__c"],
-      "displayName": "HeadSet",
-      "id": "a1f1I000000hpToQAI",
-      "lineDescription": "You will love these shoes",
-      "description": "Also Zoidberg. I just want to talk. It has nothing to do with mating. Fry, that doesn't make sense. I'm just glad my fat, ugly mama isn't alive to see this day. I decline the title of Iron Cook and accept the lesser title of Zinc Saucier, which I just made up. Uhh… also, comes with double prize money.",
-      "imageUrl": "https://socialmediaseo.net/wp-content/uploads/2010/05/500px-android-logosvg-300x300.png",
-      "price": 79.99,
-      "priceLabel": "List Price",
-      "discountPrice": 59.99,
-      "discountLabel": "Member Price",
-          "sortFields": {
-      },
-      "filterFields": {
-        "EventApi__RegistrationType__c": "Simple",
-        "Custom__IsWheelchairAccessible__c": true,
-        "Custom__EarlyBird": "2018-10-10",
-        "Custom__EarlyBirdPrice": "25.50",
-        "Custom__WalkabilityScore": 12.0,
-        "Custom__PartyTime": "2019-01-15T16:00:00Z",
-        "Custom__EstimatedAttendance__c": 100
-      }
-    },
-     {
-      "catalogs": ["item_catalog__c.catalog_id__c"],
-      "displayName": "PAPER Cloth",
-      "id": "a1f1I000000hpToQAI",
-      "lineDescription": "You will love these shoes",
-      "description": "Also Zoidberg. I just want to talk. It has nothing to do with mating. Fry, that doesn't make sense. I'm just glad my fat, ugly mama isn't alive to see this day. I decline the title of Iron Cook and accept the lesser title of Zinc Saucier, which I just made up. Uhh… also, comes with double prize money.",
-      "imageUrl": "https://socialmediaseo.net/wp-content/uploads/2010/05/500px-android-logosvg-300x300.png",
-      "price": 79.99,
-      "priceLabel": "List Price",
-      "discountPrice": 59.99,
-      "discountLabel": "Member Price",
-          "sortFields": {
-      },
-      "filterFields": {
-        "EventApi__RegistrationType__c": "Simple",
-        "Custom__IsWheelchairAccessible__c": true,
-        "Custom__EarlyBird": "2018-10-10",
-        "Custom__EarlyBirdPrice": "25.50",
-        "Custom__WalkabilityScore": 12.0,
-        "Custom__PartyTime": "2019-01-15T16:00:00Z",
-        "Custom__EstimatedAttendance__c": 100
-      }
-    },
-     {
-      "catalogs": ["item_catalog__c.catalog_id__c"],
-      "displayName": "Spinner Fingers",
-      "id": "a1f1I000000hpToQAI",
-      "lineDescription": "You will love these shoes",
-      "description": "Also Zoidberg. I just want to talk. It has nothing to do with mating. Fry, that doesn't make sense. I'm just glad my fat, ugly mama isn't alive to see this day. I decline the title of Iron Cook and accept the lesser title of Zinc Saucier, which I just made up. Uhh… also, comes with double prize money.",
-      "imageUrl": "https://socialmediaseo.net/wp-content/uploads/2010/05/500px-android-logosvg-300x300.png",
-      "price": 79.99,
-      "priceLabel": "List Price",
-      "discountPrice": 59.99,
-      "discountLabel": "Member Price",
-          "sortFields": {
-      },
-      "filterFields": {
-        "EventApi__RegistrationType__c": "Simple",
-        "Custom__IsWheelchairAccessible__c": true,
-        "Custom__EarlyBird": "2018-10-10",
-        "Custom__EarlyBirdPrice": "25.50",
-        "Custom__WalkabilityScore": 12.0,
-        "Custom__PartyTime": "2019-01-15T16:00:00Z",
-        "Custom__EstimatedAttendance__c": 100
-      }
-    },
-     {
-      "catalogs": ["item_catalog__c.catalog_id__c"],
-      "displayName": "Red Hat Handbook Guide",
-      "id": "a1f1I000000hpToQAI",
-      "lineDescription": "You will love these shoes",
-      "description": "Also Zoidberg. I just want to talk. It has nothing to do with mating. Fry, that doesn't make sense. I'm just glad my fat, ugly mama isn't alive to see this day. I decline the title of Iron Cook and accept the lesser title of Zinc Saucier, which I just made up. Uhh… also, comes with double prize money.",
-      "imageUrl": "https://socialmediaseo.net/wp-content/uploads/2010/05/500px-android-logosvg-300x300.png",
-      "price": 79.99,
-      "priceLabel": "List Price",
-      "discountPrice": 59.99,
-      "discountLabel": "Member Price",
-          "sortFields": {
-      },
-      "filterFields": {
-        "EventApi__RegistrationType__c": "Simple",
-        "Custom__IsWheelchairAccessible__c": true,
-        "Custom__EarlyBird": "2018-10-10",
-        "Custom__EarlyBirdPrice": "25.50",
-        "Custom__WalkabilityScore": 12.0,
-        "Custom__PartyTime": "2019-01-15T16:00:00Z",
-        "Custom__EstimatedAttendance__c": 100
-      }
-    },
-    
-    {
-      "catalogs": ["item_catalog__c.catalog_id__c"],
-      "displayName": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
-      "id": "a1f1I000000hpToQA",
-      "lineDescription": "Because 6 is better than 5.",
-      "description": "Also Zoidberg. I just want to talk. It has nothing to do with mating. Fry, that doesn't make sense. I'm just glad my fat, ugly mama isn't alive to see this day. I decline the title of Iron Cook and accept the lesser title of Zinc Saucier, which I just made up. Uhh… also, comes with double prize money.",
-      "imageUrl": "https://www.pizzahut.co.uk/order/images/icons/logo-300x300.ed09f0955306cb0be42c35092733b5c2.png",
-      "price": 89.99,
-      "priceLabel": "List Price",
-         "sortFields": {
-      },
-      "filterFields": {
-        "EventApi__RegistrationType__c": "Simple",
-        "Custom__IsWheelchairAccessible__c": true,
-        "Custom__EarlyBird": "2018-10-10",
-        "Custom__EarlyBirdPrice": "25.50",
-        "Custom__WalkabilityScore": 12.0,
-        "Custom__PartyTime": "2019-01-15T16:00:00Z",
-        "Custom__EstimatedAttendance__c": 100
-      }
-    },
-     {
-      "catalogs": ["item_catalog__c.catalog_id__c"],
-      "displayName": "T-Shirt",
-      "id": "a1f1I000000hpToQB",
-      "lineDescription": "Because 6 is better than 5.",
-      "description": "Also Zoidberg. I just want to talk. It has nothing to do with mating. Fry, that doesn't make sense. I'm just glad my fat, ugly mama isn't alive to see this day. I decline the title of Iron Cook and accept the lesser title of Zinc Saucier, which I just made up. Uhh… also, comes with double prize money.",
-      "imageUrl": "https://target.scene7.com/is/image/Target/14575222?wid=488&hei=488&fmt=pjpeg",
-      "price": 89.99,
-      "priceLabel": "List Price",
-          "sortFields": {
-      },
-      "filterFields": {
-        "EventApi__RegistrationType__c": "Simple",
-        "Custom__IsWheelchairAccessible__c": true,
-        "Custom__EarlyBird": "2018-10-10",
-        "Custom__EarlyBirdPrice": "25.50",
-        "Custom__WalkabilityScore": 12.0,
-        "Custom__PartyTime": "2019-01-15T16:00:00Z",
-        "Custom__EstimatedAttendance__c": 100
-      } 
-    },
-    {
-      "catalogs": ["item_catalog__c.catalog_id__c"],
-      "displayName": "Mug&Tea's",
-      "id": "a1f1I000000hpToQC",
-      "lineDescription": "Because 6 is better than 5.",
-      "description": "Also Zoidberg. I just want to talk. It has nothing to do with mating. Fry, that doesn't make sense. I'm just glad my fat, ugly mama isn't alive to see this day. I decline the title of Iron Cook and accept the lesser title of Zinc Saucier, which I just made up. Uhh… also, comes with double prize money.",
-      "imageUrl": "https://dpegb9ebondhq.cloudfront.net/product_photos/1553887/mug3e_original.jpg",
-      "price": 89.99,
-      "priceLabel": "List Price",
-         "sortFields": {
-      },
-      "filterFields": {
-        "EventApi__RegistrationType__c": "Simple",
-        "Custom__IsWheelchairAccessible__c": true,
-        "Custom__EarlyBird": "2018-10-10",
-        "Custom__EarlyBirdPrice": "25.50",
-        "Custom__WalkabilityScore": 12.0,
-        "Custom__PartyTime": "2019-01-15T16:00:00Z",
-        "Custom__EstimatedAttendance__c": 100
-      }
-    },
-     {
-      "catalogs": ["item_catalog__c.catalog_id__c"],
-      "displayName": "Membership",
-      "id": "a1f1I000000hpToQD",
-      "lineDescription": "Because 6 is better than 5.",
-      "description": "Also Zoidberg. I just want to talk. It has nothing to do with mating. Fry, that doesn't make sense. I'm just glad my fat, ugly mama isn't alive to see this day. I decline the title of Iron Cook and accept the lesser title of Zinc Saucier, which I just made up. Uhh… also, comes with double prize money.",
-      "imageUrl": "https://placehold.it/300x300",
-      "price": 89.99,
-      "priceLabel": "List Price",
-          "sortFields": {
-      },
-      "filterFields": {
-        "EventApi__RegistrationType__c": "Simple",
-        "Custom__IsWheelchairAccessible__c": true,
-        "Custom__EarlyBird": "2018-10-10",
-        "Custom__EarlyBirdPrice": "25.50",
-        "Custom__WalkabilityScore": 12.0,
-        "Custom__PartyTime": "2019-01-15T16:00:00Z",
-        "Custom__EstimatedAttendance__c": 100
-      }
-    },
-      {
-      "catalogs": ["item_catalog__c.catalog_id__c"],
-      "displayName": "Book",
-      "id": "a1f1I000000hpToQE",
-      "lineDescription": "Because 6 is better than 5.",
-      "description": "Also Zoidberg. I just want to talk. It has nothing to do with mating. Fry, that doesn't make sense. I'm just glad my fat, ugly mama isn't alive to see this day. I decline the title of Iron Cook and accept the lesser title of Zinc Saucier, which I just made up. Uhh… also, comes with double prize money.",
-      "imageUrl": "https://mk0ryrobg0ysk5t06n.kinstacdn.com/wp-content/uploads/2017/03/Best-Business-Books-Start-With-Why-Simon-Sinek.jpg",
-      "price": 89.99,
-      "priceLabel": "List Price",
-           "sortFields": {
-      },
-      "filterFields": {
-        "EventApi__RegistrationType__c": "Simple",
-        "Custom__IsWheelchairAccessible__c": true,
-        "Custom__EarlyBird": "2018-10-10",
-        "Custom__EarlyBirdPrice": "25.50",
-        "Custom__WalkabilityScore": 12.0,
-        "Custom__PartyTime": "2019-01-15T16:00:00Z",
-        "Custom__EstimatedAttendance__c": 100
-      }
-    },
-    {
-      "catalogs": ["item_catalog__c.catalog_id__c"],
-      "displayName": "Notepad",
-      "id": "a1f1I000000hpToQF",
-      "lineDescription": "Because 6 is better than 5.",
-      "description": "Also Zoidberg. I just want to talk. It has nothing to do with mating. Fry, that doesn't make sense. I'm just glad my fat, ugly mama isn't alive to see this day. I decline the title of Iron Cook and accept the lesser title of Zinc Saucier, which I just made up. Uhh… also, comes with double prize money.",
-      "imageUrl": "https://ii.worldmarket.com/fcgi-bin/iipsrv.fcgi?FIF=/images/worldmarket/source/30376_XXX_v1.tif&wid=650&cvt=jpeg",
-      "price": 89.99,
-      "priceLabel": "List Price",
-         "sortFields": {
-      },
-      "filterFields": {
-        "EventApi__RegistrationType__c": "Simple",
-        "Custom__IsWheelchairAccessible__c": true,
-        "Custom__EarlyBird": "2018-10-10",
-        "Custom__EarlyBirdPrice": "25.50",
-        "Custom__WalkabilityScore": 12.0,
-        "Custom__PartyTime": "2019-01-15T16:00:00Z",
-        "Custom__EstimatedAttendance__c": 100
-      }
-    },
-    {
-      "catalogs": ["item_catalog__c.catalog_id__c"],
-      "displayName": "Vibram Five Fingers",
-      "id": "a1f1I000000hpToQAI",
-      "lineDescription": "You will love these shoes",
-      "description": "Also Zoidberg. I just want to talk. It has nothing to do with mating. Fry, that doesn't make sense. I'm just glad my fat, ugly mama isn't alive to see this day. I decline the title of Iron Cook and accept the lesser title of Zinc Saucier, which I just made up. Uhh… also, comes with double prize money.",
-      "imageUrl": "https://socialmediaseo.net/wp-content/uploads/2010/05/500px-android-logosvg-300x300.png",
-      "price": 79.99,
-      "priceLabel": "mannemStoreListing List Price",
-      "discountPrice": 59.99,
-      "discountLabel": "mannemStoreListing Member Price conditional type mappings",
-         "sortFields": {
-      },
-      "filterFields": {
-        "EventApi__RegistrationType__c": "Simple",
-        "Custom__IsWheelchairAccessible__c": true,
-        "Custom__EarlyBird": "2018-10-10",
-        "Custom__EarlyBirdPrice": "25.50",
-        "Custom__WalkabilityScore": 12.0,
-        "Custom__PartyTime": "2019-01-15T16:00:00Z",
-        "Custom__EstimatedAttendance__c": 100
-      }
-    },
-     {
-      "catalogs": ["item_catalog__c.catalog_id__c"],
-      "displayName": "Pot Hit",
-      "id": "a1f1I000000hpToQAI",
-      "lineDescription": "You will love these shoes",
-      "description": "Also Zoidberg. I just want to talk. It has nothing to do with mating. Fry, that doesn't make sense. I'm just glad my fat, ugly mama isn't alive to see this day. I decline the title of Iron Cook and accept the lesser title of Zinc Saucier, which I just made up. Uhh… also, comes with double prize money.",
-      "imageUrl": "https://socialmediaseo.net/wp-content/uploads/2010/05/500px-android-logosvg-300x300.png",
-      "price": 79.99,
-      "priceLabel": "List Price",
-      "discountPrice": 59.99,
-      "discountLabel": "Member Price",
-          "sortFields": {
-      },
-      "filterFields": {
-        "EventApi__RegistrationType__c": "Simple",
-        "Custom__IsWheelchairAccessible__c": true,
-        "Custom__EarlyBird": "2018-10-10",
-        "Custom__EarlyBirdPrice": "25.50",
-        "Custom__WalkabilityScore": 12.0,
-        "Custom__PartyTime": "2019-01-15T16:00:00Z",
-        "Custom__EstimatedAttendance__c": 100
-      }
-    },
-     {
-      "catalogs": ["item_catalog__c.catalog_id__c"],
-      "displayName": "T-Shirt",
-      "id": "a1f1I000000hpToQB",
-      "lineDescription": "Because 6 is better than 5.",
-      "description": "Also Zoidberg. I just want to talk. It has nothing to do with mating. Fry, that doesn't make sense. I'm just glad my fat, ugly mama isn't alive to see this day. I decline the title of Iron Cook and accept the lesser title of Zinc Saucier, which I just made up. Uhh… also, comes with double prize money.",
-      "imageUrl": "https://target.scene7.com/is/image/Target/14575222?wid=488&hei=488&fmt=pjpeg",
-      "price": 89.99,
-      "priceLabel": "List Price",
-          "sortFields": {
-      },
-      "filterFields": {
-        "EventApi__RegistrationType__c": "Simple",
-        "Custom__IsWheelchairAccessible__c": true,
-        "Custom__EarlyBird": "2018-10-10",
-        "Custom__EarlyBirdPrice": "25.50",
-        "Custom__WalkabilityScore": 12.0,
-        "Custom__PartyTime": "2019-01-15T16:00:00Z",
-        "Custom__EstimatedAttendance__c": 100
-      } 
-    },
-    {
-      "catalogs": ["item_catalog__c.catalog_id__c"],
-      "displayName": "Mug&Tea's",
-      "id": "a1f1I000000hpToQC",
-      "lineDescription": "Because 6 is better than 5.",
-      "description": "Also Zoidberg. I just want to talk. It has nothing to do with mating. Fry, that doesn't make sense. I'm just glad my fat, ugly mama isn't alive to see this day. I decline the title of Iron Cook and accept the lesser title of Zinc Saucier, which I just made up. Uhh… also, comes with double prize money.",
-      "imageUrl": "https://dpegb9ebondhq.cloudfront.net/product_photos/1553887/mug3e_original.jpg",
-      "price": 89.99,
-      "priceLabel": "List Price",
-         "sortFields": {
-      },
-      "filterFields": {
-        "EventApi__RegistrationType__c": "Simple",
-        "Custom__IsWheelchairAccessible__c": true,
-        "Custom__EarlyBird": "2018-10-10",
-        "Custom__EarlyBirdPrice": "25.50",
-        "Custom__WalkabilityScore": 12.0,
-        "Custom__PartyTime": "2019-01-15T16:00:00Z",
-        "Custom__EstimatedAttendance__c": 100
-      }
-    },
-     {
-      "catalogs": ["item_catalog__c.catalog_id__c"],
-      "displayName": "Membership",
-      "id": "a1f1I000000hpToQD",
-      "lineDescription": "Because 6 is better than 5.",
-      "description": "Also Zoidberg. I just want to talk. It has nothing to do with mating. Fry, that doesn't make sense. I'm just glad my fat, ugly mama isn't alive to see this day. I decline the title of Iron Cook and accept the lesser title of Zinc Saucier, which I just made up. Uhh… also, comes with double prize money.",
-      "imageUrl": "https://placehold.it/300x300",
-      "price": 89.99,
-      "priceLabel": "List Price",
-          "sortFields": {
-      },
-      "filterFields": {
-        "EventApi__RegistrationType__c": "Simple",
-        "Custom__IsWheelchairAccessible__c": true,
-        "Custom__EarlyBird": "2018-10-10",
-        "Custom__EarlyBirdPrice": "25.50",
-        "Custom__WalkabilityScore": 12.0,
-        "Custom__PartyTime": "2019-01-15T16:00:00Z",
-        "Custom__EstimatedAttendance__c": 100
-      }
-    },
-      {
-      "catalogs": ["item_catalog__c.catalog_id__c"],
-      "displayName": "Book",
-      "id": "a1f1I000000hpToQE",
-      "lineDescription": "Because 6 is better than 5.",
-      "description": "Also Zoidberg. I just want to talk. It has nothing to do with mating. Fry, that doesn't make sense. I'm just glad my fat, ugly mama isn't alive to see this day. I decline the title of Iron Cook and accept the lesser title of Zinc Saucier, which I just made up. Uhh… also, comes with double prize money.",
-      "imageUrl": "https://mk0ryrobg0ysk5t06n.kinstacdn.com/wp-content/uploads/2017/03/Best-Business-Books-Start-With-Why-Simon-Sinek.jpg",
-      "price": 89.99,
-      "priceLabel": "List Price",
-           "sortFields": {
-      },
-      "filterFields": {
-        "EventApi__RegistrationType__c": "Simple",
-        "Custom__IsWheelchairAccessible__c": true,
-        "Custom__EarlyBird": "2018-10-10",
-        "Custom__EarlyBirdPrice": "25.50",
-        "Custom__WalkabilityScore": 12.0,
-        "Custom__PartyTime": "2019-01-15T16:00:00Z",
-        "Custom__EstimatedAttendance__c": 100
-      }
-    },
-    {
-      "catalogs": ["item_catalog__c.catalog_id__c"],
-      "displayName": "Notepad",
-      "id": "a1f1I000000hpToQF",
-      "lineDescription": "Because 6 is better than 5.",
-      "description": "Also Zoidberg. I just want to talk. It has nothing to do with mating. Fry, that doesn't make sense. I'm just glad my fat, ugly mama isn't alive to see this day. I decline the title of Iron Cook and accept the lesser title of Zinc Saucier, which I just made up. Uhh… also, comes with double prize money.",
-      "imageUrl": "https://ii.worldmarket.com/fcgi-bin/iipsrv.fcgi?FIF=/images/worldmarket/source/30376_XXX_v1.tif&wid=650&cvt=jpeg",
-      "price": 89.99,
-      "priceLabel": "List Price",
-         "sortFields": {
-      },
-      "filterFields": {
-        "EventApi__RegistrationType__c": "Simple",
-        "Custom__IsWheelchairAccessible__c": true,
-        "Custom__EarlyBird": "2018-10-10",
-        "Custom__EarlyBirdPrice": "25.50",
-        "Custom__WalkabilityScore": 12.0,
-        "Custom__PartyTime": "2019-01-15T16:00:00Z",
-        "Custom__EstimatedAttendance__c": 100
-      }
-    },
-    {
-      "catalogs": ["item_catalog__c.catalog_id__c"],
-      "displayName": "Vibram Five Fingers",
-      "id": "a1f1I000000hpToQAI",
-      "lineDescription": "You will love these shoes",
-      "description": "Also Zoidberg. I just want to talk. It has nothing to do with mating. Fry, that doesn't make sense. I'm just glad my fat, ugly mama isn't alive to see this day. I decline the title of Iron Cook and accept the lesser title of Zinc Saucier, which I just made up. Uhh… also, comes with double prize money.",
-      "imageUrl": "https://socialmediaseo.net/wp-content/uploads/2010/05/500px-android-logosvg-300x300.png",
-      "price": 79.99,
-      "priceLabel": "mannemStoreListing List Price",
-      "discountPrice": 59.99,
-      "discountLabel": "mannemStoreListing Member Price conditional type mappings",
-         "sortFields": {
-      },
-      "filterFields": {
-        "EventApi__RegistrationType__c": "Simple",
-        "Custom__IsWheelchairAccessible__c": true,
-        "Custom__EarlyBird": "2018-10-10",
-        "Custom__EarlyBirdPrice": "25.50",
-        "Custom__WalkabilityScore": 12.0,
-        "Custom__PartyTime": "2019-01-15T16:00:00Z",
-        "Custom__EstimatedAttendance__c": 100
-      }
-    },
-     {
-      "catalogs": ["item_catalog__c.catalog_id__c"],
-      "displayName": "Pot Hit",
-      "id": "a1f1I000000hpToQAI",
-      "lineDescription": "You will love these shoes",
-      "description": "Also Zoidberg. I just want to talk. It has nothing to do with mating. Fry, that doesn't make sense. I'm just glad my fat, ugly mama isn't alive to see this day. I decline the title of Iron Cook and accept the lesser title of Zinc Saucier, which I just made up. Uhh… also, comes with double prize money.",
-      "imageUrl": "https://socialmediaseo.net/wp-content/uploads/2010/05/500px-android-logosvg-300x300.png",
-      "price": 79.99,
-      "priceLabel": "List Price",
-      "discountPrice": 59.99,
-      "discountLabel": "Member Price",
-          "sortFields": {
-      },
-      "filterFields": {
-        "EventApi__RegistrationType__c": "Simple",
-        "Custom__IsWheelchairAccessible__c": true,
-        "Custom__EarlyBird": "2018-10-10",
-        "Custom__EarlyBirdPrice": "25.50",
-        "Custom__WalkabilityScore": 12.0,
-        "Custom__PartyTime": "2019-01-15T16:00:00Z",
-        "Custom__EstimatedAttendance__c": 100
-      }
-    },
-     {
-      "catalogs": ["item_catalog__c.catalog_id__c"],
-      "displayName": "Iphone Screen",
-      "id": "a1f1I000000hpToQAI",
-      "lineDescription": "You will love these shoes",
-      "description": "Also Zoidberg. I just want to talk. It has nothing to do with mating. Fry, that doesn't make sense. I'm just glad my fat, ugly mama isn't alive to see this day. I decline the title of Iron Cook and accept the lesser title of Zinc Saucier, which I just made up. Uhh… also, comes with double prize money.",
-      "imageUrl": "https://socialmediaseo.net/wp-content/uploads/2010/05/500px-android-logosvg-300x300.png",
-      "price": 79.99,
-      "priceLabel": "List Price",
-      "discountPrice": 59.99,
-      "discountLabel": "Member Price",
-          "sortFields": {
-      },
-      "filterFields": {
-        "EventApi__RegistrationType__c": "Simple",
-        "Custom__IsWheelchairAccessible__c": true,
-        "Custom__EarlyBird": "2018-10-10",
-        "Custom__EarlyBirdPrice": "25.50",
-        "Custom__WalkabilityScore": 12.0,
-        "Custom__PartyTime": "2019-01-15T16:00:00Z",
-        "Custom__EstimatedAttendance__c": 100
-      }
-    },
-     {
-      "catalogs": ["item_catalog__c.catalog_id__c"],
-      "displayName": "HeadSet",
-      "id": "a1f1I000000hpToQAI",
-      "lineDescription": "You will love these shoes",
-      "description": "Also Zoidberg. I just want to talk. It has nothing to do with mating. Fry, that doesn't make sense. I'm just glad my fat, ugly mama isn't alive to see this day. I decline the title of Iron Cook and accept the lesser title of Zinc Saucier, which I just made up. Uhh… also, comes with double prize money.",
-      "imageUrl": "https://socialmediaseo.net/wp-content/uploads/2010/05/500px-android-logosvg-300x300.png",
-      "price": 79.99,
-      "priceLabel": "List Price",
-      "discountPrice": 59.99,
-      "discountLabel": "Member Price",
-          "sortFields": {
-      },
-      "filterFields": {
-        "EventApi__RegistrationType__c": "Simple",
-        "Custom__IsWheelchairAccessible__c": true,
-        "Custom__EarlyBird": "2018-10-10",
-        "Custom__EarlyBirdPrice": "25.50",
-        "Custom__WalkabilityScore": 12.0,
-        "Custom__PartyTime": "2019-01-15T16:00:00Z",
-        "Custom__EstimatedAttendance__c": 100
-      }
-    },
-     {
-      "catalogs": ["item_catalog__c.catalog_id__c"],
-      "displayName": "PAPER Cloth",
-      "id": "a1f1I000000hpToQAI",
-      "lineDescription": "You will love these shoes",
-      "description": "Also Zoidberg. I just want to talk. It has nothing to do with mating. Fry, that doesn't make sense. I'm just glad my fat, ugly mama isn't alive to see this day. I decline the title of Iron Cook and accept the lesser title of Zinc Saucier, which I just made up. Uhh… also, comes with double prize money.",
-      "imageUrl": "https://socialmediaseo.net/wp-content/uploads/2010/05/500px-android-logosvg-300x300.png",
-      "price": 79.99,
-      "priceLabel": "List Price",
-      "discountPrice": 59.99,
-      "discountLabel": "Member Price",
-          "sortFields": {
-      },
-      "filterFields": {
-        "EventApi__RegistrationType__c": "Simple",
-        "Custom__IsWheelchairAccessible__c": true,
-        "Custom__EarlyBird": "2018-10-10",
-        "Custom__EarlyBirdPrice": "25.50",
-        "Custom__WalkabilityScore": 12.0,
-        "Custom__PartyTime": "2019-01-15T16:00:00Z",
-        "Custom__EstimatedAttendance__c": 100
-      }
-    },
-     {
-      "catalogs": ["item_catalog__c.catalog_id__c"],
-      "displayName": "Spinner Fingers",
-      "id": "a1f1I000000hpToQAI",
-      "lineDescription": "You will love these shoes",
-      "description": "Also Zoidberg. I just want to talk. It has nothing to do with mating. Fry, that doesn't make sense. I'm just glad my fat, ugly mama isn't alive to see this day. I decline the title of Iron Cook and accept the lesser title of Zinc Saucier, which I just made up. Uhh… also, comes with double prize money.",
-      "imageUrl": "https://socialmediaseo.net/wp-content/uploads/2010/05/500px-android-logosvg-300x300.png",
-      "price": 79.99,
-      "priceLabel": "List Price",
-      "discountPrice": 59.99,
-      "discountLabel": "Member Price",
-          "sortFields": {
-      },
-      "filterFields": {
-        "EventApi__RegistrationType__c": "Simple",
-        "Custom__IsWheelchairAccessible__c": true,
-        "Custom__EarlyBird": "2018-10-10",
-        "Custom__EarlyBirdPrice": "25.50",
-        "Custom__WalkabilityScore": 12.0,
-        "Custom__PartyTime": "2019-01-15T16:00:00Z",
-        "Custom__EstimatedAttendance__c": 100
-      }
-    },
-     {
-      "catalogs": ["item_catalog__c.catalog_id__c"],
-      "displayName": "Red Hat Handbook Guide",
-      "id": "a1f1I000000hpToQAI",
-      "lineDescription": "You will love these shoes",
-      "description": "Also Zoidberg. I just want to talk. It has nothing to do with mating. Fry, that doesn't make sense. I'm just glad my fat, ugly mama isn't alive to see this day. I decline the title of Iron Cook and accept the lesser title of Zinc Saucier, which I just made up. Uhh… also, comes with double prize money.",
-      "imageUrl": "https://socialmediaseo.net/wp-content/uploads/2010/05/500px-android-logosvg-300x300.png",
-      "price": 79.99,
-      "priceLabel": "List Price",
-      "discountPrice": 59.99,
-      "discountLabel": "Member Price",
-          "sortFields": {
-      },
-      "filterFields": {
-        "EventApi__RegistrationType__c": "Simple",
-        "Custom__IsWheelchairAccessible__c": true,
-        "Custom__EarlyBird": "2018-10-10",
-        "Custom__EarlyBirdPrice": "25.50",
-        "Custom__WalkabilityScore": 12.0,
-        "Custom__PartyTime": "2019-01-15T16:00:00Z",
-        "Custom__EstimatedAttendance__c": 100
-      }
-    },
-    
-    {
-      "catalogs": ["item_catalog__c.catalog_id__c"],
-      "displayName": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
-      "id": "a1f1I000000hpToQA",
-      "lineDescription": "Because 6 is better than 5.",
-      "description": "Also Zoidberg. I just want to talk. It has nothing to do with mating. Fry, that doesn't make sense. I'm just glad my fat, ugly mama isn't alive to see this day. I decline the title of Iron Cook and accept the lesser title of Zinc Saucier, which I just made up. Uhh… also, comes with double prize money.",
-      "imageUrl": "https://www.pizzahut.co.uk/order/images/icons/logo-300x300.ed09f0955306cb0be42c35092733b5c2.png",
-      "price": 89.99,
-      "priceLabel": "List Price",
-         "sortFields": {
-      },
-      "filterFields": {
-        "EventApi__RegistrationType__c": "Simple",
-        "Custom__IsWheelchairAccessible__c": true,
-        "Custom__EarlyBird": "2018-10-10",
-        "Custom__EarlyBirdPrice": "25.50",
-        "Custom__WalkabilityScore": 12.0,
-        "Custom__PartyTime": "2019-01-15T16:00:00Z",
-        "Custom__EstimatedAttendance__c": 100
-      }
-    },
-     {
-      "catalogs": ["item_catalog__c.catalog_id__c"],
-      "displayName": "T-Shirt",
-      "id": "a1f1I000000hpToQB",
-      "lineDescription": "Because 6 is better than 5.",
-      "description": "Also Zoidberg. I just want to talk. It has nothing to do with mating. Fry, that doesn't make sense. I'm just glad my fat, ugly mama isn't alive to see this day. I decline the title of Iron Cook and accept the lesser title of Zinc Saucier, which I just made up. Uhh… also, comes with double prize money.",
-      "imageUrl": "https://target.scene7.com/is/image/Target/14575222?wid=488&hei=488&fmt=pjpeg",
-      "price": 89.99,
-      "priceLabel": "List Price",
-          "sortFields": {
-      },
-      "filterFields": {
-        "EventApi__RegistrationType__c": "Simple",
-        "Custom__IsWheelchairAccessible__c": true,
-        "Custom__EarlyBird": "2018-10-10",
-        "Custom__EarlyBirdPrice": "25.50",
-        "Custom__WalkabilityScore": 12.0,
-        "Custom__PartyTime": "2019-01-15T16:00:00Z",
-        "Custom__EstimatedAttendance__c": 100
-      } 
-    },
-    {
-      "catalogs": ["item_catalog__c.catalog_id__c"],
-      "displayName": "Mug&Tea's",
-      "id": "a1f1I000000hpToQC",
-      "lineDescription": "Because 6 is better than 5.",
-      "description": "Also Zoidberg. I just want to talk. It has nothing to do with mating. Fry, that doesn't make sense. I'm just glad my fat, ugly mama isn't alive to see this day. I decline the title of Iron Cook and accept the lesser title of Zinc Saucier, which I just made up. Uhh… also, comes with double prize money.",
-      "imageUrl": "https://dpegb9ebondhq.cloudfront.net/product_photos/1553887/mug3e_original.jpg",
-      "price": 89.99,
-      "priceLabel": "List Price",
-         "sortFields": {
-      },
-      "filterFields": {
-        "EventApi__RegistrationType__c": "Simple",
-        "Custom__IsWheelchairAccessible__c": true,
-        "Custom__EarlyBird": "2018-10-10",
-        "Custom__EarlyBirdPrice": "25.50",
-        "Custom__WalkabilityScore": 12.0,
-        "Custom__PartyTime": "2019-01-15T16:00:00Z",
-        "Custom__EstimatedAttendance__c": 100
-      }
-    },
-     {
-      "catalogs": ["item_catalog__c.catalog_id__c"],
-      "displayName": "Membership",
-      "id": "a1f1I000000hpToQD",
-      "lineDescription": "Because 6 is better than 5.",
-      "description": "Also Zoidberg. I just want to talk. It has nothing to do with mating. Fry, that doesn't make sense. I'm just glad my fat, ugly mama isn't alive to see this day. I decline the title of Iron Cook and accept the lesser title of Zinc Saucier, which I just made up. Uhh… also, comes with double prize money.",
-      "imageUrl": "https://placehold.it/300x300",
-      "price": 89.99,
-      "priceLabel": "List Price",
-          "sortFields": {
-      },
-      "filterFields": {
-        "EventApi__RegistrationType__c": "Simple",
-        "Custom__IsWheelchairAccessible__c": true,
-        "Custom__EarlyBird": "2018-10-10",
-        "Custom__EarlyBirdPrice": "25.50",
-        "Custom__WalkabilityScore": 12.0,
-        "Custom__PartyTime": "2019-01-15T16:00:00Z",
-        "Custom__EstimatedAttendance__c": 100
-      }
-    },
-      {
-      "catalogs": ["item_catalog__c.catalog_id__c"],
-      "displayName": "Book",
-      "id": "a1f1I000000hpToQE",
-      "lineDescription": "Because 6 is better than 5.",
-      "description": "Also Zoidberg. I just want to talk. It has nothing to do with mating. Fry, that doesn't make sense. I'm just glad my fat, ugly mama isn't alive to see this day. I decline the title of Iron Cook and accept the lesser title of Zinc Saucier, which I just made up. Uhh… also, comes with double prize money.",
-      "imageUrl": "https://mk0ryrobg0ysk5t06n.kinstacdn.com/wp-content/uploads/2017/03/Best-Business-Books-Start-With-Why-Simon-Sinek.jpg",
-      "price": 89.99,
-      "priceLabel": "List Price",
-           "sortFields": {
-      },
-      "filterFields": {
-        "EventApi__RegistrationType__c": "Simple",
-        "Custom__IsWheelchairAccessible__c": true,
-        "Custom__EarlyBird": "2018-10-10",
-        "Custom__EarlyBirdPrice": "25.50",
-        "Custom__WalkabilityScore": 12.0,
-        "Custom__PartyTime": "2019-01-15T16:00:00Z",
-        "Custom__EstimatedAttendance__c": 100
-      }
-    },
-    {
-      "catalogs": ["item_catalog__c.catalog_id__c"],
-      "displayName": "Notepad",
-      "id": "a1f1I000000hpToQF",
-      "lineDescription": "Because 6 is better than 5.",
-      "description": "Also Zoidberg. I just want to talk. It has nothing to do with mating. Fry, that doesn't make sense. I'm just glad my fat, ugly mama isn't alive to see this day. I decline the title of Iron Cook and accept the lesser title of Zinc Saucier, which I just made up. Uhh… also, comes with double prize money.",
-      "imageUrl": "https://ii.worldmarket.com/fcgi-bin/iipsrv.fcgi?FIF=/images/worldmarket/source/30376_XXX_v1.tif&wid=650&cvt=jpeg",
-      "price": 89.99,
-      "priceLabel": "List Price",
-         "sortFields": {
-      },
-      "filterFields": {
-        "EventApi__RegistrationType__c": "Simple",
-        "Custom__IsWheelchairAccessible__c": true,
-        "Custom__EarlyBird": "2018-10-10",
-        "Custom__EarlyBirdPrice": "25.50",
-        "Custom__WalkabilityScore": 12.0,
-        "Custom__PartyTime": "2019-01-15T16:00:00Z",
-        "Custom__EstimatedAttendance__c": 100
-      }
-    },
-    {
-      "catalogs": ["item_catalog__c.catalog_id__c"],
-      "displayName": "Vibram Five Fingers",
-      "id": "a1f1I000000hpToQAI",
-      "lineDescription": "You will love these shoes",
-      "description": "Also Zoidberg. I just want to talk. It has nothing to do with mating. Fry, that doesn't make sense. I'm just glad my fat, ugly mama isn't alive to see this day. I decline the title of Iron Cook and accept the lesser title of Zinc Saucier, which I just made up. Uhh… also, comes with double prize money.",
-      "imageUrl": "https://socialmediaseo.net/wp-content/uploads/2010/05/500px-android-logosvg-300x300.png",
-      "price": 79.99,
-      "priceLabel": "mannemStoreListing List Price",
-      "discountPrice": 59.99,
-      "discountLabel": "mannemStoreListing Member Price conditional type mappings",
-         "sortFields": {
-      },
-      "filterFields": {
-        "EventApi__RegistrationType__c": "Simple",
-        "Custom__IsWheelchairAccessible__c": true,
-        "Custom__EarlyBird": "2018-10-10",
-        "Custom__EarlyBirdPrice": "25.50",
-        "Custom__WalkabilityScore": 12.0,
-        "Custom__PartyTime": "2019-01-15T16:00:00Z",
-        "Custom__EstimatedAttendance__c": 100
-      }
-    },
-     {
-      "catalogs": ["item_catalog__c.catalog_id__c"],
-      "displayName": "Pot Hit",
-      "id": "a1f1I000000hpToQAI",
-      "lineDescription": "You will love these shoes",
-      "description": "Also Zoidberg. I just want to talk. It has nothing to do with mating. Fry, that doesn't make sense. I'm just glad my fat, ugly mama isn't alive to see this day. I decline the title of Iron Cook and accept the lesser title of Zinc Saucier, which I just made up. Uhh… also, comes with double prize money.",
-      "imageUrl": "https://socialmediaseo.net/wp-content/uploads/2010/05/500px-android-logosvg-300x300.png",
-      "price": 79.99,
-      "priceLabel": "List Price",
-      "discountPrice": 59.99,
-      "discountLabel": "Member Price",
-          "sortFields": {
-      },
-      "filterFields": {
-        "EventApi__RegistrationType__c": "Simple",
-        "Custom__IsWheelchairAccessible__c": true,
-        "Custom__EarlyBird": "2018-10-10",
-        "Custom__EarlyBirdPrice": "25.50",
-        "Custom__WalkabilityScore": 12.0,
-        "Custom__PartyTime": "2019-01-15T16:00:00Z",
-        "Custom__EstimatedAttendance__c": 100
-      }
-    },
-     {
-      "catalogs": ["item_catalog__c.catalog_id__c"],
-      "displayName": "Iphone Screen",
-      "id": "a1f1I000000hpToQAI",
-      "lineDescription": "You will love these shoes",
-      "description": "Also Zoidberg. I just want to talk. It has nothing to do with mating. Fry, that doesn't make sense. I'm just glad my fat, ugly mama isn't alive to see this day. I decline the title of Iron Cook and accept the lesser title of Zinc Saucier, which I just made up. Uhh… also, comes with double prize money.",
-      "imageUrl": "https://socialmediaseo.net/wp-content/uploads/2010/05/500px-android-logosvg-300x300.png",
-      "price": 79.99,
-      "priceLabel": "List Price",
-      "discountPrice": 59.99,
-      "discountLabel": "Member Price",
-          "sortFields": {
-      },
-      "filterFields": {
-        "EventApi__RegistrationType__c": "Simple",
-        "Custom__IsWheelchairAccessible__c": true,
-        "Custom__EarlyBird": "2018-10-10",
-        "Custom__EarlyBirdPrice": "25.50",
-        "Custom__WalkabilityScore": 12.0,
-        "Custom__PartyTime": "2019-01-15T16:00:00Z",
-        "Custom__EstimatedAttendance__c": 100
-      }
-    },
-     {
-      "catalogs": ["item_catalog__c.catalog_id__c"],
-      "displayName": "HeadSet",
-      "id": "a1f1I000000hpToQAI",
-      "lineDescription": "You will love these shoes",
-      "description": "Also Zoidberg. I just want to talk. It has nothing to do with mating. Fry, that doesn't make sense. I'm just glad my fat, ugly mama isn't alive to see this day. I decline the title of Iron Cook and accept the lesser title of Zinc Saucier, which I just made up. Uhh… also, comes with double prize money.",
-      "imageUrl": "https://socialmediaseo.net/wp-content/uploads/2010/05/500px-android-logosvg-300x300.png",
-      "price": 79.99,
-      "priceLabel": "List Price",
-      "discountPrice": 59.99,
-      "discountLabel": "Member Price",
-          "sortFields": {
-      },
-      "filterFields": {
-        "EventApi__RegistrationType__c": "Simple",
-        "Custom__IsWheelchairAccessible__c": true,
-        "Custom__EarlyBird": "2018-10-10",
-        "Custom__EarlyBirdPrice": "25.50",
-        "Custom__WalkabilityScore": 12.0,
-        "Custom__PartyTime": "2019-01-15T16:00:00Z",
-        "Custom__EstimatedAttendance__c": 100
-      }
-    },
-     {
-      "catalogs": ["item_catalog__c.catalog_id__c"],
-      "displayName": "PAPER Cloth",
-      "id": "a1f1I000000hpToQAI",
-      "lineDescription": "You will love these shoes",
-      "description": "Also Zoidberg. I just want to talk. It has nothing to do with mating. Fry, that doesn't make sense. I'm just glad my fat, ugly mama isn't alive to see this day. I decline the title of Iron Cook and accept the lesser title of Zinc Saucier, which I just made up. Uhh… also, comes with double prize money.",
-      "imageUrl": "https://socialmediaseo.net/wp-content/uploads/2010/05/500px-android-logosvg-300x300.png",
-      "price": 79.99,
-      "priceLabel": "List Price",
-      "discountPrice": 59.99,
-      "discountLabel": "Member Price",
-          "sortFields": {
-      },
-      "filterFields": {
-        "EventApi__RegistrationType__c": "Simple",
-        "Custom__IsWheelchairAccessible__c": true,
-        "Custom__EarlyBird": "2018-10-10",
-        "Custom__EarlyBirdPrice": "25.50",
-        "Custom__WalkabilityScore": 12.0,
-        "Custom__PartyTime": "2019-01-15T16:00:00Z",
-        "Custom__EstimatedAttendance__c": 100
-      }
-    },
-     {
-      "catalogs": ["item_catalog__c.catalog_id__c"],
-      "displayName": "Spinner Fingers",
-      "id": "a1f1I000000hpToQAI",
-      "lineDescription": "You will love these shoes",
-      "description": "Also Zoidberg. I just want to talk. It has nothing to do with mating. Fry, that doesn't make sense. I'm just glad my fat, ugly mama isn't alive to see this day. I decline the title of Iron Cook and accept the lesser title of Zinc Saucier, which I just made up. Uhh… also, comes with double prize money.",
-      "imageUrl": "https://socialmediaseo.net/wp-content/uploads/2010/05/500px-android-logosvg-300x300.png",
-      "price": 79.99,
-      "priceLabel": "List Price",
-      "discountPrice": 59.99,
-      "discountLabel": "Member Price",
-          "sortFields": {
-      },
-      "filterFields": {
-        "EventApi__RegistrationType__c": "Simple",
-        "Custom__IsWheelchairAccessible__c": true,
-        "Custom__EarlyBird": "2018-10-10",
-        "Custom__EarlyBirdPrice": "25.50",
-        "Custom__WalkabilityScore": 12.0,
-        "Custom__PartyTime": "2019-01-15T16:00:00Z",
-        "Custom__EstimatedAttendance__c": 100
-      }
-    },
-     {
-      "catalogs": ["item_catalog__c.catalog_id__c"],
-      "displayName": "Red Hat Handbook Guide",
-      "id": "a1f1I000000hpToQAI",
-      "lineDescription": "You will love these shoes",
-      "description": "Also Zoidberg. I just want to talk. It has nothing to do with mating. Fry, that doesn't make sense. I'm just glad my fat, ugly mama isn't alive to see this day. I decline the title of Iron Cook and accept the lesser title of Zinc Saucier, which I just made up. Uhh… also, comes with double prize money.",
-      "imageUrl": "https://socialmediaseo.net/wp-content/uploads/2010/05/500px-android-logosvg-300x300.png",
-      "price": 79.99,
-      "priceLabel": "List Price",
-      "discountPrice": 59.99,
-      "discountLabel": "Member Price",
-          "sortFields": {
-      },
-      "filterFields": {
-        "EventApi__RegistrationType__c": "Simple",
-        "Custom__IsWheelchairAccessible__c": true,
-        "Custom__EarlyBird": "2018-10-10",
-        "Custom__EarlyBirdPrice": "25.50",
-        "Custom__WalkabilityScore": 12.0,
-        "Custom__PartyTime": "2019-01-15T16:00:00Z",
-        "Custom__EstimatedAttendance__c": 100
-      }
-    },
-    
-    {
-      "catalogs": ["item_catalog__c.catalog_id__c"],
-      "displayName": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
-      "id": "a1f1I000000hpToQA",
-      "lineDescription": "Because 6 is better than 5.",
-      "description": "Also Zoidberg. I just want to talk. It has nothing to do with mating. Fry, that doesn't make sense. I'm just glad my fat, ugly mama isn't alive to see this day. I decline the title of Iron Cook and accept the lesser title of Zinc Saucier, which I just made up. Uhh… also, comes with double prize money.",
-      "imageUrl": "https://www.pizzahut.co.uk/order/images/icons/logo-300x300.ed09f0955306cb0be42c35092733b5c2.png",
-      "price": 89.99,
-      "priceLabel": "List Price",
-         "sortFields": {
-      },
-      "filterFields": {
-        "EventApi__RegistrationType__c": "Simple",
-        "Custom__IsWheelchairAccessible__c": true,
-        "Custom__EarlyBird": "2018-10-10",
-        "Custom__EarlyBirdPrice": "25.50",
-        "Custom__WalkabilityScore": 12.0,
-        "Custom__PartyTime": "2019-01-15T16:00:00Z",
-        "Custom__EstimatedAttendance__c": 100
-      }
-    },
-     {
-      "catalogs": ["item_catalog__c.catalog_id__c"],
-      "displayName": "T-Shirt",
-      "id": "a1f1I000000hpToQB",
-      "lineDescription": "Because 6 is better than 5.",
-      "description": "Also Zoidberg. I just want to talk. It has nothing to do with mating. Fry, that doesn't make sense. I'm just glad my fat, ugly mama isn't alive to see this day. I decline the title of Iron Cook and accept the lesser title of Zinc Saucier, which I just made up. Uhh… also, comes with double prize money.",
-      "imageUrl": "https://target.scene7.com/is/image/Target/14575222?wid=488&hei=488&fmt=pjpeg",
-      "price": 89.99,
-      "priceLabel": "List Price",
-          "sortFields": {
-      },
-      "filterFields": {
-        "EventApi__RegistrationType__c": "Simple",
-        "Custom__IsWheelchairAccessible__c": true,
-        "Custom__EarlyBird": "2018-10-10",
-        "Custom__EarlyBirdPrice": "25.50",
-        "Custom__WalkabilityScore": 12.0,
-        "Custom__PartyTime": "2019-01-15T16:00:00Z",
-        "Custom__EstimatedAttendance__c": 100
-      } 
-    },
-    {
-      "catalogs": ["item_catalog__c.catalog_id__c"],
-      "displayName": "Mug&Tea's",
-      "id": "a1f1I000000hpToQC",
-      "lineDescription": "Because 6 is better than 5.",
-      "description": "Also Zoidberg. I just want to talk. It has nothing to do with mating. Fry, that doesn't make sense. I'm just glad my fat, ugly mama isn't alive to see this day. I decline the title of Iron Cook and accept the lesser title of Zinc Saucier, which I just made up. Uhh… also, comes with double prize money.",
-      "imageUrl": "https://dpegb9ebondhq.cloudfront.net/product_photos/1553887/mug3e_original.jpg",
-      "price": 89.99,
-      "priceLabel": "List Price",
-         "sortFields": {
-      },
-      "filterFields": {
-        "EventApi__RegistrationType__c": "Simple",
-        "Custom__IsWheelchairAccessible__c": true,
-        "Custom__EarlyBird": "2018-10-10",
-        "Custom__EarlyBirdPrice": "25.50",
-        "Custom__WalkabilityScore": 12.0,
-        "Custom__PartyTime": "2019-01-15T16:00:00Z",
-        "Custom__EstimatedAttendance__c": 100
-      }
-    },
-     {
-      "catalogs": ["item_catalog__c.catalog_id__c"],
-      "displayName": "Membership",
-      "id": "a1f1I000000hpToQD",
-      "lineDescription": "Because 6 is better than 5.",
-      "description": "Also Zoidberg. I just want to talk. It has nothing to do with mating. Fry, that doesn't make sense. I'm just glad my fat, ugly mama isn't alive to see this day. I decline the title of Iron Cook and accept the lesser title of Zinc Saucier, which I just made up. Uhh… also, comes with double prize money.",
-      "imageUrl": "https://placehold.it/300x300",
-      "price": 89.99,
-      "priceLabel": "List Price",
-          "sortFields": {
-      },
-      "filterFields": {
-        "EventApi__RegistrationType__c": "Simple",
-        "Custom__IsWheelchairAccessible__c": true,
-        "Custom__EarlyBird": "2018-10-10",
-        "Custom__EarlyBirdPrice": "25.50",
-        "Custom__WalkabilityScore": 12.0,
-        "Custom__PartyTime": "2019-01-15T16:00:00Z",
-        "Custom__EstimatedAttendance__c": 100
-      }
-    },
-      {
-      "catalogs": ["item_catalog__c.catalog_id__c"],
-      "displayName": "Book",
-      "id": "a1f1I000000hpToQE",
-      "lineDescription": "Because 6 is better than 5.",
-      "description": "Also Zoidberg. I just want to talk. It has nothing to do with mating. Fry, that doesn't make sense. I'm just glad my fat, ugly mama isn't alive to see this day. I decline the title of Iron Cook and accept the lesser title of Zinc Saucier, which I just made up. Uhh… also, comes with double prize money.",
-      "imageUrl": "https://mk0ryrobg0ysk5t06n.kinstacdn.com/wp-content/uploads/2017/03/Best-Business-Books-Start-With-Why-Simon-Sinek.jpg",
-      "price": 89.99,
-      "priceLabel": "List Price",
-           "sortFields": {
-      },
-      "filterFields": {
-        "EventApi__RegistrationType__c": "Simple",
-        "Custom__IsWheelchairAccessible__c": true,
-        "Custom__EarlyBird": "2018-10-10",
-        "Custom__EarlyBirdPrice": "25.50",
-        "Custom__WalkabilityScore": 12.0,
-        "Custom__PartyTime": "2019-01-15T16:00:00Z",
-        "Custom__EstimatedAttendance__c": 100
-      }
-    },
-    {
-      "catalogs": ["item_catalog__c.catalog_id__c"],
-      "displayName": "Notepad",
-      "id": "a1f1I000000hpToQF",
-      "lineDescription": "Because 6 is better than 5.",
-      "description": "Also Zoidberg. I just want to talk. It has nothing to do with mating. Fry, that doesn't make sense. I'm just glad my fat, ugly mama isn't alive to see this day. I decline the title of Iron Cook and accept the lesser title of Zinc Saucier, which I just made up. Uhh… also, comes with double prize money.",
-      "imageUrl": "https://ii.worldmarket.com/fcgi-bin/iipsrv.fcgi?FIF=/images/worldmarket/source/30376_XXX_v1.tif&wid=650&cvt=jpeg",
-      "price": 89.99,
-      "priceLabel": "List Price",
-         "sortFields": {
-      },
-      "filterFields": {
-        "EventApi__RegistrationType__c": "Simple",
-        "Custom__IsWheelchairAccessible__c": true,
-        "Custom__EarlyBird": "2018-10-10",
-        "Custom__EarlyBirdPrice": "25.50",
-        "Custom__WalkabilityScore": 12.0,
-        "Custom__PartyTime": "2019-01-15T16:00:00Z",
-        "Custom__EstimatedAttendance__c": 100
-      }
-    },
-    {
-      "catalogs": ["item_catalog__c.catalog_id__c"],
-      "displayName": "Vibram Five Fingers",
-      "id": "a1f1I000000hpToQAI",
-      "lineDescription": "You will love these shoes",
-      "description": "Also Zoidberg. I just want to talk. It has nothing to do with mating. Fry, that doesn't make sense. I'm just glad my fat, ugly mama isn't alive to see this day. I decline the title of Iron Cook and accept the lesser title of Zinc Saucier, which I just made up. Uhh… also, comes with double prize money.",
-      "imageUrl": "https://socialmediaseo.net/wp-content/uploads/2010/05/500px-android-logosvg-300x300.png",
-      "price": 79.99,
-      "priceLabel": "mannemStoreListing List Price",
-      "discountPrice": 59.99,
-      "discountLabel": "mannemStoreListing Member Price conditional type mappings",
-         "sortFields": {
-      },
-      "filterFields": {
-        "EventApi__RegistrationType__c": "Simple",
-        "Custom__IsWheelchairAccessible__c": true,
-        "Custom__EarlyBird": "2018-10-10",
-        "Custom__EarlyBirdPrice": "25.50",
-        "Custom__WalkabilityScore": 12.0,
-        "Custom__PartyTime": "2019-01-15T16:00:00Z",
-        "Custom__EstimatedAttendance__c": 100
-      }
-    },
-     {
-      "catalogs": ["item_catalog__c.catalog_id__c"],
-      "displayName": "Pot Hit",
-      "id": "a1f1I000000hpToQAI",
-      "lineDescription": "You will love these shoes",
-      "description": "Also Zoidberg. I just want to talk. It has nothing to do with mating. Fry, that doesn't make sense. I'm just glad my fat, ugly mama isn't alive to see this day. I decline the title of Iron Cook and accept the lesser title of Zinc Saucier, which I just made up. Uhh… also, comes with double prize money.",
-      "imageUrl": "https://socialmediaseo.net/wp-content/uploads/2010/05/500px-android-logosvg-300x300.png",
-      "price": 79.99,
-      "priceLabel": "List Price",
-      "discountPrice": 59.99,
-      "discountLabel": "Member Price",
-          "sortFields": {
-      },
-      "filterFields": {
-        "EventApi__RegistrationType__c": "Simple",
-        "Custom__IsWheelchairAccessible__c": true,
-        "Custom__EarlyBird": "2018-10-10",
-        "Custom__EarlyBirdPrice": "25.50",
-        "Custom__WalkabilityScore": 12.0,
-        "Custom__PartyTime": "2019-01-15T16:00:00Z",
-        "Custom__EstimatedAttendance__c": 100
-      }
-    },
-     {
-      "catalogs": ["item_catalog__c.catalog_id__c"],
-      "displayName": "Iphone Screen",
-      "id": "a1f1I000000hpToQAI",
-      "lineDescription": "You will love these shoes",
-      "description": "Also Zoidberg. I just want to talk. It has nothing to do with mating. Fry, that doesn't make sense. I'm just glad my fat, ugly mama isn't alive to see this day. I decline the title of Iron Cook and accept the lesser title of Zinc Saucier, which I just made up. Uhh… also, comes with double prize money.",
-      "imageUrl": "https://socialmediaseo.net/wp-content/uploads/2010/05/500px-android-logosvg-300x300.png",
-      "price": 79.99,
-      "priceLabel": "List Price",
-      "discountPrice": 59.99,
-      "discountLabel": "Member Price",
-          "sortFields": {
-      },
-      "filterFields": {
-        "EventApi__RegistrationType__c": "Simple",
-        "Custom__IsWheelchairAccessible__c": true,
-        "Custom__EarlyBird": "2018-10-10",
-        "Custom__EarlyBirdPrice": "25.50",
-        "Custom__WalkabilityScore": 12.0,
-        "Custom__PartyTime": "2019-01-15T16:00:00Z",
-        "Custom__EstimatedAttendance__c": 100
-      }
-    },
-     {
-      "catalogs": ["item_catalog__c.catalog_id__c"],
-      "displayName": "HeadSet",
-      "id": "a1f1I000000hpToQAI",
-      "lineDescription": "You will love these shoes",
-      "description": "Also Zoidberg. I just want to talk. It has nothing to do with mating. Fry, that doesn't make sense. I'm just glad my fat, ugly mama isn't alive to see this day. I decline the title of Iron Cook and accept the lesser title of Zinc Saucier, which I just made up. Uhh… also, comes with double prize money.",
-      "imageUrl": "https://socialmediaseo.net/wp-content/uploads/2010/05/500px-android-logosvg-300x300.png",
-      "price": 79.99,
-      "priceLabel": "List Price",
-      "discountPrice": 59.99,
-      "discountLabel": "Member Price",
-          "sortFields": {
-      },
-      "filterFields": {
-        "EventApi__RegistrationType__c": "Simple",
-        "Custom__IsWheelchairAccessible__c": true,
-        "Custom__EarlyBird": "2018-10-10",
-        "Custom__EarlyBirdPrice": "25.50",
-        "Custom__WalkabilityScore": 12.0,
-        "Custom__PartyTime": "2019-01-15T16:00:00Z",
-        "Custom__EstimatedAttendance__c": 100
-      }
-    },
-     {
-      "catalogs": ["item_catalog__c.catalog_id__c"],
-      "displayName": "PAPER Cloth",
-      "id": "a1f1I000000hpToQAI",
-      "lineDescription": "You will love these shoes",
-      "description": "Also Zoidberg. I just want to talk. It has nothing to do with mating. Fry, that doesn't make sense. I'm just glad my fat, ugly mama isn't alive to see this day. I decline the title of Iron Cook and accept the lesser title of Zinc Saucier, which I just made up. Uhh… also, comes with double prize money.",
-      "imageUrl": "https://socialmediaseo.net/wp-content/uploads/2010/05/500px-android-logosvg-300x300.png",
-      "price": 79.99,
-      "priceLabel": "List Price",
-      "discountPrice": 59.99,
-      "discountLabel": "Member Price",
-          "sortFields": {
-      },
-      "filterFields": {
-        "EventApi__RegistrationType__c": "Simple",
-        "Custom__IsWheelchairAccessible__c": true,
-        "Custom__EarlyBird": "2018-10-10",
-        "Custom__EarlyBirdPrice": "25.50",
-        "Custom__WalkabilityScore": 12.0,
-        "Custom__PartyTime": "2019-01-15T16:00:00Z",
-        "Custom__EstimatedAttendance__c": 100
-      }
-    },
-     {
-      "catalogs": ["item_catalog__c.catalog_id__c"],
-      "displayName": "Spinner Fingers",
-      "id": "a1f1I000000hpToQAI",
-      "lineDescription": "You will love these shoes",
-      "description": "Also Zoidberg. I just want to talk. It has nothing to do with mating. Fry, that doesn't make sense. I'm just glad my fat, ugly mama isn't alive to see this day. I decline the title of Iron Cook and accept the lesser title of Zinc Saucier, which I just made up. Uhh… also, comes with double prize money.",
-      "imageUrl": "https://socialmediaseo.net/wp-content/uploads/2010/05/500px-android-logosvg-300x300.png",
-      "price": 79.99,
-      "priceLabel": "List Price",
-      "discountPrice": 59.99,
-      "discountLabel": "Member Price",
-          "sortFields": {
-      },
-      "filterFields": {
-        "EventApi__RegistrationType__c": "Simple",
-        "Custom__IsWheelchairAccessible__c": true,
-        "Custom__EarlyBird": "2018-10-10",
-        "Custom__EarlyBirdPrice": "25.50",
-        "Custom__WalkabilityScore": 12.0,
-        "Custom__PartyTime": "2019-01-15T16:00:00Z",
-        "Custom__EstimatedAttendance__c": 100
-      }
-    },
-     {
-      "catalogs": ["item_catalog__c.catalog_id__c"],
-      "displayName": "Red Hat Handbook Guide",
-      "id": "a1f1I000000hpToQAI",
-      "lineDescription": "You will love these shoes",
-      "description": "Also Zoidberg. I just want to talk. It has nothing to do with mating. Fry, that doesn't make sense. I'm just glad my fat, ugly mama isn't alive to see this day. I decline the title of Iron Cook and accept the lesser title of Zinc Saucier, which I just made up. Uhh… also, comes with double prize money.",
-      "imageUrl": "https://socialmediaseo.net/wp-content/uploads/2010/05/500px-android-logosvg-300x300.png",
-      "price": 79.99,
-      "priceLabel": "List Price",
-      "discountPrice": 59.99,
-      "discountLabel": "Member Price",
-          "sortFields": {
-      },
-      "filterFields": {
-        "EventApi__RegistrationType__c": "Simple",
-        "Custom__IsWheelchairAccessible__c": true,
-        "Custom__EarlyBird": "2018-10-10",
-        "Custom__EarlyBirdPrice": "25.50",
-        "Custom__WalkabilityScore": 12.0,
-        "Custom__PartyTime": "2019-01-15T16:00:00Z",
-        "Custom__EstimatedAttendance__c": 100
-      }
-    },
-    
-    {
-      "catalogs": ["item_catalog__c.catalog_id__c"],
-      "displayName": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
-      "id": "a1f1I000000hpToQA",
-      "lineDescription": "Because 6 is better than 5.",
-      "description": "Also Zoidberg. I just want to talk. It has nothing to do with mating. Fry, that doesn't make sense. I'm just glad my fat, ugly mama isn't alive to see this day. I decline the title of Iron Cook and accept the lesser title of Zinc Saucier, which I just made up. Uhh… also, comes with double prize money.",
-      "imageUrl": "https://www.pizzahut.co.uk/order/images/icons/logo-300x300.ed09f0955306cb0be42c35092733b5c2.png",
-      "price": 89.99,
-      "priceLabel": "List Price",
-         "sortFields": {
-      },
-      "filterFields": {
-        "EventApi__RegistrationType__c": "Simple",
-        "Custom__IsWheelchairAccessible__c": true,
-        "Custom__EarlyBird": "2018-10-10",
-        "Custom__EarlyBirdPrice": "25.50",
-        "Custom__WalkabilityScore": 12.0,
-        "Custom__PartyTime": "2019-01-15T16:00:00Z",
-        "Custom__EstimatedAttendance__c": 100
-      }
-    },
-     {
-      "catalogs": ["item_catalog__c.catalog_id__c"],
-      "displayName": "T-Shirt",
-      "id": "a1f1I000000hpToQB",
-      "lineDescription": "Because 6 is better than 5.",
-      "description": "Also Zoidberg. I just want to talk. It has nothing to do with mating. Fry, that doesn't make sense. I'm just glad my fat, ugly mama isn't alive to see this day. I decline the title of Iron Cook and accept the lesser title of Zinc Saucier, which I just made up. Uhh… also, comes with double prize money.",
-      "imageUrl": "https://target.scene7.com/is/image/Target/14575222?wid=488&hei=488&fmt=pjpeg",
-      "price": 89.99,
-      "priceLabel": "List Price",
-          "sortFields": {
-      },
-      "filterFields": {
-        "EventApi__RegistrationType__c": "Simple",
-        "Custom__IsWheelchairAccessible__c": true,
-        "Custom__EarlyBird": "2018-10-10",
-        "Custom__EarlyBirdPrice": "25.50",
-        "Custom__WalkabilityScore": 12.0,
-        "Custom__PartyTime": "2019-01-15T16:00:00Z",
-        "Custom__EstimatedAttendance__c": 100
-      } 
-    },
-    {
-      "catalogs": ["item_catalog__c.catalog_id__c"],
-      "displayName": "Mug&Tea's",
-      "id": "a1f1I000000hpToQC",
-      "lineDescription": "Because 6 is better than 5.",
-      "description": "Also Zoidberg. I just want to talk. It has nothing to do with mating. Fry, that doesn't make sense. I'm just glad my fat, ugly mama isn't alive to see this day. I decline the title of Iron Cook and accept the lesser title of Zinc Saucier, which I just made up. Uhh… also, comes with double prize money.",
-      "imageUrl": "https://dpegb9ebondhq.cloudfront.net/product_photos/1553887/mug3e_original.jpg",
-      "price": 89.99,
-      "priceLabel": "List Price",
-         "sortFields": {
-      },
-      "filterFields": {
-        "EventApi__RegistrationType__c": "Simple",
-        "Custom__IsWheelchairAccessible__c": true,
-        "Custom__EarlyBird": "2018-10-10",
-        "Custom__EarlyBirdPrice": "25.50",
-        "Custom__WalkabilityScore": 12.0,
-        "Custom__PartyTime": "2019-01-15T16:00:00Z",
-        "Custom__EstimatedAttendance__c": 100
-      }
-    },
-     {
-      "catalogs": ["item_catalog__c.catalog_id__c"],
-      "displayName": "Membership",
-      "id": "a1f1I000000hpToQD",
-      "lineDescription": "Because 6 is better than 5.",
-      "description": "Also Zoidberg. I just want to talk. It has nothing to do with mating. Fry, that doesn't make sense. I'm just glad my fat, ugly mama isn't alive to see this day. I decline the title of Iron Cook and accept the lesser title of Zinc Saucier, which I just made up. Uhh… also, comes with double prize money.",
-      "imageUrl": "https://placehold.it/300x300",
-      "price": 89.99,
-      "priceLabel": "List Price",
-          "sortFields": {
-      },
-      "filterFields": {
-        "EventApi__RegistrationType__c": "Simple",
-        "Custom__IsWheelchairAccessible__c": true,
-        "Custom__EarlyBird": "2018-10-10",
-        "Custom__EarlyBirdPrice": "25.50",
-        "Custom__WalkabilityScore": 12.0,
-        "Custom__PartyTime": "2019-01-15T16:00:00Z",
-        "Custom__EstimatedAttendance__c": 100
-      }
-    },
-      {
-      "catalogs": ["item_catalog__c.catalog_id__c"],
-      "displayName": "Book",
-      "id": "a1f1I000000hpToQE",
-      "lineDescription": "Because 6 is better than 5.",
-      "description": "Also Zoidberg. I just want to talk. It has nothing to do with mating. Fry, that doesn't make sense. I'm just glad my fat, ugly mama isn't alive to see this day. I decline the title of Iron Cook and accept the lesser title of Zinc Saucier, which I just made up. Uhh… also, comes with double prize money.",
-      "imageUrl": "https://mk0ryrobg0ysk5t06n.kinstacdn.com/wp-content/uploads/2017/03/Best-Business-Books-Start-With-Why-Simon-Sinek.jpg",
-      "price": 89.99,
-      "priceLabel": "List Price",
-           "sortFields": {
-      },
-      "filterFields": {
-        "EventApi__RegistrationType__c": "Simple",
-        "Custom__IsWheelchairAccessible__c": true,
-        "Custom__EarlyBird": "2018-10-10",
-        "Custom__EarlyBirdPrice": "25.50",
-        "Custom__WalkabilityScore": 12.0,
-        "Custom__PartyTime": "2019-01-15T16:00:00Z",
-        "Custom__EstimatedAttendance__c": 100
-      }
-    },
-    {
-      "catalogs": ["item_catalog__c.catalog_id__c"],
-      "displayName": "Notepad",
-      "id": "a1f1I000000hpToQF",
-      "lineDescription": "Because 6 is better than 5.",
-      "description": "Also Zoidberg. I just want to talk. It has nothing to do with mating. Fry, that doesn't make sense. I'm just glad my fat, ugly mama isn't alive to see this day. I decline the title of Iron Cook and accept the lesser title of Zinc Saucier, which I just made up. Uhh… also, comes with double prize money.",
-      "imageUrl": "https://ii.worldmarket.com/fcgi-bin/iipsrv.fcgi?FIF=/images/worldmarket/source/30376_XXX_v1.tif&wid=650&cvt=jpeg",
-      "price": 89.99,
-      "priceLabel": "List Price",
-         "sortFields": {
-      },
-      "filterFields": {
-        "EventApi__RegistrationType__c": "Simple",
-        "Custom__IsWheelchairAccessible__c": true,
-        "Custom__EarlyBird": "2018-10-10",
-        "Custom__EarlyBirdPrice": "25.50",
-        "Custom__WalkabilityScore": 12.0,
-        "Custom__PartyTime": "2019-01-15T16:00:00Z",
-        "Custom__EstimatedAttendance__c": 100
-      }
-    },
-    {
-      "catalogs": ["item_catalog__c.catalog_id__c"],
-      "displayName": "Vibram Five Fingers",
-      "id": "a1f1I000000hpToQAI",
-      "lineDescription": "You will love these shoes",
-      "description": "Also Zoidberg. I just want to talk. It has nothing to do with mating. Fry, that doesn't make sense. I'm just glad my fat, ugly mama isn't alive to see this day. I decline the title of Iron Cook and accept the lesser title of Zinc Saucier, which I just made up. Uhh… also, comes with double prize money.",
-      "imageUrl": "https://socialmediaseo.net/wp-content/uploads/2010/05/500px-android-logosvg-300x300.png",
-      "price": 79.99,
-      "priceLabel": "mannemStoreListing List Price",
-      "discountPrice": 59.99,
-      "discountLabel": "mannemStoreListing Member Price conditional type mappings",
-         "sortFields": {
-      },
-      "filterFields": {
-        "EventApi__RegistrationType__c": "Simple",
-        "Custom__IsWheelchairAccessible__c": true,
-        "Custom__EarlyBird": "2018-10-10",
-        "Custom__EarlyBirdPrice": "25.50",
-        "Custom__WalkabilityScore": 12.0,
-        "Custom__PartyTime": "2019-01-15T16:00:00Z",
-        "Custom__EstimatedAttendance__c": 100
-      }
-    },
-     {
-      "catalogs": ["item_catalog__c.catalog_id__c"],
-      "displayName": "Pot Hit",
-      "id": "a1f1I000000hpToQAI",
-      "lineDescription": "You will love these shoes",
-      "description": "Also Zoidberg. I just want to talk. It has nothing to do with mating. Fry, that doesn't make sense. I'm just glad my fat, ugly mama isn't alive to see this day. I decline the title of Iron Cook and accept the lesser title of Zinc Saucier, which I just made up. Uhh… also, comes with double prize money.",
-      "imageUrl": "https://socialmediaseo.net/wp-content/uploads/2010/05/500px-android-logosvg-300x300.png",
-      "price": 79.99,
-      "priceLabel": "List Price",
-      "discountPrice": 59.99,
-      "discountLabel": "Member Price",
-          "sortFields": {
-      },
-      "filterFields": {
-        "EventApi__RegistrationType__c": "Simple",
-        "Custom__IsWheelchairAccessible__c": true,
-        "Custom__EarlyBird": "2018-10-10",
-        "Custom__EarlyBirdPrice": "25.50",
-        "Custom__WalkabilityScore": 12.0,
-        "Custom__PartyTime": "2019-01-15T16:00:00Z",
-        "Custom__EstimatedAttendance__c": 100
-      }
-    },
-     {
-      "catalogs": ["item_catalog__c.catalog_id__c"],
-      "displayName": "Iphone Screen",
-      "id": "a1f1I000000hpToQAI",
-      "lineDescription": "You will love these shoes",
-      "description": "Also Zoidberg. I just want to talk. It has nothing to do with mating. Fry, that doesn't make sense. I'm just glad my fat, ugly mama isn't alive to see this day. I decline the title of Iron Cook and accept the lesser title of Zinc Saucier, which I just made up. Uhh… also, comes with double prize money.",
-      "imageUrl": "https://socialmediaseo.net/wp-content/uploads/2010/05/500px-android-logosvg-300x300.png",
-      "price": 79.99,
-      "priceLabel": "List Price",
-      "discountPrice": 59.99,
-      "discountLabel": "Member Price",
-          "sortFields": {
-      },
-      "filterFields": {
-        "EventApi__RegistrationType__c": "Simple",
-        "Custom__IsWheelchairAccessible__c": true,
-        "Custom__EarlyBird": "2018-10-10",
-        "Custom__EarlyBirdPrice": "25.50",
-        "Custom__WalkabilityScore": 12.0,
-        "Custom__PartyTime": "2019-01-15T16:00:00Z",
-        "Custom__EstimatedAttendance__c": 100
-      }
-    },
-     {
-      "catalogs": ["item_catalog__c.catalog_id__c"],
-      "displayName": "HeadSet",
-      "id": "a1f1I000000hpToQAI",
-      "lineDescription": "You will love these shoes",
-      "description": "Also Zoidberg. I just want to talk. It has nothing to do with mating. Fry, that doesn't make sense. I'm just glad my fat, ugly mama isn't alive to see this day. I decline the title of Iron Cook and accept the lesser title of Zinc Saucier, which I just made up. Uhh… also, comes with double prize money.",
-      "imageUrl": "https://socialmediaseo.net/wp-content/uploads/2010/05/500px-android-logosvg-300x300.png",
-      "price": 79.99,
-      "priceLabel": "List Price",
-      "discountPrice": 59.99,
-      "discountLabel": "Member Price",
-          "sortFields": {
-      },
-      "filterFields": {
-        "EventApi__RegistrationType__c": "Simple",
-        "Custom__IsWheelchairAccessible__c": true,
-        "Custom__EarlyBird": "2018-10-10",
-        "Custom__EarlyBirdPrice": "25.50",
-        "Custom__WalkabilityScore": 12.0,
-        "Custom__PartyTime": "2019-01-15T16:00:00Z",
-        "Custom__EstimatedAttendance__c": 100
-      }
-    },
-    {
-      "catalogs": ["item_catalog__c.catalog_id__c"],
-      "displayName": "Freebie",
-      "id": "a1f1I000000hpToQG",
-      "lineDescription": "Because 6 is better than 5.",
-      "description": "Also Zoidberg. I just want to talk. It has nothing to do with mating. Fry, that doesn't make sense. I'm just glad my fat, ugly mama isn't alive to see this day. I decline the title of Iron Cook and accept the lesser title of Zinc Saucier, which I just made up. Uhh… also, comes with double prize money.",
-      "imageUrl": "https://ii.worldmarket.com/fcgi-bin/iipsrv.fcgi?FIF=/images/worldmarket/source/30376_XXX_v1.tif&wid=650&cvt=jpeg",
-      "price": 0.00,
-      "priceLabel": "List Price",
-         "sortFields": {
-      },
-      "filterFields": {
-        "EventApi__RegistrationType__c": "Simple",
-        "Custom__IsWheelchairAccessible__c": false,
         "Custom__EarlyBird": "2018-10-10",
         "Custom__EarlyBirdPrice": "25.50",
         "Custom__WalkabilityScore": 12.0,

@@ -3,7 +3,7 @@
     {
       "name": "All Catalogs",
       "size": 590,
-      "id": ""
+      "id": "ABC"
     },
     {
       "name": "Memberships",
@@ -23,6 +23,20 @@
   ],
   "currencyIsoCode": "GBP",
   "isMultiCurrencyOrg": false,
+  "sortFields" : [
+    {
+      "name" : "Custom__EarlyBirdPrice",
+      "label" : "Price" 
+    },
+     {
+      "name" : "Custom__EarlyBirdPrice",
+      "label" : "Price" 
+    },
+    {
+      "name" : "Name",
+      "label" : "Name" 
+    } 
+  ],
   "filterFields": [
     {
       "name": "EventApi__RegistrationType__c",

@@ -27,14 +27,6 @@
     {
       "name" : "Custom__EarlyBirdPrice",
       "label" : "Price" 
-    },
-     {
-      "name" : "Custom__EarlyBirdPrice",
-      "label" : "Price" 
-    },
-    {
-      "name" : "Name",
-      "label" : "Name" 
     } 
   ],
   "filterFields": [

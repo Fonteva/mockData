@@ -109,6 +109,9 @@
       "priceLabel": "List Price",
       "discountPrice": 59.99,
       "discountLabel": "Member Price",
+        "sortFields": {
+        "Custom__EarlyBirdPrice": "34.50"
+      },
       "filterFields": {
         "EventApi__RegistrationType__c": "Simple",
         "Custom__IsWheelchairAccessible__c": true,
@@ -130,6 +133,9 @@
       "priceLabel": "List Price",
       "discountPrice": 59.99,
       "discountLabel": "Member Price",
+        "sortFields": {
+        "Custom__EarlyBirdPrice": "94.50"
+      },
       "filterFields": {
         "EventApi__RegistrationType__c": "Simple",
         "Custom__IsWheelchairAccessible__c": true,
@@ -151,6 +157,9 @@
       "priceLabel": "List Price",
       "discountPrice": 59.99,
       "discountLabel": "Member Price",
+        "sortFields": {
+        "Custom__EarlyBirdPrice": "74.50"
+      },
       "filterFields": {
         "EventApi__RegistrationType__c": "Simple",
         "Custom__IsWheelchairAccessible__c": true,

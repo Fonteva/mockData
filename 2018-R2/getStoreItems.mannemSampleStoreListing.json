@@ -37,7 +37,7 @@
   "isMultiCurrencyOrg": false,
   "sortFields" : [
     {
-      "name" : "Custom__EarlyBirdPrice",
+      "name" :  "OrderApi__Price__c",
       "label" : "Price" 
     },
     {

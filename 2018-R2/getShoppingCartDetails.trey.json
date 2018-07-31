@@ -11,8 +11,8 @@
   "events": [
 
     {
-      "displayName": "Dreamforce 2020",
-      "total": 400,
+      "displayName": "Dreamforce dreamforce dreamforce dreamforce dreamforce 2020",
+      "total": 4000000000,
       "ticketQuantity": 1,
       "sessionQuantity": 1,
       "recommendedItemsQuantity": 1,
@@ -21,8 +21,8 @@
     {
       "displayName": "Dreamforce 2021",
       "total": 1400,
-      "ticketQuantity": 2,
-      "sessionQuantity": 1,
+      "ticketQuantity": 200,
+      "sessionQuantity": 100,
       "waitlistQuantity":1,
       "imageURL": "https://is3-ssl.mzstatic.com/image/thumb/Purple3/v4/86/a7/13/86a713b1-9c0e-8bbd-8eda-61d4963faa85/mzl.hkweszdo.png/246x0w.jpg"
     },
@@ -68,7 +68,7 @@
       "displayName": "The Lean Startup: How Today's Entreprenreurs Use Continuous Linnovation to Create Radically Successful Business",
       "type": "Digital",
       "total": 5,
-      "imageURL": "https://is3-ssl.mzstatic.com/image/thumb/Purple3/v4/86/a7/13/86a713b1-9c0e-8bbd-8eda-61d4963faa85/mzl.hkweszdo.png/246x0w.jpg",
+      "imageURL": "",
       "quantity": 1,
       "salePrice": 25
     },

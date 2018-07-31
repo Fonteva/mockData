@@ -126,7 +126,8 @@
       "sortFields": {
         "Custom__WalkabilityScore": 12.0,
         "Custom__IsWheelchairAccessible__c": true,
-        "Custom__EarlyBirdPrice": "25.50"
+        "Custom__EarlyBirdPrice": "25.50",
+        "Custom__Name" : " Item A Name" 
       },
       "filterFields": {
         "EventApi__RegistrationType__c": "Simple",
@@ -148,6 +149,7 @@
       "price": 29.99,
       "priceLabel": "Sweet Price",
        "sortFields": {
+         "Custom__Name" : " Item A Name", 
         "Custom__EarlyBirdPrice": "34.50"
       },
       "filterFields": {
@@ -170,6 +172,7 @@
       "price": 189.99,
       "priceLabel": "Sweet Price",
       "sortFields": {
+        "Custom__Name" : " Item A Name", 
         "Custom__EarlyBirdPrice": "142.50"
       },
       "filterFields": {
@@ -240,6 +243,7 @@
       "price": 89.99,
       "priceLabel": "Sweet Price",
       "sortFields": {
+        "Custom__Name" : " Item A Name",
         "Custom__EarlyBirdPrice": "42.50"
       },
       "filterFields": {
@@ -264,6 +268,7 @@
       "discountPrice": 59.99,
       "discountLabel": "Member Price",
       "sortFields": {
+        "Custom__Name" : " Item A Name", 
         "Custom__EarlyBirdPrice": "25.50"
       },
       "filterFields": {
@@ -286,6 +291,7 @@
       "price": 89.99,
       "priceLabel": "Sweet Price",
        "sortFields": {
+         "Custom__Name" : " Item A Name", 
         "Custom__EarlyBirdPrice": "34.50"
       },
       "filterFields": {
@@ -308,6 +314,7 @@
       "price": 89.99,
       "priceLabel": "Sweet Price",
       "sortFields": {
+        "Custom__Name" : " Item A Name", 
         "Custom__EarlyBirdPrice": "42.50"
       },
       "filterFields": {
@@ -332,6 +339,7 @@
       "discountPrice": 59.99,
       "discountLabel": "Member Price",
       "sortFields": {
+        "Custom__Name" : " Item A Name", 
         "Custom__EarlyBirdPrice": "25.50"
       },
       "filterFields": {
@@ -354,6 +362,7 @@
       "price": 89.99,
       "priceLabel": "Sweet Price",
        "sortFields": {
+         "Custom__Name" : " Item A Name", 
         "Custom__EarlyBirdPrice": "34.50"
       },
       "filterFields": {
@@ -376,6 +385,7 @@
       "price": 89.99,
       "priceLabel": "Sweet Price",
       "sortFields": {
+        "Custom__Name" : " Item A Name",
         "Custom__EarlyBirdPrice": "42.50"
       },
       "filterFields": {
@@ -390,7 +400,7 @@
     },
     {
       "catalogs": ["item_catalog__c.catalog_id__c"],
-      "displayName": "Vibram Five Fingers",
+      "displayName": "Five Fingers",
       "id": "a1f1I000000hpToQAI",
       "lineDescription": "You will love these shoes",
       "description": "Also Zoidberg. I just want to talk. It has nothing to do with mating. Fry, that doesn't make sense. I'm just glad my fat, ugly mama isn't alive to see this day. I decline the title of Iron Cook and accept the lesser title of Zinc Saucier, which I just made up. Uhh… also, comes with double prize money.",
@@ -400,6 +410,7 @@
       "discountPrice": 59.99,
       "discountLabel": "Member Price",
       "sortFields": {
+        "Custom__Name" : " Item A Name",
         "Custom__EarlyBirdPrice": "25.50"
       },
       "filterFields": {
@@ -414,7 +425,7 @@
     },
      {
       "catalogs": ["item_catalog__c.catalog_id__c"],
-      "displayName": "Vibram Six Fingers",
+      "displayName": "Six Fingers",
       "id": "a1f1I000000hpToQA",
       "lineDescription": "Because 6 is better than 5.",
       "description": "Also Zoidberg. I just want to talk. It has nothing to do with mating. Fry, that doesn't make sense. I'm just glad my fat, ugly mama isn't alive to see this day. I decline the title of Iron Cook and accept the lesser title of Zinc Saucier, which I just made up. Uhh… also, comes with double prize money.",
@@ -422,7 +433,8 @@
       "price": 89.99,
       "priceLabel": "Sweet Price",
        "sortFields": {
-        "Custom__EarlyBirdPrice": "34.50"
+        "Custom__EarlyBirdPrice": "34.50",
+         "Custom__Name" : " Item A Name" 
       },
       "filterFields": {
         "EventApi__RegistrationType__c": "Simple",

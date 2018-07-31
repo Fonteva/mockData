@@ -215,7 +215,7 @@
 
       },
       "filterFields": {
-        "EventApi__RegistrationType__c": "Simple",
+        "EventApi__RegistrationType__c": "Lightning",
         "Custom__IsWheelchairAccessible__c": true,
         "Custom__EarlyBird": "2018-10-10",
         "Custom__EarlyBirdPrice": "25.50",
@@ -238,7 +238,7 @@
         "Custom__Name" : "B Item" 
       },
       "filterFields": {
-        "EventApi__RegistrationType__c": "Simple",
+        "EventApi__RegistrationType__c": "Lightning",
         "Custom__IsWheelchairAccessible__c": true,
         "Custom__EarlyBird": "2018-10-10",
         "Custom__EarlyBirdPrice": "25.50",

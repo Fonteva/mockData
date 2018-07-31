@@ -103,9 +103,9 @@
       "lineDescription": "You will love these shoes",
       "description": "Also Zoidberg. I just want to talk. It has nothing to do with mating. Fry, that doesn't make sense. I'm just glad my fat, ugly mama isn't alive to see this day. I decline the title of Iron Cook and accept the lesser title of Zinc Saucier, which I just made up. Uhh… also, comes with double prize money.",
       "imageUrl": "https://placehold.it/300x300",
-      "price": 79.99,
+      "price": 9.99,
       "priceLabel": "List Price",
-      "discountPrice": 59.99,
+      "discountPrice": 8.99,
       "discountLabel": "Member Price",
       "sortFields": {
         "Custom__EarlyBirdPrice": "25.50",
@@ -129,9 +129,9 @@
       "lineDescription": "You will love these shoes",
       "description": "Also Zoidberg. I just want to talk. It has nothing to do with mating. Fry, that doesn't make sense. I'm just glad my fat, ugly mama isn't alive to see this day. I decline the title of Iron Cook and accept the lesser title of Zinc Saucier, which I just made up. Uhh… also, comes with double prize money.",
       "imageUrl": "https://placehold.it/300x300",
-      "price": 79.99,
+      "price": 179.99,
       "priceLabel": "List Price",
-      "discountPrice": 59.99,
+      "discountPrice": 159.99,
       "discountLabel": "Member Price",
       "sortFields": {
         "Custom__EarlyBirdPrice": "25.50",
@@ -155,10 +155,8 @@
       "lineDescription": "You will love these shoes",
       "description": "Also Zoidberg. I just want to talk. It has nothing to do with mating. Fry, that doesn't make sense. I'm just glad my fat, ugly mama isn't alive to see this day. I decline the title of Iron Cook and accept the lesser title of Zinc Saucier, which I just made up. Uhh… also, comes with double prize money.",
       "imageUrl": "https://placehold.it/300x300",
-      "price": 79.99,
+      "price": 279.99,
       "priceLabel": "List Price",
-      "discountPrice": 59.99,
-      "discountLabel": "Member Price",
       "sortFields": {
         "Custom__EarlyBirdPrice": "25.50",
         "Custom__Name" : "$ Item" 
@@ -181,9 +179,9 @@
       "lineDescription": "You will love these shoes",
       "description": "Also Zoidberg. I just want to talk. It has nothing to do with mating. Fry, that doesn't make sense. I'm just glad my fat, ugly mama isn't alive to see this day. I decline the title of Iron Cook and accept the lesser title of Zinc Saucier, which I just made up. Uhh… also, comes with double prize money.",
       "imageUrl": "https://placehold.it/300x300",
-      "price": 79.99,
+      "price": 379.99,
       "priceLabel": "List Price",
-      "discountPrice": 59.99,
+      "discountPrice": 259.99,
       "discountLabel": "Member Price",
       "sortFields": {
         "Custom__EarlyBirdPrice": "25.50",
@@ -207,7 +205,7 @@
       "lineDescription": "No!! Not eight. Seven!",
       "description": "Also Zoidberg. I just want to talk. It has nothing to do with mating. Fry, that doesn't make sense. I'm just glad my fat, ugly mama isn't alive to see this day. I decline the title of Iron Cook and accept the lesser title of Zinc Saucier, which I just made up. Uhh… also, comes with double prize money.",
       "imageUrl": "https://placehold.it/300x300",
-      "price": 89.99,
+      "price": 489.99,
       "priceLabel": "Sweet Price",
       "sortFields": {
         "Custom__EarlyBirdPrice": "2.50",

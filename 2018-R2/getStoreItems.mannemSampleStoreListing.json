@@ -148,6 +148,8 @@
       "imageUrl": "https://placehold.it/300x300",
       "price": 29.99,
       "priceLabel": "Sweet Price",
+      "discountPrice": 5.99,
+      "discountLabel": "Member Price",
        "sortFields": {
          "Custom__Name" : " Item A Name", 
         "Custom__EarlyBirdPrice": "34.50"

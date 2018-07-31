@@ -42,6 +42,10 @@
     },
     {
       "name" : "Custom__EarlyBirdPrice",
+      "label" : "Early Bird Price" 
+    },
+    {
+      "name" : "OrderApi__Price__c",
       "label" : "Price" 
     }
   ],

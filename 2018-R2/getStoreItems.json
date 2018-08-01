@@ -5,24 +5,34 @@
       "id": "mem"
     },
     {
+      "name": "Home",
+      "id": "home",
+      "parent": "merch"
+    },
+    {
+      "name": "Work",
+      "id": "Work",
+      "parent": "merch"
+    },
+    {
       "name": "Shoes",
       "id": "shoe",
-      "parent": "merch"
+      "parent": "home"
     },
     {
       "name": "Towels & Mats",
       "id": "towels",
-      "parent": "merch"
+      "parent": "home"
     },
     {
       "name": "Coffee",
       "id": "coffee",
-      "parent": "merch"
+      "parent": "home"
     },
     {
       "name": "Guns",
       "id": "gun",
-      "parent": "merch"
+      "parent": "home"
     },
     {
       "name": "Merchandise",

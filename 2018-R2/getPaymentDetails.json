@@ -27,7 +27,7 @@
     "requireContactMatchRuleField":false,
     "showMatchField":false
   },
-  "user" : {
+  "userDetails" : {
     "accountId":"001f200001ZYMyr",
     "contactId":"003f200002QyqPP",
     "id":"0051I000000a5qUQAQ",

@@ -1,35 +1,23 @@
 {
   "catalogs": [
     {
+      "name": "All Catalogs",
+      "size": 590,
+      "id": ""
+    },
+    {
       "name": "Memberships",
+      "size": 142,
       "id": "mem"
     },
     {
-      "name": "Shoes",
-      "id": "shoe",
-      "parent": "merch"
-    },
-    {
-      "name": "Towels",
-      "id": "towels",
-      "parent": "merch"
-    },
-    {
-      "name": "Coffee",
-      "id": "coffee",
-      "parent": "merch"
-    },
-    {
-      "name": "Guns",
-      "id": "gun",
-      "parent": "merch"
-    },
-    {
       "name": "Merchandise",
+      "size": 590,
       "id": "merch"
     },
     {
       "name": "Publications",
+      "size": 590,
       "id": "pub"
     }
   ],
@@ -108,7 +96,7 @@
       "displayName": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
       "id": "a1f1I000000hpToQA",
       "lineDescription": "Because 6 is better than 5.",
-      "description": "",
+      "description": "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
       "imageUrl": "https://www.pizzahut.co.uk/order/images/icons/logo-300x300.ed09f0955306cb0be42c35092733b5c2.png",
       "price": 89.99,
       "priceLabel": "List Price",
@@ -146,6 +134,7 @@
       "displayName": "Mug&Tea's",
       "id": "a1f1I000000hpToQC",
       "lineDescription": "Because 6 is better than 5.",
+      "images": ["https://placehold.it/425x425","https://placehold.it/422x422","https://placehold.it/420x420","https://placehold.it/424x424" ],
       "description": "It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
       "imageUrl": "https://dpegb9ebondhq.cloudfront.net/product_photos/1553887/mug3e_original.jpg",
       "price": 89.99,

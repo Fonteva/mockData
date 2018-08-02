@@ -7,5 +7,6 @@
     "subtotal": 604,
     "isDiscountEnabledOnCheckout" : true,
     "isMultiCurrencyOrg" : true,
-    "currencyISOCode" : "USD"
+    "currencyISOCode" : "USD",
+    "sourceCodeName" : "DISC50"
 }

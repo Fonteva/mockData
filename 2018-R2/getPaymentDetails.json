@@ -31,7 +31,7 @@
     "accountId":"001f200001ZYMyr",
     "contactId":"003f200002QyqPP",
     "id":"0051I000000a5qUQAQ",
-    "isAuthenticated":true,
+    "isAuthenticated":false,
     "isContactAuthenticated":false,
     "smallPhotoUrl":"/profilephoto/005/T",
     "usrName":"Ashish Gupta(P)"

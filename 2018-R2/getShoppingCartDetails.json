@@ -11,6 +11,7 @@
   "events": [
 
     {
+      "eventId": "1234",
       "displayName": "Dreamforce 2020",
       "total": 400,
       "ticketQuantity": 1,
@@ -20,6 +21,7 @@
       "imageURL": "https://is3-ssl.mzstatic.com/image/thumb/Purple3/v4/86/a7/13/86a713b1-9c0e-8bbd-8eda-61d4963faa85/mzl.hkweszdo.png/246x0w.jpg"
     },
     {
+      "eventId": "1234",
       "displayName": "Dreamforce 2021",
       "total": 1400,
       "ticketQuantity": 2,
@@ -29,6 +31,7 @@
       "imageURL": "https://is3-ssl.mzstatic.com/image/thumb/Purple3/v4/86/a7/13/86a713b1-9c0e-8bbd-8eda-61d4963faa85/mzl.hkweszdo.png/246x0w.jpg"
     },
     {
+      "eventId": "1234",
       "displayName": "Dreamforce 2022",
       "total": 2400,
       "ticketQuantity": 4,
@@ -41,6 +44,7 @@
   ],
   "subscriptions": [
     {
+      "salesOrderLineId": "1234", 
       "displayName": "Fonteva Gold Membership",
       "planName": "12 Months",
       "total" : 1200,
@@ -57,6 +61,7 @@
       "salePrice": 600
     },
     {
+      "salesOrderLineId": "1234", 
       "displayName": "Fonteva Platinum Membership",
       "planName": "3 Months",
       "total": 300,
@@ -67,6 +72,7 @@
   ],
   "others" : [
     {
+      "salesOrderLineId": "1234", 
       "displayName": "The Lean Startup: How Today's Entreprenreurs Use Continuous Linnovation to Create Radically Successful Business",
       "type": "Digital",
       "total": 5,
@@ -75,6 +81,7 @@
       "salePrice": 25
     },
     {
+      "salesOrderLineId": "1234", 
       "displayName": "National Childrens Book Library",
       "type": "Donation",
       "total": 300,
@@ -83,6 +90,7 @@
       "salePrice": 250
     },
     {
+      "salesOrderLineId": "1234", 
       "displayName": "Fonteva Mug",
       "type": "Merchandise",
       "total": 400,

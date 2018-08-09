@@ -10,6 +10,11 @@
       "parent": "merch"
     },
     {
+      "name": "Batman",
+      "id": "batman",
+      "parent": "merch"
+    },
+    {
       "name": "Work",
       "id": "Work",
       "parent": "merch"
@@ -41,6 +46,11 @@
     {
       "name": "Publications",
       "id": "pub"
+    },
+    {
+      "name": "Utility Belt",
+      "id": "belt",
+      "parent" : "Batman"
     }
   ],
   "currencyIsoCode": "USD",

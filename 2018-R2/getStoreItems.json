@@ -40,17 +40,56 @@
       "parent": "home"
     },
     {
+      "name": "Utility Belt",
+      "id": "belt",
+      "parent" : "batman"
+    },
+    {
+      "name": "Planet Express",
+      "id": "planetExpress",
+      "parent" : "futurama"
+    },
+    {
+      "name": "Phillip J Fry",
+      "id": "fry",
+      "parent" : "planetExpress"
+    },
+    {
+      "name": "Turanga Leela",
+      "id": "leela",
+      "parent" : "planetExpress"
+    },
+    {
+      "name": "Mom Corporation",
+      "id": "mom",
+      "parent" : "futurama"
+    },
+    {
+      "name": "Walt",
+      "id": "walt",
+      "parent" : "mom"
+    },
+    {
+      "name": "Larry",
+      "id": "larry",
+      "parent" : "mom"
+    },
+    {
+      "name": "Igner",
+      "id": "igner",
+      "parent" : "mom"
+    },
+    {
       "name": "Merchandise",
       "id": "merch"
     },
     {
-      "name": "Publications",
-      "id": "pub"
+      "name": "Soda",
+      "id": "soda"
     },
     {
-      "name": "Utility Belt",
-      "id": "belt",
-      "parent" : "batman"
+      "name": "Publications",
+      "id": "pub"
     }
   ],
   "currencyIsoCode": "USD",

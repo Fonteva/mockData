@@ -50,7 +50,7 @@
     {
       "name": "Utility Belt",
       "id": "belt",
-      "parent" : "Batman"
+      "parent" : "batman"
     }
   ],
   "currencyIsoCode": "USD",

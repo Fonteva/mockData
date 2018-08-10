@@ -48,6 +48,7 @@
       "displayName": "Fonteva Gold Membership",
       "planName": "12 Months",
       "total" : 1200,
+      "autoRenew" : false,
       "imageURL": "https://is3-ssl.mzstatic.com/image/thumb/Purple3/v4/86/a7/13/86a713b1-9c0e-8bbd-8eda-61d4963faa85/mzl.hkweszdo.png/246x0w.jpg",
       "quantity": 1,
       "salePrice": 1200
@@ -56,6 +57,7 @@
       "displayName": "Fonteva Silver Membership",
       "planName": "6 Months",
       "total": 600,
+      "autoRenew" : true,
       "imageURL": "https://is3-ssl.mzstatic.com/image/thumb/Purple3/v4/86/a7/13/86a713b1-9c0e-8bbd-8eda-61d4963faa85/mzl.hkweszdo.png/246x0w.jpg",
       "quantity": 1,
       "salePrice": 600
@@ -65,6 +67,7 @@
       "displayName": "Fonteva Platinum Membership",
       "planName": "3 Months",
       "total": 300,
+      "autoRenew" : false,
       "imageURL": "https://is3-ssl.mzstatic.com/image/thumb/Purple3/v4/86/a7/13/86a713b1-9c0e-8bbd-8eda-61d4963faa85/mzl.hkweszdo.png/246x0w.jpg",
       "quantity": 1,
       "salePrice": 300

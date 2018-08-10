@@ -47,7 +47,7 @@
       "salesOrderLineId": "1234", 
       "displayName": "Fonteva Gold Membership",
       "planName": "12 Months",
-      "total" : 1200,
+      "listPrice" : 1200,
       "autoRenew" : false,
       "imageURL": "https://is3-ssl.mzstatic.com/image/thumb/Purple3/v4/86/a7/13/86a713b1-9c0e-8bbd-8eda-61d4963faa85/mzl.hkweszdo.png/246x0w.jpg",
       "quantity": 1,
@@ -56,7 +56,7 @@
     {
       "displayName": "Fonteva Silver Membership",
       "planName": "6 Months",
-      "total": 600,
+      "listPrice": 600,
       "autoRenew" : true,
       "imageURL": "https://is3-ssl.mzstatic.com/image/thumb/Purple3/v4/86/a7/13/86a713b1-9c0e-8bbd-8eda-61d4963faa85/mzl.hkweszdo.png/246x0w.jpg",
       "quantity": 1,
@@ -66,7 +66,7 @@
       "salesOrderLineId": "1234", 
       "displayName": "Fonteva Platinum Membership",
       "planName": "3 Months",
-      "total": 300,
+      "listPrice": 300,
       "autoRenew" : false,
       "imageURL": "https://is3-ssl.mzstatic.com/image/thumb/Purple3/v4/86/a7/13/86a713b1-9c0e-8bbd-8eda-61d4963faa85/mzl.hkweszdo.png/246x0w.jpg",
       "quantity": 1,
@@ -78,7 +78,7 @@
       "salesOrderLineId": "1234", 
       "displayName": "The Lean Startup: How Today's Entreprenreurs Use Continuous Linnovation to Create Radically Successful Business",
       "type": "Digital",
-      "total": 5,
+      "listPrice": 50,
       "imageURL": "https://is3-ssl.mzstatic.com/image/thumb/Purple3/v4/86/a7/13/86a713b1-9c0e-8bbd-8eda-61d4963faa85/mzl.hkweszdo.png/246x0w.jpg",
       "quantity": 1,
       "salePrice": 25
@@ -87,7 +87,7 @@
       "salesOrderLineId": "1234", 
       "displayName": "National Childrens Book Library",
       "type": "Donation",
-      "total": 300,
+      "listPrice": 300,
       "imageURL": "https://is3-ssl.mzstatic.com/image/thumb/Purple3/v4/86/a7/13/86a713b1-9c0e-8bbd-8eda-61d4963faa85/mzl.hkweszdo.png/246x0w.jpg",
       "quantity": 1,
       "salePrice": 250
@@ -96,7 +96,7 @@
       "salesOrderLineId": "1234", 
       "displayName": "Fonteva Mug",
       "type": "Merchandise",
-      "total": 400,
+      "listPrice": 400,
       "imageURL": "https://is3-ssl.mzstatic.com/image/thumb/Purple3/v4/86/a7/13/86a713b1-9c0e-8bbd-8eda-61d4963faa85/mzl.hkweszdo.png/246x0w.jpg",
       "quantity": 1,
       "salePrice": 340

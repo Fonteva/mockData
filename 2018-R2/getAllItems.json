@@ -8,7 +8,7 @@
       "hasIncludedItems" : "true",
       "itemClassname" : "Item Class Name",
       "itemClassId" : "234567890",
-      "catalogIds" : ['09876543w214', '1234567890','1234567890'],
+      "catalogIds" : ["09876543w214", "1234567890","1234567890"],
       "isAdded" : true
     },
     {
@@ -19,7 +19,7 @@
       "hasIncludedItems" : "true",
       "itemClassname" : "Item Class Name",
       "itemClassId" : "234567890",
-      "catalogIds" : ['09876543w214', '1234567890','1234567890'],
+      "catalogIds" : ["09876543w214", "1234567890","1234567890"],
       "isAdded" : true
     },
     {
@@ -30,7 +30,7 @@
       "hasIncludedItems" : "true",
       "itemClassname" : "Item Class Name",
       "itemClassId" : "234567890",
-      "catalogIds" : ['09876543w214', '1234567890','1234567890'],
+      "catalogIds" : ["09876543w214", "1234567890","1234567890"],
       "isAdded" : true
     }
 

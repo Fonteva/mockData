@@ -1,0 +1,82 @@
+{
+  Items: [
+    {
+      id : 'djskfhklsd',
+      name : 'Item 1',
+      price : 20.00,
+      currency: USD,
+      hasIncludedItems: true
+      itemClassname : 'Item Class Name'
+      itemClassId : '234567890',
+      catalogIds : ['09876543w214', '1234567890','1234567890'],
+      isAdded: true
+    },
+    {
+      id : '234567890',
+      name : 'item 2',
+      price : 20.00,
+      currency: USD,
+      hasIncludedItems: true
+      itemClassId : '09876543w214',
+      itemClassname : 'Item Class Name'
+      catalogIds : [],
+      isAdded: true
+    },
+    {
+      id : '234567890',
+      name : 'item 3',
+      price : 20.00,
+      currency: USD,
+      hasIncludedItems: true
+      itemClassId : '234567890',
+      itemClassname : 'Item Class 1'
+      catalogIds : ['1234567890', '1234567890','1234567890'],
+      isAdded: false
+    },
+  ],
+  ItemClasses : [
+    {
+      id : '09876543w214',
+      name : 'Item Class 1'
+    },
+    {
+      id : '09876543w224',
+      name : 'Item Class 2'
+    },
+    {
+      id : '09876543w342',
+      name : 'Item Class 3'
+    },
+  ],
+  Catalogs : [
+    {
+      id : '123456789012',
+      name : 'Catalog 1'
+    },
+    {
+      id : '123456789213',
+      name : 'Catalog 2'
+    },
+    {
+      id : '1234567893423',
+      name : 'Catalog 3'
+    }
+  ],
+  existingPackageItems : [
+    {
+      id : '0987654323456789', // Package Item Id
+      name : 'Item Name 1',
+      quantity : 2,
+      displayItem : true,
+      price : 20.00
+    },
+    {
+      id : '76521376573', // Package Item Id
+      name : 'Item Name 2',
+      quantity : 2,
+      displayItem : true,
+      price : 20.00
+    }
+  ]
+}
+

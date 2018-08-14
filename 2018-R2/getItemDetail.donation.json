@@ -9,7 +9,8 @@
     "https://placehold.it/300x300",
     "https://placehold.it/320x300"
   ],
-  "isDonation": true,
+  "isContribution": true,
+  "disablePriceRules": true,
   "price": 179.99,
   "priceLabel": "List Price Most businesses are operated by private companies",
   "discountPrice": 59.99,

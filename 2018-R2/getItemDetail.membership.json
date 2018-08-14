@@ -9,18 +9,24 @@
     "https://placehold.it/300x300",
     "https://placehold.it/320x300"
   ],
-  "isMembership": true,
+  "isSubscription": true,
   "subscriptionPlans": [
     {
       "id": "12345",
-      "name": "Yearly"
+      "name": "Yearly - req",
+      "autoRenewOption": "Required"
     },
     {
       "id": "123456",
-      "name": "Monthly"
+      "name": "Monthly",
+      "autoRenewOption": "Enabled"
+    },
+    {
+      "id": "123456",
+      "name": "Monthly - disable",
+      "autoRenewOption": "Disabled"
     }
   ],
-  "canAutoRenew": true,
   "price": 179.99,
   "priceLabel": "List Price Most businesses are operated by private companies",
   "discountPrice": 59.99,

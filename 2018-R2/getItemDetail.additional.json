@@ -20,19 +20,43 @@
     "https://www.instagram.com/",
     "https://twitter.com/login?lang=en"
   ],
-  "additionalItems": [
+  "packageItems": [
     {
       "id": "222222",
+      "isRecommended": false,
+      "isRequired": false,
       "groupHeader": "Accessories",
       "groupInstructions": "One, two, pick a few",
-      "items": [
-        {
-          "id": "12345",
-          "isRecommended": false,
-          "isRequired": false,
-          "name": "Shoe Cleaner"
-        }
-      ]
+      "numberOfFreeItems": 0,
+      "minimumQuantity": 1,
+      "maximumQuantity": 1
+    },
+    {
+      "id": "12345",
+      "isRecommended": false,
+      "isRequired": false,
+      "itemName": "Shoe Cleaner",
+      "itemPrice": 29.99,
+      "itemImagePath": "https://placehold.it/310x310",
+      "packageItem": "222222"
+    },
+    {
+      "id": "123456",
+      "isRecommended": false,
+      "isRequired": false,
+      "itemName": "Shoe Blackener",
+      "itemPrice": 49.99,
+      "itemImagePath": "https://placehold.it/310x310",
+      "packageItem": "222222"
+    },
+    {
+      "id": "123457",
+      "isRecommended": false,
+      "isRequired": false,
+      "itemName": "Shoe Whitener",
+      "itemPrice": 19.99,
+      "itemImagePath": "https://placehold.it/310x310",
+      "packageItem": "222222"
     }
   ]
 }

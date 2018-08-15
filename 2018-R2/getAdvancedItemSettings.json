@@ -1,0 +1,7 @@
+{
+  "menuItems": [
+    { "name" : "Included Items" },
+    { "name" : "Additional Items" },
+    { "name" : "Recommended Items" }
+  ]
+}

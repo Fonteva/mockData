@@ -4,25 +4,43 @@
       "id": "djskfhklsd",
       "name": "Item 1",
       "price": 20.00,
-      "currency": "USD",
-      "hasIncludedItems": "true",
-      "itemClassname": "Item Class Name"
+      "currencyISOCode": "USD",
+      "hasIncludedItems": "false"
     },
     {
       "id": "djskfhklsd",
       "name": "Item 2",
       "price": 10.00,
-      "currency": "USD",
-      "hasIncludedItems": "true",
-      "itemClassname": "Item Class Name"
+      "currencyISOCode": "USD",
+      "hasIncludedItems": "false"
     },
     {
       "id": "djskfhklsd",
       "name": "Item 1",
       "price": 20.00,
-      "currency": "USD",
+      "currencyISOCode": "USD",
+      "hasIncludedItems": "false"
+    },
+    {
+      "id": "djskfhklsd",
+      "name": "Item 1",
+      "price": 20.00,
+      "currencyISOCode": "USD",
       "hasIncludedItems": "true",
-      "itemClassname": "Item Class Name"
+    },
+    {
+      "id": "djskfhklsd",
+      "name": "Item 2",
+      "price": 10.00,
+      "currencyISOCode": "USD",
+      "hasIncludedItems": "false",
+    },
+    {
+      "id": "djskfhklsd",
+      "name": "Item 1",
+      "price": 20.00,
+      "currencyISOCode": "USD",
+      "hasIncludedItems": "false",
     }
   ]
 }

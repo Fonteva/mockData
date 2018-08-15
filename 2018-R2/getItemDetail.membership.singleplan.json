@@ -16,17 +16,6 @@
       "name": "Yearly - req",
       "autoRenewOption": "Required"
     },
-    {
-      "id": "123456",
-      "name": "Monthly",
-      "autoRenewOption": "Enabled",
-      "isDefault": true
-    },
-    {
-      "id": "1234567",
-      "name": "Monthly - disable",
-      "autoRenewOption": "Disabled"
-    }
   ],
   "price": 179.99,
   "priceLabel": "List Price Most businesses are operated by private companies",

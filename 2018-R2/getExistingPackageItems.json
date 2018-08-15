@@ -2,33 +2,42 @@
   "includedItems" : [
     {
       "id" : "987654323456", // Package Item Id
-      "name" : "Item Name 1",
-      "quantity" : 2,
+      "itemName" : "Item Name 1", // Item Name
+      "minimumQuantity" : 2,
       "displayItem" : true,
-      "price" : 20.00,
+      "itemPrice" : 20.00, // Item Price
       "itemId" : "1234567890",  // Item id that is already added
       "isAdded" : true // Its always true on load, will be checked to false if deleted from the list
     },
     {
-      "id" : "987654323456", // Package Item record Id
-      "name" : "Item Name 1",
-      "quantity" : 2,
+      "id" : "987654323456",
+      "itemName" : "Item Name 1",
+      "minimumQuantity" : 2,
       "displayItem" : true,
-      "price" : 20.00,
+      "itemPrice" : 20.00,
       "itemId" : "1234567890",
       "isAdded" : true
-    }
+    },
+    {
+      "id" : "987654323456",
+      "itemName" : "Item Name 1",
+      "minimumQuantity" : 2,
+      "displayItem" : true,
+      "itemPrice" : 20.00,
+      "itemId" : "1234567890",
+      "isAdded" : true
+    },
   ],
   "recommendedItems" : [
     {
       "id" : "987654323456", // Package Item Id
-      "name" : "Item Name 1",
+      "itemName" : "Item Name 1",
       "itemId" : "1234567890", // Item id that is already added
       "isAdded" : true
     },
     {
       "id" : "987654323456",
-      "name" : "Item Name 1",
+      "itemName" : "Item Name 1",
       "itemId" : "1234567890",
       "isAdded" : true
     }
@@ -36,23 +45,23 @@
   "groupItems" : [
     {
       "id" : "1234567890", // parent packate item id
-      "name" : "group header",
-      "instructions" : "group instructions",
-      "minQtyGroup" : 1,
-      "maxQtyGroup" : 10,
+      "groupHeader" : "group header",
+      "groupInstructions" : "Group Instructions",
+      "minimumQuantity" : 1,
+      "maximumQuantity" : 10,
       "numberOfFreeItems" : 1,
-      "minQtyItem" : 1,
+      "maximumQuantityPerItem" : 1,
       "isAdded" : true, // Its always true on load, will be checked to false if deleted from the group list
       "childPackageItems" : [
         {
           "id" : "987654323456", // Package Item Id
-          "name" : "Item Name 1",
+          "itemName" : "Item Name 1",
           "itemId" : "1234567890",  // Item id that is already added
           "isAdded" : true
         },
         {
           "id" : "987654323456",
-          "name" : "Item Name 1",
+          "itemName" : "Item Name 2",
           "itemId" : "1234567890",
           "isAdded" : true
         }
@@ -60,23 +69,23 @@
     },
     {
       "id" : "1234567890",
-      "name" : "group header",
-      "instructions" : "group instructions",
-      "minQtyGroup" : 1,
-      "maxQtyGroup" : 10,
+      "groupHeader" : "group header",
+      "groupInstructions" : "Group Instructions",
+      "minimumQuantity" : 1,
+      "maximumQuantity" : 10,
       "numberOfFreeItems" : 1,
-      "minQtyItem" : 1,
+      "maximumQuantityPerItem" : 1,
       "isAdded" : true,
       "childPackageItems" : [
         {
           "id" : "987654323456",
-          "name" : "Item Name 1",
+          "itemName" : "Item Name 1",
           "itemId" : "1234567890",
           "isAdded" : true
         },
         {
           "id" : "987654323456",
-          "name" : "Item Name 1",
+          "itemName" : "Item Name 2",
           "itemId" : "1234567890",
           "isAdded" : true
         }

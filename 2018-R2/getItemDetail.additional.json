@@ -29,10 +29,12 @@
       "groupInstructions": "One, two, pick a few",
       "numberOfFreeItems": 0,
       "minimumQuantity": 1,
-      "maximumQuantity": 1
+      "maximumQuantity": 1,
+      "maximumQuantityPerItem": 1
     },
     {
       "id": "12345",
+      "item": "12345",
       "isRecommended": false,
       "isRequired": false,
       "itemName": "Shoe Cleaner",
@@ -42,6 +44,7 @@
     },
     {
       "id": "123456",
+      "item": "123456",
       "isRecommended": false,
       "isRequired": false,
       "itemName": "Shoe Blackener",
@@ -51,6 +54,7 @@
     },
     {
       "id": "123457",
+      "item": "123457",
       "isRecommended": false,
       "isRequired": false,
       "itemName": "Shoe Whitener",

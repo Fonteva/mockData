@@ -6,7 +6,7 @@
       "quantity" : 2,
       "displayItem" : true,
       "price" : 20.00,
-      "itemId" : '1234567890',  // Item id that is already added
+      "itemId" : "1234567890",  // Item id that is already added
       "isAdded" : true // Its always true on load, will be checked to false if deleted from the list
     },
     {
@@ -15,7 +15,7 @@
       "quantity" : 2,
       "displayItem" : true,
       "price" : 20.00,
-      "itemId" : '1234567890',
+      "itemId" : "1234567890",
       "isAdded" : true
     }
   ],
@@ -23,13 +23,13 @@
     {
       "id" : "987654323456", // Package Item Id
       "name" : "Item Name 1",
-      "itemId" : '1234567890', // Item id that is already added
+      "itemId" : "1234567890", // Item id that is already added
       "isAdded" : true
     },
     {
       "id" : "987654323456",
       "name" : "Item Name 1",
-      "itemId" : '1234567890',
+      "itemId" : "1234567890",
       "isAdded" : true
     }
   ],
@@ -47,13 +47,13 @@
         {
           "id" : "987654323456", // Package Item Id
           "name" : "Item Name 1",
-          "itemId" : '1234567890',  // Item id that is already added
+          "itemId" : "1234567890",  // Item id that is already added
           "isAdded" : true
         },
         {
           "id" : "987654323456",
           "name" : "Item Name 1",
-          "itemId" : '1234567890',
+          "itemId" : "1234567890",
           "isAdded" : true
         }
       ]
@@ -71,13 +71,13 @@
         {
           "id" : "987654323456",
           "name" : "Item Name 1",
-          "itemId" : '1234567890',
+          "itemId" : "1234567890",
           "isAdded" : true
         },
         {
           "id" : "987654323456",
           "name" : "Item Name 1",
-          "itemId" : '1234567890',
+          "itemId" : "1234567890",
           "isAdded" : true
         }
       ]

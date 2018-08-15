@@ -15,7 +15,7 @@
       "id": "12345",
       "name": "Yearly - req",
       "autoRenewOption": "Required"
-    },
+    }
   ],
   "price": 179.99,
   "priceLabel": "List Price Most businesses are operated by private companies",

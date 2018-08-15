@@ -9,10 +9,29 @@
     "https://placehold.it/300x300",
     "https://placehold.it/320x300"
   ],
+  "isSubscription": true,
+  "subscriptionPlans": [
+    {
+      "id": "12345",
+      "name": "Yearly - req",
+      "autoRenewOption": "Required"
+    },
+    {
+      "id": "123456",
+      "name": "Monthly",
+      "autoRenewOption": "Enabled",
+      "isDefault": true
+    },
+    {
+      "id": "1234567",
+      "name": "Monthly - disable",
+      "autoRenewOption": "Disabled"
+    }
+  ],
   "price": 179.99,
   "priceLabel": "List Price Most businesses are operated by private companies",
   "discountPrice": 59.99,
-  "discountLabel": "Smart Price",
+  "discountLabel": " Smart Price",
   "inventoryMessage": "One time deal! Now! Specially USA people",
   "attributes": [],
   "sharing": [
@@ -20,47 +39,5 @@
     "https://www.instagram.com/",
     "https://twitter.com/login?lang=en"
   ],
-  "packageItems": [
-    {
-      "id": "222222",
-      "isRecommended": false,
-      "isRequired": false,
-      "groupHeader": "Accessories",
-      "groupInstructions": "One, two, pick a few",
-      "numberOfFreeItems": 0,
-      "minimumQuantity": 1,
-      "maximumQuantity": 1,
-      "maximumQuantityPerItem": 1
-    },
-    {
-      "id": "12345",
-      "item": "12345",
-      "isRecommended": false,
-      "isRequired": false,
-      "itemName": "Shoe Cleaner",
-      "itemPrice": 29.99,
-      "itemImagePath": "https://placehold.it/310x310",
-      "packageItem": "222222"
-    },
-    {
-      "id": "123456",
-      "item": "123456",
-      "isRecommended": false,
-      "isRequired": false,
-      "itemName": "Shoe Blackener",
-      "itemPrice": 49.99,
-      "itemImagePath": "https://placehold.it/310x310",
-      "packageItem": "222222"
-    },
-    {
-      "id": "123457",
-      "item": "123457",
-      "isRecommended": false,
-      "isRequired": false,
-      "itemName": "Shoe Whitener",
-      "itemPrice": 19.99,
-      "itemImagePath": "https://placehold.it/310x310",
-      "packageItem": "222222"
-    }
-  ]
+  "bundledItems": []
 }

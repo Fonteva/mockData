@@ -15,6 +15,12 @@
       "id": "12345",
       "name": "Yearly - req",
       "autoRenewOption": "Required"
+    },
+    {
+      "id": "123456",
+      "name": "Monthly",
+      "autoRenewOption": "Enabled",
+      "isDefault": true
     }
   ],
   "price": 179.99,

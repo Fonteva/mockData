@@ -5,6 +5,7 @@
       "itemName" : "Item Name 1", // Item Name
       "minimumQuantity" : 2,
       "displayItem" : true,
+      "displayOrder" : 1,
       "itemPrice" : 20.00, // Item Price
       "itemId" : "1234567890",  // Item id that is already added
       "isAdded" : true // Its always true on load, will be checked to false if deleted from the list
@@ -14,6 +15,7 @@
       "itemName" : "Item Name 1",
       "minimumQuantity" : 2,
       "displayItem" : true,
+      "displayOrder" : 2,
       "itemPrice" : 20.00,
       "itemId" : "1234567890",
       "isAdded" : true
@@ -23,6 +25,7 @@
       "itemName" : "Item Name 1",
       "minimumQuantity" : 2,
       "displayItem" : true,
+      "displayOrder" : 3,
       "itemPrice" : 20.00,
       "itemId" : "1234567890",
       "isAdded" : true
@@ -31,12 +34,14 @@
   "recommendedItems" : [
     {
       "id" : "987654323456", // Package Item Id
+      "displayOrder" : 1,
       "itemName" : "Item Name 1",
       "itemId" : "1234567890", // Item id that is already added
       "isAdded" : true
     },
     {
       "id" : "987654323456",
+      "displayOrder" : 2,
       "itemName" : "Item Name 1",
       "itemId" : "1234567890",
       "isAdded" : true
@@ -51,16 +56,19 @@
       "maximumQuantity" : 10,
       "numberOfFreeItems" : 1,
       "maximumQuantityPerItem" : 1,
+      "displayOrder" : 1,
       "isAdded" : true, // Its always true on load, will be checked to false if deleted from the group list
       "childPackageItems" : [
         {
           "id" : "987654323456", // Package Item Id
+          "displayOrder" : 1,
           "itemName" : "Item Name 1",
           "itemId" : "1234567890",  // Item id that is already added
           "isAdded" : true
         },
         {
           "id" : "987654323456",
+          "displayOrder" : 2,
           "itemName" : "Item Name 2",
           "itemId" : "1234567890",
           "isAdded" : true
@@ -75,16 +83,19 @@
       "maximumQuantity" : 10,
       "numberOfFreeItems" : 1,
       "maximumQuantityPerItem" : 1,
+      "displayOrder" : 2,
       "isAdded" : true,
       "childPackageItems" : [
         {
           "id" : "987654323456",
+          "displayOrder" : 1,
           "itemName" : "Item Name 1",
           "itemId" : "1234567890",
           "isAdded" : true
         },
         {
           "id" : "987654323456",
+          "displayOrder" : 2,
           "itemName" : "Item Name 2",
           "itemId" : "1234567890",
           "isAdded" : true

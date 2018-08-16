@@ -14,7 +14,7 @@
     {
       "id": "12345",
       "name": "Yearly - req",
-      "autoRenewOption": "Enabled"
+      "autoRenewOption": "Required"
     }
   ],
   "price": 179.99,

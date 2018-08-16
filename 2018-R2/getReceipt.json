@@ -2,5 +2,6 @@
     "name" : "test",
     "url": "google.com",
     "type": "Receipt",
-    "total": 46.20,  
+    "total": 46.20,
+    "currencyISOCode": "USD"
 }

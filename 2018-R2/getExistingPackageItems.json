@@ -7,7 +7,7 @@
       "displayItem" : true,
       "displayOrder" : 1,
       "itemPrice" : 20.00, // Item Price
-      "itemId" : "1234567890",  // Item id that is already added
+      "item" : "1234567890",  // Item id that is already added
       "isAdded" : true // Its always true on load, will be checked to false if deleted from the list
     },
     {
@@ -17,7 +17,7 @@
       "displayItem" : true,
       "displayOrder" : 2,
       "itemPrice" : 20.00,
-      "itemId" : "1234567890",
+      "item" : "1234567890",
       "isAdded" : true
     },
     {
@@ -27,7 +27,7 @@
       "displayItem" : true,
       "displayOrder" : 3,
       "itemPrice" : 20.00,
-      "itemId" : "1234567890",
+      "item" : "1234567890",
       "isAdded" : true
     },
   ],
@@ -36,14 +36,14 @@
       "id" : "987654323456", // Package Item Id
       "displayOrder" : 1,
       "itemName" : "Item Name 1",
-      "itemId" : "1234567890", // Item id that is already added
+      "item" : "1234567890", // Item id that is already added
       "isAdded" : true
     },
     {
       "id" : "987654323456",
       "displayOrder" : 2,
       "itemName" : "Item Name 1",
-      "itemId" : "1234567890",
+      "item" : "1234567890",
       "isAdded" : true
     }
   ],
@@ -63,14 +63,14 @@
           "id" : "987654323456", // Package Item Id
           "displayOrder" : 1,
           "itemName" : "Item Name 1",
-          "itemId" : "1234567890",  // Item id that is already added
+          "item" : "1234567890",  // Item id that is already added
           "isAdded" : true
         },
         {
           "id" : "987654323456",
           "displayOrder" : 2,
           "itemName" : "Item Name 2",
-          "itemId" : "1234567890",
+          "item" : "1234567890",
           "isAdded" : true
         }
       ]
@@ -90,14 +90,14 @@
           "id" : "987654323456",
           "displayOrder" : 1,
           "itemName" : "Item Name 1",
-          "itemId" : "1234567890",
+          "item" : "1234567890",
           "isAdded" : true
         },
         {
           "id" : "987654323456",
           "displayOrder" : 2,
           "itemName" : "Item Name 2",
-          "itemId" : "1234567890",
+          "item" : "1234567890",
           "isAdded" : true
         }
       ]

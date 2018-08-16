@@ -1,0 +1,21 @@
+{
+  "builder" : "Advanced Item Settings",
+  "id" : "advancedItemSettings",
+  "menuItems" : [
+    {
+      "name" : "Included Items",
+      "id" : "includedItems",
+      "content" : "AISIncludedItems"
+    },
+    {
+      "name" : "Additional Items",
+      "id" : "additionalItems",
+      "content" : "AISIncludedItems"
+    },
+    {
+      "name" : "Recommended Items",
+      "id" : "recommendedItems",
+      "content" : "AISIncludedItems"
+    }
+  ]
+}

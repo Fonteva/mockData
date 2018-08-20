@@ -27,7 +27,7 @@
       "isRequired": false,
       "groupHeader": "Accessories",
       "groupInstructions": "One, two, pick a few",
-      "numberOfFreeItems": 0,
+      "numberOfFreeItems": 1,
       "minimumQuantity": 2,
       "maximumQuantity": 3,
       "maximumQuantityPerItem": 2

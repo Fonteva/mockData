@@ -142,6 +142,51 @@
       "itemPrice": 19.99,
       "itemImagePath": "https://placehold.it/310x310",
       "packageItem": "33333333"
+    },
+    {
+      "id": "2345678",
+      "item": "2345678",
+      "isRecommended": true,
+      "isRequired": false,
+      "itemName": "Pog Redener",
+      "itemPrice": 19.99,
+      "itemImagePath": "https://placehold.it/310x310"
+    },
+    {
+      "id": "2345678",
+      "item": "2345678",
+      "isRecommended": true,
+      "isRequired": false,
+      "itemName": "Pog Redener",
+      "itemPrice": 19.99,
+      "itemImagePath": "https://placehold.it/310x310"
+    },
+    {
+      "id": "2345678",
+      "item": "2345678",
+      "isRecommended": true,
+      "isRequired": false,
+      "itemName": "Pog Redener",
+      "itemPrice": 19.99,
+      "itemImagePath": "https://placehold.it/310x310"
+    },
+    {
+      "id": "2345678",
+      "item": "2345678",
+      "isRecommended": true,
+      "isRequired": false,
+      "itemName": "Pog Redener",
+      "itemPrice": 19.99,
+      "itemImagePath": "https://placehold.it/310x310"
+    },
+    {
+      "id": "2345678",
+      "item": "2345678",
+      "isRecommended": true,
+      "isRequired": false,
+      "itemName": "Pog Redener",
+      "itemPrice": 19.99,
+      "itemImagePath": "https://placehold.it/310x310"
     }
   ]
 }

@@ -171,7 +171,7 @@
       "groupHeader": "Electronics, Computers & Office",
       "groupInstructions": "Pick one",
       "numberOfFreeItems": 0,
-      "minimumQuantity": 2,
+      "minimumQuantity": 1,
       "maximumQuantity": 1,
       "maximumQuantityPerItem": 1
     },

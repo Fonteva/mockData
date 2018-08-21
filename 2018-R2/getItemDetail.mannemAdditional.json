@@ -30,7 +30,67 @@
       "numberOfFreeItems": 1,
       "minimumQuantity": 2,
       "maximumQuantity": 3,
-      "maximumQuantityPerItem": 2
+      "maximumQuantityPerItem": 1
+    },
+     {
+      "id": "23456",
+      "item": "23456",
+      "isRecommended": false,
+      "isRequired": false,
+      "itemName": "Pen",
+      "itemPrice": 29.99,
+      "itemImagePath": "https://placehold.it/310x310",
+      "packageItem": "33333333"
+    },
+    {
+      "id": "23456",
+      "item": "23456",
+      "isRecommended": false,
+      "isRequired": false,
+      "itemName": "Book",
+      "itemPrice": 29.99,
+      "itemImagePath": "https://placehold.it/310x310",
+      "packageItem": "33333333"
+    },
+    {
+      "id": "23456",
+      "item": "23456",
+      "isRecommended": false,
+      "isRequired": false,
+      "itemName": "Phone",
+      "itemPrice": 29.99,
+      "itemImagePath": "https://placehold.it/310x310",
+      "packageItem": "33333333"
+    },
+    {
+      "id": "23456",
+      "item": "23456",
+      "isRecommended": false,
+      "isRequired": false,
+      "itemName": "Cup",
+      "itemPrice": 29.99,
+      "itemImagePath": "https://placehold.it/310x310",
+      "packageItem": "33333333"
+    },
+    {
+      "id": "23456",
+      "item": "23456",
+      "isRecommended": false,
+      "isRequired": false,
+      "itemName": "Desktop",
+      "itemPrice": 29.99,
+      "itemImagePath": "https://placehold.it/310x310",
+      "packageItem": "33333333"
+    },
+    {
+      "id": "23456",
+      "item": "23456",
+      "isRecommended": false,
+      "isRequired": false,
+      "itemName": "Shirt",
+      "itemPrice": 29.99,
+      "itemImagePath": "https://placehold.it/310x310",
+      "packageItem": "33333333"
     },
     {
       "id": "33333333",

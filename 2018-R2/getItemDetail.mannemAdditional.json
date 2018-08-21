@@ -51,16 +51,6 @@
       "itemPrice": 29.99,
       "packageItem": "33333333"
     },
-     {
-      "id": "23456",
-      "item": "23456",
-      "isRecommended": false,
-      "isRequired": false,
-      "itemName": "Pog Cleaner-2",
-      "itemPrice": 29.99,
-      "itemImagePath": "https://placehold.it/310x310",
-      "packageItem": "33333333"
-    },
     {
       "id": "234566",
       "item": "234566",
@@ -68,7 +58,7 @@
       "isRequired": false,
       "itemName": "Pog Blackener",
       "itemPrice": 49.99,
-      "itemImagePath": "https://placehold.it/310x310",
+      "itemImagePath": "",
       "packageItem": "33333333"
     },
     {

@@ -32,6 +32,7 @@
       "maximumQuantity": 3,
       "maximumQuantityPerItem": 2
     },
+    {
       "id": "123457",
       "item": "123457",
       "isRecommended": false,

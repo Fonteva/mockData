@@ -157,11 +157,22 @@
       "id": "999999",
       "isRecommended": false,
       "isRequired": false,
+      "groupHeader": "Toys, Kids & Baby",
+      "groupInstructions": "Pick one",
+      "numberOfFreeItems": 0,
+      "minimumQuantity": 2,
+      "maximumQuantity": 1,
+      "maximumQuantityPerItem": 1
+    },
+    {
+      "id": "999999",
+      "isRecommended": false,
+      "isRequired": false,
       "groupHeader": "Electronics, Computers & Office",
       "groupInstructions": "Pick one",
       "numberOfFreeItems": 0,
       "minimumQuantity": 2,
-      "maximumQuantity": 2,
+      "maximumQuantity": 1,
       "maximumQuantityPerItem": 1
     },
     {

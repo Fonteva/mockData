@@ -244,6 +244,96 @@
       "itemPrice": 89.99,
       "itemImagePath": "https://placehold.it/310x320",
       "packageItem": "111999"
+    },
+       {
+      "id": "22223333",
+      "isRecommended": false,
+      "isRequired": false,
+      "groupHeader": "AmazonFresh",
+      "groupInstructions": "Pick one or More",
+      "numberOfFreeItems": 0,
+      "minimumQuantity": 1,
+      "maximumQuantity": 4,
+      "maximumQuantityPerItem": 2
+    },
+    {
+      "id": "23456",
+      "item": "23456",
+      "isRecommended": false,
+      "isRequired": false,
+      "itemName": "Beverages",
+      "itemPrice": 29.99,
+      "itemImagePath": "https://placehold.it/310x310",
+      "packageItem": "22223333"
+    },
+     {
+      "id": "23456",
+      "item": "23456",
+      "isRecommended": false,
+      "isRequired": false,
+      "itemName": "Breads & Bakery",
+      "itemPrice": 29.99,
+      "packageItem": "22223333"
+    },
+    {
+      "id": "234566",
+      "item": "234566",
+      "isRecommended": false,
+      "isRequired": false,
+      "itemName": "Dairy, Cheese & Eggs",
+      "itemPrice": 49.99,
+      "itemImagePath": "",
+      "packageItem": "22223333"
+    },
+    {
+      "id": "234567",
+      "item": "234567",
+      "isRecommended": false,
+      "isRequired": false,
+      "itemName": "Fruits",
+      "itemPrice": 19.99,
+      "itemImagePath": "https://placehold.it/310x310",
+      "packageItem": "22223333"
+    },
+    {
+      "id": "234567",
+      "item": "234567",
+      "isRecommended": false,
+      "isRequired": false,
+      "itemName": "Meat & Seafood",
+      "itemPrice": 19.99,
+      "itemImagePath": "https://placehold.it/310x310",
+      "packageItem": "22223333"
+    },
+    {
+      "id": "234567",
+      "item": "234567",
+      "isRecommended": false,
+      "isRequired": false,
+      "itemName": "Prepared Meals",
+      "itemPrice": 19.99,
+      "itemImagePath": "https://placehold.it/310x310",
+      "packageItem": "22223333"
+    },
+    {
+      "id": "234567",
+      "item": "234567",
+      "isRecommended": false,
+      "isRequired": false,
+      "itemName": "Frozen Foods",
+      "itemPrice": 19.99,
+      "itemImagePath": "https://placehold.it/310x310",
+      "packageItem": "22223333"
+    },
+    {
+      "id": "2345678",
+      "item": "2345678",
+      "isRecommended": false,
+      "isRequired": false,
+      "itemName": "Vegetables",
+      "itemPrice": 19.99,
+      "itemImagePath": "https://placehold.it/310x310",
+      "packageItem": "22223333"
     }
   ]
 }

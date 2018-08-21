@@ -284,7 +284,7 @@
       "groupInstructions": "Pick one or More",
       "numberOfFreeItems": 0,
       "minimumQuantity": 1,
-      "maximumQuantity": 4,
+      "maximumQuantity": 14,
       "maximumQuantityPerItem": 2
     },
     {
@@ -292,7 +292,7 @@
       "item": "23456",
       "isRecommended": false,
       "isRequired": false,
-      "itemName": "Beverages",
+      "itemName": "All Kind of Beverages",
       "itemPrice": 29.99,
       "itemImagePath": "https://placehold.it/310x310",
       "packageItem": "22223333"
@@ -311,7 +311,7 @@
       "item": "234566",
       "isRecommended": false,
       "isRequired": false,
-      "itemName": "Dairy, Cheese & Eggs",
+      "itemName": "Dairy, Cheese & Eggs from Fresh Local vendor",
       "itemPrice": 49.99,
       "itemImagePath": "",
       "packageItem": "22223333"
@@ -331,7 +331,7 @@
       "item": "234567",
       "isRecommended": false,
       "isRequired": false,
-      "itemName": "Meat & Seafood",
+      "itemName": "Meat & Seafood choice of different countries",
       "itemPrice": 19.99,
       "itemImagePath": "https://placehold.it/310x310",
       "packageItem": "22223333"
@@ -341,7 +341,7 @@
       "item": "234567",
       "isRecommended": false,
       "isRequired": false,
-      "itemName": "Prepared Meals",
+      "itemName": "Prepared Meals from famuos chef's",
       "itemPrice": 19.99,
       "itemImagePath": "https://placehold.it/310x310",
       "packageItem": "22223333"

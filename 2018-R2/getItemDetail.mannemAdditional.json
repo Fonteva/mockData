@@ -86,7 +86,7 @@
       "isRecommended": false,
       "isRequired": false,
       "groupHeader": "Accessories",
-      "groupInstructions": "One, two, pick a few",
+      "groupInstructions": "Pick Only One Item at a Time",
       "numberOfFreeItems": 1,
       "minimumQuantity": 1,
       "maximumQuantity": 3,

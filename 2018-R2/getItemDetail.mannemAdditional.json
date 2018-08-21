@@ -33,17 +33,6 @@
       "maximumQuantityPerItem": 2
     },
     {
-      "id": "123457",
-      "item": "123457",
-      "isRecommended": false,
-      "isRequired": false,
-      "itemName": "Shoe Whitener",
-      "itemPrice": 19.99,
-      "itemImagePath": "https://placehold.it/310x310",
-      "packageItem": "222222"
-    },
-  
-    {
       "id": "33333333",
       "isRecommended": false,
       "isRequired": false,

@@ -21,6 +21,57 @@
     "https://twitter.com/login?lang=en"
   ],
   "packageItems": [
+     {
+      "id": "222222",
+      "isRecommended": false,
+      "isRequired": false,
+      "groupHeader": "Accessories",
+      "groupInstructions": "One, two, pick a few",
+      "numberOfFreeItems": 1,
+      "minimumQuantity": 2,
+      "maximumQuantity": 3,
+      "maximumQuantityPerItem": 2
+    },
+    {
+      "id": "123457",
+      "item": "123457",
+      "isRecommended": false,
+      "isRequired": false,
+      "itemName": "Shoe Whitener",
+      "itemPrice": 19.99,
+      "itemImagePath": "https://placehold.it/310x310",
+      "packageItem": "222222"
+    },
+    {
+      "id": "1234578",
+      "item": "1234578",
+      "isRecommended": false,
+      "isRequired": false,
+      "itemName": "Shoe Redener",
+      "itemPrice": 19.99,
+      "itemImagePath": "https://placehold.it/310x310",
+      "packageItem": "222222"
+    },
+    {
+      "id": "1234579",
+      "item": "1234579",
+      "isRecommended": false,
+      "isRequired": false,
+      "itemName": "Shoe Orangener",
+      "itemPrice": 19.99,
+      "itemImagePath": "https://placehold.it/310x310",
+      "packageItem": "222222"
+    },
+    {
+      "id": "1234570",
+      "item": "1234570",
+      "isRecommended": false,
+      "isRequired": false,
+      "itemName": "Shoe Pinkener",
+      "itemPrice": 19.99,
+      "itemImagePath": "https://placehold.it/310x310",
+      "packageItem": "222222"
+    },
     {
       "id": "33333333",
       "isRecommended": false,
@@ -28,9 +79,9 @@
       "groupHeader": "Pogs",
       "groupInstructions": "Pick one",
       "numberOfFreeItems": 0,
-      "minimumQuantity": 1,
-      "maximumQuantity": 1,
-      "maximumQuantityPerItem": 1
+      "minimumQuantity": 10,
+      "maximumQuantity": 10,
+      "maximumQuantityPerItem": 10
     },
     {
       "id": "23456",

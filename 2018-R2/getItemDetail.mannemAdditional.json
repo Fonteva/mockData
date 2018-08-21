@@ -64,8 +64,8 @@
     {
       "id": "4234567",
       "item": "234567",
-      "isRecommended": false,
-      "isRequired": false,
+      "isRecommended": true,
+      "isRequired": true,
       "itemName": "Pog Whitener",
       "itemPrice": 19.99,
       "itemImagePath": "https://placehold.it/310x310",

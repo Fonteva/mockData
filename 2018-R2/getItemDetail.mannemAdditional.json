@@ -90,7 +90,7 @@
       "numberOfFreeItems": 1,
       "minimumQuantity": 1,
       "maximumQuantity": 3,
-      "maximumQuantityPerItem": 2
+      "maximumQuantityPerItem": 1
     },
     {
       "id": "112345",

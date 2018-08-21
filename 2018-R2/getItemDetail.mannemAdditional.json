@@ -32,27 +32,6 @@
       "maximumQuantity": 3,
       "maximumQuantityPerItem": 2
     },
-    {
-      "id": "12345",
-      "item": "12345",
-      "isRecommended": false,
-      "isRequired": false,
-      "itemName": "Shoe Cleaner",
-      "itemPrice": 29.99,
-      "itemImagePath": "https://placehold.it/310x310",
-      "packageItem": "222222"
-    },
-    {
-      "id": "123456",
-      "item": "123456",
-      "isRecommended": false,
-      "isRequired": false,
-      "itemName": "Shoe Blackener",
-      "itemPrice": 49.99,
-      "itemImagePath": "https://placehold.it/310x310",
-      "packageItem": "222222"
-    },
-    {
       "id": "123457",
       "item": "123457",
       "isRecommended": false,

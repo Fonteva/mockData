@@ -29,8 +29,8 @@
       "groupInstructions": "One, two, pick a few",
       "numberOfFreeItems": 1,
       "minimumQuantity": 2,
-      "maximumQuantity": 3,
-      "maximumQuantityPerItem": 1
+      "maximumQuantity": 1,
+      "maximumQuantityPerItem": 2
     },
     {
       "id": "12345",

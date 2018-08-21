@@ -169,14 +169,14 @@
       "isRecommended": false,
       "isRequired": false,
       "groupHeader": "Electronics, Computers & Office",
-      "groupInstructions": "Pick one",
+      "groupInstructions": "Buy More",
       "numberOfFreeItems": 2,
       "minimumQuantity": 1,
       "maximumQuantity": 1,
-      "maximumQuantityPerItem": 1
+      "maximumQuantityPerItem": 2
     },
     {
-      "id": "999999",
+      "id": "1999999",
       "item": "999999",
       "isRecommended": false,
       "isRequired": false,
@@ -186,7 +186,7 @@
       "packageItem": "999999"
     },
     {
-      "id": "999999",
+      "id": "2999999",
       "item": "999999",
       "isRecommended": false,
       "isRequired": false,
@@ -196,7 +196,7 @@
       "packageItem": "999999"
     },
     {
-      "id": "999999",
+      "id": "3999999",
       "item": "999999",
       "isRecommended": false,
       "isRequired": false,
@@ -206,7 +206,7 @@
       "packageItem": "999999"
     },
     {
-      "id": "999999",
+      "id": "4999999",
       "item": "999999",
       "isRecommended": false,
       "isRequired": false,
@@ -216,7 +216,7 @@
       "packageItem": "999999"
     },
     {
-      "id": "999999",
+      "id": "5999999",
       "item": "999999",
       "isRecommended": false,
       "isRequired": false,
@@ -226,7 +226,7 @@
       "packageItem": "999999"
     },
     {
-      "id": "999999",
+      "id": "6999999",
       "item": "999999",
       "isRecommended": false,
       "isRequired": false,

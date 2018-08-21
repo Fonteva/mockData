@@ -93,16 +93,6 @@
       "maximumQuantityPerItem": 1
     },
     {
-      "id": "112345",
-      "item": "12345",
-      "isRecommended": false,
-      "isRequired": false,
-      "itemName": "SmartHome",
-      "itemPrice": 29.99,
-      "itemImagePath": "https://placehold.it/310x310",
-      "packageItem": "222222"
-    },
-    {
       "id": "122345",
       "item": "1234589889",
       "isRecommended": false,

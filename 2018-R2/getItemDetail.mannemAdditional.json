@@ -28,9 +28,9 @@
       "groupHeader": "Accessories",
       "groupInstructions": "One, two, pick a few",
       "numberOfFreeItems": 1,
-      "minimumQuantity": 2,
+      "minimumQuantity": 1,
       "maximumQuantity": 1,
-      "maximumQuantityPerItem": 2
+      "maximumQuantityPerItem": 1
     },
     {
       "id": "12345",

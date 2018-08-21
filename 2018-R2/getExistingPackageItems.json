@@ -78,7 +78,7 @@
     {
       "id" : "1234567890",
       "groupHeader" : "group header",
-      "groupInstructions" : "Group Instructions",
+      "groupInstructionsText" : "Group Instructions",
       "minimumQuantity" : 1,
       "maximumQuantity" : 10,
       "numberOfFreeItems" : 1,

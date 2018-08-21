@@ -26,71 +26,11 @@
       "isRecommended": false,
       "isRequired": false,
       "groupHeader": "Pogs",
-      "groupInstructions": "Pick one",
+      "groupInstructions": "Pick one or More",
       "numberOfFreeItems": 0,
-      "minimumQuantity": 10,
-      "maximumQuantity": 10,
-      "maximumQuantityPerItem": 10
-    },
-    {
-      "id": "23456",
-      "item": "23456",
-      "isRecommended": false,
-      "isRequired": false,
-      "itemName": "Pog Cleaner-1",
-      "itemPrice": 29.99,
-      "itemImagePath": "https://placehold.it/310x310",
-      "packageItem": "33333333"
-    },
-    {
-      "id": "23456",
-      "item": "23456",
-      "isRecommended": false,
-      "isRequired": false,
-      "itemName": "Pog Cleaner-2",
-      "itemPrice": 29.99,
-      "itemImagePath": "https://placehold.it/310x310",
-      "packageItem": "33333333"
-    },
-    {
-      "id": "23456",
-      "item": "23456",
-      "isRecommended": false,
-      "isRequired": false,
-      "itemName": "Pog Cleaner",
-      "itemPrice": 29.99,
-      "itemImagePath": "https://placehold.it/310x310",
-      "packageItem": "33333333"
-    },
-    {
-      "id": "23456",
-      "item": "23456",
-      "isRecommended": false,
-      "isRequired": false,
-      "itemName": "Pog Cleaner-3",
-      "itemPrice": 29.99,
-      "itemImagePath": "https://placehold.it/310x310",
-      "packageItem": "33333333"
-    },
-    {
-      "id": "23456",
-      "item": "23456",
-      "isRecommended": false,
-      "isRequired": false,
-      "itemName": "Pog Cleaner-4",
-      "itemPrice": 29.99,
-      "itemImagePath": "https://placehold.it/310x310",
-      "packageItem": "33333333"
-    },
-    {
-      "id": "23456",
-      "item": "23456",
-      "isRecommended": false,
-      "isRequired": false,
-      "itemName": "Pog Cleaner-5",
-      "itemPrice": 29.99,
-      "itemImagePath": "https://placehold.it/310x310",
-      "packageItem": "33333333"
+      "minimumQuantity": 1,
+      "maximumQuantity": 1,
+      "maximumQuantityPerItem": 1
     },
     {
       "id": "23456",

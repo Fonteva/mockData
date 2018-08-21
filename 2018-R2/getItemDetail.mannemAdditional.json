@@ -86,8 +86,8 @@
       "isRecommended": false,
       "isRequired": false,
       "groupHeader": "Accessories",
-      "groupInstructions": "Pick Only One Item at a Time",
-      "numberOfFreeItems": 1,
+      "groupInstructions": "Pick Only One Item at Time",
+      "numberOfFreeItems": 0,
       "minimumQuantity": 1,
       "maximumQuantity": 3,
       "maximumQuantityPerItem": 1
@@ -104,11 +104,11 @@
     },
     {
       "id": "122345",
-      "item": "12345",
+      "item": "1234589889",
       "isRecommended": false,
       "isRequired": false,
       "itemName": "Cookware",
-      "itemPrice": 29.99,
+      "itemPrice": 999.99,
       "itemImagePath": "https://placehold.it/310x310",
       "packageItem": "222222"
     },

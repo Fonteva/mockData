@@ -198,5 +198,76 @@
       "itemPrice": 19.99,
       "itemImagePath": "https://placehold.it/310x310"
     }
+    {
+      "id": "999999",
+      "isRecommended": false,
+      "isRequired": false,
+      "groupHeader": "Electronics, Computers & Office",
+      "groupInstructions": "Pick one",
+      "numberOfFreeItems": 0,
+      "minimumQuantity": 2,
+      "maximumQuantity": 2,
+      "maximumQuantityPerItem": 1
+    },
+    {
+      "id": "999999",
+      "item": "999999",
+      "isRecommended": false,
+      "isRequired": false,
+      "itemName": "TV & Video",
+      "itemPrice": 19.99,
+      "itemImagePath": "https://placehold.it/380x320",
+      "packageItem": "999999"
+    },
+    {
+      "id": "999999",
+      "item": "999999",
+      "isRecommended": false,
+      "isRequired": false,
+      "itemName": "Bluetooth & Wireless Speakers",
+      "itemPrice": 49.99,
+      "itemImagePath": "https://placehold.it/350x320",
+      "packageItem": "999999"
+    },
+    {
+      "id": "999999",
+      "item": "999999",
+      "isRecommended": false,
+      "isRequired": false,
+      "itemName": "Video Games",
+      "itemPrice": 59.99,
+      "itemImagePath": "https://placehold.it/340x320",
+      "packageItem": "999999"
+    },
+    {
+      "id": "999999",
+      "item": "999999",
+      "isRecommended": false,
+      "isRequired": false,
+      "itemName": "Headphones",
+      "itemPrice": 79.99,
+      "itemImagePath": "https://placehold.it/330x320",
+      "packageItem": "999999"
+    },
+    {
+      "id": "999999",
+      "item": "999999",
+      "isRecommended": false,
+      "isRequired": false,
+      "itemName": "Car Electronics",
+      "itemPrice": 89.99,
+      "itemImagePath": "https://placehold.it/310x320",
+      "packageItem": "999999"
+    },
+    {
+      "id": "999999",
+      "item": "999999",
+      "isRecommended": false,
+      "isRequired": false,
+      "itemName": "Camera, Photo & Video",
+      "itemPrice": 99.99,
+      "itemImagePath": "https://placehold.it/300x320",
+      "packageItem": "999999"
+    },
   ]
 }

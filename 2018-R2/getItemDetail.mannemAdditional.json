@@ -111,7 +111,7 @@
       "groupInstructions": "Pick one",
       "numberOfFreeItems": 0,
       "minimumQuantity": 0,
-      "maximumQuantity": 1,
+      "maximumQuantity": 0,
       "maximumQuantityPerItem": 1
     },
     {

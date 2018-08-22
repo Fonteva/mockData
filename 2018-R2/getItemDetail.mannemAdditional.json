@@ -141,7 +141,7 @@
       "isRequired": false,
       "groupHeader": "Electronics, Computers & Office",
       "groupInstructions": "Buy More",
-      "numberOfFreeItems": 2,
+      "numberOfFreeItems": 0,
       "minimumQuantity": 1,
       "maximumQuantity": 1,
       "maximumQuantityPerItem": 2

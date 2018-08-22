@@ -8,7 +8,7 @@
       "displayOrder" : 1,
       "itemPrice" : 20.00, // Item Price
       "item" : "1234567890",  // Item id that is already added
-      "isAdded" : true // Its always true on load, will be checked to false if deleted from the list
+      "markForDelete" : false // Its always false on load, will be checked to true if deleted from the list
     },
     {
       "id" : "987654323456",
@@ -18,7 +18,7 @@
       "displayOrder" : 2,
       "itemPrice" : 20.00,
       "item" : "1234567890",
-      "isAdded" : true
+      "markForDelete" : false
     },
     {
       "id" : "987654323456",
@@ -28,7 +28,7 @@
       "displayOrder" : 3,
       "itemPrice" : 20.00,
       "item" : "1234567890",
-      "isAdded" : true
+      "markForDelete" : false
     },
   ],
   "recommendedItems" : [
@@ -37,14 +37,14 @@
       "displayOrder" : 1,
       "itemName" : "Item Name 1",
       "item" : "1234567890", // Item id that is already added
-      "isAdded" : true
+      "markForDelete" : false
     },
     {
       "id" : "987654323456",
       "displayOrder" : 2,
       "itemName" : "Item Name 1",
       "item" : "1234567890",
-      "isAdded" : true
+      "markForDelete" : false
     }
   ],
   "groupItems" : [
@@ -57,21 +57,21 @@
       "numberOfFreeItems" : 1,
       "maximumQuantityPerItem" : 1,
       "displayOrder" : 1,
-      "isAdded" : true, // Its always true on load, will be checked to false if deleted from the group list
+      "markForDelete" : false, // Its always false on load, will be checked to true if deleted from the group list
       "childPackageItems" : [
         {
           "id" : "987654323456", // Package Item Id
           "displayOrder" : 1,
           "itemName" : "Item Name 1",
           "item" : "1234567890",  // Item id that is already added
-          "isAdded" : true
+          "markForDelete" : false
         },
         {
           "id" : "987654323456",
           "displayOrder" : 2,
           "itemName" : "Item Name 2",
           "item" : "1234567890",
-          "isAdded" : true
+          "markForDelete" : false
         }
       ]
     },
@@ -84,21 +84,21 @@
       "numberOfFreeItems" : 1,
       "maximumQuantityPerItem" : 1,
       "displayOrder" : 2,
-      "isAdded" : true,
+      "markForDelete" : false,
       "childPackageItems" : [
         {
           "id" : "987654323456",
           "displayOrder" : 1,
           "itemName" : "Item Name 1",
           "item" : "1234567890",
-          "isAdded" : true
+          "markForDelete" : false
         },
         {
           "id" : "987654323456",
           "displayOrder" : 2,
           "itemName" : "Item Name 2",
           "item" : "1234567890",
-          "isAdded" : true
+          "markForDelete" : false
         }
       ]
     }

@@ -271,7 +271,7 @@
       "isRequired": false,
       "groupHeader": "AmazonFresh",
       "groupInstructions": "Pick one or More",
-      "numberOfFreeItems": 0,
+      "numberOfFreeItems": 2,
       "minimumQuantity": 1,
       "maximumQuantity": 14,
       "maximumQuantityPerItem": 2

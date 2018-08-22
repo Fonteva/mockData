@@ -39,7 +39,7 @@
       "isRequired": false,
       "itemName": "Pog Cleaner",
       "itemPrice": 29.99,
-      "itemImagePath": "https://placehold.it/310x310",
+      "itemImagePath": "https://framework.na57.visual.force.com/apex/AwsProxy?key=00D0b000000D0oSEAS/mAoLNalo_BannerImage_Heros_jpg&bucket=fonteva-customer-media-secure",
       "packageItem": "33333333"
     },
      {
@@ -68,7 +68,7 @@
       "isRequired": true,
       "itemName": "Pog Whitener",
       "itemPrice": 19.99,
-      "itemImagePath": "https://placehold.it/310x310",
+      "itemImagePath": "https://framework.na57.visual.force.com/apex/AwsProxy?key=00D0b000000D0oSEAS/STAwsMXG_BannerImage_H_jpg&bucket=fonteva-customer-media-secure",
       "packageItem": "33333333"
     },
     {
@@ -78,7 +78,7 @@
       "isRequired": false,
       "itemName": "Pog Redener",
       "itemPrice": 19.99,
-      "itemImagePath": "https://placehold.it/310x310",
+      "itemImagePath": "hhttps://framework.na57.visual.force.com/apex/AwsProxy?key=00D0b000000D0oSEAS/OsAPHPjV_BannerImage_G_jpg&bucket=fonteva-customer-media-secure",
       "packageItem": "33333333"
     },
      {

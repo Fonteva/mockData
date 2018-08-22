@@ -153,7 +153,6 @@
       "isRequired": false,
       "itemName": "TV & Video",
       "itemPrice": 19.99,
-      "itemImagePath": "https://placehold.it/380x320",
       "packageItem": "999999"
     },
     {
@@ -163,7 +162,6 @@
       "isRequired": false,
       "itemName": "Bluetooth & Wireless Speakers",
       "itemPrice": 49.99,
-      "itemImagePath": "https://placehold.it/350x320",
       "packageItem": "999999"
     },
     {
@@ -173,7 +171,7 @@
       "isRequired": false,
       "itemName": "Video Games",
       "itemPrice": 59.99,
-      "itemImagePath": "https://placehold.it/340x320",
+      "itemImagePath": "",
       "packageItem": "999999"
     },
     {
@@ -183,7 +181,7 @@
       "isRequired": false,
       "itemName": "Headphones",
       "itemPrice": 79.99,
-      "itemImagePath": "https://placehold.it/330x320",
+      "itemImagePath": "",
       "packageItem": "999999"
     },
     {
@@ -193,7 +191,7 @@
       "isRequired": false,
       "itemName": "Car Electronics",
       "itemPrice": 89.99,
-      "itemImagePath": "https://placehold.it/310x320",
+      "itemImagePath": "https://framework.na57.visual.force.com/apex/AwsProxy?key=00D0b000000D0oSEAS/TSzVaLkF_BannerImage_F_jpg&bucket=fonteva-customer-media-secure",
       "packageItem": "999999"
     },
     {

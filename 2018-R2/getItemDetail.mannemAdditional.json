@@ -4,10 +4,10 @@
   "description": "My fellow Earthicans, as I have explained in my book 'Earth in the Balance'', and the much more popular ''Harry Potter and the Balance of Earth', we need to defend our planet against pollution. Also dark wizards. Michelle, I don't regret this, but I both rue and lament it. a) Steps to Buy /n Step 1: Start Your Research Early. ...Step 2: Determine How Much House You Can Afford.When reviewing the content, use the available government databases to verify any information the information provided is correct. These searches will show, for example, whether there are any liens on the business assets; whether there are unpaid taxes; whether there are ongoing lawsuits or human rights complaints; and whether certain buildings or motor vehicles are in fact owned by the seller. ...Step 3: Get Prequalified and Preapproved for credit for Your Mortgage. ...Step 4: Find the Right Real Estate Agent. ...Step 5: Shop for Your Home and Make an Offer. ...Step 6: Get a Home Inspection. ",
   "lineDescription": "Hi-Tech meets high impact in these durable performance-based Vibram Five-Fingers athletic",
   "images": [
-    "https://placehold.it/300x300",
-    "https://placehold.it/300x300",
-    "https://placehold.it/300x300",
-    "https://placehold.it/320x300"
+    "https://framework.na57.visual.force.com/apex/AwsProxy?key=00D0b000000D0oSEAS/cFLorQJb_BannerImage_k_jpeg&bucket=fonteva-customer-media-secure",
+    "https://framework.na57.visual.force.com/apex/AwsProxy?key=00D0b000000D0oSEAS/lmrYaRKo_BannerImage_D_jpg&bucket=fonteva-customer-media-secure",
+    "https://framework.na57.visual.force.com/apex/AwsProxy?key=00D0b000000D0oSEAS/wbRSrewf_BannerImage_B_jpg&bucket=fonteva-customer-media-secure",
+    "https://framework.na57.visual.force.com/apex/AwsProxy?key=00D0b000000D0oSEAS/UKGJUThK_Sample3_jpg&bucket=fonteva-customer-media-secure"
   ],
   "price": 179.99,
   "priceLabel": "List Price Most businesses are operated by private companies",
@@ -26,59 +26,60 @@
       "isRecommended": false,
       "isRequired": false,
       "groupHeader": "Pogs",
-      "groupInstructions": "Pick one or More",
+      "groupInstructions": "Pick one or More Worksheets focused on identifying Half and Quarters of shapes, Cards for each button on the Bee-bot eg - forwards, clear, go. The small cards my children use to help them plan the programme for the bee-bots. There are two other word documents with cards in different sizes.",
       "numberOfFreeItems": 0,
       "minimumQuantity": 1,
       "maximumQuantity": 1,
       "maximumQuantityPerItem": 1
     },
     {
-      "id": "23456",
+      "id": "123456",
       "item": "23456",
       "isRecommended": false,
       "isRequired": false,
       "itemName": "Pog Cleaner",
       "itemPrice": 29.99,
-      "itemImagePath": "https://placehold.it/310x310",
+      "itemImagePath": "https://framework.na57.visual.force.com/apex/AwsProxy?key=00D0b000000D0oSEAS/mAoLNalo_BannerImage_Heros_jpg&bucket=fonteva-customer-media-secure",
       "packageItem": "33333333"
     },
      {
-      "id": "23456",
+      "id": "223456",
       "item": "23456",
       "isRecommended": false,
       "isRequired": false,
       "itemName": "Pog Cleaner-1",
-      "itemPrice": 29.99,
+      "itemPrice": 0,
+        "itemImagePath": "https://framework.na57.visual.force.com/apex/AwsProxy?key=00D0b000000D0oSEAS/BtTTArnc_AA_jpg&bucket=fonteva-customer-media-secure",
       "packageItem": "33333333"
     },
     {
-      "id": "234566",
+      "id": "3234566",
       "item": "234566",
       "isRecommended": false,
       "isRequired": false,
       "itemName": "Pog Blackener",
       "itemPrice": 49.99,
-      "itemImagePath": "",
+      "itemImagePath": "https://framework.na57.visual.force.com/apex/AwsProxy?key=00D0b000000D0oSEAS/UKGJUThK_Sample3_jpg&bucket=fonteva-customer-media-secure",
       "packageItem": "33333333"
     },
     {
-      "id": "234567",
+      "id": "4234567",
       "item": "234567",
-      "isRecommended": false,
-      "isRequired": false,
+      "isRecommended": true,
+      "isRequired": true,
       "itemName": "Pog Whitener",
-      "itemPrice": 19.99,
-      "itemImagePath": "https://placehold.it/310x310",
+      "itemPrice": 0,
+      "itemImagePath": "https://framework.na57.visual.force.com/apex/AwsProxy?key=00D0b000000D0oSEAS/STAwsMXG_BannerImage_H_jpg&bucket=fonteva-customer-media-secure",
       "packageItem": "33333333"
     },
     {
-      "id": "2345678",
+      "id": "52345678",
       "item": "2345678",
       "isRecommended": false,
       "isRequired": false,
       "itemName": "Pog Redener",
       "itemPrice": 19.99,
-      "itemImagePath": "https://placehold.it/310x310",
+      "itemImagePath": "hhttps://framework.na57.visual.force.com/apex/AwsProxy?key=00D0b000000D0oSEAS/OsAPHPjV_BannerImage_G_jpg&bucket=fonteva-customer-media-secure",
       "packageItem": "33333333"
     },
      {
@@ -86,29 +87,19 @@
       "isRecommended": false,
       "isRequired": false,
       "groupHeader": "Accessories",
-      "groupInstructions": "One, two, pick a few",
-      "numberOfFreeItems": 1,
-      "minimumQuantity": 1,
+      "groupInstructions": "Pick Only One Item at Time",
+      "numberOfFreeItems": 0,
+      "minimumQuantity": 0,
       "maximumQuantity": 3,
-      "maximumQuantityPerItem": 2
+      "maximumQuantityPerItem": 1
     },
     {
-      "id": "12345",
-      "item": "12345",
-      "isRecommended": false,
-      "isRequired": false,
-      "itemName": "SmartHome",
-      "itemPrice": 29.99,
-      "itemImagePath": "https://placehold.it/310x310",
-      "packageItem": "222222"
-    },
-    {
-      "id": "12345",
-      "item": "12345",
+      "id": "122345",
+      "item": "1234589889",
       "isRecommended": false,
       "isRequired": false,
       "itemName": "Cookware",
-      "itemPrice": 29.99,
+      "itemPrice": 999.99,
       "itemImagePath": "https://placehold.it/310x310",
       "packageItem": "222222"
     },
@@ -119,7 +110,7 @@
       "groupHeader": "Toys, Kids & Baby",
       "groupInstructions": "Pick one",
       "numberOfFreeItems": 0,
-      "minimumQuantity": 1,
+      "minimumQuantity": 0,
       "maximumQuantity": 1,
       "maximumQuantityPerItem": 1
     },
@@ -135,7 +126,7 @@
       "maximumQuantityPerItem": 1
     },
     {
-      "id": "23456",
+      "id": "2113456",
       "item": "23456",
       "isRecommended": false,
       "isRequired": false,
@@ -150,59 +141,57 @@
       "isRequired": false,
       "groupHeader": "Electronics, Computers & Office",
       "groupInstructions": "Buy More",
-      "numberOfFreeItems": 2,
+      "numberOfFreeItems": 0,
       "minimumQuantity": 1,
       "maximumQuantity": 1,
       "maximumQuantityPerItem": 2
     },
     {
-      "id": "1999999",
+      "id": "12999999",
       "item": "999999",
       "isRecommended": false,
       "isRequired": false,
       "itemName": "TV & Video",
       "itemPrice": 19.99,
-      "itemImagePath": "https://placehold.it/380x320",
       "packageItem": "999999"
     },
     {
-      "id": "2999999",
+      "id": "22999999",
       "item": "999999",
       "isRecommended": false,
       "isRequired": false,
       "itemName": "Bluetooth & Wireless Speakers",
       "itemPrice": 49.99,
-      "itemImagePath": "https://placehold.it/350x320",
       "packageItem": "999999"
     },
     {
-      "id": "3999999",
+      "id": "32999999",
       "item": "999999",
       "isRecommended": false,
       "isRequired": false,
       "itemName": "Video Games",
       "itemPrice": 59.99,
-      "itemImagePath": "https://placehold.it/340x320",
+      "itemImagePath": "",
       "packageItem": "999999"
     },
     {
-      "id": "4999999",
+      "id": "42999999",
       "item": "999999",
       "isRecommended": false,
       "isRequired": false,
       "itemName": "Headphones",
       "itemPrice": 79.99,
-      "itemImagePath": "https://placehold.it/330x320",
+      "itemImagePath": "",
       "packageItem": "999999"
     },
     {
-      "id": "5999999",
+      "id": "52999999",
       "item": "999999",
       "isRecommended": false,
       "isRequired": false,
       "itemName": "Car Electronics",
       "itemPrice": 89.99,
-      "itemImagePath": "https://placehold.it/310x320",
+      "itemImagePath": "https://framework.na57.visual.force.com/apex/AwsProxy?key=00D0b000000D0oSEAS/TSzVaLkF_BannerImage_F_jpg&bucket=fonteva-customer-media-secure",
       "packageItem": "999999"
     },
     {
@@ -222,12 +211,12 @@
       "groupHeader": "Beauty & Health",
       "groupInstructions": "Buy More",
       "numberOfFreeItems": 2,
-      "minimumQuantity": 1,
-      "maximumQuantity": 5,
+      "minimumQuantity": 0,
+      "maximumQuantity": 1,
       "maximumQuantityPerItem": 2
     },
     {
-      "id": "1999999",
+      "id": "14999999",
       "item": "999999",
       "isRecommended": false,
       "isRequired": false,
@@ -236,8 +225,38 @@
       "itemImagePath": "https://placehold.it/380x320",
       "packageItem": "111999"
     },
+     {
+      "id": "14999999",
+      "item": "999999",
+      "isRecommended": false,
+      "isRequired": false,
+      "itemName": "Men Beauty",
+      "itemPrice": 19.99,
+      "itemImagePath": "https://placehold.it/380x320",
+      "packageItem": "111999"
+    },
+     {
+      "id": "14999999",
+      "item": "999999",
+      "isRecommended": false,
+      "isRequired": false,
+      "itemName": "Women Beauty",
+      "itemPrice": 19.99,
+      "itemImagePath": "https://placehold.it/380x320",
+      "packageItem": "111999"
+    },
+     {
+      "id": "14999999",
+      "item": "999999",
+      "isRecommended": false,
+      "isRequired": false,
+      "itemName": "Kids Beauty",
+      "itemPrice": 19.99,
+      "itemImagePath": "https://placehold.it/380x320",
+      "packageItem": "111999"
+    },
     {
-      "id": "2999999",
+      "id": "25999999",
       "item": "999999",
       "isRecommended": false,
       "isRequired": false,
@@ -247,7 +266,7 @@
       "packageItem": "111999"
     },
     {
-      "id": "3999999",
+      "id": "36999999",
       "item": "999999",
       "isRecommended": false,
       "isRequired": false,
@@ -257,7 +276,7 @@
       "packageItem": "111999"
     },
     {
-      "id": "4999999",
+      "id": "47999999",
       "item": "999999",
       "isRecommended": false,
       "isRequired": false,
@@ -267,7 +286,7 @@
       "packageItem": "111999"
     },
     {
-      "id": "5999999",
+      "id": "58999999",
       "item": "999999",
       "isRecommended": false,
       "isRequired": false,
@@ -282,13 +301,13 @@
       "isRequired": false,
       "groupHeader": "AmazonFresh",
       "groupInstructions": "Pick one or More",
-      "numberOfFreeItems": 0,
-      "minimumQuantity": 1,
+      "numberOfFreeItems": 2,
+      "minimumQuantity": 0,
       "maximumQuantity": 14,
       "maximumQuantityPerItem": 2
     },
     {
-      "id": "23456",
+      "id": "234744456",
       "item": "23456",
       "isRecommended": false,
       "isRequired": false,
@@ -298,8 +317,8 @@
       "packageItem": "22223333"
     },
      {
-      "id": "23456",
-      "item": "23456",
+      "id": "2345444456",
+      "item": "23451236",
       "isRecommended": false,
       "isRequired": false,
       "itemName": "Breads & Bakery",
@@ -307,8 +326,8 @@
       "packageItem": "22223333"
     },
     {
-      "id": "234566",
-      "item": "234566",
+      "id": "2345436324246",
+      "item": "23454266",
       "isRecommended": false,
       "isRequired": false,
       "itemName": "Dairy, Cheese & Eggs from Fresh Local vendor",
@@ -317,8 +336,8 @@
       "packageItem": "22223333"
     },
     {
-      "id": "234567",
-      "item": "234567",
+      "id": "23443443567",
+      "item": "23453367",
       "isRecommended": false,
       "isRequired": false,
       "itemName": "Fruits",
@@ -327,8 +346,8 @@
       "packageItem": "22223333"
     },
     {
-      "id": "234567",
-      "item": "234567",
+      "id": "2343342567",
+      "item": "23455567",
       "isRecommended": false,
       "isRequired": false,
       "itemName": "Meat & Seafood choice of different countries",
@@ -337,8 +356,8 @@
       "packageItem": "22223333"
     },
     {
-      "id": "234567",
-      "item": "234567",
+      "id": "2347882323567",
+      "item": "234542367",
       "isRecommended": false,
       "isRequired": false,
       "itemName": "Prepared Meals from famuos chef's",
@@ -347,8 +366,8 @@
       "packageItem": "22223333"
     },
     {
-      "id": "234567",
-      "item": "234567",
+      "id": "2349949567",
+      "item": "23443223567",
       "isRecommended": false,
       "isRequired": false,
       "itemName": "Outside Foods",
@@ -357,8 +376,8 @@
       "packageItem": "22223333"
     },
     {
-      "id": "234567",
-      "item": "234567",
+      "id": "646854767",
+      "item": "2348954567",
       "isRecommended": false,
       "isRequired": false,
       "itemName": "Western Foods",
@@ -367,8 +386,8 @@
       "packageItem": "22223333"
     },
     {
-      "id": "234567",
-      "item": "234567",
+      "id": "234500067",
+      "item": "5555467",
       "isRecommended": false,
       "isRequired": false,
       "itemName": "Indian Foods",
@@ -377,8 +396,8 @@
       "packageItem": "22223333"
     },
     {
-      "id": "234567",
-      "item": "234567",
+      "id": "3544547",
+      "item": "65454547",
       "isRecommended": false,
       "isRequired": false,
       "itemName": "USA Foods",
@@ -387,8 +406,8 @@
       "packageItem": "22223333"
     },
     {
-      "id": "234567",
-      "item": "234567",
+      "id": "2121567",
+      "item": "51112167",
       "isRecommended": false,
       "isRequired": false,
       "itemName": "Mexico Foods",
@@ -397,8 +416,8 @@
       "packageItem": "22223333"
     },
     {
-      "id": "234567",
-      "item": "234567",
+      "id": "0090567",
+      "item": "09067",
       "isRecommended": false,
       "isRequired": false,
       "itemName": "Eastern Foods",
@@ -407,8 +426,8 @@
       "packageItem": "22223333"
     },
     {
-      "id": "234567",
-      "item": "234567",
+      "id": "89092067",
+      "item": "3423423",
       "isRecommended": false,
       "isRequired": false,
       "itemName": "Frozen Foods",
@@ -417,8 +436,8 @@
       "packageItem": "22223333"
     },
     {
-      "id": "2345678",
-      "item": "2345678",
+      "id": "983853",
+      "item": "553655300",
       "isRecommended": false,
       "isRequired": false,
       "itemName": "Vegetables",

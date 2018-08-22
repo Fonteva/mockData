@@ -111,7 +111,7 @@
       "groupInstructions": "Pick one",
       "numberOfFreeItems": 0,
       "minimumQuantity": 0,
-      "maximumQuantity": 0,
+      "maximumQuantity": 2,
       "maximumQuantityPerItem": 1
     },
     {
@@ -121,8 +121,8 @@
       "groupHeader": "Restaurants, Food & Grocery",
       "groupInstructions": "Our Fav Add On for more Tasty",
       "numberOfFreeItems": 0,
-      "minimumQuantity": 1,
-      "maximumQuantity": 2,
+      "minimumQuantity": 0,
+      "maximumQuantity": 0,
       "maximumQuantityPerItem": 1
     },
     {

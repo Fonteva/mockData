@@ -89,7 +89,7 @@
       "groupHeader": "Accessories",
       "groupInstructions": "Pick Only One Item at Time",
       "numberOfFreeItems": 0,
-      "minimumQuantity": 1,
+      "minimumQuantity": 0,
       "maximumQuantity": 3,
       "maximumQuantityPerItem": 1
     },

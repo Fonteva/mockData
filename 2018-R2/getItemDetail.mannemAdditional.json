@@ -48,7 +48,7 @@
       "isRecommended": false,
       "isRequired": false,
       "itemName": "Pog Cleaner-1",
-      "itemPrice": 29.99,
+      "itemPrice": 0,
         "itemImagePath": "https://framework.na57.visual.force.com/apex/AwsProxy?key=00D0b000000D0oSEAS/BtTTArnc_AA_jpg&bucket=fonteva-customer-media-secure",
       "packageItem": "33333333"
     },
@@ -68,7 +68,7 @@
       "isRecommended": true,
       "isRequired": true,
       "itemName": "Pog Whitener",
-      "itemPrice": 19.99,
+      "itemPrice": 0,
       "itemImagePath": "https://framework.na57.visual.force.com/apex/AwsProxy?key=00D0b000000D0oSEAS/STAwsMXG_BannerImage_H_jpg&bucket=fonteva-customer-media-secure",
       "packageItem": "33333333"
     },

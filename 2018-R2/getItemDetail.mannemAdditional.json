@@ -110,7 +110,7 @@
       "groupHeader": "Toys, Kids & Baby",
       "groupInstructions": "Pick one",
       "numberOfFreeItems": 0,
-      "minimumQuantity": 1,
+      "minimumQuantity": 0,
       "maximumQuantity": 1,
       "maximumQuantityPerItem": 1
     },
@@ -211,7 +211,7 @@
       "groupHeader": "Beauty & Health",
       "groupInstructions": "Buy More",
       "numberOfFreeItems": 2,
-      "minimumQuantity": 1,
+      "minimumQuantity": 0,
       "maximumQuantity": 5,
       "maximumQuantityPerItem": 2
     },
@@ -272,7 +272,7 @@
       "groupHeader": "AmazonFresh",
       "groupInstructions": "Pick one or More",
       "numberOfFreeItems": 2,
-      "minimumQuantity": 1,
+      "minimumQuantity": 0,
       "maximumQuantity": 14,
       "maximumQuantityPerItem": 2
     },

@@ -212,7 +212,7 @@
       "groupInstructions": "Buy More",
       "numberOfFreeItems": 2,
       "minimumQuantity": 0,
-      "maximumQuantity": 5,
+      "maximumQuantity": 1,
       "maximumQuantityPerItem": 2
     },
     {
@@ -221,6 +221,36 @@
       "isRecommended": false,
       "isRequired": false,
       "itemName": "All Beauty",
+      "itemPrice": 19.99,
+      "itemImagePath": "https://placehold.it/380x320",
+      "packageItem": "111999"
+    },
+     {
+      "id": "14999999",
+      "item": "999999",
+      "isRecommended": false,
+      "isRequired": false,
+      "itemName": "Men Beauty",
+      "itemPrice": 19.99,
+      "itemImagePath": "https://placehold.it/380x320",
+      "packageItem": "111999"
+    },
+     {
+      "id": "14999999",
+      "item": "999999",
+      "isRecommended": false,
+      "isRequired": false,
+      "itemName": "Women Beauty",
+      "itemPrice": 19.99,
+      "itemImagePath": "https://placehold.it/380x320",
+      "packageItem": "111999"
+    },
+     {
+      "id": "14999999",
+      "item": "999999",
+      "isRecommended": false,
+      "isRequired": false,
+      "itemName": "Kids Beauty",
       "itemPrice": 19.99,
       "itemImagePath": "https://placehold.it/380x320",
       "packageItem": "111999"

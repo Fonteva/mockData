@@ -452,7 +452,7 @@
       "isRequired": false,
       "itemName": "Hari_Item_A",
       "itemPrice": 19.99,
-      "itemImagePath": "https://placehold.it/310x310",  
+      "itemImagePath": "https://placehold.it/310x310"
     },
     {
       "id": "9838532",
@@ -461,7 +461,7 @@
       "isRequired": false,
       "itemName": "Hari_Item_B",
       "itemPrice": 19.99,
-      "itemImagePath": "https://placehold.it/310x310",  
+      "itemImagePath": "https://placehold.it/310x310"
     },
     {
       "id": "9838533",
@@ -470,7 +470,7 @@
       "isRequired": false,
       "itemName": "Hari_Item_C",
       "itemPrice": 19.99,
-      "itemImagePath": "https://placehold.it/310x310",  
+      "itemImagePath": "https://placehold.it/310x310"
     },
     {
       "id": "9838534",
@@ -479,7 +479,7 @@
       "isRequired": false,
       "itemName": "Hari_Item_D",
       "itemPrice": 19.99,
-      "itemImagePath": "https://placehold.it/310x310",  
+      "itemImagePath": "https://placehold.it/310x310"
     },
     {
       "id": "9838535",
@@ -488,7 +488,7 @@
       "isRequired": false,
       "itemName": "Hari_Item_F",
       "itemPrice": 19.99,
-      "itemImagePath": "https://placehold.it/310x310",  
+      "itemImagePath": "https://placehold.it/310x310"
     },
     {
       "id": "9838536",
@@ -497,7 +497,7 @@
       "isRequired": false,
       "itemName": "Hari_Item_G",
       "itemPrice": 19.99,
-      "itemImagePath": "https://placehold.it/310x310",  
+      "itemImagePath": "https://placehold.it/310x310" 
     }
   ]
 }

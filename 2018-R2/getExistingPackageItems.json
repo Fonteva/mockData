@@ -6,7 +6,7 @@
       "minimumQuantity" : 2,
       "displayItem" : true,
       "displayOrder" : 1,
-      "itemPrice" : 20.00,
+      "itemPrice" : 21.00,
       "item" : "0010",
       "markForDelete" : false
     },
@@ -16,7 +16,7 @@
       "minimumQuantity" : 2,
       "displayItem" : true,
       "displayOrder" : 2,
-      "itemPrice" : 20.00,
+      "itemPrice" : 22.00,
       "item" : "0020",
       "markForDelete" : false
     },
@@ -26,7 +26,7 @@
       "minimumQuantity" : 2,
       "displayItem" : true,
       "displayOrder" : 3,
-      "itemPrice" : 20.00,
+      "itemPrice" : 23.00,
       "item" : "0030",
       "markForDelete" : false
     }
@@ -36,6 +36,7 @@
       "id" : "111",
       "displayOrder" : 1,
       "itemName" : "Item Name 1",
+      "itemPrice": 20.20,
       "item" : "1111",
       "markForDelete" : false
     },
@@ -43,6 +44,7 @@
       "id" : "112",
       "displayOrder" : 2,
       "itemName" : "Item Name 2",
+      "itemPrice": 22.22,
       "item" : "1121",
       "markForDelete" : false
     }
@@ -63,6 +65,7 @@
           "id" : "233",
           "displayOrder" : 1,
           "itemName" : "Item Name 1",
+          "itemPrice": 10.00,
           "item" : "1234567890",
           "markForDelete" : false
         },
@@ -70,6 +73,7 @@
           "id" : "234",
           "displayOrder" : 2,
           "itemName" : "Item Name 2",
+          "itemPrice": 20.00,
           "item" : "1234567890",
           "markForDelete" : false
         }
@@ -90,6 +94,7 @@
           "id" : "343",
           "displayOrder" : 1,
           "itemName" : "Other Item Name 1",
+          "itemPrice": 30.00,
           "item" : "3431",
           "markForDelete" : false
         },
@@ -97,6 +102,7 @@
           "id" : "344",
           "displayOrder" : 2,
           "itemName" : "Other Item Name 2",
+          "itemPrice": 40.00,
           "item" : "3441",
           "markForDelete" : false
         }

@@ -1,14 +1,14 @@
 {
   "includedItems" : [
     {
-      "id" : "001", // Package Item Id
-      "itemName" : "Item Name 1", // Item Name
+      "id" : "001",
+      "itemName" : "Item Name 1",
       "minimumQuantity" : 2,
       "displayItem" : true,
       "displayOrder" : 1,
-      "itemPrice" : 20.00, // Item Price
-      "item" : "0010",  // Item id that is already added
-      "markForDelete" : false // Its always false on load, will be checked to true if deleted from the list
+      "itemPrice" : 20.00,
+      "item" : "0010",
+      "markForDelete" : false
     },
     {
       "id" : "002",
@@ -33,10 +33,10 @@
   ],
   "recommendedItems" : [
     {
-      "id" : "111", // Package Item Id
+      "id" : "111",
       "displayOrder" : 1,
       "itemName" : "Item Name 1",
-      "item" : "1111", // Item id that is already added
+      "item" : "1111",
       "markForDelete" : false
     },
     {
@@ -49,7 +49,7 @@
   ],
   "additionalItems" : [
     {
-      "id" : "222", // parent packate item id
+      "id" : "222",
       "groupHeader" : "group header",
       "groupInstructionsText" : "Group Instructions",
       "minimumQuantity" : 1,
@@ -57,13 +57,13 @@
       "numberOfFreeItems" : 1,
       "maximumQuantityPerItem" : 1,
       "displayOrder" : 1,
-      "markForDelete" : false, // Its always false on load, will be checked to true if deleted from the group list
+      "markForDelete" : false,
       "childPackageItems" : [
         {
-          "id" : "233", // Package Item Id
+          "id" : "233",
           "displayOrder" : 1,
           "itemName" : "Item Name 1",
-          "item" : "1234567890",  // Item id that is already added
+          "item" : "1234567890",
           "markForDelete" : false
         },
         {
@@ -104,4 +104,3 @@
     }
   ]
 }
-

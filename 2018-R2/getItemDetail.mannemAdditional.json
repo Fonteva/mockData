@@ -45,7 +45,7 @@
      {
       "id": "223456",
       "item": "23456",
-      "isRecommended": false,
+      "isRecommended": true,
       "isRequired": false,
       "itemName": "Pog Cleaner-1",
       "itemPrice": 0,
@@ -55,7 +55,7 @@
     {
       "id": "3234566",
       "item": "234566",
-      "isRecommended": false,
+      "isRecommended": true,
       "isRequired": false,
       "itemName": "Pog Blackener",
       "itemPrice": 49.99,
@@ -75,7 +75,7 @@
     {
       "id": "52345678",
       "item": "2345678",
-      "isRecommended": false,
+      "isRecommended": true,
       "isRequired": false,
       "itemName": "Pog Redener",
       "itemPrice": 19.99,

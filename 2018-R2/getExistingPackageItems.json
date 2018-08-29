@@ -1,55 +1,55 @@
 {
   "includedItems" : [
     {
-      "id" : "987654323456", // Package Item Id
+      "id" : "001", // Package Item Id
       "itemName" : "Item Name 1", // Item Name
       "minimumQuantity" : 2,
       "displayItem" : true,
       "displayOrder" : 1,
       "itemPrice" : 20.00, // Item Price
-      "item" : "1234567890",  // Item id that is already added
+      "item" : "0010",  // Item id that is already added
       "markForDelete" : false // Its always false on load, will be checked to true if deleted from the list
     },
     {
-      "id" : "987654323456",
-      "itemName" : "Item Name 1",
+      "id" : "002",
+      "itemName" : "Item Name 2",
       "minimumQuantity" : 2,
       "displayItem" : true,
       "displayOrder" : 2,
       "itemPrice" : 20.00,
-      "item" : "1234567890",
+      "item" : "0020",
       "markForDelete" : false
     },
     {
-      "id" : "987654323456",
-      "itemName" : "Item Name 1",
+      "id" : "003",
+      "itemName" : "Item Name 3",
       "minimumQuantity" : 2,
       "displayItem" : true,
       "displayOrder" : 3,
       "itemPrice" : 20.00,
-      "item" : "1234567890",
+      "item" : "0030",
       "markForDelete" : false
     },
   ],
   "recommendedItems" : [
     {
-      "id" : "987654323456", // Package Item Id
+      "id" : "111", // Package Item Id
       "displayOrder" : 1,
       "itemName" : "Item Name 1",
-      "item" : "1234567890", // Item id that is already added
+      "item" : "1111", // Item id that is already added
       "markForDelete" : false
     },
     {
-      "id" : "987654323456",
+      "id" : "112",
       "displayOrder" : 2,
-      "itemName" : "Item Name 1",
-      "item" : "1234567890",
+      "itemName" : "Item Name 2",
+      "item" : "1121",
       "markForDelete" : false
     }
   ],
-  "groupItems" : [
+  "additionalItems" : [
     {
-      "id" : "1234567890", // parent packate item id
+      "id" : "222", // parent packate item id
       "groupHeader" : "group header",
       "groupInstructionsText" : "Group Instructions",
       "minimumQuantity" : 1,
@@ -60,14 +60,14 @@
       "markForDelete" : false, // Its always false on load, will be checked to true if deleted from the group list
       "childPackageItems" : [
         {
-          "id" : "987654323456", // Package Item Id
+          "id" : "233", // Package Item Id
           "displayOrder" : 1,
           "itemName" : "Item Name 1",
           "item" : "1234567890",  // Item id that is already added
           "markForDelete" : false
         },
         {
-          "id" : "987654323456",
+          "id" : "234",
           "displayOrder" : 2,
           "itemName" : "Item Name 2",
           "item" : "1234567890",
@@ -76,28 +76,28 @@
       ]
     },
     {
-      "id" : "1234567890",
-      "groupHeader" : "group header",
-      "groupInstructionsText" : "Group Instructions",
-      "minimumQuantity" : 1,
-      "maximumQuantity" : 10,
-      "numberOfFreeItems" : 1,
-      "maximumQuantityPerItem" : 1,
+      "id" : "223",
+      "groupHeader" : "other group header",
+      "groupInstructionsText" : "other Group Instructions",
+      "minimumQuantity" : 0,
+      "maximumQuantity" : null,
+      "numberOfFreeItems" : 0,
+      "maximumQuantityPerItem" : null,
       "displayOrder" : 2,
       "markForDelete" : false,
       "childPackageItems" : [
         {
-          "id" : "987654323456",
+          "id" : "343",
           "displayOrder" : 1,
-          "itemName" : "Item Name 1",
-          "item" : "1234567890",
+          "itemName" : "Other Item Name 1",
+          "item" : "3431",
           "markForDelete" : false
         },
         {
-          "id" : "987654323456",
+          "id" : "344",
           "displayOrder" : 2,
-          "itemName" : "Item Name 2",
-          "item" : "1234567890",
+          "itemName" : "Other Item Name 2",
+          "item" : "3441",
           "markForDelete" : false
         }
       ]

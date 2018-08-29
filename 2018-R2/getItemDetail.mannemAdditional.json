@@ -437,7 +437,7 @@
     },
     {
       "id": "983853",
-      "item": "553655300",
+      "item": "7553655300",
       "isRecommended": false,
       "isRequired": false,
       "itemName": "Vegetables",
@@ -446,8 +446,8 @@
       "packageItem": "22223333"
     },
     {
-      "id": "983853",
-      "item": "553655300",
+      "id": "9838531",
+      "item": "8553655300",
       "isRecommended": true,
       "isRequired": false,
       "itemName": "Hari_Item_A",
@@ -455,8 +455,8 @@
       "itemImagePath": "https://placehold.it/310x310",  
     },
     {
-      "id": "983853",
-      "item": "553655300",
+      "id": "9838532",
+      "item": "9553655300",
       "isRecommended": true,
       "isRequired": false,
       "itemName": "Hari_Item_B",
@@ -464,8 +464,8 @@
       "itemImagePath": "https://placehold.it/310x310",  
     },
     {
-      "id": "983853",
-      "item": "553655300",
+      "id": "9838533",
+      "item": "1553655300",
       "isRecommended": true,
       "isRequired": false,
       "itemName": "Hari_Item_C",
@@ -473,8 +473,8 @@
       "itemImagePath": "https://placehold.it/310x310",  
     },
     {
-      "id": "983853",
-      "item": "553655300",
+      "id": "9838534",
+      "item": "2553655300",
       "isRecommended": true,
       "isRequired": false,
       "itemName": "Hari_Item_D",
@@ -482,16 +482,17 @@
       "itemImagePath": "https://placehold.it/310x310",  
     },
     {
-      "id": "983853",
-      "item": "553655300",
+      "id": "9838535",
+      "item": "3553655300",
       "isRecommended": true,
       "isRequired": false,
       "itemName": "Hari_Item_F",
       "itemPrice": 19.99,
       "itemImagePath": "https://placehold.it/310x310",  
-    },{
-      "id": "983853",
-      "item": "553655300",
+    },
+    {
+      "id": "9838536",
+      "item": "4553655300",
       "isRecommended": true,
       "isRequired": false,
       "itemName": "Hari_Item_G",

@@ -45,7 +45,7 @@
      {
       "id": "223456",
       "item": "23456",
-      "isRecommended": true,
+      "isRecommended": false,
       "isRequired": false,
       "itemName": "Pog Cleaner-1",
       "itemPrice": 0,

@@ -55,7 +55,7 @@
     {
       "id": "3234566",
       "item": "234566",
-      "isRecommended": true,
+      "isRecommended": false,
       "isRequired": false,
       "itemName": "Pog Blackener",
       "itemPrice": 49.99,
@@ -65,7 +65,7 @@
     {
       "id": "4234567",
       "item": "234567",
-      "isRecommended": true,
+      "isRecommended": false,
       "isRequired": true,
       "itemName": "Pog Whitener",
       "itemPrice": 0,
@@ -75,7 +75,7 @@
     {
       "id": "52345678",
       "item": "2345678",
-      "isRecommended": true,
+      "isRecommended": false,
       "isRequired": false,
       "itemName": "Pog Redener",
       "itemPrice": 19.99,
@@ -479,7 +479,7 @@
       "isRequired": false,
       "itemName": "Hari_Item_D",
       "itemPrice": 19.99,
-      "itemImagePath": "https://placehold.it/310x310"
+      "itemImagePath": "https://framework.na57.visual.force.com/apex/AwsProxy?key=00D0b000000D0oSEAS/UKGJUThK_Sample3_jpg&bucket=fonteva-customer-media-secure"
     },
     {
       "id": "9838535",
@@ -497,7 +497,7 @@
       "isRequired": false,
       "itemName": "Hari_Item_G",
       "itemPrice": 19.99,
-      "itemImagePath": "https://placehold.it/310x310" 
+      "itemImagePath": "https://framework.na57.visual.force.com/apex/AwsProxy?key=00D0b000000D0oSEAS/cFLorQJb_BannerImage_k_jpeg&bucket=fonteva-customer-media-secure" 
     }
   ]
 }

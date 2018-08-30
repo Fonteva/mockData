@@ -453,6 +453,7 @@
       "isRequired": false,
       "itemName": "Hari_Item_A",
       "itemPrice": 19.99,
+          "discountPrice": 9.99,
       "itemImagePath": "http://www.luminous-endowment.org/subImages/winners/16/1084/images/dsc7823-edit1.jpg"
     },
     {

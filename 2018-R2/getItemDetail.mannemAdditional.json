@@ -462,7 +462,7 @@
       "isRequired": false,
       "itemName": "Hari_Item_B",
       "itemPrice": 19.99,
-      "itemImagePath": "https://placehold.it/310x310"
+      "itemImagePath": "http://www.kndlandscaping.com/wp-content/uploads/2016/11/Fotolia_61708683_Subscription_Monthly_M.jpg"
     },
     {
       "id": "9838533",
@@ -471,7 +471,7 @@
       "isRequired": false,
       "itemName": "Hari_Item_C",
       "itemPrice": 19.99,
-      "itemImagePath": "https://placehold.it/310x310"
+      "itemImagePath": "https://csf.uw.edu/sites/default/files/save_water.png"
     },
     {
       "id": "9838534",
@@ -489,7 +489,7 @@
       "isRequired": false,
       "itemName": "Hari_Item_F",
       "itemPrice": 19.99,
-      "itemImagePath": "https://placehold.it/310x310"
+      "itemImagePath": "https://www.ocregister.com/wp-content/uploads/2018/08/water-faucet-1.jpg?w=526"
     },
     {
       "id": "9838536",

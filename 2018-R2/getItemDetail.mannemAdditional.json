@@ -443,7 +443,7 @@
       "isRequired": false,
       "itemName": "Vegetables",
       "itemPrice": 19.99,
-      "itemImagePath": "https://placehold.it/310x310",
+      "itemImagePath": "https://orig00.deviantart.net/f419/f/2014/139/d/d/japanese_garden___portland_by_alierturk-d7iz30c.jpg",
       "packageItem": "22223333"
     },
     {
@@ -453,7 +453,7 @@
       "isRequired": false,
       "itemName": "Hari_Item_A",
       "itemPrice": 19.99,
-      "itemImagePath": "https://placehold.it/310x310"
+      "itemImagePath": "https://i.pinimg.com/originals/e5/a6/06/e5a60682df253641c4e49b9feebef3be.jpg"
     },
     {
       "id": "9838532",
@@ -480,7 +480,7 @@
       "isRequired": false,
       "itemName": "Hari_Item_D",
       "itemPrice": 19.99,
-      "itemImagePath": "https://framework.na57.visual.force.com/apex/AwsProxy?key=00D0b000000D0oSEAS/mAoLNalo_BannerImage_Heros_jpg&bucket=fonteva-customer-media-secure"
+      "itemImagePath": "https://www.nature.org/cs/groups/webcontent/@web/documents/media/2016-photocontest-yosemite-w-1.jpg"
     },
     {
       "id": "9838535",

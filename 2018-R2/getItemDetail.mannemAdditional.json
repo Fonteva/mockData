@@ -419,7 +419,7 @@
     {
       "id": "0090567",
       "item": "09067",
-      "isRecommended": false,
+      "isRecommended": true,
       "isRequired": false,
       "itemName": "Eastern Foods",
       "itemPrice": 19.99,
@@ -429,7 +429,7 @@
     {
       "id": "89092067",
       "item": "3423423",
-      "isRecommended": false,
+      "isRecommended": true,
       "isRequired": false,
       "itemName": "Frozen Foods",
       "itemPrice": 19.99,
@@ -439,7 +439,7 @@
     {
       "id": "983853",
       "item": "7553655300",
-      "isRecommended": false,
+      "isRecommended": true,
       "isRequired": false,
       "itemName": "Vegetables",
       "itemPrice": 19.99,

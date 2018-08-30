@@ -1,4 +1,6 @@
 {
+  "isMultiCurrencyOrganization": false,
+  "currencyISOCode": "USD",
   "includedItems" : [
     {
       "id" : "001",

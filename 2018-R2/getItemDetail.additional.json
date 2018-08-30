@@ -27,7 +27,7 @@
       "isRecommended": false,
       "isRequired": false,
       "groupHeader": "Accessories",
-      "groupInstructionsText": "One, two, pick a few",
+      "groupInstructionsText": "One, <b>two</b, <br/> pick a <i>few</i>",
       "numberOfFreeItems": 1,
       "minimumQuantity": 2,
       "maximumQuantity": 3,

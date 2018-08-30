@@ -1,5 +1,5 @@
 {
-  "isMultiCurrencyOrganization": false,
+  "isMultiCurrencyOrg": false,
   "currencyISOCode": "USD",
   "includedItems" : [
     {

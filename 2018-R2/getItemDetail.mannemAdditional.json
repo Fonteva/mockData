@@ -310,7 +310,7 @@
     {
       "id": "234744456",
       "item": "23456",
-      "isRecommended": false,
+      "isRecommended": true,
       "isRequired": false,
       "itemName": "All Kind of Beverages",
       "itemPrice": 29.99,
@@ -349,7 +349,7 @@
     {
       "id": "2343342567",
       "item": "23455567",
-      "isRecommended": false,
+      "isRecommended": true,
       "isRequired": false,
       "itemName": "Meat & Seafood choice of different countries",
       "itemPrice": 19.99,
@@ -379,7 +379,7 @@
     {
       "id": "646854767",
       "item": "2348954567",
-      "isRecommended": false,
+      "isRecommended": true,
       "isRequired": false,
       "itemName": "Western Foods",
       "itemPrice": 19.99,
@@ -399,7 +399,7 @@
     {
       "id": "3544547",
       "item": "65454547",
-      "isRecommended": false,
+      "isRecommended": true,
       "isRequired": false,
       "itemName": "USA Foods",
       "itemPrice": 19.99,
@@ -409,7 +409,7 @@
     {
       "id": "2121567",
       "item": "51112167",
-      "isRecommended": false,
+      "isRecommended": true,
       "isRequired": false,
       "itemName": "Mexico Foods",
       "itemPrice": 19.99,

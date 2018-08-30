@@ -26,21 +26,21 @@
       "name": "Item 1",
       "price": 20.00,
       "currencyISOCode": "USD",
-      "hasIncludedItems": "true",
+      "hasIncludedItems": "true"
     },
     {
       "id": "djskfhklsd",
       "name": "Item 2",
       "price": 10.00,
       "currencyISOCode": "USD",
-      "hasIncludedItems": "false",
+      "hasIncludedItems": "false"
     },
     {
       "id": "djskfhklsd",
       "name": "Item 1",
       "price": 20.00,
       "currencyISOCode": "USD",
-      "hasIncludedItems": "false",
+      "hasIncludedItems": "false"
     }
   ]
 }

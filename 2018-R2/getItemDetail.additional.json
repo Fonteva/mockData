@@ -204,6 +204,7 @@
       "isRecommended": true,
       "isRequired": false,
       "itemName": "Red One",
+      "priceLabel": "da faq?",
       "itemPrice": 19.99,
       "itemImagePath": "https://placehold.it/310x310"
     },
@@ -213,7 +214,9 @@
       "isRecommended": true,
       "isRequired": false,
       "itemName": "Red Two",
+      "discountLabel": "Ice cold!",
       "itemPrice": 19.99,
+      "itemDiscountPrice": 19.99,
       "itemImagePath": "https://placehold.it/310x310"
     },
     {

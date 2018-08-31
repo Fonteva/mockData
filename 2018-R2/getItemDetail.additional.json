@@ -215,8 +215,9 @@
       "isRequired": false,
       "itemName": "Red Two",
       "discountLabel": "Ice cold!",
+      "priceLabel": "For suckas",
       "itemPrice": 19.99,
-      "itemDiscountPrice": 19.99,
+      "itemDiscountPrice": 9.99,
       "itemImagePath": "https://placehold.it/310x310"
     },
     {

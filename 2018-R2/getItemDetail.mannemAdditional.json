@@ -413,6 +413,7 @@
       "isRequired": false,
       "itemName": "Mexico Foods",
       "itemPrice": 19.99,
+      "discountPrice": 6.99,
       "itemImagePath": "https://placehold.it/310x310",
       "packageItem": "22223333"
     },
@@ -423,6 +424,7 @@
       "isRequired": false,
       "itemName": "Eastern Foods",
       "itemPrice": 19.99,
+      "discountPrice": 7.99,
       "itemImagePath": "https://placehold.it/310x310",
       "packageItem": "22223333"
     },
@@ -443,6 +445,7 @@
       "isRequired": false,
       "itemName": "Vegetables",
       "itemPrice": 19.99,
+      "discountPrice": 8.99,
       "itemImagePath": "https://orig00.deviantart.net/f419/f/2014/139/d/d/japanese_garden___portland_by_alierturk-d7iz30c.jpg",
       "packageItem": "22223333"
     },
@@ -453,6 +456,7 @@
       "isRequired": false,
       "itemName": "Hari_Item_A",
       "itemPrice": 19.99,
+      "discountPrice": 9.99,
       "itemImagePath": "http://www.luminous-endowment.org/subImages/winners/16/1084/images/dsc7823-edit1.jpg"
     }
   ]

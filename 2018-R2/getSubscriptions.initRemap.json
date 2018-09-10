@@ -114,8 +114,16 @@
     "parent": "",
     "actions": [
       {
+        "type": "manage",
+        "url": "http://google.com"
+      },
+      {
         "type": "change",
         "url": "http://yahoo.com"
+      },
+      {
+        "type": "renew",
+        "url": "http://bing.com"
       }
     ]
   },

@@ -17,22 +17,22 @@
               "id":"1234SubscriptionLine",
               "displayName":"Gold Membership",
               "displayFields":[
-              {
-                "label":"Start Date",
-                "type":"Date",
-                "value":"1/1/2018"
-              },
-              {
-                "label":"End Date",
-                "type":"Date",
-                "value":"12/31/2018"
-              },
-              {
-                "label":"Entity",
-                "type":"String",
-                "value":"Contact"
-              },
-            ],
+                {
+                  "label":"Start Date",
+                  "type":"Date",
+                  "value":"1/1/2018"
+                },
+                {
+                  "label":"End Date",
+                  "type":"Date",
+                  "value":"12/31/2018"
+                },
+                {
+                  "label":"Entity",
+                  "type":"String",
+                  "value":"Contact"
+                },
+              ],
               "imageUrl":"https://placehold.it/300",
               "isRenewable":true,
               "isChangeable":true

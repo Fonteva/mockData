@@ -1,0 +1,123 @@
+{
+  "instructions": "subscriptions",
+  "currencyIsoCode": "USD",
+  "isMultiCurrencyOrg": false,
+  "subscriptions":[
+    {
+      "id": "1234Subscription",
+      "status": "Active",
+      "terms":[
+        {
+          "id":"Term1234",
+          "gracePeriodEndDate":"12/31/2018",
+          "isActive": true,
+          "daysToLapse": 360,
+          "subscriptionLines":[
+            {
+              "id":"1234SubscriptionLine",
+              "displayName":"Gold Membership",
+              "displayFields":[
+              {
+                "label":"Start Date",
+                "type":"Date",
+                "value":"1/1/2018"
+              },
+              {
+                "label":"End Date",
+                "type":"Date",
+                "value":"12/31/2018"
+              },
+              {
+                "label":"Entity",
+                "type":"String",
+                "value":"Contact"
+              },
+            ],
+              "imageUrl":"https://placehold.it/300",
+              "isRenewable":true,
+              "isChangeable":true
+            },
+            {
+              "id":"5678SubscriptionLine",
+              "displayName":"Magazine Membership",
+              "parentSubscriptionLine":"1234SubscriptionLine",
+              "displayText":"Same information as Gold Membership",
+              "imageUrl":"https://placehold.it/300",
+              "isChangeable":true
+            },
+            {
+              "id":"9012SubscriptionLine",
+              "displayName":"Magazine Membership One",
+              "parentSubscriptionLine":"1234SubscriptionLine",
+              "displayText":"Same information as Gold Membership",
+              "imageUrl":"https://placehold.it/300",
+              "isChangeable":true
+            }
+          ],
+          "assignments": [{
+
+          }]
+        }
+      ]
+    },
+    {
+      "id":"5678Subscription",
+      "status":"Active",
+      "terms":[
+        {
+          "id":"Term1234",
+          "gracePeriodEndDate":"12/31/2019",
+          "isActive": false,
+          "daysToLapse": 364,
+          "assignments": 10,
+          "assignmentsAllowed": 5,
+          "subscriptionLines":[
+            {
+              "id": "1234SubscriptionLine",
+              "displayName": "Company Membership",
+              "displayFields": [
+                {
+                  "label": "Start Date",
+                  "type": "Date",
+                  "value": "1/1/2019"
+                },
+                {
+                  "label": "End Date",
+                  "type": "Date",
+                  "value": "12/31/2019"
+                },
+                {
+                  "label": "Entity",
+                  "type": "String",
+                  "value": "Contact"
+                }
+              ],
+              "imageUrl":"https://placehold.it/300",
+              "isRenewable":true,
+              "isChangeable":true
+            },
+            {
+              "id":"5678SubscriptionLine",
+              "displayName":"Magazine Membership",
+              "parentSubscriptionLine":"1234SubscriptionLine",
+              "displayText": "Same information as Gold Membership",
+              "imageUrl":"https://placehold.it/300",
+              "isChangeable":true
+            },
+            {
+              "id":"9012SubscriptionLine",
+              "displayName":"Magazine Membership One",
+              "parentSubscriptionLine":"1234SubscriptionLine",
+              "displayText": "Same information as Company Membership",
+              "imageUrl":"https://placehold.it/300",
+              "isChangeable":true
+            }
+          ],
+          "assignments": [{
+
+          }]
+        }
+      ]
+    }
+  ]
+}

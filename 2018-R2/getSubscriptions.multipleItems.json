@@ -37,22 +37,6 @@
               "imageUrl":"https://placehold.it/300",
               "isRenewable":true,
               "isChangeable":true
-            },
-            {
-              "id":"5678SubscriptionLine",
-              "displayName":"Magazine Membership",
-              "parentSubscriptionLine":"1234SubscriptionLine",
-              "displayText":"Same information as Gold Membership",
-              "imageUrl":"https://placehold.it/300",
-              "isChangeable":true
-            },
-            {
-              "id":"9012SubscriptionLine",
-              "displayName":"Magazine Membership One",
-              "parentSubscriptionLine":"1234SubscriptionLine",
-              "displayText":"Same information as Gold Membership",
-              "imageUrl":"https://placehold.it/300",
-              "isChangeable":true
             }
           ]
         }
@@ -155,7 +139,7 @@
               "displayName":"Magazine Membership",
               "parentSubscriptionLine":"1234SubscriptionLine_1",
               "displayText":"Same information as Company Membership",
-              "imageUrl":"https://placehold.it/300",
+              "imageUrl":"https://placehold.it/300x900",
               "isChangeable":true
             },
             {
@@ -163,7 +147,7 @@
               "displayName":"Magazine Membership One",
               "parentSubscriptionLine":"1234SubscriptionLine_1",
               "displayText":"Same information as Company Membership",
-              "imageUrl":"https://placehold.it/300",
+              "imageUrl":"https://placehold.it/300x100",
               "isChangeable":true
             }
           ],
@@ -221,7 +205,7 @@
                   "value":"Contact"
                 }
               ],
-              "imageUrl":"https://placehold.it/300",
+              "imageUrl":"https://placehold.it/10x300",
               "isRenewable":true,
               "isChangeable":true
             },
@@ -230,7 +214,7 @@
               "displayName":"Magazine Membership",
               "parentSubscriptionLine":"1234eqwerSubscriptionLine",
               "displayText":"Same information as Company Membership",
-              "imageUrl":"https://placehold.it/300",
+              "imageUrl":"https://placehold.it/300x200",
               "isChangeable":true
             },
             {
@@ -238,7 +222,7 @@
               "displayName":"Magazine Membership One",
               "parentSubscriptionLine":"1234eqwerSubscriptionLine",
               "displayText":"Same information as Company Membership",
-              "imageUrl":"https://placehold.it/300",
+              "imageUrl":"https://placehold.it/300x500",
               "isChangeable":true
             }
           ],
@@ -296,24 +280,8 @@
                   "value":"Contact"
                 }
               ],
-              "imageUrl":"https://placehold.it/300",
+              "imageUrl":"https://placehold.it/100x300",
               "isRenewable":true,
-              "isChangeable":true
-            },
-            {
-              "id":"5342rfadsf678Subs124criptionLine",
-              "displayName":"Magazine Membership",
-              "parentSubscriptionLine":"1sadf234eqwerSubscriptionLine",
-              "displayText":"Same information as Company Membership",
-              "imageUrl":"https://placehold.it/300",
-              "isChangeable":true
-            },
-            {
-              "id":"9vasdf012Subscr123iptionLine",
-              "displayName":"Magazine Membership One",
-              "parentSubscriptionLine":"1sadf234eqwerSubscriptionLine",
-              "displayText":"Same information as Company Membership",
-              "imageUrl":"https://placehold.it/300",
               "isChangeable":true
             }
           ],

@@ -1,0 +1,46 @@
+{
+  "instructions":"subscriptions",
+  "currencyIsoCode":"USD",
+  "isMultiCurrencyOrg":false,
+  "subscriptions":[
+    {
+      "id":"1234Subscription",
+      "status":"Active",
+      "subscriptionPlan":"1234Plan",
+      "terms":[
+        {
+          "id":"Term1234",
+          "isActive":true,
+          "startDate":"2018-1-1",
+          "endDate":"2018-12-31",
+          "subscriptionLines":[
+            {
+              "id":"1234SubscriptionLine",
+              "displayName":"Gold Membership",
+              "displayFields":[
+                {
+                  "label":"Start Date",
+                  "type":"Date",
+                  "value":"2018-1-1"
+                },
+                {
+                  "label":"End Date",
+                  "type":"Date",
+                  "value":"2018-12-31"
+                },
+                {
+                  "label":"Entity",
+                  "type":"String",
+                  "value":"Contact"
+                }
+              ],
+              "imageUrl":"https://placehold.it/300",
+              "isRenewable":true,
+              "isChangeable":true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -135,14 +135,6 @@
               "isChangeable":true
             },
             {
-              "id":"5678SubscriptionLine",
-              "displayName":"Magazine Membership",
-              "parentSubscriptionLine":"1234SubscriptionLine_1",
-              "displayText":"Same information as Company Membership",
-              "imageUrl":"https://placehold.it/300x900",
-              "isChangeable":true
-            },
-            {
               "id":"9012SubscriptionLine",
               "displayName":"Magazine Membership One",
               "parentSubscriptionLine":"1234SubscriptionLine_1",

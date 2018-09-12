@@ -1,5 +1,5 @@
 {
-  "instructions":"subscriptions",
+  "instructions":"Protractor exports a global function element, which takes a Locator and will return an ElementFinder. This function finds a single element - if you need to manipulate multiple elements, use the element.all function.The ElementFinder has a set of action methods, such as click(), getText(), and sendKeys. These are the core way to interact with an element and get information back from it.When you find elements in Protractor all actions are asynchronous. Behind the scenes, all actions are sent to the browser being controlled using the JSON Webdriver Wire Protocol. The browser then performs the action as a user natively would.",
   "currencyIsoCode":"USD",
   "isMultiCurrencyOrg":false,
   "subscriptions":[
@@ -36,6 +36,7 @@
               ],
               "imageUrl":"https://placehold.it/300x800",
               "isRenewable":true,
+              "isManageable":true,
               "isChangeable":true
             }
           ]
@@ -75,6 +76,7 @@
               ],
               "imageUrl":"https://placehold.it/300x200",
               "isRenewable":true,
+              "isManageable":true,
               "isChangeable":true
             },
             {

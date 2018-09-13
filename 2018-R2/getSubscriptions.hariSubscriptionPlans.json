@@ -26,7 +26,7 @@
                 {
                   "label":"End Date",
                   "type":"Date",
-                  "value":"2018-12-31"
+                  "value":"2019-12-31"
                 },
                 {
                   "label":"Entity",
@@ -132,9 +132,7 @@
                   "value":"Contact"
                 }
               ],
-              "imageUrl":"https://placehold.it/300",
-              "isRenewable":true,
-              "isChangeable":true
+              "imageUrl":"https://placehold.it/300"
             },
             {
               "id":"9012SubscriptionLine",

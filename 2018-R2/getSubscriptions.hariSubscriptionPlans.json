@@ -168,7 +168,7 @@
     },
     {
       "id":"12931Subscription",
-      "status":"Canceled",
+      "status":"Cancelled",
       "subscriptionPlan":"567asdfl8Plan",
       "terms":[
         {
@@ -217,7 +217,6 @@
               "parentSubscriptionLine":"1234eqwerSubscriptionLine",
               "displayText":"Same information as Company Membership",
               "imageUrl":"https://placehold.it/300x500",
-              "isChangeable":true
             }
           ],
           "assignments":[
@@ -275,8 +274,7 @@
                 }
               ],
               "imageUrl":"https://placehold.it/100x300",
-              "isRenewable":true,
-              "isChangeable":true
+              "isRenewable":true
             }
           ],
           "assignments":[

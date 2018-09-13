@@ -35,6 +35,7 @@
                         }
                      ],
                      "imageUrl":"https://placehold.it/300",
+                     "isManageable":true,
                      "isRenewable":true,
                      "isChangeable":true
                   },

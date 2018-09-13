@@ -26,7 +26,7 @@
                 {
                   "label":"End Date",
                   "type":"Date",
-                  "value":"2018-12-31"
+                  "value":"2019-12-31"
                 },
                 {
                   "label":"Entity",
@@ -100,6 +100,44 @@
       ]
     },
     {
+      "id":"1234Subscription",
+      "status":"Pending",
+      "subscriptionPlan":"1234Plan",
+      "terms":[
+        {
+          "id":"Term1234",
+          "isActive":true,
+          "startDate":"2018-1-1",
+          "endDate":"2018-12-31",
+          "subscriptionLines":[
+            {
+              "id":"1234SubscriptionLine",
+              "displayName":"Gold Star Membership",
+              "displayFields":[
+                {
+                  "label":"Start Date",
+                  "type":"Date",
+                  "value":"2018-1-1"
+                },
+                {
+                  "label":"End Date",
+                  "type":"Date",
+                  "value":"2019-12-31"
+                },
+                {
+                  "label":"Entity",
+                  "type":"String",
+                  "value":"Contact"
+                }
+              ],
+              "imageUrl":"https://placehold.it/300x800",
+              "isChangeable":true
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id":"5678Subscription",
       "status":"Pending",
       "subscriptionPlan":"5678Plan",
@@ -132,9 +170,7 @@
                   "value":"Contact"
                 }
               ],
-              "imageUrl":"https://placehold.it/300",
-              "isRenewable":true,
-              "isChangeable":true
+              "imageUrl":"https://placehold.it/300"
             },
             {
               "id":"9012SubscriptionLine",
@@ -199,25 +235,21 @@
                   "value":"Contact"
                 }
               ],
-              "imageUrl":"https://placehold.it/10x300",
-              "isRenewable":true,
-              "isChangeable":true
+              "imageUrl":"https://placehold.it/10x300"
             },
             {
               "id":"5342rfadsf678SubscriptionLine",
               "displayName":"Magazine Membership",
               "parentSubscriptionLine":"1234eqwerSubscriptionLine",
               "displayText":"Same information as Company Membership",
-              "imageUrl":"https://placehold.it/300x200",
-              "isChangeable":true
+              "imageUrl":"https://placehold.it/300x200"
             },
             {
               "id":"9vasdf012SubscriptionLine",
               "displayName":"Magazine Membership One",
               "parentSubscriptionLine":"1234eqwerSubscriptionLine",
               "displayText":"Same information as Company Membership",
-              "imageUrl":"https://placehold.it/300x500",
-              "isChangeable":true
+              "imageUrl":"https://placehold.it/300x500"
             }
           ],
           "assignments":[
@@ -275,8 +307,7 @@
                 }
               ],
               "imageUrl":"https://placehold.it/100x300",
-              "isRenewable":true,
-              "isChangeable":true
+              "isRenewable":true
             }
           ],
           "assignments":[

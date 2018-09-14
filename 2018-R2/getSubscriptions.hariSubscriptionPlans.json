@@ -13,6 +13,7 @@
           "isActive":true,
           "startDate":"2018-1-1",
           "endDate":"2018-12-31",
+          "daysToLapse": "144" ,
           "subscriptionLines":[
             {
               "id":"1234SubscriptionLine",

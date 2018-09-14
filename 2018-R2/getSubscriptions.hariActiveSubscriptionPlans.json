@@ -102,7 +102,7 @@
     },
     {
       "id":"1234Subscription",
-      "status":"Pending",
+      "status":"Active",
       "subscriptionPlan":"1234Plan",
       "terms":[
         {
@@ -140,7 +140,7 @@
     },
     {
       "id":"5678Subscription",
-      "status":"Pending",
+      "status":"Active",
       "subscriptionPlan":"5678Plan",
       "terms":[
         {
@@ -205,7 +205,7 @@
     },
     {
       "id":"12931Subscription",
-      "status":"Canceled",
+      "status":"Active",
       "subscriptionPlan":"567asdfl8Plan",
       "terms":[
         {
@@ -276,7 +276,7 @@
     },
     {
       "id":"129sadf31vasdfSubscription",
-      "status":"Expired",
+      "status":"Active",
       "subscriptionPlan":"5asd67asdfl8Plan",
       "terms":[
         {

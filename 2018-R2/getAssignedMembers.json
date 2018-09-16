@@ -31,7 +31,7 @@
       "accountName": "Johnny Inc",
       "preferredEmail": "tommy@johnny.com",
       "role": "12345",
-      "assigned": true,
+      "assigned": false,
       "id": "123"
     },
     {
@@ -39,7 +39,7 @@
       "accountName": "Johnny Inc",
       "preferredEmail": "tammy@johnny.com",
       "role": "12345",
-      "assigned": true,
+      "assigned": false,
       "id": "12"
     }
   ]

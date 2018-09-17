@@ -7,6 +7,7 @@
          "id":"1234Subscription",
          "status":"Active",
          "subscriptionPlan":"1234Plan",
+         "paymentSettingsInstructions":"payment settings instructions",
          "terms":[  
             {
                "id":"Term1234",
@@ -62,6 +63,7 @@
       {  
          "id":"5678Subscription",
          "status":"Pending",
+         "paymentSettingsInstructions":"payment settings instructions",
          "subscriptionPlan":"5678Plan",
          "terms":[  
             {  

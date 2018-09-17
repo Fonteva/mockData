@@ -27,91 +27,60 @@
       "id": "123456"
     }
   ],
+  "memberFields": [
+    {
+      "name": "FirstName",
+      "type": "String",
+      "displayName": "First Name"
+    },
+    {
+      "name": "AccountName",
+      "type": "String",
+      "displayName": "Account Name"
+    },
+    {
+      "name": "Email",
+      "type": "Email",
+      "displayName": "Email"
+    }
+  ],
   "members": [
     {
-      "fields": [
-        {
-          "name": "FirstName",
-          "type": "String",
-          "value": "Johnny"
-        },
-        {
-          "name": "AccountName",
-          "type": "String",
-          "value": "Johnny Inc"
-        },
-        {
-          "name": "Email",
-          "type": "String",
-          "value": "johnny@johnny.com"
-        }
-      ],
+      "fields": {
+        "FirstName": "Johnny",
+        "AccountName": "Johnny Inc",
+        "Email": "johnny@johnny.com"
+      },
       "role": "123456",
       "assigned": true,
       "id": "12345"
     },
     {
-      "fields": [
-        {
-          "name": "FirstName",
-          "type": "String",
-          "value": "Timmy"
-        },
-        {
-          "name": "AccountName",
-          "type": "String",
-          "value": "Johnny Inc"
-        },
-        {
-          "name": "Email",
-          "type": "String",
-          "value": "timmy@johnny.com"
-        }
-      ],
+      "fields": {
+        "FirstName": "Timmy",
+        "AccountName": "Johnny Inc",
+        "Email": "timmy@johnny.com"
+      },
       "role": "12345",
       "assigned": true,
       "id": "1234"
     },
     {
-      "fields": [
-        {
-          "name": "FirstName",
-          "type": "String",
-          "value": "Tommy"
-        },
-        {
-          "name": "AccountName",
-          "type": "String",
-          "value": "Johnny Inc"
-        },
-        {
-          "name": "Email",
-          "type": "String",
-          "value": "tommy@johnny.com"
-        }
-      ],
+      "fields": {
+        "FirstName": "Tommy",
+        "AccountName": "Johnny Inc",
+        "Email": "tommy@johnny.com"
+      },
       "role": "12345",
       "assigned": false,
       "id": "123"
     },
     {
-      "fields": [
-        {
-          "name": "FirstName",
-          "type": "String",
-          "value": "Tammy"
-        },
-        {
-          "name": "AccountName",
-          "type": "String",
-          "value": "Johnny Inc"
-        },
-        {
-          "name": "Email",
-          "type": "String",
-          "value": "tammy@johnny.com"
-        }
-      ],
+      "fields": {
+        "FirstName": "Tammy",
+        "AccountName": "Johnny Inc",
+        "Email": "tammy@johnny.com"
+      },
       "role": "12345",
       "assigned": false,
       "id": "12"

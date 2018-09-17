@@ -1,4 +1,22 @@
 {
+  "assignmentInstructions": "These instructions are very important. Read them. Don't just go clicking around like an idiot.",
+  "addMemberFields": [
+    {
+      "name": "FirstName",
+      "type": "String",
+      "label": "First Name"
+    },
+    {
+      "name": "LastName",
+      "type": "String",
+      "label": "Last Name"
+    },
+    {
+      "name": "Email",
+      "type": "String",
+      "label": "Personal Email"
+    }
+  ],
   "roles": [
     {
       "name": "Member",
@@ -11,33 +29,89 @@
   ],
   "members": [
     {
-      "fullName": "Johnny",
-      "accountName": "Johnny Inc",
-      "preferredEmail": "johnny@johnny.com",
+      "fields": [
+        {
+          "name": "FirstName",
+          "type": "String",
+          "value": "Johnny"
+        },
+        {
+          "name": "AccountName",
+          "type": "String",
+          "value": "Johnny Inc"
+        },
+        {
+          "name": "Email",
+          "type": "String",
+          "value": "johnny@johnny.com"
+        }
+      ],
       "role": "123456",
       "assigned": true,
       "id": "12345"
     },
     {
-      "fullName": "Timmy",
-      "accountName": "Johnny Inc",
-      "preferredEmail": "timmy@johnny.com",
+      "fields": [
+        {
+          "name": "FirstName",
+          "type": "String",
+          "value": "Timmy"
+        },
+        {
+          "name": "AccountName",
+          "type": "String",
+          "value": "Johnny Inc"
+        },
+        {
+          "name": "Email",
+          "type": "String",
+          "value": "timmy@johnny.com"
+        }
+      ],
       "role": "12345",
       "assigned": true,
       "id": "1234"
     },
     {
-      "fullName": "Tommy",
-      "accountName": "Johnny Inc",
-      "preferredEmail": "tommy@johnny.com",
+      "fields": [
+        {
+          "name": "FirstName",
+          "type": "String",
+          "value": "Tommy"
+        },
+        {
+          "name": "AccountName",
+          "type": "String",
+          "value": "Johnny Inc"
+        },
+        {
+          "name": "Email",
+          "type": "String",
+          "value": "tommy@johnny.com"
+        }
+      ],
       "role": "12345",
       "assigned": false,
       "id": "123"
     },
     {
-      "fullName": "Tammy",
-      "accountName": "Johnny Inc",
-      "preferredEmail": "tammy@johnny.com",
+      "fields": [
+        {
+          "name": "FirstName",
+          "type": "String",
+          "value": "Tammy"
+        },
+        {
+          "name": "AccountName",
+          "type": "String",
+          "value": "Johnny Inc"
+        },
+        {
+          "name": "Email",
+          "type": "String",
+          "value": "tammy@johnny.com"
+        }
+      ],
       "role": "12345",
       "assigned": false,
       "id": "12"

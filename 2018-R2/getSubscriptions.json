@@ -97,7 +97,7 @@
                      ],
                      "imageUrl":"https://placehold.it/300",
                      "isRenewable":true,
-                     "isChangeable":true,
+                     "isChangeable":true
                   },
                   {  
                      "id":"5678SubscriptionLine",

@@ -7,6 +7,7 @@
       "id":"1234Subscription",
       "status":"Active",
       "subscriptionPlan":"1234Plan",
+      "paymentSettingsInstructions":"payment settings instructions",
       "terms":[
         {
           "id":"Term1234",
@@ -37,7 +38,8 @@
               "imageUrl":"https://placehold.it/300x800",
               "isManageable":true,
               "isRenewable":true,
-              "isChangeable":true
+              "isChangeable":true,
+              "isCancelable" : true
             }
           ]
         }
@@ -76,7 +78,8 @@
               ],
               "imageUrl":"https://placehold.it/300x200",
               "isRenewable":true,
-              "isChangeable":true
+              "isChangeable":true,
+              "isCancelable" : true
             },
             {
               "id":"6789SubscriptionLine",

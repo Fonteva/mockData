@@ -31,17 +31,17 @@
     {
       "name": "FirstName",
       "type": "String",
-      "displayName": "First Name"
+      "label": "First Name"
     },
     {
       "name": "AccountName",
       "type": "String",
-      "displayName": "Account Name"
+      "label": "Account Name"
     },
     {
       "name": "Email",
       "type": "Email",
-      "displayName": "Email"
+      "label": "Email"
     }
   ],
   "members": [

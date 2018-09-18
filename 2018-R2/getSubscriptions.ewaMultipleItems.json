@@ -7,7 +7,8 @@
       "id":"1234Subscription",
       "status":"Active",
       "subscriptionPlan":"1234Plan",
-      "paymentSettingsInstructions":"payment settings instructions",
+      "paymentSettingsInstructions":"payment settings instructions payment settings instructions payment settings
+      instructions payment settings instructions payment settings instructions payment settings instructions",
       "terms":[
         {
           "id":"Term1234",

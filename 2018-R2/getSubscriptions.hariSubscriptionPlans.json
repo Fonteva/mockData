@@ -41,8 +41,8 @@
                 }
                  {
                   "label":"In Grace Period",
-                  "type":"checkbox",
-                  "value":"true"
+                  "type":"String",
+                  "value":"Yes"
                 }
               ],
               "imageUrl":"https://wallpaperbrowse.com/media/images/3848765-wallpaper-images-download.jpg",

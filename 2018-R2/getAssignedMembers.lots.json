@@ -46,141 +46,169 @@
   ],
   "members": [
     {
+      "FullName": "Johnny",
       "fields": {
         "FirstName": "Johnny",
         "AccountName": "Johnny Inc",
         "Email": "johnny@johnny.com"
       },
+      "Email": "johnny@johnny.com",
       "role": "123456",
       "assigned": true,
       "id": "12345"
     },
     {
+      "FullName": "Timmy",
       "fields": {
         "FirstName": "Timmy",
         "AccountName": "Johnny Inc",
         "Email": "timmy@johnny.com"
       },
+      "Email": "timmy@johnny.com",
       "role": "12345",
       "assigned": true,
       "id": "1234"
     },
     {
+      "FullName": "Tommy",
       "fields": {
         "FirstName": "Tommy",
         "AccountName": "Johnny Inc",
         "Email": "tommy@johnny.com"
       },
+      "Email": "tommy@johnny.com",
       "role": "12345",
       "assigned": false,
       "id": "123"
     },
     {
+      "FullName": "Tammy",
       "fields": {
         "FirstName": "Tammy",
         "AccountName": "Johnny Inc",
         "Email": "tammy@johnny.com"
       },
+      "Email": "tammy@johnny.com",
       "role": "12345",
       "assigned": false,
       "id": "13"
     },
     {
+      "FullName": "Fanny",
       "fields": {
         "FirstName": "Fanny",
         "AccountName": "Johnny Inc",
         "Email": "tammy@johnny.com"
       },
+      "Email": "tammy@johnny.com",
       "role": "12345",
       "assigned": false,
       "id": "14"
     },
     {
+      "FullName": "Freddie",
       "fields": {
         "FirstName": "Freddie",
         "AccountName": "Johnny Inc",
         "Email": "tammy@johnny.com"
       },
+      "Email": "tammy@johnny.com",
       "role": "12345",
       "assigned": false,
       "id": "15"
     },
     {
+      "FullName": "Kermit",
       "fields": {
         "FirstName": "Kermit",
         "AccountName": "Johnny Inc",
         "Email": "tammy@johnny.com"
       },
+      "Email": "tammy@johnny.com",
       "role": "12345",
       "assigned": false,
       "id": "16"
     },
     {
+      "FullName": "Gonzo",
       "fields": {
         "FirstName": "Gonzo",
         "AccountName": "Johnny Inc",
         "Email": "tammy@johnny.com"
       },
+      "Email": "tammy@johnny.com",
       "role": "12345",
       "assigned": false,
       "id": "17"
     },
     {
+      "FullName": "Piggie",
       "fields": {
         "FirstName": "Piggie",
         "AccountName": "Johnny Inc",
         "Email": "tammy@johnny.com"
       },
+      "Email": "tammy@johnny.com",
       "role": "12345",
       "assigned": false,
       "id": "18"
     },
     {
+      "FullName": "Bunsen",
       "fields": {
         "FirstName": "Bunsen",
         "AccountName": "Johnny Inc",
         "Email": "tammy@johnny.com"
       },
+      "Email": "tammy@johnny.com",
       "role": "12345",
       "assigned": false,
       "id": "19"
     },
     {
+      "FullName": "Beaker",
       "fields": {
         "FirstName": "Beaker",
         "AccountName": "Johnny Inc",
         "Email": "tammy@johnny.com"
       },
+      "Email": "tammy@johnny.com",
       "role": "12345",
       "assigned": false,
       "id": "20"
     },
     {
+      "FullName": "Grover",
       "fields": {
         "FirstName": "Grover",
         "AccountName": "Johnny Inc",
         "Email": "tammy@johnny.com"
       },
+      "Email": "tammy@johnny.com",
       "role": "12345",
       "assigned": false,
       "id": "21"
     },
     {
+      "FullName": "Rolph",
       "fields": {
         "FirstName": "Rolph",
         "AccountName": "Johnny Inc",
         "Email": "tammy@johnny.com"
       },
+      "Email": "tammy@johnny.com",
       "role": "12345",
       "assigned": false,
       "id": "22"
     },
     {
+      "FullName": "Animal",
       "fields": {
         "FirstName": "Animal",
         "AccountName": "Johnny Inc",
         "Email": "tammy@johnny.com"
       },
+      "Email": "tammy@johnny.com",
       "role": "12345",
       "assigned": false,
       "id": "23"

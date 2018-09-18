@@ -1,0 +1,189 @@
+{
+  "assignmentInstructions": "These instructions are very important. Read them. Don't just go clicking around like an idiot.",
+  "addMemberFields": [
+    {
+      "name": "FirstName",
+      "type": "String",
+      "label": "First Name"
+    },
+    {
+      "name": "LastName",
+      "type": "String",
+      "label": "Last Name"
+    },
+    {
+      "name": "Email",
+      "type": "String",
+      "label": "Personal Email"
+    }
+  ],
+  "roles": [
+    {
+      "name": "Member",
+      "id": "12345"
+    },
+    {
+      "name": "Admin",
+      "id": "123456"
+    }
+  ],
+  "memberFields": [
+    {
+      "name": "FirstName",
+      "type": "String",
+      "label": "First Name"
+    },
+    {
+      "name": "AccountName",
+      "type": "String",
+      "label": "Account Name"
+    },
+    {
+      "name": "Email",
+      "type": "Email",
+      "label": "Email"
+    }
+  ],
+  "members": [
+    {
+      "fields": {
+        "FirstName": "Johnny",
+        "AccountName": "Johnny Inc",
+        "Email": "johnny@johnny.com"
+      },
+      "role": "123456",
+      "assigned": true,
+      "id": "12345"
+    },
+    {
+      "fields": {
+        "FirstName": "Timmy",
+        "AccountName": "Johnny Inc",
+        "Email": "timmy@johnny.com"
+      },
+      "role": "12345",
+      "assigned": true,
+      "id": "1234"
+    },
+    {
+      "fields": {
+        "FirstName": "Tommy",
+        "AccountName": "Johnny Inc",
+        "Email": "tommy@johnny.com"
+      },
+      "role": "12345",
+      "assigned": false,
+      "id": "123"
+    },
+    {
+      "fields": {
+        "FirstName": "Tammy",
+        "AccountName": "Johnny Inc",
+        "Email": "tammy@johnny.com"
+      },
+      "role": "12345",
+      "assigned": false,
+      "id": "13"
+    },
+    {
+      "fields": {
+        "FirstName": "Tammy",
+        "AccountName": "Johnny Inc",
+        "Email": "tammy@johnny.com"
+      },
+      "role": "12345",
+      "assigned": false,
+      "id": "14"
+    },
+    {
+      "fields": {
+        "FirstName": "Tammy",
+        "AccountName": "Johnny Inc",
+        "Email": "tammy@johnny.com"
+      },
+      "role": "12345",
+      "assigned": false,
+      "id": "15"
+    },
+    {
+      "fields": {
+        "FirstName": "Tammy",
+        "AccountName": "Johnny Inc",
+        "Email": "tammy@johnny.com"
+      },
+      "role": "12345",
+      "assigned": false,
+      "id": "16"
+    },
+    {
+      "fields": {
+        "FirstName": "Tammy",
+        "AccountName": "Johnny Inc",
+        "Email": "tammy@johnny.com"
+      },
+      "role": "12345",
+      "assigned": false,
+      "id": "17"
+    },
+    {
+      "fields": {
+        "FirstName": "Tammy",
+        "AccountName": "Johnny Inc",
+        "Email": "tammy@johnny.com"
+      },
+      "role": "12345",
+      "assigned": false,
+      "id": "18"
+    },
+    {
+      "fields": {
+        "FirstName": "Tammy",
+        "AccountName": "Johnny Inc",
+        "Email": "tammy@johnny.com"
+      },
+      "role": "12345",
+      "assigned": false,
+      "id": "19"
+    },
+    {
+      "fields": {
+        "FirstName": "Tammy",
+        "AccountName": "Johnny Inc",
+        "Email": "tammy@johnny.com"
+      },
+      "role": "12345",
+      "assigned": false,
+      "id": "20"
+    },
+    {
+      "fields": {
+        "FirstName": "Tammy",
+        "AccountName": "Johnny Inc",
+        "Email": "tammy@johnny.com"
+      },
+      "role": "12345",
+      "assigned": false,
+      "id": "21"
+    },
+    {
+      "fields": {
+        "FirstName": "Tammy",
+        "AccountName": "Johnny Inc",
+        "Email": "tammy@johnny.com"
+      },
+      "role": "12345",
+      "assigned": false,
+      "id": "22"
+    },
+    {
+      "fields": {
+        "FirstName": "Tammy",
+        "AccountName": "Johnny Inc",
+        "Email": "tammy@johnny.com"
+      },
+      "role": "12345",
+      "assigned": false,
+      "id": "23"
+    }
+  ]
+}

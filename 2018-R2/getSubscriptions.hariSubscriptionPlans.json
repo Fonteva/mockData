@@ -33,12 +33,12 @@
                   "label":"Entity",
                   "type":"String",
                   "value":"Tom"
-                }
+                },
                  {
                   "label":"DaysToLapse",
                   "type":"Number",
                   "value":"120"
-                }
+                },
                  {
                   "label":"In Grace Period",
                   "type":"String",

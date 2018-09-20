@@ -18,6 +18,18 @@
     }
   ],
   "roles": [
+     {
+      "name": "Director",
+      "id": "12"
+    },
+     {
+      "name": "CEO",
+      "id": "123"
+    },
+     {
+      "name": "CTO",
+      "id": "1234"
+    },
     {
       "name": "Member",
       "id": "12345"
@@ -56,6 +68,18 @@
       "role": "123456",
       "assigned": true,
       "id": "12345"
+    },
+    {
+      "FullName": "Hari",
+      "fields": {
+        "FirstName": "Hari",
+        "AccountName": "Hari Inc",
+        "Email": 'Hari@mhnking.com"
+      },
+      "Email": "Hari@mhnking.com",
+      "role": "12",
+      "assigned": true,
+      "id": "12"
     },
     {
       "FullName": "Timmy",

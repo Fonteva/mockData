@@ -1,5 +1,5 @@
 {
-  "instructions":"new subscription text",
+  "instructions":"Protractor exports a global function element, which takes a Locator and will return an ElementFinder. This function finds a single element - if you need to manipulate multiple elements, use the element.all function.The ElementFinder has a set of action methods, such as click(), getText(), and sendKeys. These are the core way to interact with an element and get information back from it.When you find elements in Protractor all actions are asynchronous. Behind the scenes, all actions are sent to the browser being controlled using the JSON Webdriver Wire Protocol. The browser then performs the action as a user natively would.",
   "currencyIsoCode":"USD",
   "isMultiCurrencyOrg":false,
   "subscriptions":[
@@ -7,16 +7,66 @@
       "id":"1234Subscription",
       "status":"Active",
       "subscriptionPlan":"1234Plan",
-      "paymentSettingsInstructions":"payment settings instructions payment settings instructions payment settings payment settings instructions payment settings instructions payment settings payment settings instructions payment settings instructions payment settings payment settings instructions payment settings instructions payment settings payment settings instructions payment settings instructions payment settings",
       "terms":[
         {
           "id":"Term1234",
           "isActive":true,
           "startDate":"2018-1-1",
           "endDate":"2018-12-31",
+          "daysToLapse": "144" ,
           "subscriptionLines":[
             {
               "id":"1234SubscriptionLine",
+              "displayName":"Gold Star Membership",
+              "displayFields":[
+                {
+                  "label":"Start Date",
+                  "type":"Date",
+                  "value":"2018-1-1"
+                },
+                {
+                  "label":"End Date",
+                  "type":"Date",
+                  "value":"2019-12-31"
+                },
+                {
+                  "label":"Entity",
+                  "type":"String",
+                  "value":"Tom"
+                },
+                 {
+                  "label":"DaysToLapse",
+                  "type":"Number",
+                  "value":"120"
+                },
+                 {
+                  "label":"In Grace Period",
+                  "type":"String",
+                  "value":"Yes"
+                }
+              ],
+              "imageUrl":"https://wallpaperbrowse.com/media/images/3848765-wallpaper-images-download.jpg",
+              "isRenewable":true,
+              "isManageable":true,
+              "isChangeable":true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id":"12345Subscription",
+      "status":"Active",
+      "subscriptionPlan":"12345Plan",
+      "terms":[
+        {
+          "id":"Term12345",
+          "isActive":true,
+          "startDate":"2018-1-1",
+          "endDate":"2018-12-31",
+          "subscriptionLines":[
+            {
+              "id":"12345SubscriptionLine",
               "displayName":"Gold Membership",
               "displayFields":[
                 {
@@ -35,31 +85,45 @@
                   "value":"Contact"
                 }
               ],
-              "imageUrl":"https://placehold.it/300x800",
-              "isManageable":true,
+              "imageUrl":"https://placehold.it/300x200",
               "isRenewable":true,
-              "isChangeable":true,
-              "isCancelable" : true
+              "isManageable":true,
+              "isChangeable":true
+            },
+            {
+              "id":"6789SubscriptionLine",
+              "displayName":"Magazine Membership",
+              "parentSubscriptionLine":"1234SubscriptionLine",
+              "displayText":"Same information as Gold Membership",
+              "imageUrl":"https://www.gettyimages.ie/gi-resources/images/Homepage/Hero/UK/CMS_Creative_164657191_Kingfisher.jpg",
+              "isChangeable":true
+            },
+            {
+              "id":"01234SubscriptionLine",
+              "displayName":"Magazine Membership One",
+              "parentSubscriptionLine":"1234SubscriptionLine",
+              "displayText":"Same information as Gold Membership",
+              "imageUrl":"https://placehold.it/300x1000",
+              "isChangeable":true
             }
           ]
         }
       ]
     },
     {
-      "id":"12345Subscription",
-      "status":"Active",
-      "subscriptionPlan":"12345Plan",
-      "paymentSettingsInstructions":"payment settings instruction 2s",
+      "id":"1234Subscription",
+      "status":"Pending",
+      "subscriptionPlan":"1234Plan",
       "terms":[
         {
-          "id":"Term12345",
+          "id":"Term1234",
           "isActive":true,
           "startDate":"2018-1-1",
           "endDate":"2018-12-31",
           "subscriptionLines":[
             {
-              "id":"12345SubscriptionLine",
-              "displayName":"Gold Membership Omega",
+              "id":"1234SubscriptionLine",
+              "displayName":"Gold Star Membership",
               "displayFields":[
                 {
                   "label":"Start Date",
@@ -69,7 +133,7 @@
                 {
                   "label":"End Date",
                   "type":"Date",
-                  "value":"2018-12-31"
+                  "value":"2019-12-31"
                 },
                 {
                   "label":"Entity",
@@ -77,26 +141,7 @@
                   "value":"Contact"
                 }
               ],
-              "imageUrl":"https://placehold.it/300x200",
-              "isManageable":true,
-              "isRenewable":true,
-              "isChangeable":true,
-              "isCancelable" : true
-            },
-            {
-              "id":"6789SubscriptionLine",
-              "displayName":"Magazine Membership Omega",
-              "parentSubscriptionLine":"1234SubscriptionLine",
-              "displayText":"Same information as Gold Membership",
-              "imageUrl":"https://placehold.it/300x10",
-              "isChangeable":true
-            },
-            {
-              "id":"01234SubscriptionLine",
-              "displayName":"Magazine Membership One Omega",
-              "parentSubscriptionLine":"1234SubscriptionLine",
-              "displayText":"Same information as Gold Membership",
-              "imageUrl":"https://placehold.it/300x1000",
+              "imageUrl":"https://images.unsplash.com/photo-1529348915581-73628f0cf212?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=8d262d07b765c845ff93801a07e15352&w=1000&q=80",
               "isChangeable":true
             }
           ]
@@ -136,9 +181,7 @@
                   "value":"Contact"
                 }
               ],
-              "imageUrl":"https://placehold.it/300",
-              "isRenewable":true,
-              "isChangeable":true
+              "imageUrl":"https://mojly.com/wp-content/uploads/2017/12/love-image-lovely-images-photo-gallery-629721354.jpg"
             },
             {
               "id":"9012SubscriptionLine",
@@ -203,25 +246,21 @@
                   "value":"Contact"
                 }
               ],
-              "imageUrl":"https://placehold.it/10x300",
-              "isRenewable":true,
-              "isChangeable":true
+              "imageUrl":"https://http2.mlstatic.com/placa-sinalizaco-transito-viaria-refletiva-10kmh-50x50-D_NQ_NP_874253-MLB25844859609_082017-F.jpg"
             },
             {
               "id":"5342rfadsf678SubscriptionLine",
               "displayName":"Magazine Membership",
               "parentSubscriptionLine":"1234eqwerSubscriptionLine",
               "displayText":"Same information as Company Membership",
-              "imageUrl":"https://placehold.it/300x200",
-              "isChangeable":true
+              "imageUrl":"https://placehold.it/300x200"
             },
             {
               "id":"9vasdf012SubscriptionLine",
               "displayName":"Magazine Membership One",
               "parentSubscriptionLine":"1234eqwerSubscriptionLine",
               "displayText":"Same information as Company Membership",
-              "imageUrl":"https://placehold.it/300x500",
-              "isChangeable":true
+              "imageUrl":"https://placehold.it/300x500"
             }
           ],
           "assignments":[
@@ -279,8 +318,7 @@
                 }
               ],
               "imageUrl":"https://placehold.it/100x300",
-              "isRenewable":true,
-              "isChangeable":true
+              "isRenewable":true
             }
           ],
           "assignments":[

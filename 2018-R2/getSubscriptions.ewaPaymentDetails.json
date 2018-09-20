@@ -10,9 +10,9 @@
       "paymentDetails": {
         "isPaymentButtonVisible": false,
         "paymentMethod": "VISA ending in 1234",
-        "isAutoRenewable": false,
+        "isAutoRenewable": true,
         "autoRenew": "disabled",
-        "isAutomaticInvoicePaymentEnabled": false,
+        "isAutomaticInvoicePaymentEnabled": true,
         "nextScheduledPayment": "01-10-2018",
         "isPaymentMethodUpdatable": true
       },

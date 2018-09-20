@@ -8,7 +8,7 @@
       "status":"Active",
       "subscriptionPlan":"1234Plan",
       "paymentDetails": {
-        "isPaymentButtonVisible": true,
+        "isPaymentButtonVisible": false,
         "paymentMethod": "VISA ending in 1234",
         "isAutoRenewable": true,
         "autoRenew": "disabled",

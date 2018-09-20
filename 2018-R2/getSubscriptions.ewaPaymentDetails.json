@@ -13,7 +13,7 @@
         "isAutoRenewable": true,
         "autoRenew": "disabled",
         "isAutomaticInvoicePaymentEnabled": true,
-        "nextScheduledPayment": "2018-10-01",
+        "nextScheduledPayment": "01-10-2018",
         "isPaymentMethodUpdatable": true
       },
       "terms":[
@@ -45,7 +45,7 @@
               ],
               "imageUrl":"https://placehold.it/300",
               "isManageable":true,
-              "isRenewable":true,
+              "isRenewable":false,
               "isChangeable":true,
               "isCancelable" : true
             }

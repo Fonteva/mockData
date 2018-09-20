@@ -40,6 +40,16 @@
     }
   ],
   "memberFields": [
+     {
+      "name": "FullName",
+      "type": "String",
+      "label": "Full Name"
+    },
+    {
+      "name": "LastName",
+      "type": "String",
+      "label": "Last Name"
+    },
     {
       "name": "FirstName",
       "type": "String",

@@ -12,7 +12,8 @@
         "paymentMethod": "VISA ending in 1234",
         "isAutoRenewable": true,
         "autoRenew": "disabled",
-        "isAutomaticInvoicePaymentEnabled": true,
+        "isAutomaticInvoicePaymentEnabled": false,
+        "nextScheduledPayment": "01-10-2018",
         "isPaymentMethodUpdatable": true
       },
       "terms":[

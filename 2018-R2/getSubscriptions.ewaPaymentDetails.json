@@ -13,6 +13,7 @@
         "isAutoRenewable": true,
         "autoRenew": "enabled",
         "isAutomaticInvoicePaymentEnabled": true,
+        "nextScheduledPayment": "01-10-2018",
         "isPaymentMethodUpdatable": true
       },
       "terms":[

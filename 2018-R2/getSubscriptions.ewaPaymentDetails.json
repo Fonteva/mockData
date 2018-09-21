@@ -12,7 +12,7 @@
         "paymentMethod": "No payment method added",
         "isAutoRenewable": true,
         "autoRenew": "enabled",
-        "isAutomaticInvoicePaymentEnabled": false,
+        "isAutomaticInvoicePaymentEnabled": true,
         "nextScheduledPayment": "01-10-2018",
         "isPaymentMethodUpdatable": true
       },
@@ -47,7 +47,7 @@
               "isManageable":true,
               "isRenewable":false,
               "isChangeable":true,
-              "isCancelable" : true
+              "isCancelable" : false
             }
           ]
         }

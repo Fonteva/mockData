@@ -9,7 +9,7 @@
         "subscriptionPlan":"1234Plan",
         "paymentDetails": {
           "isPaymentButtonVisible": true,
-          "paymentMethod": "",
+          "paymentMethod": "VISA ending in 1234",
           "isAutoRenewable": true,
           "autoRenew": "disabled",
           "isAutomaticInvoicePaymentEnabled": true,

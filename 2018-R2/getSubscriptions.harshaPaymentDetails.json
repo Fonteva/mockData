@@ -13,7 +13,6 @@
           "isAutoRenewable": true,
           "autoRenew": "disabled",
           "isAutomaticInvoicePaymentEnabled": true,
-          "nextScheduledPayment": "",
           "isPaymentMethodUpdatable": true
         },
         "terms":[

@@ -5,17 +5,20 @@
     {
       "name": "FirstName",
       "type": "String",
-      "label": "First Name"
+      "label": "First Name",
+      "isRequired": false
     },
     {
       "name": "LastName",
       "type": "String",
-      "label": "Last Name"
+      "label": "Last Name",
+      "isRequired": true
     },
     {
       "name": "Email",
       "type": "String",
-      "label": "Personal Email"
+      "label": "Personal Email",
+      "isRequired": true
     }
   ],
   "roles": [

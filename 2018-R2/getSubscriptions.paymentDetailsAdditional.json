@@ -86,7 +86,7 @@
         "isAutoRenewable": true,
         "autoRenew": "disabled",
         "isAutomaticInvoicePaymentEnabled": true,
-        "scheduleType": "invoice",
+        "scheduleType": "automatic payment",
         "nextScheduledPayment": "2018-10-01",
         "isPaymentMethodUpdatable": true
       },

@@ -54,7 +54,7 @@
             {
               "id": "lkjaf3kkfjdsajf",
               "name": "0003",
-              "paymentDate" : "2018-4-11",
+              "paymentDate" : "2018-04-11",
               "amount" : 1000.00,
               "paymentMethodDetail": "VISA ending in 1234",
               "invoice" : "oiuf112fdj",
@@ -63,7 +63,7 @@
             {
               "id": "kjlfja2l3kjr",
               "name": "0005",
-              "paymentDate" : "2018-6-1",
+              "paymentDate" : "2018-06-01",
               "amount" : 500.00,
               "paymentMethodDetail": "VISA ending in 2314",
               "invoice" : "lkfdjaslkj2",

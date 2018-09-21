@@ -47,7 +47,7 @@
               "isManageable":true,
               "isRenewable":false,
               "isChangeable":true,
-              "isCancelable" : false
+              "isCancelable" : true
             }
           ]
         }

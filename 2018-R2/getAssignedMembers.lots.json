@@ -1,5 +1,6 @@
 {
   "assignmentInstructions": "These instructions are very important. Read them. Don't just go clicking around like an idiot.",
+  "accountName": "VisserCorp",
   "addMemberFields": [
     {
       "name": "FirstName",

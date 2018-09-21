@@ -11,7 +11,7 @@
         "isPaymentButtonVisible": false,
         "paymentMethod": "VISA ending in 1234",
         "isAutoRenewable": true,
-        "autoRenew": "disabled",
+        "autoRenew": "enabled",
         "isAutomaticInvoicePaymentEnabled": true,
         "isPaymentMethodUpdatable": true
       },

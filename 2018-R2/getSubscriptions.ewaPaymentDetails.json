@@ -10,8 +10,8 @@
       "paymentDetails": {
         "isPaymentButtonVisible": false,
         "paymentMethod": "No payment method added",
-        "isAutoRenewable": false,
-        "autoRenew": "enabled",
+        "isAutoRenewable": true,
+        "autoRenew": "disabled",
         "isAutomaticInvoicePaymentEnabled": true,
         "nextScheduledPayment": "01-10-2018",
         "isPaymentMethodUpdatable": true

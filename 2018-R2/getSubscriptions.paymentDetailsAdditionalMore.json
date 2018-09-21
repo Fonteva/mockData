@@ -90,7 +90,7 @@
       "subscriptionPlan":"12345Plan",
       "paymentSettingsInstructions":"payment settings instruction 2s",
       "paymentDetails": {
-        "isPaymentButtonVisible": true,
+        "isPaymentButtonVisible": false,
         "paymentMethod": "VISA ending in 1234",
         "isAutoRenewable": true,
         "autoRenew": "disabled",

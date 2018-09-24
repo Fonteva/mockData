@@ -28,7 +28,7 @@
             "subscriptionLines":[
               {
                 "id":"1234SubscriptionLine",
-                "displayName":"Gold Membership",
+                "displayName":"Platinum Membership",
                 "displayFields":[
                   {
                     "label":"Start Date",

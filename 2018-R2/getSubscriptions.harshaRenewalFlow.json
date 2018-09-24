@@ -1,0 +1,61 @@
+{
+    "instructions":"subscriptions",
+    "currencyIsoCode":"USD",
+    "isMultiCurrencyOrg":false,
+    "subscriptions":[
+      {
+        "id":"1234Subscription",
+        "status":"Active",
+        "subscriptionPlan":"1234Plan",
+        "paymentDetails": {
+          "isPaymentButtonVisible": false,
+          "paymentMethod": "VISA ending in 1234",
+          "isAutoRenewable": true,
+          "autoRenew": "disabled",
+          "isAutomaticInvoicePaymentEnabled": true,
+          "nextScheduledPayment": "01-10-2018",
+          "isPaymentMethodUpdatable": true,
+          "preTermRenewalWindow": 60,
+          "postTermRenewalWindow": 30,
+          "monthlyPayment": "100"
+        },
+        "terms":[
+          {
+            "id":"Term1234",
+            "isActive":true,
+            "startDate":"2018-1-1",
+            "endDate":"2018-12-31",
+            "subscriptionLines":[
+              {
+                "id":"1234SubscriptionLine",
+                "displayName":"Platinum Membership",
+                "displayFields":[
+                  {
+                    "label":"Start Date",
+                    "type":"Date",
+                    "value":"1-1-2018"
+                  },
+                  {
+                    "label":"End Date",
+                    "type":"Date",
+                    "value":"2018-12-31"
+                  },
+                  {
+                    "label":"Entity",
+                    "type":"String",
+                    "value":"Contact"
+                  }
+                ],
+                "imageUrl":"https://placehold.it/300",
+                "isManageable":true,
+                "isRenewable":false,
+                "isChangeable":true,
+                "isCancelable" : true
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

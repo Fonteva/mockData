@@ -45,6 +45,11 @@
   ],
   "memberFields": [
     {
+      "name": "AccountName",
+      "type": "String",
+     "label": "Account Name"
+    },
+    {
       "name": "LastName",
       "type": "String",
       "label": "Last Name"

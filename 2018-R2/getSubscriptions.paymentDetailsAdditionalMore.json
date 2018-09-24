@@ -52,6 +52,29 @@
               "isCancelable" : true
             }
           ],
+          "invoices" :[
+            { 
+              "id" : "aijefiwjfvn",
+              "name": "001",
+              "dueDate" : "",
+              "amount" : 300.00,
+              "amountPaid" : 50.00,
+              "balanceDue" : 250.00,
+              "receipt" : [
+                {
+                  "id" : "kklsdjfeifjw",
+                  "name" : "0002",
+                  "amountPaid" : 25.00
+                },
+                {
+                  "id" : "kklsdjfladsjkfalskdeifjw",
+                  "name" : "0003",
+                  "amountPaid" : 25.00
+                }
+                 
+              ]
+            },
+          ],
           "scheduledPayments" : [
             {
               "id": "lkjaf3kkfjdsajf",

@@ -9,9 +9,9 @@
       "subscriptionPlan":"1234Plan",
       "paymentSettingsInstructions":"payment settings instructions payment settings instructions payment settings",
       "paymentDetails": {
-        "isPaymentButtonVisible": false,
+        "isPaymentButtonVisible": true,
         "paymentMethod": "VISA ending in 1234",
-        "isAutoRenewable": false,
+        "isAutoRenewable": true,
         "autoRenew": "disabled",
         "isAutomaticInvoicePaymentEnabled": false,
         "scheduleType": "invoice",
@@ -81,7 +81,7 @@
       "subscriptionPlan":"12345Plan",
       "paymentSettingsInstructions":"payment settings instruction 2s",
       "paymentDetails": {
-        "isPaymentButtonVisible": true,
+        "isPaymentButtonVisible": false,
         "paymentMethod": "VISA ending in 1234",
         "isAutoRenewable": true,
         "autoRenew": "disabled",

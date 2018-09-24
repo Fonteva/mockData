@@ -55,7 +55,7 @@
           "invoices" :[
             { 
               "id" : "aijefiwjfvn",
-              "name": "001 banana",
+              "name": "001",
               "dueDate" : "2018-12-31",
               "amount" : 300.00,
               "amountPaid" : 50.00,

@@ -1,5 +1,5 @@
 {
-  "assignmentInstructions": "These instructions are very important. Read them. Don't just go clicking around like an idiot. Otherwise you need to go Hell to pick the Trash",
+  "assignmentInstructions": "These instructions are very important. Read them. Don't just go clicking around like an idiot. Otherwise you need to go Hell to pick the Trash CSS Custom Properties (perhaps more easily understood as CSS variables) provide us ways to make code more concise, as well as introduce new ways to work with CSS that were not possible before. They can do what preprocessor variables can… but also a lot more. Whether you have been a fan of the declarative nature of CSS or prefer to handle most of your style logic in JavaScript, Custom Properties bring something to the table for everyone.",
   "accountName": "FONteva Group",
   "addMemberFields": [
     {

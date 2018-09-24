@@ -55,11 +55,6 @@
       "label": "First Name"
     },
     {
-      "name": "AccountName",
-      "type": "String",
-      "label": "Account Name"
-    },
-    {
       "name": "Email",
       "type": "Email",
       "label": "Email"

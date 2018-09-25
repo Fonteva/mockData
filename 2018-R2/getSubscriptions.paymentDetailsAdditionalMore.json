@@ -479,7 +479,7 @@
       "paymentDetails": {
         "isPaymentButtonVisible": false,
         "paymentMethod": "",
-        "isAutoRenewable": true,
+        "isAutoRenewable": false,
         "autoRenew": "disabled",
         "isAutomaticInvoicePaymentEnabled": false,
         "scheduleType": "",

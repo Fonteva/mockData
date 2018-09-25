@@ -9,7 +9,7 @@
       "subscriptionPlan":"1234Plan",
       "paymentDetails": {
         "isPaymentButtonVisible": false,
-        "paymentMethod": "No saved payment method added",
+        "paymentMethod": "Visa 1111 12/21",
         "isAutoRenewable": false,
         "autoRenew": "disabled",
         "isAutomaticInvoicePaymentEnabled": false,

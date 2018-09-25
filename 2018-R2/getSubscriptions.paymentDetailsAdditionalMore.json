@@ -297,7 +297,7 @@
           "subscriptionLines":[
             {
               "id":"12345SubscriptionLine",
-              "displayName":"Gold Membership Omega",
+              "displayName":"Gold Membership Empty Sub",
               "displayFields":[
                 {
                   "label":"Start Date",
@@ -323,7 +323,7 @@
             },
             {
               "id":"6789SubscriptionLine",
-              "displayName":"Magazine Membership Omega",
+              "displayName":"Magazine Membership Empty",
               "parentSubscriptionLine":"1234SubscriptionLine",
               "displayText":"Same information as Gold Membership",
               "imageUrl":"https://placehold.it/300x10",
@@ -331,7 +331,7 @@
             },
             {
               "id":"01234SubscriptionLine",
-              "displayName":"Magazine Membership One Omega",
+              "displayName":"Magazine Membership One Empty",
               "parentSubscriptionLine":"1234SubscriptionLine",
               "displayText":"Same information as Gold Membership",
               "imageUrl":"https://placehold.it/300x1000",
@@ -355,7 +355,7 @@
         "isAutoRenewable": true,
         "autoRenew": "disabled",
         "isAutomaticInvoicePaymentEnabled": false,
-        "scheduleType": "invoice",
+        "scheduleType": "",
         "nextScheduledPayment": "2018-10-01",
         "isPaymentMethodUpdatable": false
       },
@@ -461,12 +461,6 @@
               "isChangeable":true,
               "isCancelable" : true
             }
-          ],
-          "invoices" :[
-
-          ],
-          "scheduledPayments" : [
-
           ]
         }
       ]

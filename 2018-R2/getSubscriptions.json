@@ -8,7 +8,7 @@
          "status":"Active",
          "subscriptionPlan":"1234Plan",
          "paymentSettingsInstructions":"payment settings instructions",
-         "itemRequireAssignments": false,
+         "itemRequireAssignments": true,
          "terms":[  
             {
                "id":"Term1234",

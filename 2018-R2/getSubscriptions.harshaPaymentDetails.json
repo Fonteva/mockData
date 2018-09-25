@@ -1,34 +1,40 @@
 {
-    "instructions":"subscriptions",
-    "currencyIsoCode":"USD",
-    "isMultiCurrencyOrg":false,
-    "subscriptions":[
-      {
-        "id":"1234Subscription",
-        "status":"Active",
-        "subscriptionPlan":"1234Plan",
-        "paymentDetails": {
-        },
-        "terms":[
-          {
-            "id":"Term1234",
-            "isActive":true,
-            "startDate":"2018-1-1",
-            "endDate":"2018-12-31",
-            "subscriptionLines":[
-              {
-                "id":"1234SubscriptionLine",
-                "displayName":"Gold Membership",
-                "imageUrl":"https://placehold.it/300",
-                "isManageable":true,
-                "isRenewable":true,
-                "isChangeable":true,
-                "isCancelable" : true
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  }
-  
+  "instructions":"subscriptions",
+  "currencyIsoCode":"USD",
+  "isMultiCurrencyOrg":false,
+  "subscriptions":[
+    {
+      "id":"1234Subscription",
+      "status":"Active",
+      "subscriptionPlan":"1234Plan",
+      "paymentDetails": {
+        "isPaymentButtonVisible": true,
+        "paymentMethod": "VISA ending in 1234",
+        "isAutoRenewable": true,
+        "autoRenew": "disabled",
+        "isAutomaticInvoicePaymentEnabled": true,
+        "nextScheduledPayment": "2018-10-01",
+        "isPaymentMethodUpdatable": true
+      },
+      "terms":[
+        {
+          "id":"Term1234",
+          "isActive":true,
+          "startDate":"2018-1-1",
+          "endDate":"2018-12-31",
+          "subscriptionLines":[
+            {
+              "id":"1234SubscriptionLine",
+              "displayName":"Gold Membership",
+              "imageUrl":"https://placehold.it/300",
+              "isManageable":true,
+              "isRenewable":true,
+              "isChangeable":true,
+              "isCancelable" : true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

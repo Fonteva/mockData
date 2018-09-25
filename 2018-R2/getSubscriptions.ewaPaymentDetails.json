@@ -9,8 +9,8 @@
       "subscriptionPlan":"1234Plan",
       "paymentDetails": {
         "isPaymentButtonVisible": false,
-        "paymentMethod": "VISA ending in 1234",
-        "isAutoRenewable": true,
+        "paymentMethod": "No payment method",
+        "isAutoRenewable": false,
         "autoRenew": "disabled",
         "isAutomaticInvoicePaymentEnabled": true,
         "nextScheduledPayment": "01-10-2018",
@@ -25,7 +25,7 @@
           "subscriptionLines":[
             {
               "id":"1234SubscriptionLine",
-              "displayName":"Gold Membership",
+              "displayName":"BMW Membership",
               "displayFields":[
                 {
                   "label":"Start Date",

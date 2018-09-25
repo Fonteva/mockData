@@ -6,7 +6,7 @@
         "storeId": 123,
         "isDefault": true,
         "isPublished": false,
-        "enableCookie": true,
+        "enableCookie": false,
         "enableAccessPermissions": false,
         "cookieUrl": "https://bing.com",
         "acctOverrideUrl": "https://yahoo.com",

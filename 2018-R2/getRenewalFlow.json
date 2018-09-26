@@ -1,0 +1,51 @@
+{
+  "salesOrderId": "so1234",
+  "formIds": [],
+  "subscriptions": [
+    {
+      "id": "s1234",
+      "isActive": true,
+      "enableAutoRenew": true,
+      "displayName": "Gold Membership",
+      "description": "A rich text description of the subscription.",
+      "plans": [
+        {
+          "id": "p1234",
+          "displayName": "12 Month, Installments",
+          "startDate": "1/1/2019",
+          "endDate": "12/31/2019",
+          "price": 1200.12,
+          "enableSchedule": true,
+          "installmentPrice": 100.01,
+          "installmentFrequency": "monthly"
+        },
+        {
+          "id": "p2234",
+          "displayName": "12 Month, Installments",
+          "startDate": "1/1/2019",
+          "endDate": "12/31/2019",
+          "price": 1200.12,
+          "enableSchedule": false
+        }
+      ]
+    },
+    {
+      "id": "p234",
+      "isActive": true,
+      "enableAutoRenew": true,
+      "displayName": "Silver Membership",
+      "description": "A rich text description of the subscription.",
+      "plans": [
+        {
+          "id": "s3234",
+          "displayName": "12 Month, Installments",
+          "startDate": "1/1/2019",
+          "endDate": "12/31/2019",
+          "price": 1200.12,
+          "installmentPrice": 100.01,
+          "installmentFrequency": "monthly"
+        }
+      ]
+    }
+  ]
+}

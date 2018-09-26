@@ -3,67 +3,7 @@
   "currencyIsoCode":"USD",
   "instructions":"new subscription text",
   "isMultiCurrencyOrg":false,
-  "additionalItems" : [
-    {
-      "id" : "222",
-      "groupHeader" : "group header",
-      "groupInstructionsText" : "Group Instructions",
-      "minimumQuantity" : 1,
-      "maximumQuantity" : 10,
-      "numberOfFreeItems" : 1,
-      "maximumQuantityPerItem" : 1,
-      "displayOrder" : 1,
-      "markForDelete" : false,
-      "childPackageItems" : [
-        {
-          "id" : "233",
-          "displayOrder" : 1,
-          "itemName" : "Item Name 1",
-          "itemPrice": 10.00,
-          "item" : "1234567890",
-          "markForDelete" : false
-        },
-        {
-          "id" : "234",
-          "displayOrder" : 2,
-          "itemName" : "Item Name 2",
-          "itemPrice": 20.00,
-          "item" : "1234567890",
-          "markForDelete" : false
-        }
-      ]
-    },
-    {
-      "id" : "223",
-      "groupHeader" : "other group header",
-      "groupInstructionsText" : "other Group Instructions",
-      "minimumQuantity" : 0,
-      "maximumQuantity" : null,
-      "numberOfFreeItems" : 0,
-      "maximumQuantityPerItem" : null,
-      "displayOrder" : 2,
-      "markForDelete" : false,
-      "childPackageItems" : [
-        {
-          "id" : "343",
-          "displayOrder" : 1,
-          "itemName" : "Other Item Name 1",
-          "itemPrice": 30.00,
-          "item" : "3431",
-          "markForDelete" : false
-        },
-        {
-          "id" : "344",
-          "displayOrder" : 2,
-          "itemName" : "Other Item Name 2",
-          "itemPrice": 40.00,
-          "item" : "3441",
-          "markForDelete" : false
-        }
-      ]
-    }
-  ],
-  "packageItems": [
+  "additionalItems": [
     {
       "id": "222222",
       "isRecommended": false,

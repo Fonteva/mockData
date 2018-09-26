@@ -62,5 +62,223 @@
         }
       ]
     }
+  ],
+  "packageItems": [
+    {
+      "id": "222222",
+      "isRecommended": false,
+      "isRequired": false,
+      "groupHeader": "Accessories",
+      "groupInstructionsText": "One, <b>two</b>, <br/> pick a <i>few</i>",
+      "numberOfFreeItems": 1,
+      "minimumQuantity": 2,
+      "maximumQuantity": 3,
+      "maximumQuantityPerItem": 2
+    },
+    {
+      "id": "12345",
+      "item": "12345",
+      "isRecommended": false,
+      "isRequired": false,
+      "itemName": "Shoe Cleaner",
+      "itemPrice": 29.99,
+      "itemImagePath": "https://placehold.it/310x310",
+      "packageItem": "222222"
+    },
+    {
+      "id": "123456",
+      "item": "123456",
+      "isRecommended": false,
+      "isRequired": false,
+      "itemName": "Shoe Blackener",
+      "itemPrice": 49.99,
+      "itemImagePath": "https://placehold.it/310x310",
+      "packageItem": "222222"
+    },
+    {
+      "id": "123457",
+      "item": "123457",
+      "isRecommended": false,
+      "isRequired": false,
+      "itemName": "Shoe Whitener",
+      "itemPrice": 19.99,
+      "itemImagePath": "https://placehold.it/310x310",
+      "packageItem": "222222"
+    },
+    {
+      "id": "1234578",
+      "item": "1234578",
+      "isRecommended": false,
+      "isRequired": false,
+      "itemName": "Shoe Redener",
+      "itemPrice": 19.99,
+      "itemImagePath": "https://placehold.it/310x310",
+      "packageItem": "222222"
+    },
+    {
+      "id": "1234579",
+      "item": "1234579",
+      "isRecommended": false,
+      "isRequired": false,
+      "itemName": "Shoe Orangener",
+      "itemPrice": 19.99,
+      "itemImagePath": "",
+      "packageItem": "222222"
+    },
+    {
+      "id": "1234570",
+      "item": "1234570",
+      "isRecommended": false,
+      "isRequired": false,
+      "itemName": "Shoe Pinkener",
+      "itemPrice": 19.99,
+      "itemImagePath": "https://placehold.it/310x310",
+      "packageItem": "222222"
+    },
+    {
+      "id": "33333333",
+      "isRecommended": false,
+      "isRequired": false,
+      "groupHeader": "Pogs",
+      "groupInstructionsText": "Pick one",
+      "numberOfFreeItems": 0,
+      "minimumQuantity": 1,
+      "maximumQuantity": 1,
+      "maximumQuantityPerItem": 1
+    },
+    {
+      "id": "23456",
+      "item": "23456",
+      "isRecommended": false,
+      "isRequired": false,
+      "itemName": "Pog Cleaner",
+      "itemPrice": 29.99,
+      "itemImagePath": "https://placehold.it/310x310",
+      "packageItem": "33333333"
+    },
+    {
+      "id": "234566",
+      "item": "234566",
+      "isRecommended": false,
+      "isRequired": false,
+      "itemName": "Pog Blackener aka the longest product name you even dun saw in your whole friggin life",
+      "itemPrice": 49.99,
+      "itemImagePath": "",
+      "packageItem": "33333333"
+    },
+    {
+      "id": "234567",
+      "item": "234567",
+      "isRecommended": false,
+      "isRequired": false,
+      "itemName": "Pog Whitener",
+      "itemPrice": 19.99,
+      "itemImagePath": "https://placehold.it/310x310",
+      "packageItem": "33333333"
+    },
+    {
+      "id": "2345678",
+      "item": "2345678",
+      "isRecommended": false,
+      "isRequired": false,
+      "itemName": "Pog Redener",
+      "itemPrice": 19.99,
+      "itemImagePath": "https://placehold.it/310x310",
+      "packageItem": "33333333"
+    },
+    {
+      "id": "2345678",
+      "item": "2345678",
+      "isRecommended": true,
+      "isRequired": false,
+      "itemName": "Pog Alpha",
+      "itemPrice": 19.99,
+      "itemImagePath": "https://placehold.it/310x310"
+    },
+    {
+      "id": "2345678",
+      "item": "2345678",
+      "isRecommended": true,
+      "isRequired": false,
+      "itemName": "Pog Two",
+      "itemPrice": 19.99,
+      "itemImagePath": "https://placehold.it/310x310"
+    },
+    {
+      "id": "2345678",
+      "item": "2345678",
+      "isRecommended": true,
+      "isRequired": false,
+      "itemName": "Pog Three",
+      "itemPrice": 19.99,
+      "itemImagePath": "https://placehold.it/310x310"
+    },
+    {
+      "id": "2345678",
+      "item": "2345678",
+      "isRecommended": true,
+      "isRequired": false,
+      "itemName": "Pog Four",
+      "itemPrice": 19.99,
+      "itemImagePath": "https://placehold.it/310x310"
+    },
+    {
+      "id": "2345678",
+      "item": "2345678",
+      "isRecommended": true,
+      "isRequired": false,
+      "itemName": "Pog Five",
+      "itemPrice": 19.99,
+      "itemImagePath": "https://placehold.it/310x310"
+    },
+    {
+      "id": "2345678",
+      "item": "2345678",
+      "isRecommended": true,
+      "isRequired": false,
+      "itemName": "Red Leader",
+      "itemPrice": 19.99,
+      "itemImagePath": "https://placehold.it/310x310"
+    },
+    {
+      "id": "2345678",
+      "item": "2345678",
+      "isRecommended": true,
+      "isRequired": false,
+      "itemName": "Red One",
+      "priceLabel": "da faq?",
+      "itemPrice": 19.99,
+      "itemImagePath": "https://placehold.it/310x310"
+    },
+    {
+      "id": "2345678",
+      "item": "2345678",
+      "isRecommended": true,
+      "isRequired": false,
+      "itemName": "Red Two",
+      "discountLabel": "Ice cold!",
+      "priceLabel": "For suckas",
+      "itemPrice": 19.99,
+      "itemDiscountPrice": 9.99,
+      "itemImagePath": "https://placehold.it/310x310"
+    },
+    {
+      "id": "2345678",
+      "item": "2345678",
+      "isRecommended": true,
+      "isRequired": false,
+      "itemName": "Red Three",
+      "itemPrice": 19.99,
+      "itemImagePath": "https://placehold.it/310x310"
+    },
+    {
+      "id": "2345678",
+      "item": "2345678",
+      "isRecommended": true,
+      "isRequired": false,
+      "itemName": "Red Four",
+      "itemPrice": 19.99,
+      "itemImagePath": "https://placehold.it/310x310"
+    }
   ]
 }

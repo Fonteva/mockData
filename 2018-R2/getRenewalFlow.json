@@ -1,4 +1,5 @@
 {
+  "comments": "arguments: subscriptionId, salesOrderId[nullable]; either formIds or subscriptions will have data",
   "salesOrderId": "so1234",
   "formIds": [],
   "subscriptions": [
@@ -15,6 +16,7 @@
           "startDate": "1/1/2019",
           "endDate": "12/31/2019",
           "price": 1200.12,
+          "autoRenewOption": "Enabled",
           "enableSchedule": true,
           "installmentPrice": 100.01,
           "installmentFrequency": "monthly"
@@ -24,7 +26,8 @@
           "displayName": "12 Month, Installments",
           "startDate": "1/1/2019",
           "endDate": "12/31/2019",
-          "price": 1200.12,
+          "price": 1000.12,
+          "autoRenewOption": "Required",
           "enableSchedule": false
         }
       ]
@@ -42,6 +45,8 @@
           "startDate": "1/1/2019",
           "endDate": "12/31/2019",
           "price": 1200.12,
+          "autoRenewOption": "Disabled",
+          "enableSchedule": true,
           "installmentPrice": 100.01,
           "installmentFrequency": "monthly"
         }

@@ -180,7 +180,7 @@
       "id":"12345Subscription",
       "status":"Active",
       "subscriptionPlan":"12345Plan",
-      "paymentSettingsInstructions":"payment settings instruction 2s",
+      "paymentSettingsInstructions":"<div class='slds-theme_destructive'>new <a href='https://google.com'>subscription</a> text</div>",
       "paymentDetails": {
         "isPaymentButtonVisible": false,
         "paymentMethod": "VISA ending in 1234",
@@ -277,7 +277,7 @@
       "id":"5123Subscription",
       "status":"Active",
       "subscriptionPlan":"12345Plan",
-      "paymentSettingsInstructions":"payment settings instruction 3s",
+      "paymentSettingsInstructions":"<div class='slds-theme_destructive'>new <a href='https://google.com'>subscription</a> text</div>",
       "paymentDetails": {
         "isPaymentButtonVisible": false,
         "paymentMethod": "VISA ending in 1234",

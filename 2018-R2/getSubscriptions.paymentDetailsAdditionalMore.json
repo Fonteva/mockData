@@ -1,5 +1,5 @@
 {
-  "instructions":"new subscription text",
+  "instructions":"<div class='slds-theme_shade'>new <a href='https://google.com'>subscription</a> text</div>",
   "currencyIsoCode":"USD",
   "isMultiCurrencyOrg":false,
   "subscriptions":[

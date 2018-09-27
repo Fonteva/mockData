@@ -1,10 +1,11 @@
 {
-  "comments": "arguments: subscriptionId, salesOrderId[nullable]; either formIds or subscriptions will have data",
+  "comments": "arguments: subscriptionId, siteId, salesOrderId[nullable]; either formIds or subscriptions will have data; isActive: current Subscription",
   "salesOrderId": "so1234",
-  "formIds": [],
+  "formIds": ["457324987234", "457324987234", "489572493"],
+  "subscriptionRenewInstructions" : "Nunc interdum lacus sit amet orci. Fusce commodo aliquam arcu. Ut varius tincidunt libero. Phasellus nec sem in justo pellentesque facilisis. Duis leo.",
   "subscriptions": [
     {
-      "id": "s1234",
+      "itemId": "s1234",
       "isActive": true,
       "enableAutoRenew": true,
       "displayName": "Gold Membership",
@@ -19,7 +20,8 @@
           "autoRenewOption": "Enabled",
           "enableSchedule": true,
           "installmentPrice": 100.01,
-          "installmentFrequency": "monthly"
+          "installmentFrequency": "monthly",
+          "isDefault": true
         },
         {
           "id": "p2234",
@@ -28,12 +30,14 @@
           "endDate": "12/31/2019",
           "price": 1000.12,
           "autoRenewOption": "Required",
-          "enableSchedule": false
+          "enableSchedule": false,
+          "installmentFrequency": "quarterly",
+          "isDefault": false
         }
       ]
     },
     {
-      "id": "p234",
+      "itemId": "p234",
       "isActive": true,
       "enableAutoRenew": true,
       "displayName": "Silver Membership",
@@ -48,7 +52,8 @@
           "autoRenewOption": "Disabled",
           "enableSchedule": true,
           "installmentPrice": 100.01,
-          "installmentFrequency": "monthly"
+          "installmentFrequency": "monthly",
+          "isDefault": true
         }
       ]
     }

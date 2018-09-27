@@ -1,13 +1,13 @@
 {
-  "instructions":"new subscription text",
-  "currencyIsoCode":"USD",
-  "isMultiCurrencyOrg":false,
-  "subscriptions":[
+  "instructions": "new subscription text",
+  "currencyIsoCode": "USD",
+  "isMultiCurrencyOrg": false,
+  "subscriptions": [
     {
-      "id":"1234Subscription",
-      "status":"Active",
-      "subscriptionPlan":"1234Plan",
-      "paymentSettingsInstructions":"payment settings instructions payment settings instructions payment settings",
+      "id": "1234Subscription",
+      "status": "Active",
+      "subscriptionPlan": "1234Plan",
+      "paymentSettingsInstructions": "payment settings instructions payment settings instructions payment settings",
       "paymentDetails": {
         "isPaymentButtonVisible": true,
         "paymentMethod": "VISA ending in 1234",
@@ -18,62 +18,94 @@
         "nextScheduledPayment": "2018-10-01",
         "isPaymentMethodUpdatable": false
       },
-      "terms":[
+      "terms": [
         {
-          "id":"Term1234",
-          "isActive":true,
-          "startDate":"2018-1-1",
-          "endDate":"2018-12-31",
-          "subscriptionLines":[
+          "id": "Term1234",
+          "isActive": true,
+          "startDate": "2018-1-1",
+          "endDate": "2018-12-31",
+          "subscriptionLines": [
             {
-              "id":"1234SubscriptionLine",
-              "displayName":"Gold Membership",
-              "displayFields":[
+              "id": "1234SubscriptionLine",
+              "displayName": "Gold Membership",
+              "displayFields": [
                 {
-                  "label":"Start Date",
-                  "type":"Date",
-                  "value":"2018-1-1"
+                  "label": "Start Date",
+                  "type": "Date",
+                  "value": "2018-1-1"
                 },
                 {
-                  "label":"End Date",
-                  "type":"Date",
-                  "value":"2018-12-31"
+                  "label": "End Date",
+                  "type": "Date",
+                  "value": "2018-12-31"
                 },
                 {
-                  "label":"Entity",
-                  "type":"String",
-                  "value":"Contact"
+                  "label": "Entity",
+                  "type": "String",
+                  "value": "Contact"
                 }
               ],
-              "imageUrl":"https://placehold.it/300x800",
-              "isManageable":true,
-              "isRenewable":true,
-              "isChangeable":true,
-              "isCancelable" : true
-            }
-          ],
-          "scheduledPayments" : [
-            {
-              "id": "lkjaf3kkfjdsajf",
-              "name": "0003",
-              "paymentDate" : "2018-04-11",
-              "amount" : 1000.00,
-              "paymentMethodDetail": "VISA ending in 1234",
-              "invoice" : "oiuf112fdj",
-              "invoiceNumber": "0003"
+              "imageUrl": "https://placehold.it/300x800",
+              "isManageable": true,
+              "isRenewable": true,
+              "isChangeable": true,
+              "isCancelable": true
             },
             {
-              "id": "kjlfja2l3kjr",
-              "name": "0005",
-              "paymentDate" : "2018-06-01",
-              "amount" : 500.00,
-              "paymentMethodDetail": "VISA ending in 2314",
-              "invoice" : "lkfdjaslkj2",
-              "invoiceNumber": "0005"
+              "id": "Term2234",
+              "isActive": false,
+              "startDate": "2017-1-1",
+              "endDate": "2017-12-31",
+              "subscriptionLines": [
+                {
+                  "id": "2234SubscriptionLine",
+                  "displayName": "Gold Membership",
+                  "displayFields": [
+                    {
+                      "label": "Start Date",
+                      "type": "Date",
+                      "value": "2017-1-1"
+                    },
+                    {
+                      "label": "End Date",
+                      "type": "Date",
+                      "value": "2017-12-31"
+                    },
+                    {
+                      "label": "Entity",
+                      "type": "String",
+                      "value": "Contact"
+                    }
+                  ],
+                  "imageUrl": "https://placehold.it/300x800",
+                  "isManageable": true,
+                  "isRenewable": true,
+                  "isChangeable": true,
+                  "isCancelable": true
+                }
+              ],
+              "scheduledPayments": [
+                {
+                  "id": "lkjaf3kkfjdsajf",
+                  "name": "0003",
+                  "paymentDate": "2018-04-11",
+                  "amount": 1000.00,
+                  "paymentMethodDetail": "VISA ending in 1234",
+                  "invoice": "oiuf112fdj",
+                  "invoiceNumber": "0003"
+                },
+                {
+                  "id": "kjlfja2l3kjr",
+                  "name": "0005",
+                  "paymentDate": "2018-06-01",
+                  "amount": 500.00,
+                  "paymentMethodDetail": "VISA ending in 2314",
+                  "invoice": "lkfdjaslkj2",
+                  "invoiceNumber": "0005"
+                }
+              ]
             }
           ]
         }
       ]
     }
-  ]
-}

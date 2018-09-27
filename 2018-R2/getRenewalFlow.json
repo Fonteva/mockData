@@ -21,6 +21,7 @@
           "enableSchedule": true,
           "installmentPrice": 100.01,
           "installmentFrequency": "monthly"
+          "isDefault": true
         },
         {
           "id": "p2234",
@@ -30,7 +31,8 @@
           "price": 1000.12,
           "autoRenewOption": "Required",
           "enableSchedule": false,
-          "installmentFrequency": "quarterly"
+          "installmentFrequency": "quarterly",
+          "isDefault": false
         }
       ]
     },
@@ -51,6 +53,7 @@
           "enableSchedule": true,
           "installmentPrice": 100.01,
           "installmentFrequency": "monthly"
+          "isDefault": true
         }
       ]
     }

@@ -20,7 +20,7 @@
           "autoRenewOption": "Enabled",
           "enableSchedule": true,
           "installmentPrice": 100.01,
-          "installmentFrequency": "monthly"
+          "installmentFrequency": "monthly",
           "isDefault": true
         },
         {

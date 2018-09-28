@@ -161,8 +161,8 @@
         {
           "id":"Termsadf12vasdfasdf34",
           "isActive":false,
-          "startDate":"2019-1-1",
-          "endDate":"2019-12-31",
+          "startDate":"2016-1-1",
+          "endDate":"2016-12-31",
           "activeAssignments":2,
           "assignmentsAllowed":15,
           "subscriptionLines":[
@@ -173,12 +173,80 @@
                 {
                   "label":"Start Date",
                   "type":"Date",
-                  "value":"2019-1-1"
+                  "value":"2016-1-1"
                 },
                 {
                   "label":"End Date",
                   "type":"Date",
-                  "value":"2019-12-31"
+                  "value":"2016-12-31"
+                },
+                {
+                  "label":"Entity",
+                  "type":"String",
+                  "value":"Contact"
+                }
+              ],
+              "imageUrl":"https://placehold.it/300",
+              "isRenewable":true,
+              "isChangeable":true
+            },
+            {
+              "id":"5342rfadsf678Subs124criptionLine",
+              "displayName":"Magazine Membership",
+              "parentSubscriptionLine":"1sadf234eqwerSubscriptionLine",
+              "displayText":"Same information as Company Membership",
+              "imageUrl":"https://placehold.it/300",
+              "isChangeable":true
+            },
+            {
+              "id":"9vasdf012Subscr123iptionLine",
+              "displayName":"Magazine Membership One",
+              "parentSubscriptionLine":"1sadf234eqwerSubscriptionLine",
+              "displayText":"Same information as Company Membership",
+              "imageUrl":"https://placehold.it/300",
+              "isChangeable":true
+            }
+          ],
+          "assignments":[
+            {
+              "id":"123fqwef4Ass123ignment",
+              "contact":"fduio1234Contact",
+              "term":"Term12vasdfadsfasdfsdf34",
+              "subscription":"129sadf31vasdfSubscription",
+              "isActive":true,
+              "isPrimary":true
+            },
+            {
+              "id":"567asdvasdf8Ass4123ignment",
+              "contact":"asdffduio1234Contact",
+              "term":"Term12vasdfadsfasdfsdf34",
+              "subscription":"129sadf31vasdfSubscription",
+              "isActive":true,
+              "isPrimary":true
+            }
+          ]
+        },
+        {
+          "id":"t2",
+          "isActive":false,
+          "startDate":"2015-1-1",
+          "endDate":"2015-12-31",
+          "activeAssignments":2,
+          "assignmentsAllowed":15,
+          "subscriptionLines":[
+            {
+              "id":"1sadf234eqwerSubscriptionLine",
+              "displayName":"Company Membership",
+              "displayFields":[
+                {
+                  "label":"Start Date",
+                  "type":"Date",
+                  "value":"2015-1-1"
+                },
+                {
+                  "label":"End Date",
+                  "type":"Date",
+                  "value":"2015-12-31"
                 },
                 {
                   "label":"Entity",

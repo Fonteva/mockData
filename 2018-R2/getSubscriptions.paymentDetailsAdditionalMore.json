@@ -14,7 +14,7 @@
         "isAutoRenewable": true,
         "autoRenew": "disabled",
         "isAutomaticInvoicePaymentEnabled": false,
-        "scheduleType": "invoice",
+        "scheduleType": "Invoice",
         "nextScheduledPayment": "2018-10-01",
         "isPaymentMethodUpdatable": false
       },
@@ -187,7 +187,7 @@
         "isAutoRenewable": true,
         "autoRenew": "disabled",
         "isAutomaticInvoicePaymentEnabled": true,
-        "scheduleType": "automatic payment",
+        "scheduleType": "Automatic Payment",
         "nextScheduledPayment": "2018-10-01",
         "isPaymentMethodUpdatable": true
       },
@@ -284,7 +284,7 @@
         "isAutoRenewable": true,
         "autoRenew": "disabled",
         "isAutomaticInvoicePaymentEnabled": true,
-        "scheduleType": "invoice",
+        "scheduleType": "Invoice",
         "nextScheduledPayment": "2018-10-01",
         "isPaymentMethodUpdatable": true
       },

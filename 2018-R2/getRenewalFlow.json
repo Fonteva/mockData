@@ -31,6 +31,7 @@
           "price": 1000.12,
           "autoRenewOption": "Required",
           "enableSchedule": false,
+          "installmentPrice": 250.03,
           "installmentFrequency": "quarterly",
           "isDefault": false
         }

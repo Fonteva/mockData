@@ -1,0 +1,10 @@
+{
+  "formId": "fid123",
+  "name": "muh form",
+  "contactId": "c1234",
+  "instructions": "Yo, dude, fill out this form",
+  "hasRequiredFields": false,
+  "hasFields": false,
+  "fieldGroups": [],
+  "formResponseId": null
+}

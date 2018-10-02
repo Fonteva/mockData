@@ -4,19 +4,19 @@
   "addMemberFields": [
     {
       "name": "FirstName",
-      "type": "String",
+      "type": "string",
       "label": "First Name",
       "isRequired": false
     },
     {
       "name": "LastName",
-      "type": "String",
+      "type": "string",
       "label": "Last Name",
       "isRequired": true
     },
     {
       "name": "Email",
-      "type": "String",
+      "type": "string",
       "label": "Personal Email",
       "isRequired": true
     }
@@ -34,17 +34,17 @@
   "memberFields": [
     {
       "name": "FirstName",
-      "type": "String",
+      "type": "string",
       "label": "First Name"
     },
     {
       "name": "AccountName",
-      "type": "String",
+      "type": "string",
       "label": "Account Name"
     },
     {
       "name": "Email",
-      "type": "Email",
+      "type": "email",
       "label": "Email"
     }
   ],

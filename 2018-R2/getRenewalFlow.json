@@ -6,7 +6,7 @@
   "subscriptions": [
     {
       "itemId": "s1234",
-      "isActive": true,
+      "isActive": false,
       "enableAutoRenew": true,
       "displayName": "Gold Membership",
       "description": "A rich text description of the subscription.",
@@ -42,7 +42,7 @@
       "isActive": true,
       "enableAutoRenew": true,
       "displayName": "Silver Membership",
-      "description": "A rich text description of the subscription. A rich text description of the subscription. A rich text description of the subscription. A rich text description of the subscription. A rich text description of the subscription.A rich text description of the subscription.A rich text description of the subscription.A rich text description of the subscription.A rich text description of the subscription.A rich text description of the subscription.",
+      "description": "A rich text description of the subscription.A rich text description of the subscription.A rich text description of the subscription.A rich text description of the subscription.A rich text description of the subscription.",
       "plans": [
         {
           "id": "s3234",

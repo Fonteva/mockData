@@ -1,7 +1,7 @@
 {
   "comments": "arguments: subscriptionId, siteId, salesOrderId[nullable], contactId; either formIds or subscriptions will have data; isActive: current Subscription",
-  "salesOrderId": "so1234",
-  "formIds": [],
+  "salesOrderId": "a1N0b000006l94l",
+  "formIds": ["a0Sf200000Nqoez"],
   "subscriptionRenewInstructions" : "Nunc interdum lacus sit amet orci. Fusce commodo aliquam arcu. Ut varius tincidunt libero. Phasellus nec sem in justo pellentesque facilisis. Duis leo.",
   "subscriptions": [
     {

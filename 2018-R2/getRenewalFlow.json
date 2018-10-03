@@ -57,6 +57,27 @@
           "isDefault": true
         }
       ]
+    },
+    {
+      "itemId": "z839",
+      "isActive": false,
+      "enableAutoRenew": true,
+      "displayName": "Platinum Membership",
+      "description": "A rich text description of the subscription.A rich text description of the subscription.A rich text description of the subscription.A rich text description of the subscription.A rich text description of the subscription.A rich text description of the subscription.A rich text description of the subscription.A rich text description of the subscription.A rich text description of the subscription.A rich text description of the subscription.A rich text description of the subscription.A rich text description of the subscription.A rich text description of the subscription.A rich text description of the subscription.A rich text description of the subscription.",
+      "plans": [
+        {
+          "id": "s3234",
+          "displayName": "12 Month, Installments",
+          "startDate": "1/1/2019",
+          "endDate": "12/31/2019",
+          "price": 2400.24,
+          "autoRenewOption": "Enabled",
+          "enableSchedule": true,
+          "installmentPrice": 200.02,
+          "installmentFrequency": "monthly",
+          "isDefault": true
+        }
+      ]
     }
   ]
 }

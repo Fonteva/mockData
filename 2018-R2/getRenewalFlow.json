@@ -26,12 +26,12 @@
         {
           "id": "p2234",
           "displayName": "12 Month, Installments",
-          "startDate": "1/1/2019",
-          "endDate": "12/31/2019",
-          "price": 1000.12,
+          "startDate": null,
+          "endDate": null,
+          "price": null,
           "autoRenewOption": "Required",
           "enableSchedule": false,
-          "installmentPrice": 250.03,
+          "installmentPrice": null,
           "installmentFrequency": "quarterly",
           "isDefault": false
         }

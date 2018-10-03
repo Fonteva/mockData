@@ -3,10 +3,10 @@
   "displayName": "12 Month, Updated",
   "startDate": "1/1/2019",
   "endDate": "12/31/2019",
-  "price": 1200.12,
+  "price": 420.12,
   "autoRenewOption": "Enabled",
   "enableSchedule": true,
-  "installmentPrice": 100.01,
+  "installmentPrice": 50.01,
   "installmentFrequency": "monthly",
   "isDefault": true
 }

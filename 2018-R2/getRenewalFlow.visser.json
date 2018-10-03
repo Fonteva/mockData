@@ -1,11 +1,83 @@
 {
-  "comments": "arguments: subscriptionId, siteId, salesOrderId[nullable]; either formIds or subscriptions will have data; isActive: current Subscription",
-  "salesOrderId": "a1N0b000006l94l",
-  "formIds": [
-    "a0Sf200000Mtf5AEAR",
-    "457324987234",
-    "489572493"
-  ],
-  "subscriptionRenewInstructions" : "Nunc interdum lacus sit amet orci. Fusce commodo aliquam arcu. Ut varius tincidunt libero. Phasellus nec sem in justo pellentesque facilisis. Duis leo.",
-  "subscriptions": []
+  "comments": "arguments: subscriptionId, siteId, salesOrderId[nullable], contactId; either formIds or subscriptions will have data; isActive: current Subscription",
+  "salesOrderId": "so1234",
+  "formIds": [],
+  "subscriptionRenewInstructions": "Nunc interdum lacus sit amet orci. Fusce commodo aliquam arcu. Ut varius tincidunt libero. Phasellus nec sem in justo pellentesque facilisis. Duis leo.",
+  "subscriptions": [
+    {
+      "itemId": "s1234",
+      "isActive": false,
+      "enableAutoRenew": true,
+      "displayName": "Gold Membership",
+      "description": "A rich text description of the subscription.",
+      "plans": [
+        {
+          "id": "p1234",
+          "displayName": "12 Month, Installments",
+          "startDate": "1/1/2019",
+          "endDate": "12/31/2019",
+          "price": 1200.12,
+          "autoRenewOption": "Enabled",
+          "enableSchedule": true,
+          "installmentPrice": 100.01,
+          "installmentFrequency": "monthly",
+          "isDefault": true
+        },
+        {
+          "id": "p2234",
+          "displayName": "12 Month, Installments",
+          "startDate": null,
+          "endDate": null,
+          "price": null,
+          "autoRenewOption": "Required",
+          "enableSchedule": false,
+          "installmentPrice": null,
+          "installmentFrequency": "quarterly",
+          "isDefault": false
+        }
+      ]
+    },
+    {
+      "itemId": "p234",
+      "isActive": true,
+      "enableAutoRenew": true,
+      "displayName": "Silver Membership",
+      "description": "A rich text description of the subscription.A rich text description of the subscription.A rich text description of the subscription.A rich text description of the subscription.A rich text description of the subscription.",
+      "plans": [
+        {
+          "id": "s3234",
+          "displayName": "12 Month, Installments",
+          "startDate": "1/1/2019",
+          "endDate": "12/31/2019",
+          "price": 1200.12,
+          "autoRenewOption": "Disabled",
+          "enableSchedule": true,
+          "installmentPrice": 100.01,
+          "installmentFrequency": "monthly",
+          "isDefault": true
+        }
+      ]
+    },
+    {
+      "itemId": "z839",
+      "isActive": false,
+      "enableAutoRenew": true,
+      "displayName": "Platinum Membership",
+      "description": "A rich text description of the subscription.A rich text description of the subscription.A rich text description of the subscription.A rich text description of the subscription.A rich text description of the subscription.A rich text description of the subscription.A rich text description of the subscription.A rich text description of the subscription.A rich text description of the subscription.A rich text description of the subscription.A rich text description of the subscription.A rich text description of the subscription.A rich text description of the subscription.A rich text description of the subscription.A rich text description of the subscription.",
+      "plans": [
+        {
+          "id": "s3234",
+          "displayName": "12 Month, Installments",
+          "startDate": "1/1/2019",
+          "endDate": "12/31/2019",
+          "price": 2400.24,
+          "autoRenewOption": "Enabled",
+          "enableSchedule": true,
+          "installmentPrice": 200.02,
+          "installmentFrequency": "monthly",
+          "isDefault": true
+        }
+      ]
+    }
+  ]
 }

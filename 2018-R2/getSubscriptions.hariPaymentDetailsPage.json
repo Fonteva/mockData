@@ -50,6 +50,7 @@
               "isManageable":true,
               "isRenewable":true,
               "isChangeable":true,
+              "isCancellationRequested":true,
               "isCancelable" : true
             }
           ],

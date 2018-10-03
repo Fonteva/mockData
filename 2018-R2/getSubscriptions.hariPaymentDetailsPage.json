@@ -16,6 +16,7 @@
         "isAutomaticInvoicePaymentEnabled": false,
         "scheduleType": "Invoice",
         "nextScheduledPayment": "2018-10-01",
+        "isCancellationRequested": false,
         "isPaymentMethodUpdatable": false
       },
       "terms":[

@@ -1,7 +1,7 @@
 {
   "solId": "mockSOLId",
-  "hasAdditionalItems": true,
+  "hasAdditionalItems": false,
   "selectedItems": ["12345", "23456", "1234578"],
-  "hasAssignments": false,
+  "hasAssignments": true,
   "hasForms": false
 }

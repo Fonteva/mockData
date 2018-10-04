@@ -42,7 +42,7 @@
       "isActive": true,
       "enableAutoRenew": true,
       "displayName": "Silver Membership",
-      "description": "<ul><li>one</li><li>two and a very long line that shouldn't overlap onto any other things</li><li>three and a very long line that shouldn't overlap onto any other things</li><li>four and a very long line that shouldn't overlap onto any other things</li><li>five and a very long line that shouldn't overlap onto any other things</li><li>six and a very long line that shouldn't overlap onto any other things</li><li>seven and a very long line that shouldn't overlap onto any other things</li></ul>",
+      "description": "<ul><li>one</li><li>two and a very long line that shouldn't overlap onto any other things</li><li>three and a very long line that shouldn't overlap onto any other things</li><li>four and a very long line that shouldn't overlap onto any other things</li><li>five and a very long line that shouldn't overlap onto any other things</li><li>six and a very long line that shouldn't overlap onto any other things</li><li>seven and a very long line that shouldn't overlap onto any other things</li><li>eight and a very long line that shouldn't overlap onto any other things</li></ul>",
       "plans": [
         {
           "id": "s3234",

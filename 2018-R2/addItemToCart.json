@@ -1,0 +1,9 @@
+{
+  "salesOrderId": "mockSOId",
+  "itemId": "mockItemId",
+  "solId": "mockSOLId",
+  "salesOrder": {},
+  "hasAdditionalItems": false,
+  "hasAssignments": false,
+  "hasForms": true
+}

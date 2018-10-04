@@ -21,7 +21,8 @@
           "enableSchedule": true,
           "installmentPrice": 100.01,
           "installmentFrequency": "monthly",
-          "isDefault": true
+          "isDefault": true,
+          "currencyIsoCode": "USD"
         },
         {
           "id": "p2234",
@@ -33,7 +34,8 @@
           "enableSchedule": false,
           "installmentPrice": null,
           "installmentFrequency": "quarterly",
-          "isDefault": false
+          "isDefault": false,
+          "currencyIsoCode": "USD"
         }
       ]
     },
@@ -54,7 +56,8 @@
           "enableSchedule": true,
           "installmentPrice": 100.01,
           "installmentFrequency": "monthly",
-          "isDefault": true
+          "isDefault": true,
+          "currencyIsoCode": "USD"
         }
       ]
     },
@@ -75,7 +78,8 @@
           "enableSchedule": true,
           "installmentPrice": 200.02,
           "installmentFrequency": "monthly",
-          "isDefault": true
+          "isDefault": true,
+          "currencyIsoCode": "USD"
         }
       ]
     }

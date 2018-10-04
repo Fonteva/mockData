@@ -3,7 +3,7 @@
   "itemId": "mockItemId",
   "solId": "mockSOLId",
   "salesOrder": {},
-  "hasAdditionalItems": false,
+  "hasAdditionalItems": true,
   "hasAssignments": false,
   "hasForms": false
 }

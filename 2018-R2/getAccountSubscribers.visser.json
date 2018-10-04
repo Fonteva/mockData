@@ -1,0 +1,103 @@
+{
+  "assignmentInstructions": "These instructions are very important. Read them. Don't just go clicking around like an idiot.",
+  "accountName": "VisserCorp",
+  "requireAssignments": true,
+  "maxAssignments": 2,
+  "addMemberFields": [
+    {
+      "name": "FirstName",
+      "type": "string",
+      "label": "First Name",
+      "isRequired": false
+    },
+    {
+      "name": "LastName",
+      "type": "string",
+      "label": "Last Name",
+      "isRequired": true
+    },
+    {
+      "name": "Email",
+      "type": "string",
+      "label": "Personal Email",
+      "isRequired": true
+    }
+  ],
+  "roles": [
+    {
+      "name": "Member",
+      "id": "12345"
+    },
+    {
+      "name": "Admin",
+      "id": "123456"
+    }
+  ],
+  "memberFields": [
+    {
+      "name": "FirstName",
+      "type": "string",
+      "label": "First Name"
+    },
+    {
+      "name": "AccountName",
+      "type": "string",
+      "label": "Account Name"
+    },
+    {
+      "name": "Email",
+      "type": "email",
+      "label": "Email"
+    }
+  ],
+  "members": [
+    {
+      "FullName": "Johnny",
+      "fields": {
+        "FirstName": "Johnny",
+        "AccountName": "Johnny Inc",
+        "Email": "johnny@johnny.com"
+      },
+      "Email": "johnny@johnny.com",
+      "role": "123456",
+      "assigned": false,
+      "id": "12345"
+    },
+    {
+      "FullName": "Timmy",
+      "fields": {
+        "FirstName": "Timmy",
+        "AccountName": "Johnny Inc",
+        "Email": "timmy@johnny.com"
+      },
+      "Email": "timmy@johnny.com",
+      "role": "12345",
+      "assigned": false,
+      "id": "1234"
+    },
+    {
+      "FullName": "Tommy",
+      "fields": {
+        "FirstName": "Tommy",
+        "AccountName": "Johnny Inc",
+        "Email": "tommy@johnny.com"
+      },
+      "Email": "tommy@johnny.com",
+      "role": "12345",
+      "assigned": false,
+      "id": "123"
+    },
+    {
+      "FullName": "Tammy",
+      "fields": {
+        "FirstName": "Tammy",
+        "AccountName": "Johnny Inc",
+        "Email": "tammy@johnny.com"
+      },
+      "Email": "tammy@johnny.com",
+      "role": "12345",
+      "assigned": false,
+      "id": "12"
+    }
+  ]
+}

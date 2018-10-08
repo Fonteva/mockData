@@ -28,7 +28,7 @@
               "amount" : 300.00,
               "amountPaid" : 50.00,
               "balanceDue" : 250.00,
-              "URL" : "www.google.com"
+              "URL" : "www.google.com",
               "receipt" : [
                 {
                   "id" : "kklsdjfeifjw",

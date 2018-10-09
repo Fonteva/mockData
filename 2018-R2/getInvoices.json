@@ -8,7 +8,7 @@
               "amount" : 300.00,
               "amountPaid" : 50.00,
               "balanceDue" : 250.00,
-              "receipt" : [
+              "receipts" : [
                 {
                   "id" : "kklsdjfeifjw",
                   "name" : "0002",
@@ -29,7 +29,7 @@
               "amountPaid" : 50.00,
               "balanceDue" : 250.00,
               "URL" : "www.google.com",
-              "receipt" : [
+              "receipts" : [
                 {
                   "id" : "kklsdjfeifjw",
                   "name" : "0001",
@@ -50,7 +50,7 @@
               "amountPaid" : 80.00,
               "balanceDue" : 220.00,
                "URL" : "www.google.com",
-              "receipt" : [
+              "receipts" : [
                 {
                   "id" : "kklsdjfeifjw",
                   "name" : "0001",

@@ -64,7 +64,7 @@
     "defaultCheckout":"Guest Checkout",
     "enableAccountSearch":false,
     "enableInvoicePayment":true,
-    "enablePartialPaymentsForInvoices" : false,
+    "enablePartialPaymentsForInvoices" : true,
     "environmentKey":"5qioLVp7qJfaCzf1VB5GuFtplXG",
     "gateway":"a1A1I000000QxJwUAK",
     "guestCheckoutEnabled":true,

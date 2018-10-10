@@ -56,5 +56,30 @@
         }
       ]
     }
-  ]
+  ],
+  "store" : {
+    "accountMatchCriteria":"All Accounts",
+    "businessGroup":"a0qf200000DLZtJ",
+    "contactMatchRule":"EMAIL",
+    "defaultCheckout":"Guest Checkout",
+    "enableAccountSearch":false,
+    "enableInvoicePayment":true,
+    "enablePartialPaymentsForInvoices" : true,
+    "environmentKey":"5qioLVp7qJfaCzf1VB5GuFtplXG",
+    "gateway":"a1A1I000000QxJwUAK",
+    "guestCheckoutEnabled":true,
+    "id":"a1Uf200000AoF3p",
+    "name":"ltestore",
+    "requireContactMatchRuleField":false,
+    "showMatchField":false
+  },
+  "userDetails" : {
+    "accountId":"001f200001ZYMyr",
+    "contactId":"003f200002QyqPP",
+    "id":"0051I000000a5qUQAQ",
+    "isAuthenticated":false,
+    "isContactAuthenticated":false,
+    "smallPhotoUrl":"/profilephoto/005/T",
+    "usrName":"Ashish Gupta(P)"
+  }
 }

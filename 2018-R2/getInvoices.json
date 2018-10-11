@@ -31,7 +31,7 @@
               "isMultiCurrencyOrg": false,
               "amount" : 300.00,
               "amountPaid" : 50.00,
-              "balanceDue" : 250.00,
+              "balanceDue" : 0,
               "URL" : "www.google.com",
               "receipts" : [
                 {

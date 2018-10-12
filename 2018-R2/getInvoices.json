@@ -31,7 +31,7 @@
               "isMultiCurrencyOrg": false,
               "amount" : 300.00,
               "amountPaid" : 50.00,
-              "balanceDue" : 250.00,
+              "balanceDue" : 0,
               "URL" : "www.google.com",
               "receipts" : [
                 {
@@ -95,6 +95,16 @@
                 {
                   "id" : "kklsdjflads1235jkfalskdeifjw",
                   "name" : "0008",
+                  "amountPaid" : 10.00
+                },
+                {
+                  "id" : "yoahsdfoahsof",
+                  "name" : "00000009",
+                  "amountPaid" : 10.00
+                },
+                {
+                  "id" : "JOAISYDOAIHDO#D#DIH",
+                  "name" : "00000000000000010",
                   "amountPaid" : 10.00
                 }
               ]

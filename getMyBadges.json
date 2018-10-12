@@ -1,0 +1,15 @@
+{  
+   "badgesInstructions":"Test Badges Instructions",
+   "badges":[  
+      {  
+         "imageUrl":"https://fonteva-customer-media.s3.amazonaws.com/00D30000000ndogEAA/ucwFaPrz_BadgeTypeMember.png",
+         "name":"Individual Member Badge",
+         "description":"Awarded to all individual members of the association."
+      },
+      {  
+         "imageUrl":"https://fonteva-customer-media.s3.amazonaws.com/00D30000000ndogEAA/tSDYjQuR_BadgeTypeSpeaker.png",
+         "name":"Speaker Badge",
+         "description":"Awarded to all speakers at our annual conference."
+      }
+   ]
+}

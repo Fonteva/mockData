@@ -1,5 +1,5 @@
 {
-  "isMultiCurrencyOrg" : true,
+  "isMultiCurrencyOrg" : false,
   "currencyISOCode": "USD",
   "invoices": [
     {
@@ -36,7 +36,7 @@
       "lines": [
         {
           "id": "12dwqdsAWED34",
-          "itemDescription": "FUNcon 2018 Conference Event Pass for the best day of my life",
+          "itemDescription": "FUNcon 2018 of my life",
           "subTotal": 1000000000,
           "shipping": 15,
           "tax": 100,
@@ -53,7 +53,7 @@
       "lines": [
         {
           "id": "12dwqdsAWED34",
-          "itemDescription": "FUNcon 2018 Conference Event Pass for the best day of my life",
+          "itemDescription": "FUNcon 2018 day of my life",
           "subTotal": 1000000000,
           "shipping": 15,
           "tax": 100,
@@ -70,7 +70,7 @@
       "lines" : [
         {
           "id" : "12dwqdsAWED34",
-          "itemDescription" : "FUNcon 2018 Conference Event Pass for the best day of my life",
+          "itemDescription" : "FUNcon 2018 Conference",
           "subTotal" : 1000000000,
           "shipping" : 15,
           "tax" : 100,

@@ -77,8 +77,8 @@
     "accountId":"0010b00002DV6nK",
     "contactId":"0030b000025fm3X",
     "id":"0050b000005BsrM",
-    "isAuthenticated":false,
-    "isContactAuthenticated":false,
+    "isAuthenticated":true,
+    "isContactAuthenticated":true,
     "smallPhotoUrl":"/profilephoto/005/T",
     "usrName":"Tim Barr"
   }

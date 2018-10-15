@@ -37,12 +37,12 @@
         {
           "id": "12dwqdsAWED34",
           "itemDescription": "FUNcon 2018 of my life",
-          "subTotal": 1000000000,
+          "subTotal": 10,
           "shipping": 15,
           "tax": 100,
           "total": 1115,
-          "balanceDue": 100000115,
-          "payment": 110000015
+          "balanceDue": 10,
+          "payment": 115
         }
       ]
     },
@@ -54,12 +54,12 @@
         {
           "id": "12dwqdsAWED34",
           "itemDescription": "FUNcon 2018 day of my life",
-          "subTotal": 1000000000,
+          "subTotal": 100,
           "shipping": 15,
           "tax": 100,
           "total": 1115,
-          "balanceDue": 100000115,
-          "payment": 110000015
+          "balanceDue": 115,
+          "payment": 115
         }
       ]
     },
@@ -71,12 +71,12 @@
         {
           "id" : "12dwqdsAWED34",
           "itemDescription" : "FUNcon 2018 Conference",
-          "subTotal" : 1000000000,
+          "subTotal" : 10,
           "shipping" : 15,
           "tax" : 100,
           "total" : 1115,
-          "balanceDue" : 100000115,
-          "payment" : 110000015
+          "balanceDue" : 105,
+          "payment" : 115
         },
         {
           "id" : "12dwqdsAWED34",

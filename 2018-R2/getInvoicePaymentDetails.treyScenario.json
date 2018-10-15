@@ -28,38 +28,42 @@
           "payment" : 27
         }
       ]
-      },
+    },
     {
-      "id" : "12dwqdsAWED34",
-      "name" : "00001224",
-      "salesOrderId" : "12dwqdsAWED34",
-      "lines" : [
+      "id": "12dwqdsAWED34",
+      "name": "00001224",
+      "salesOrderId": "12dwqdsAWED34",
+      "lines": [
         {
-          "id" : "12dwqdsAWED34",
-          "itemDescription" : "FUNcon 2018 Conference Event Pass for the best day of my life",
-          "subTotal" : 1000000000,
-          "shipping" : 15,
-          "tax" : 100,
-          "total" : 1115,
-          "balanceDue" : 100000115,
-          "payment" : 110000015
-        },
-     {
-      "id" : "12dwqdsAWED34",
-      "name" : "00001224",
-      "salesOrderId" : "12dwqdsAWED34",
-      "lines" : [
+          "id": "12dwqdsAWED34",
+          "itemDescription": "FUNcon 2018 Conference Event Pass for the best day of my life",
+          "subTotal": 1000000000,
+          "shipping": 15,
+          "tax": 100,
+          "total": 1115,
+          "balanceDue": 100000115,
+          "payment": 110000015
+        }
+      ]
+    },
+    {
+      "id": "12dwqdsAWED34",
+      "name": "00001224",
+      "salesOrderId": "12dwqdsAWED34",
+      "lines": [
         {
-          "id" : "12dwqdsAWED34",
-          "itemDescription" : "FUNcon 2018 Conference Event Pass for the best day of my life",
-          "subTotal" : 1000000000,
-          "shipping" : 15,
-          "tax" : 100,
-          "total" : 1115,
-          "balanceDue" : 100000115,
-          "payment" : 110000015
-        },
-         {
+          "id": "12dwqdsAWED34",
+          "itemDescription": "FUNcon 2018 Conference Event Pass for the best day of my life",
+          "subTotal": 1000000000,
+          "shipping": 15,
+          "tax": 100,
+          "total": 1115,
+          "balanceDue": 100000115,
+          "payment": 110000015
+        }
+      ]
+    },
+    {
       "id" : "12dwqdsAWED34",
       "name" : "00001224",
       "salesOrderId" : "12dwqdsAWED34",

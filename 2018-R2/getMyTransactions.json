@@ -7,21 +7,21 @@
          "id" : "Test1234",
          "name":"000000001",
          "postedDate": "10/15/2018",
-         "paymentMethod":"VISA *** 1234",
+         "paymentMethodDescription":"VISA *** 1234",
          "total": 1000
       },
       {  
          "id" : "Test5678",
          "name":"000000002",
          "postedDate": "10/16/2018",
-         "paymentMethod":"VISA *** 1234",
+         "paymentMethodDescription":"VISA *** 1234",
          "total": 2000
       },
       {  
          "id" : "Test9012",
          "name":"000000003",
          "postedDate": "10/13/2018",
-         "paymentMethod":"VISA *** 1234",
+         "paymentMethodDescription":"VISA *** 1234",
          "total": 1500
       }
    ]

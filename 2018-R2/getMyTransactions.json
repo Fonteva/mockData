@@ -4,21 +4,21 @@
    "paymentsInstructions":"<b>Test Badges Instructions</b>",
    "receipts":[  
       {  
-         "id" : 'Test1234',
+         "id" : "Test1234",
          "number":"000000001",
          "date": "10/15/2018",
          "paymentMethod":"VISA *** 1234",
          "total": 1000
       },
       {  
-         "id" : 'Test5678',
+         "id" : "Test5678",
          "number":"000000002",
          "date": "10/16/2018",
          "paymentMethod":"VISA *** 1234",
          "total": 2000
       },
       {  
-         "id" : 'Test9012',
+         "id" : "Test9012",
          "number":"000000003",
          "date": "10/13/2018",
          "paymentMethod":"VISA *** 1234",

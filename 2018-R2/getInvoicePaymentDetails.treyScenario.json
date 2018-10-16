@@ -42,7 +42,7 @@
           "tax": 100,
           "total": 1115,
           "balanceDue": 10,
-          "payment": 115
+          "payment": 10
         }
       ]
     },
@@ -75,7 +75,7 @@
           "shipping" : 15,
           "tax" : 100,
           "total" : 1115,
-          "balanceDue" : 105,
+          "balanceDue" : 115,
           "payment" : 115
         },
         {

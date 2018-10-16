@@ -14,7 +14,7 @@
           "shipping" : 5,
           "tax" : 1,
           "total" : 16,
-          "balanceDue" : 1600000000000000,
+          "balanceDue" : 160,
           "payment" : 16
         },
         {
@@ -50,7 +50,7 @@
           "subTotal" : 20,
           "shipping" : 5,
           "tax" : 2,
-          "total" : 2000000000007,
+          "total" : 207,
           "balanceDue" : 27,
           "payment" : 27
         }

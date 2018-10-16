@@ -14,7 +14,7 @@
           "shipping" : 5,
           "tax" : 1,
           "total" : 16,
-          "balanceDue" : 16,
+          "balanceDue" : 1600000000000000,
           "payment" : 16
         },
         {
@@ -37,7 +37,7 @@
         {
           "id" : "12dwqdsAWED34",
           "itemDescription" : "FUNcon 2018 Conference Event Pass",
-          "subTotal" : 1000,
+          "subTotal" : 1000000000,
           "shipping" : 15,
           "tax" : 100,
           "total" : 1115,
@@ -46,11 +46,11 @@
         },
         {
           "id" : "12dwqdsAWED34",
-          "itemDescription" : "FUNcon Swag",
+          "itemDescription" : "FUNcon Swagalicious make the fontevans go crazy, so delicious",
           "subTotal" : 20,
           "shipping" : 5,
           "tax" : 2,
-          "total" : 27,
+          "total" : 2000000000007,
           "balanceDue" : 27,
           "payment" : 27
         }
@@ -64,7 +64,7 @@
     "defaultCheckout":"Guest Checkout",
     "enableAccountSearch":false,
     "enableInvoicePayment":true,
-    "enablePartialPaymentsForInvoices" : false,
+    "enablePartialPaymentsForInvoices" : true,
     "environmentKey":"5qioLVp7qJfaCzf1VB5GuFtplXG",
     "gateway":"a1A1I000000QxJwUAK",
     "guestCheckoutEnabled":true,

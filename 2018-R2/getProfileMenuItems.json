@@ -1,0 +1,46 @@
+{  
+   "userFullName" : "Sandy Mariyala",
+   "userImageUrl" : "https://google.com",
+   "menuItems":[  
+      {  
+         "displayName" : "Dashboard",
+         "componentName":"LTE:Dashboard",
+         "displayOrder": 1
+      },
+      {  
+         "displayName" : "MyInfo",
+         "componentName":"LTE:MyInfo",
+         "displayOrder": 2
+      },
+      {  
+         "displayName" : "KnownAddresses",
+         "componentName":"LTE:KnownAddresses",
+         "displayOrder": 3
+      },
+      {  
+         "displayName" : "Subscriptions",
+         "componentName":"LTE:Subscriptions",
+         "displayOrder": 4
+      },
+      {  
+         "displayName" : "PaymentMethods",
+         "componentName":"LTE:PaymentMethods",
+         "displayOrder": 5
+      },
+      {  
+         "displayName" : "Invoices",
+         "componentName":"LTE:Invoices",
+         "displayOrder": 6
+      },
+      {  
+         "displayName" : "Payments",
+         "componentName":"LTE:Payments",
+         "displayOrder": 7
+      },
+      {  
+         "displayName" : "Badges",
+         "componentName":"LTE:Badges",
+         "displayOrder": 8
+      }
+   ]
+}

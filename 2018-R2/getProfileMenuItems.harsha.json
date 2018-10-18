@@ -1,0 +1,46 @@
+{  
+    "userFullName" : "Sandy Mariyala",
+    "menuItems":[  
+       {  
+          "displayName" : "Dashboard",
+          "componentName":"dev4612:Dashboard",
+          "displayOrder": 1
+       },
+       {  
+          "displayName" : "MyInfo",
+          "componentName":"dev4612:MyInfo",
+          "displayOrder": 2
+       },
+       {  
+          "displayName" : "AddressBook",
+          "componentName":"dev4612:KnownAddresses",
+          "displayOrder": 3
+       },
+       {  
+          "displayName" : "Subscriptions",
+          "componentName":"dev4612:Subscriptions",
+          "displayOrder": 4
+       },
+       {  
+          "displayName" : "PaymentMethods",
+          "componentName":"dev4612:PaymentMethods",
+          "displayOrder": 5
+       },
+       {  
+          "displayName" : "Invoices",
+          "componentName":"dev4612:Invoices",
+          "displayOrder": 6
+       },
+       {  
+          "displayName" : "Payments",
+          "componentName":"dev4612:Payments",
+          "displayOrder": 7
+       },
+       {  
+          "displayName" : "Badges",
+          "componentName":"dev4612:Badges",
+          "displayOrder": 8
+       }
+    ]
+ }
+ 

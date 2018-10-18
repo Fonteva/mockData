@@ -13,7 +13,7 @@
          "displayOrder": 2
       },
       {  
-         "displayName" : "KnownAddresses",
+         "displayName" : "AddressBook",
          "componentName":"LTE:KnownAddresses",
          "displayOrder": 3
       },

@@ -4,7 +4,7 @@
       {  
          "displayName" : "Dashboard",
          "componentName":"LTE:Dashboard",
-         "displayOrder": 4
+         "displayOrder": 1
       },
       {  
          "displayName" : "MyInfo",
@@ -19,7 +19,7 @@
       {  
          "displayName" : "Subscriptions",
          "componentName":"LTE:Subscriptions",
-         "displayOrder": 1
+         "displayOrder": 4
       },
       {  
          "displayName" : "PaymentMethods",

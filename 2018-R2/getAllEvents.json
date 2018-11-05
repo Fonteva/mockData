@@ -1,538 +1,649 @@
 {
-  "filterFields": [
-    {
-      "name": "EventApi__RegistrationType__c",
-      "label": "Registration Type",
-      "type": "picklist",
-      "values": [
-        "Simple",
-        "Conference",
-        "Lightning",
-        "Not Used1",
-        "Not Used2",
-        "Not Used3",
-        "Not Used4"
-      ]
-    },
-    {
-      "name": "Custom__IsWheelchairAccessible__c",
-      "label": "Wheelchair Accessible",
-      "type": "boolean"
-    },
-    {
-      "name": "Custom__EarlyBird",
-      "label": "Early Bird Date",
-      "type": "date"
-    },
-    {
-      "name": "Custom__EarlyBirdPrice",
-      "label": "Early Bird Price",
-      "type": "currency"
-    },
-    {
-      "name": "Custom__WalkabilityScore",
-      "label": "Walkability Score",
-      "type": "decimal"
-    },
-    {
-      "name": "Custom__PartyTime",
-      "label": "Party Time",
-      "type": "datetime"
-    },
-    {
-      "name": "Custom__EstimatedAttendance__c",
-      "label": "Estimated Attendance",
-      "type": "integer"
-    }
-  ],
-  "radiusOptions": [5, 20, 80, 160],
-  "enableFilters": true,
-  "events": [
-    {
-      "name": "FunCon 2017",
-      "id": "a1f1I000000hpToQAI",
-      "description": "It's happening!!",
-      "imageUrl": "https://placehold.it/300x300",
-      "startDate": "2019-03-09",
-      "endDate": "2019-03-09",
-      "lat": 34.3324,
-      "lon": -83.30094,
-      "filterFields": {
-        "EventApi__RegistrationType__c": "Simple",
-        "Custom__IsWheelchairAccessible__c": true,
-        "Custom__EarlyBird": "2018-10-10",
-        "Custom__EarlyBirdPrice": "25.50",
-        "Custom__WalkabilityScore": 12.0,
-        "Custom__PartyTime": "2019-01-15T16:00:00Z",
-        "Custom__EstimatedAttendance__c": 100
-      }
-    },
-    {
-      "name": "London Summer Festival",
-      "id": "a1f1I000000h1pToQAI",
-      "description": "It's happening!!",
-      "imageUrl": "https://placehold.it/300x300",
-      "startDate": "2020-09-01",
-      "endDate": "2020-09-01",
-      "lat": 34.3324,
-      "lon": -83.30094,
-      "filterFields": {
-        "EventApi__RegistrationType__c": "Conference",
-        "Custom__IsWheelchairAccessible__c": true,
-        "Custom__EarlyBird": "2018-10-10",
-        "Custom__EarlyBirdPrice": "125.50",
-        "Custom__WalkabilityScore": 6.9,
-        "Custom__PartyTime": "2019-01-15T16:00:00Z",
-        "Custom__EstimatedAttendance__c": 100
-      }
-    },
-    {
-      "name": "London Summer Festival 2",
-      "id": "a1f1I000000hpToQAI4",
-      "description": "It's happening!!",
-      "imageUrl": "https://placehold.it/300x300",
-      "startDate": "2017-01-01",
-      "endDate": "2017-01-10",
-      "lat": 33.3324,
-      "lon": -83.30094,
-      "filterFields": {
-        "EventApi__RegistrationType__c": "Lightning",
-        "Custom__IsWheelchairAccessible__c": true,
-        "Custom__EarlyBird": "2018-10-10",
-        "Custom__EarlyBirdPrice": "25.50",
-        "Custom__WalkabilityScore": 6.9,
-        "Custom__PartyTime": "2019-01-30T16:00:00Z",
-        "Custom__EstimatedAttendance__c": 100
-      }
-    },
-    {
-      "name": "London Summer Festival 3",
-      "id": "a1f1I000000hpToQA123I",
-      "description": "It's happening!!",
-      "imageUrl": "https://placehold.it/300x300",
-      "startDate": "2017-09-01",
-      "endDate": "2017-09-10",
-      "lat": 34.8324,
-      "lon": -83.30094,
-      "filterFields": {
-        "EventApi__RegistrationType__c": "Lightning",
-        "Custom__IsWheelchairAccessible__c": true,
-        "Custom__EarlyBird": "2018-10-10",
-        "Custom__EarlyBirdPrice": "125.50",
-        "Custom__WalkabilityScore": 16.9,
-        "Custom__PartyTime": "2019-01-15T16:00:00Z",
-        "Custom__EstimatedAttendance__c": 100
-      }
-    },
-    {
-      "name": "London Summer Festival 4",
-      "id": "a1f1I000000hpTovasdfQAI",
-      "description": "It's happening!!",
-      "imageUrl": "https://placehold.it/300x300",
-      "startDate": "2017-09-01",
-      "endDate": "2017-09-10",
-      "lat": 34.3324,
-      "lon": -83.60094,
-      "filterFields": {
-        "EventApi__RegistrationType__c": "Simple",
-        "Custom__IsWheelchairAccessible__c": true,
-        "Custom__EarlyBird": "2018-08-10",
-        "Custom__EarlyBirdPrice": "25.50",
-        "Custom__WalkabilityScore": 0.9,
-        "Custom__PartyTime": "2019-02-15T16:00:00Z",
-        "Custom__EstimatedAttendance__c": 100
-      }
-    },
-    {
-      "name": "London Summer Festival 5",
-      "id": "a1f1I000000hp124ToQAI",
-      "description": "It's happening!!",
-      "imageUrl": "https://placehold.it/300x300",
-      "startDate": "2017-09-01",
-      "endDate": "2017-09-10",
-      "lat": 34.3324,
-      "lon": -83.90094,
-      "filterFields": {
-        "EventApi__RegistrationType__c": "Conference",
-        "Custom__IsWheelchairAccessible__c": true,
-        "Custom__EarlyBird": "2018-10-10",
-        "Custom__EarlyBirdPrice": "25.00",
-        "Custom__WalkabilityScore": 6.9,
-        "Custom__PartyTime": "2019-01-15T20:00:00Z",
-        "Custom__EstimatedAttendance__c": 100
-      }
-    },
-    {
-      "name": "London Summer Festival 6",
-      "id": "a1f1I00000tg10hpToQAI",
-      "description": "It's happening!!",
-      "imageUrl": "https://placehold.it/300x300",
-      "startDate": "2017-09-01",
-      "endDate": "2017-09-10",
-      "lat": 34.0324,
-      "lon": -83.00094,
-      "filterFields": {
-        "EventApi__RegistrationType__c": "Conference",
-        "Custom__IsWheelchairAccessible__c": false,
-        "Custom__EstimatedAttendance__c": 100
-      }
-    },
-    {
-      "name": "London Summer Festival 7",
-      "id": "a1f1tg1I000000hpToQAI",
-      "description": "It's happening!!",
-      "imageUrl": "https://placehold.it/300x300",
-      "startDate": "2017-09-01",
-      "endDate": "2017-09-10",
-      "lat": 33.3324,
-      "lon": -82.30094,
-      "filterFields": {
-        "EventApi__RegistrationType__c": "Conference",
-        "Custom__IsWheelchairAccessible__c": true,
-        "Custom__EarlyBird": "2018-10-10",
-        "Custom__EarlyBirdPrice": "25.50",
-        "Custom__WalkabilityScore": 6.9,
-        "Custom__PartyTime": "2019-01-15T16:00:00Z",
-        "Custom__EstimatedAttendance__c": 100
-      }
-    },
-    {
-      "name": "London Summer Festival 8",
-      "id": "a1f1I000000hpTtg1oQAI",
-      "description": "It's happening!!",
-      "imageUrl": "https://placehold.it/300x300",
-      "startDate": "2017-09-01",
-      "endDate": "2017-09-10",
-      "lat": 35.3324,
-      "lon": -82.30094,
-      "filterFields": {
-        "EventApi__RegistrationType__c": "Simple",
-        "Custom__IsWheelchairAccessible__c": false,
-        "Custom__EstimatedAttendance__c": 1000
-      }
-    },
-    {
-      "name": "London Summer Festival 9",
-      "id": "a1f1I000000hpToQAI",
-      "description": "It's happening!!",
-      "imageUrl": "https://placehold.it/300x300",
-      "startDate": "2017-04-22",
-      "endDate": "2017-04-25",
-      "lat": 34.6324,
-      "lon": -83.00094,
-      "filterFields": {
-        "EventApi__RegistrationType__c": "Conference",
-        "Custom__IsWheelchairAccessible__c": true,
-        "Custom__EarlyBird": "2018-10-10",
-        "Custom__EarlyBirdPrice": "25.50",
-        "Custom__WalkabilityScore": 6.9,
-        "Custom__PartyTime": "2019-01-15T16:00:00Z",
-        "Custom__EstimatedAttendance__c": 10
-      }
-    },
-    {
-      "name": "London Summer Festival 10",
-      "id": "a1f1I000000hpToQAI",
-      "description": "It's happening!!",
-      "imageUrl": "https://placehold.it/300x300",
-      "startDate": "2017-09-01",
-      "endDate": "2017-09-10",
-      "lat": 34.5324,
-      "lon": -83.00094,
-      "filterFields": {
-        "EventApi__RegistrationType__c": "Conference",
-        "Custom__IsWheelchairAccessible__c": true,
-        "Custom__EarlyBird": "2018-10-10",
-        "Custom__EarlyBirdPrice": "25.50",
-        "Custom__WalkabilityScore": 6.9,
-        "Custom__PartyTime": "2019-01-15T16:00:00Z",
-        "Custom__EstimatedAttendance__c": 1000
-      }
-    },
-    {
-      "name": "London Summer Festival 11",
-      "id": "a1f1I000000hpToQAI",
-      "description": "It's happening!!",
-      "imageUrl": "https://placehold.it/300x300",
-      "startDate": "2017-09-01",
-      "endDate": "2017-09-10",
-      "lat": 34.3324,
-      "lon": -83.30094,
-      "filterFields": {
-        "EventApi__RegistrationType__c": "Simple",
-        "Custom__IsWheelchairAccessible__c": true,
-        "Custom__EarlyBird": "2018-10-10",
-        "Custom__EarlyBirdPrice": "25.50",
-        "Custom__WalkabilityScore": 6.9,
-        "Custom__PartyTime": "2019-01-15T16:00:00Z",
-        "Custom__EstimatedAttendance__c": 500
-      }
-    },
-    {
-      "name": "London Summer Festival 12",
-      "id": "a1f1I000000hpToQAI",
-      "description": "It's happening!!",
-      "imageUrl": "https://placehold.it/300x300",
-      "startDate": "2017-09-01",
-      "endDate": "2017-09-10",
-      "lat": 34.3324,
-      "lon": -83.30094,
-      "filterFields": {
-        "EventApi__RegistrationType__c": "Conference",
-        "Custom__IsWheelchairAccessible__c": true,
-        "Custom__EarlyBird": "2018-10-10",
-        "Custom__EarlyBirdPrice": "25.50",
-        "Custom__WalkabilityScore": 6.9,
-        "Custom__PartyTime": "2019-01-15T16:00:00Z",
-        "Custom__EstimatedAttendance__c": 50
-      }
-    },
-    {
-      "name": "London Summer Festival 13",
-      "id": "a1f1I000000hpToQAI",
-      "description": "It's happening!!",
-      "imageUrl": "https://placehold.it/300x300",
-      "startDate": "2017-09-01",
-      "endDate": "2017-09-10",
-      "lat": 34.3324,
-      "lon": -83.30094,
-      "filterFields": {
-        "EventApi__RegistrationType__c": "Conference",
-        "Custom__IsWheelchairAccessible__c": true,
-        "Custom__EarlyBird": "2018-10-10",
-        "Custom__EarlyBirdPrice": "25.50",
-        "Custom__WalkabilityScore": 6.9,
-        "Custom__PartyTime": "2019-01-15T16:00:00Z",
-        "Custom__EstimatedAttendance__c": 5
-      }
-    },
-    {
-      "name": "London Summer Festival 14",
-      "id": "a1f1I000000hpToQAI",
-      "description": "It's happening!!",
-      "imageUrl": "https://placehold.it/300x300",
-      "startDate": "2017-09-01",
-      "endDate": "2017-09-10",
-      "lat": 34.3324,
-      "lon": -83.30094,
-      "filterFields": {
-        "EventApi__RegistrationType__c": "Simple",
-        "Custom__IsWheelchairAccessible__c": true,
-        "Custom__EarlyBird": "2018-10-10",
-        "Custom__EarlyBirdPrice": "25.50",
-        "Custom__WalkabilityScore": 6.9,
-        "Custom__PartyTime": "2019-01-15T16:00:00Z",
-        "Custom__EstimatedAttendance__c": 100
-      }
-    },
-    {
-      "name": "London Summer Festival XV",
-      "id": "a1f1I000000hpToQAI",
-      "description": "It's happening!!",
-      "imageUrl": "https://placehold.it/300x300",
-      "startDate": "2017-09-01",
-      "endDate": "2017-09-10",
-      "lat": 34.3324,
-      "lon": -83.30094,
-      "filterFields": {
-        "EventApi__RegistrationType__c": "Conference",
-        "Custom__IsWheelchairAccessible__c": true,
-        "Custom__EarlyBird": "2018-10-10",
-        "Custom__EarlyBirdPrice": "25.50",
-        "Custom__WalkabilityScore": 6.9,
-        "Custom__PartyTime": "2019-01-15T16:00:00Z",
-        "Custom__EstimatedAttendance__c": 100
-      }
-    },
-    {
-      "name": "London Summer Festival 2^4",
-      "id": "a1f1I000000hpToQAI",
-      "description": "It's happening!!",
-      "imageUrl": "https://placehold.it/300x300",
-      "startDate": "2017-09-01",
-      "endDate": "2017-09-10",
-      "lat": 34.3324,
-      "lon": -83.30094,
-      "filterFields": {
-        "EventApi__RegistrationType__c": "Conference",
-        "Custom__IsWheelchairAccessible__c": true,
-        "Custom__EarlyBird": "2018-10-10",
-        "Custom__EarlyBirdPrice": "25.50",
-        "Custom__WalkabilityScore": 6.9,
-        "Custom__PartyTime": "2019-01-15T16:00:00Z",
-        "Custom__EstimatedAttendance__c": 100
-      }
-    },
-    {
-      "name": "London Summer Festival 17",
-      "id": "a1f1I000000hpToQAI",
-      "description": "It's happening!!",
-      "imageUrl": "https://placehold.it/300x300",
-      "startDate": "2017-09-01",
-      "endDate": "2017-09-10",
-      "lat": 34.3324,
-      "lon": -83.30094,
-      "filterFields": {
-        "EventApi__RegistrationType__c": "Conference",
-        "Custom__IsWheelchairAccessible__c": true,
-        "Custom__EarlyBird": "2018-10-10",
-        "Custom__EarlyBirdPrice": "25.50",
-        "Custom__WalkabilityScore": 6.9,
-        "Custom__PartyTime": "2019-01-15T16:00:00Z",
-        "Custom__EstimatedAttendance__c": 100
-      }
-    },
-    {
-      "name": "London Summer Festival 18",
-      "id": "a1f1I000000hpToQAI",
-      "description": "It's happening!!",
-      "imageUrl": "https://placehold.it/300x300",
-      "startDate": "2017-09-01",
-      "endDate": "2017-09-10",
-      "lat": 34.3324,
-      "lon": -83.30094,
-      "filterFields": {
-        "EventApi__RegistrationType__c": "Conference",
-        "Custom__IsWheelchairAccessible__c": true,
-        "Custom__EarlyBird": "2018-10-10",
-        "Custom__EarlyBirdPrice": "25.50",
-        "Custom__WalkabilityScore": 6.9,
-        "Custom__PartyTime": "2019-01-15T16:00:00Z",
-        "Custom__EstimatedAttendance__c": 100
-      }
-    },
-    {
-      "name": "London Summer Festival 19",
-      "id": "a1f1I000000hpToQAI",
-      "description": "It's happening!!",
-      "imageUrl": "https://placehold.it/300x300",
-      "startDate": "2017-09-01",
-      "endDate": "2017-09-10",
-      "lat": 34.3324,
-      "lon": -83.30094,
-      "filterFields": {
-        "EventApi__RegistrationType__c": "Conference",
-        "Custom__IsWheelchairAccessible__c": true,
-        "Custom__EarlyBird": "2018-10-10",
-        "Custom__EarlyBirdPrice": "25.50",
-        "Custom__WalkabilityScore": 6.9,
-        "Custom__PartyTime": "2019-01-15T16:00:00Z",
-        "Custom__EstimatedAttendance__c": 100
-      }
-    },
-    {
-      "name": "London Summer Festival XX",
-      "id": "a1f1I000000hpToQAI",
-      "description": "It's happening!!",
-      "imageUrl": "https://placehold.it/300x300",
-      "startDate": "2017-09-01",
-      "endDate": "2017-09-10",
-      "lat": 34.3324,
-      "lon": -83.30094,
-      "filterFields": {
-        "EventApi__RegistrationType__c": "Conference",
-        "Custom__IsWheelchairAccessible__c": true,
-        "Custom__EarlyBird": "2018-10-10",
-        "Custom__EarlyBirdPrice": "25.50",
-        "Custom__WalkabilityScore": 6.9,
-        "Custom__PartyTime": "2019-01-15T16:00:00Z",
-        "Custom__EstimatedAttendance__c": 100
-      }
-    },
-    {
-      "name": "London Summer Festival XXI",
-      "id": "a1f1I000000hpToQAI",
-      "description": "It's happening!!",
-      "imageUrl": "https://placehold.it/300x300",
-      "startDate": "2017-09-01",
-      "endDate": "2017-09-10",
-      "lat": 34.3324,
-      "lon": -83.30094,
-      "filterFields": {
-        "EventApi__RegistrationType__c": "Conference",
-        "Custom__IsWheelchairAccessible__c": true,
-        "Custom__EarlyBird": "2018-10-10",
-        "Custom__EarlyBirdPrice": "25.50",
-        "Custom__WalkabilityScore": 6.9,
-        "Custom__PartyTime": "2019-01-15T16:00:00Z",
-        "Custom__EstimatedAttendance__c": 100
-      }
-    },
-    {
-      "name": "London Summer Festival XXII",
-      "id": "a1f1I000000hpToQAI",
-      "description": "It's happening!!",
-      "imageUrl": "https://placehold.it/300x300",
-      "startDate": "2017-09-01",
-      "endDate": "2017-09-10",
-      "lat": 34.3324,
-      "lon": -83.30094,
-      "filterFields": {
-        "EventApi__RegistrationType__c": "Conference",
-        "Custom__IsWheelchairAccessible__c": true,
-        "Custom__EarlyBird": "2018-10-10",
-        "Custom__EarlyBirdPrice": "25.50",
-        "Custom__WalkabilityScore": 6.9,
-        "Custom__PartyTime": "2019-01-15T16:00:00Z",
-        "Custom__EstimatedAttendance__c": 100
-      }
-    },
-    {
-      "name": "London Summer Festival XXIII",
-      "id": "a1f1I000000hpToQAI",
-      "description": "It's happening!!",
-      "imageUrl": "https://placehold.it/300x300",
-      "startDate": "2017-09-01",
-      "endDate": "2017-09-10",
-      "lat": 34.3324,
-      "lon": -83.30094,
-      "filterFields": {
-        "EventApi__RegistrationType__c": "Conference",
-        "Custom__IsWheelchairAccessible__c": true,
-        "Custom__EarlyBird": "2018-10-10",
-        "Custom__EarlyBirdPrice": "25.50",
-        "Custom__WalkabilityScore": 6.9,
-        "Custom__PartyTime": "2019-01-15T16:00:00Z",
-        "Custom__EstimatedAttendance__c": 100
-      }
-    },
-    {
-      "name": "London Summer Festival XXIV",
-      "id": "a1f1I000000hpToQAI",
-      "description": "It's happening!!",
-      "imageUrl": "https://placehold.it/300x300",
-      "startDate": "2017-09-01",
-      "endDate": "2017-09-10",
-      "lat": 34.3324,
-      "lon": -83.30094,
-      "filterFields": {
-        "EventApi__RegistrationType__c": "Conference",
-        "Custom__IsWheelchairAccessible__c": true,
-        "Custom__EarlyBird": "2018-10-10",
-        "Custom__EarlyBirdPrice": "25.50",
-        "Custom__WalkabilityScore": 6.9,
-        "Custom__PartyTime": "2019-01-15T16:00:00Z",
-        "Custom__EstimatedAttendance__c": 100
-      }
-    },
-    {
-      "name": "Roachella 2019",
-      "id": "a1f1I000000hpToQAI",
-      "description": "It's happening!!",
-      "imageUrl": "https://placehold.it/300x300",
-      "startDate": "2017-09-01",
-      "endDate": "2017-09-10",
-      "lat": 38.8448791,
-      "lon": -77.4758938,
-      "filterFields": {
-        "EventApi__RegistrationType__c": "Conference",
-        "Custom__IsWheelchairAccessible__c": true,
-        "Custom__EarlyBird": "2018-10-10",
-        "Custom__EarlyBirdPrice": "25.50",
-        "Custom__WalkabilityScore": 60,
-        "Custom__PartyTime": "2019-01-15T16:00:00Z",
-        "Custom__EstimatedAttendance__c": 100
-      }
-    }
-  ]
+	"filterFields": [{
+			"name": "EventApi__RegistrationType__c",
+			"label": "Registration Type",
+			"type": "picklist",
+			"values": [
+				"Simple",
+				"Conference",
+				"Lightning",
+				"Not Used1",
+				"Not Used2",
+				"Not Used3",
+				"Not Used4"
+			]
+		},
+		{
+			"name": "Custom__IsWheelchairAccessible__c",
+			"label": "Wheelchair Accessible",
+			"type": "boolean"
+		},
+		{
+			"name": "Custom__EarlyBird",
+			"label": "Early Bird Date",
+			"type": "date"
+		},
+		{
+			"name": "Custom__EarlyBirdPrice",
+			"label": "Early Bird Price",
+			"type": "currency"
+		},
+		{
+			"name": "Custom__WalkabilityScore",
+			"label": "Walkability Score",
+			"type": "decimal"
+		},
+		{
+			"name": "Custom__PartyTime",
+			"label": "Party Time",
+			"type": "datetime"
+		},
+		{
+			"name": "Custom__EstimatedAttendance__c",
+			"label": "Estimated Attendance",
+			"type": "integer"
+		}
+	],
+	"sortFields": [{
+			"name": "EventApi__Attendees__c",
+			"label": "Number of Registered Attendees"
+		},
+		{
+			"name": "EventApi__Capacity__c",
+			"label": "Capacity"
+		}
+	],
+	"radiusOptions": [5, 20, 80, 160],
+	"enableFilters": true,
+	"events": [{
+			"name": "FunCon 2017",
+			"id": "a1f1I000000hpToQAI",
+			"description": "It's happening!!",
+			"imageUrl": "https://placehold.it/300x300",
+			"startDate": "2019-03-09",
+			"endDate": "2019-03-09",
+			"lat": 34.3324,
+			"lon": -83.30094,
+			"filterFields": {
+				"EventApi__RegistrationType__c": "Simple",
+				"Custom__IsWheelchairAccessible__c": true,
+				"Custom__EarlyBird": "2018-10-10",
+				"Custom__EarlyBirdPrice": "25.50",
+				"Custom__WalkabilityScore": 12.0,
+				"Custom__PartyTime": "2019-01-15T16:00:00Z",
+				"Custom__EstimatedAttendance__c": 100
+			},
+			"sortFields": {
+				"EventApi__Attendees__c": 20,
+				"EventApi__Capacity__c": 100
+			}
+		},
+		{
+			"name": "London Summer Festival",
+			"id": "a1f1I000000h1pToQAI",
+			"description": "It's happening!!",
+			"imageUrl": "https://placehold.it/300x300",
+			"startDate": "2020-09-01",
+			"endDate": "2020-09-01",
+			"lat": 34.3324,
+			"lon": -83.30094,
+			"filterFields": {
+				"EventApi__RegistrationType__c": "Conference",
+				"Custom__IsWheelchairAccessible__c": true,
+				"Custom__EarlyBird": "2018-10-10",
+				"Custom__EarlyBirdPrice": "125.50",
+				"Custom__WalkabilityScore": 6.9,
+				"Custom__PartyTime": "2019-01-15T16:00:00Z",
+				"Custom__EstimatedAttendance__c": 100
+			},
+			"sortFields": {
+				"EventApi__Attendees__c": 200,
+				"EventApi__Capacity__c": 500
+			}
+		},
+		{
+			"name": "London Summer Festival 2",
+			"id": "a1f1I000000hpToQAI4",
+			"description": "It's happening!!",
+			"imageUrl": "https://placehold.it/300x300",
+			"startDate": "2017-01-01",
+			"endDate": "2017-01-10",
+			"lat": 33.3324,
+			"lon": -83.30094,
+			"filterFields": {
+				"EventApi__RegistrationType__c": "Lightning",
+				"Custom__IsWheelchairAccessible__c": true,
+				"Custom__EarlyBird": "2018-10-10",
+				"Custom__EarlyBirdPrice": "25.50",
+				"Custom__WalkabilityScore": 6.9,
+				"Custom__PartyTime": "2019-01-30T16:00:00Z",
+				"Custom__EstimatedAttendance__c": 100
+			},
+			"sortFields": {
+				"EventApi__Attendees__c": 20,
+				"EventApi__Capacity__c": 100
+			}
+		},
+		{
+			"name": "London Summer Festival 3",
+			"id": "a1f1I000000hpToQA123I",
+			"description": "It's happening!!",
+			"imageUrl": "https://placehold.it/300x300",
+			"startDate": "2017-09-01",
+			"endDate": "2017-09-10",
+			"lat": 34.8324,
+			"lon": -83.30094,
+			"filterFields": {
+				"EventApi__RegistrationType__c": "Lightning",
+				"Custom__IsWheelchairAccessible__c": true,
+				"Custom__EarlyBird": "2018-10-10",
+				"Custom__EarlyBirdPrice": "125.50",
+				"Custom__WalkabilityScore": 16.9,
+				"Custom__PartyTime": "2019-01-15T16:00:00Z",
+				"Custom__EstimatedAttendance__c": 100
+			},
+			"sortFields": {
+				"EventApi__Attendees__c": 120,
+				"EventApi__Capacity__c": 1000
+			}
+		},
+		{
+			"name": "London Summer Festival 4",
+			"id": "a1f1I000000hpTovasdfQAI",
+			"description": "It's happening!!",
+			"imageUrl": "https://placehold.it/300x300",
+			"startDate": "2017-09-01",
+			"endDate": "2017-09-10",
+			"lat": 34.3324,
+			"lon": -83.60094,
+			"filterFields": {
+				"EventApi__RegistrationType__c": "Simple",
+				"Custom__IsWheelchairAccessible__c": true,
+				"Custom__EarlyBird": "2018-08-10",
+				"Custom__EarlyBirdPrice": "25.50",
+				"Custom__WalkabilityScore": 0.9,
+				"Custom__PartyTime": "2019-02-15T16:00:00Z",
+				"Custom__EstimatedAttendance__c": 100
+			},
+			"sortFields": {
+				"EventApi__Attendees__c": 2,
+				"EventApi__Capacity__c": 200
+			}
+		},
+		{
+			"name": "London Summer Festival 5",
+			"id": "a1f1I000000hp124ToQAI",
+			"description": "It's happening!!",
+			"imageUrl": "https://placehold.it/300x300",
+			"startDate": "2017-09-01",
+			"endDate": "2017-09-10",
+			"lat": 34.3324,
+			"lon": -83.90094,
+			"filterFields": {
+				"EventApi__RegistrationType__c": "Conference",
+				"Custom__IsWheelchairAccessible__c": true,
+				"Custom__EarlyBird": "2018-10-10",
+				"Custom__EarlyBirdPrice": "25.00",
+				"Custom__WalkabilityScore": 6.9,
+				"Custom__PartyTime": "2019-01-15T20:00:00Z",
+				"Custom__EstimatedAttendance__c": 100
+			},
+			"sortFields": {
+				"EventApi__Attendees__c": 29,
+				"EventApi__Capacity__c": 150
+			}
+		},
+		{
+			"name": "London Summer Festival 6",
+			"id": "a1f1I00000tg10hpToQAI",
+			"description": "It's happening!!",
+			"imageUrl": "https://placehold.it/300x300",
+			"startDate": "2017-09-01",
+			"endDate": "2017-09-10",
+			"lat": 34.0324,
+			"lon": -83.00094,
+			"filterFields": {
+				"EventApi__RegistrationType__c": "Conference",
+				"Custom__IsWheelchairAccessible__c": false,
+				"Custom__EstimatedAttendance__c": 100
+			},
+			"sortFields": {
+				"EventApi__Attendees__c": 39,
+				"EventApi__Capacity__c": 180
+			}
+		},
+		{
+			"name": "London Summer Festival 7",
+			"id": "a1f1tg1I000000hpToQAI",
+			"description": "It's happening!!",
+			"imageUrl": "https://placehold.it/300x300",
+			"startDate": "2017-09-01",
+			"endDate": "2017-09-10",
+			"lat": 33.3324,
+			"lon": -82.30094,
+			"filterFields": {
+				"EventApi__RegistrationType__c": "Conference",
+				"Custom__IsWheelchairAccessible__c": true,
+				"Custom__EarlyBird": "2018-10-10",
+				"Custom__EarlyBirdPrice": "25.50",
+				"Custom__WalkabilityScore": 6.9,
+				"Custom__PartyTime": "2019-01-15T16:00:00Z",
+				"Custom__EstimatedAttendance__c": 100
+			},
+			"sortFields": {
+				"EventApi__Attendees__c": 40,
+				"EventApi__Capacity__c": 190
+			}
+		},
+		{
+			"name": "London Summer Festival 8",
+			"id": "a1f1I000000hpTtg1oQAI",
+			"description": "It's happening!!",
+			"imageUrl": "https://placehold.it/300x300",
+			"startDate": "2017-09-01",
+			"endDate": "2017-09-10",
+			"lat": 35.3324,
+			"lon": -82.30094,
+			"filterFields": {
+				"EventApi__RegistrationType__c": "Simple",
+				"Custom__IsWheelchairAccessible__c": false,
+				"Custom__EstimatedAttendance__c": 1000
+			},
+			"sortFields": {
+				"EventApi__Attendees__c": 2,
+				"EventApi__Capacity__c": 800
+			}
+		},
+		{
+			"name": "London Summer Festival 9",
+			"id": "a1f1I000000hpToQAI",
+			"description": "It's happening!!",
+			"imageUrl": "https://placehold.it/300x300",
+			"startDate": "2017-04-22",
+			"endDate": "2017-04-25",
+			"lat": 34.6324,
+			"lon": -83.00094,
+			"filterFields": {
+				"EventApi__RegistrationType__c": "Conference",
+				"Custom__IsWheelchairAccessible__c": true,
+				"Custom__EarlyBird": "2018-10-10",
+				"Custom__EarlyBirdPrice": "25.50",
+				"Custom__WalkabilityScore": 6.9,
+				"Custom__PartyTime": "2019-01-15T16:00:00Z",
+				"Custom__EstimatedAttendance__c": 10
+			},
+			"sortFields": {
+				"EventApi__Attendees__c": 20,
+				"EventApi__Capacity__c": 100
+			}
+		},
+		{
+			"name": "London Summer Festival 10",
+			"id": "a1f1I000000hpToQAI",
+			"description": "It's happening!!",
+			"imageUrl": "https://placehold.it/300x300",
+			"startDate": "2017-09-01",
+			"endDate": "2017-09-10",
+			"lat": 34.5324,
+			"lon": -83.00094,
+			"filterFields": {
+				"EventApi__RegistrationType__c": "Conference",
+				"Custom__IsWheelchairAccessible__c": true,
+				"Custom__EarlyBird": "2018-10-10",
+				"Custom__EarlyBirdPrice": "25.50",
+				"Custom__WalkabilityScore": 6.9,
+				"Custom__PartyTime": "2019-01-15T16:00:00Z",
+				"Custom__EstimatedAttendance__c": 1000
+			},
+			"sortFields": {
+				"EventApi__Attendees__c": 5,
+				"EventApi__Capacity__c": 309
+			}
+		},
+		{
+			"name": "London Summer Festival 11",
+			"id": "a1f1I000000hpToQAI",
+			"description": "It's happening!!",
+			"imageUrl": "https://placehold.it/300x300",
+			"startDate": "2017-09-01",
+			"endDate": "2017-09-10",
+			"lat": 34.3324,
+			"lon": -83.30094,
+			"filterFields": {
+				"EventApi__RegistrationType__c": "Simple",
+				"Custom__IsWheelchairAccessible__c": true,
+				"Custom__EarlyBird": "2018-10-10",
+				"Custom__EarlyBirdPrice": "25.50",
+				"Custom__WalkabilityScore": 6.9,
+				"Custom__PartyTime": "2019-01-15T16:00:00Z",
+				"Custom__EstimatedAttendance__c": 500
+			},
+			"sortFields": {
+				"EventApi__Attendees__c": 28,
+				"EventApi__Capacity__c": 900
+			}
+		},
+		{
+			"name": "London Summer Festival 12",
+			"id": "a1f1I000000hpToQAI",
+			"description": "It's happening!!",
+			"imageUrl": "https://placehold.it/300x300",
+			"startDate": "2017-09-01",
+			"endDate": "2017-09-10",
+			"lat": 34.3324,
+			"lon": -83.30094,
+			"filterFields": {
+				"EventApi__RegistrationType__c": "Conference",
+				"Custom__IsWheelchairAccessible__c": true,
+				"Custom__EarlyBird": "2018-10-10",
+				"Custom__EarlyBirdPrice": "25.50",
+				"Custom__WalkabilityScore": 6.9,
+				"Custom__PartyTime": "2019-01-15T16:00:00Z",
+				"Custom__EstimatedAttendance__c": 50
+			},
+			"sortFields": {
+				"EventApi__Attendees__c": 2,
+				"EventApi__Capacity__c": 400
+			}
+		},
+		{
+			"name": "London Summer Festival 13",
+			"id": "a1f1I000000hpToQAI",
+			"description": "It's happening!!",
+			"imageUrl": "https://placehold.it/300x300",
+			"startDate": "2017-09-01",
+			"endDate": "2017-09-10",
+			"lat": 34.3324,
+			"lon": -83.30094,
+			"filterFields": {
+				"EventApi__RegistrationType__c": "Conference",
+				"Custom__IsWheelchairAccessible__c": true,
+				"Custom__EarlyBird": "2018-10-10",
+				"Custom__EarlyBirdPrice": "25.50",
+				"Custom__WalkabilityScore": 6.9,
+				"Custom__PartyTime": "2019-01-15T16:00:00Z",
+				"Custom__EstimatedAttendance__c": 5
+			},
+			"sortFields": {
+				"EventApi__Attendees__c": 16,
+				"EventApi__Capacity__c": 140
+			}
+		},
+		{
+			"name": "London Summer Festival 14",
+			"id": "a1f1I000000hpToQAI",
+			"description": "It's happening!!",
+			"imageUrl": "https://placehold.it/300x300",
+			"startDate": "2017-09-01",
+			"endDate": "2017-09-10",
+			"lat": 34.3324,
+			"lon": -83.30094,
+			"filterFields": {
+				"EventApi__RegistrationType__c": "Simple",
+				"Custom__IsWheelchairAccessible__c": true,
+				"Custom__EarlyBird": "2018-10-10",
+				"Custom__EarlyBirdPrice": "25.50",
+				"Custom__WalkabilityScore": 6.9,
+				"Custom__PartyTime": "2019-01-15T16:00:00Z",
+				"Custom__EstimatedAttendance__c": 100
+			},
+			"sortFields": {
+				"EventApi__Attendees__c": 20,
+				"EventApi__Capacity__c": 100
+			}
+		},
+		{
+			"name": "London Summer Festival XV",
+			"id": "a1f1I000000hpToQAI",
+			"description": "It's happening!!",
+			"imageUrl": "https://placehold.it/300x300",
+			"startDate": "2017-09-01",
+			"endDate": "2017-09-10",
+			"lat": 34.3324,
+			"lon": -83.30094,
+			"filterFields": {
+				"EventApi__RegistrationType__c": "Conference",
+				"Custom__IsWheelchairAccessible__c": true,
+				"Custom__EarlyBird": "2018-10-10",
+				"Custom__EarlyBirdPrice": "25.50",
+				"Custom__WalkabilityScore": 6.9,
+				"Custom__PartyTime": "2019-01-15T16:00:00Z",
+				"Custom__EstimatedAttendance__c": 100
+			},
+			"sortFields": {
+				"EventApi__Attendees__c": 13,
+				"EventApi__Capacity__c": 160
+			}
+		},
+		{
+			"name": "London Summer Festival 2^4",
+			"id": "a1f1I000000hpToQAI",
+			"description": "It's happening!!",
+			"imageUrl": "https://placehold.it/300x300",
+			"startDate": "2017-09-01",
+			"endDate": "2017-09-10",
+			"lat": 34.3324,
+			"lon": -83.30094,
+			"filterFields": {
+				"EventApi__RegistrationType__c": "Conference",
+				"Custom__IsWheelchairAccessible__c": true,
+				"Custom__EarlyBird": "2018-10-10",
+				"Custom__EarlyBirdPrice": "25.50",
+				"Custom__WalkabilityScore": 6.9,
+				"Custom__PartyTime": "2019-01-15T16:00:00Z",
+				"Custom__EstimatedAttendance__c": 100
+			},
+			"sortFields": {
+				"EventApi__Attendees__c": 79,
+				"EventApi__Capacity__c": 280
+			}
+		},
+		{
+			"name": "London Summer Festival 17",
+			"id": "a1f1I000000hpToQAI",
+			"description": "It's happening!!",
+			"imageUrl": "https://placehold.it/300x300",
+			"startDate": "2017-09-01",
+			"endDate": "2017-09-10",
+			"lat": 34.3324,
+			"lon": -83.30094,
+			"filterFields": {
+				"EventApi__RegistrationType__c": "Conference",
+				"Custom__IsWheelchairAccessible__c": true,
+				"Custom__EarlyBird": "2018-10-10",
+				"Custom__EarlyBirdPrice": "25.50",
+				"Custom__WalkabilityScore": 6.9,
+				"Custom__PartyTime": "2019-01-15T16:00:00Z",
+				"Custom__EstimatedAttendance__c": 100
+			},
+			"sortFields": {
+				"EventApi__Attendees__c": 190,
+				"EventApi__Capacity__c": 1090
+			}
+		},
+		{
+			"name": "London Summer Festival 18",
+			"id": "a1f1I000000hpToQAI",
+			"description": "It's happening!!",
+			"imageUrl": "https://placehold.it/300x300",
+			"startDate": "2017-09-01",
+			"endDate": "2017-09-10",
+			"lat": 34.3324,
+			"lon": -83.30094,
+			"filterFields": {
+				"EventApi__RegistrationType__c": "Conference",
+				"Custom__IsWheelchairAccessible__c": true,
+				"Custom__EarlyBird": "2018-10-10",
+				"Custom__EarlyBirdPrice": "25.50",
+				"Custom__WalkabilityScore": 6.9,
+				"Custom__PartyTime": "2019-01-15T16:00:00Z",
+				"Custom__EstimatedAttendance__c": 100
+			},
+			"sortFields": {
+				"EventApi__Attendees__c": 120,
+				"EventApi__Capacity__c": 1000
+			}
+		},
+		{
+			"name": "London Summer Festival 19",
+			"id": "a1f1I000000hpToQAI",
+			"description": "It's happening!!",
+			"imageUrl": "https://placehold.it/300x300",
+			"startDate": "2017-09-01",
+			"endDate": "2017-09-10",
+			"lat": 34.3324,
+			"lon": -83.30094,
+			"filterFields": {
+				"EventApi__RegistrationType__c": "Conference",
+				"Custom__IsWheelchairAccessible__c": true,
+				"Custom__EarlyBird": "2018-10-10",
+				"Custom__EarlyBirdPrice": "25.50",
+				"Custom__WalkabilityScore": 6.9,
+				"Custom__PartyTime": "2019-01-15T16:00:00Z",
+				"Custom__EstimatedAttendance__c": 100
+			},
+			"sortFields": {
+				"EventApi__Attendees__c": 130,
+				"EventApi__Capacity__c": 180
+			}
+		},
+		{
+			"name": "London Summer Festival XX",
+			"id": "a1f1I000000hpToQAI",
+			"description": "It's happening!!",
+			"imageUrl": "https://placehold.it/300x300",
+			"startDate": "2017-09-01",
+			"endDate": "2017-09-10",
+			"lat": 34.3324,
+			"lon": -83.30094,
+			"filterFields": {
+				"EventApi__RegistrationType__c": "Conference",
+				"Custom__IsWheelchairAccessible__c": true,
+				"Custom__EarlyBird": "2018-10-10",
+				"Custom__EarlyBirdPrice": "25.50",
+				"Custom__WalkabilityScore": 6.9,
+				"Custom__PartyTime": "2019-01-15T16:00:00Z",
+				"Custom__EstimatedAttendance__c": 100
+			},
+			"sortFields": {
+				"EventApi__Attendees__c": 20,
+				"EventApi__Capacity__c": 100
+			}
+		},
+		{
+			"name": "London Summer Festival XXI",
+			"id": "a1f1I000000hpToQAI",
+			"description": "It's happening!!",
+			"imageUrl": "https://placehold.it/300x300",
+			"startDate": "2017-09-01",
+			"endDate": "2017-09-10",
+			"lat": 34.3324,
+			"lon": -83.30094,
+			"filterFields": {
+				"EventApi__RegistrationType__c": "Conference",
+				"Custom__IsWheelchairAccessible__c": true,
+				"Custom__EarlyBird": "2018-10-10",
+				"Custom__EarlyBirdPrice": "25.50",
+				"Custom__WalkabilityScore": 6.9,
+				"Custom__PartyTime": "2019-01-15T16:00:00Z",
+				"Custom__EstimatedAttendance__c": 100
+			},
+			"sortFields": {
+				"EventApi__Attendees__c": 298,
+				"EventApi__Capacity__c": 1700
+			}
+		},
+		{
+			"name": "London Summer Festival XXII",
+			"id": "a1f1I000000hpToQAI",
+			"description": "It's happening!!",
+			"imageUrl": "https://placehold.it/300x300",
+			"startDate": "2017-09-01",
+			"endDate": "2017-09-10",
+			"lat": 34.3324,
+			"lon": -83.30094,
+			"filterFields": {
+				"EventApi__RegistrationType__c": "Conference",
+				"Custom__IsWheelchairAccessible__c": true,
+				"Custom__EarlyBird": "2018-10-10",
+				"Custom__EarlyBirdPrice": "25.50",
+				"Custom__WalkabilityScore": 6.9,
+				"Custom__PartyTime": "2019-01-15T16:00:00Z",
+				"Custom__EstimatedAttendance__c": 100
+			},
+			"sortFields": {
+				"EventApi__Attendees__c": 420,
+				"EventApi__Capacity__c": 1020
+			}
+		},
+		{
+			"name": "London Summer Festival XXIII",
+			"id": "a1f1I000000hpToQAI",
+			"description": "It's happening!!",
+			"imageUrl": "https://placehold.it/300x300",
+			"startDate": "2017-09-01",
+			"endDate": "2017-09-10",
+			"lat": 34.3324,
+			"lon": -83.30094,
+			"filterFields": {
+				"EventApi__RegistrationType__c": "Conference",
+				"Custom__IsWheelchairAccessible__c": true,
+				"Custom__EarlyBird": "2018-10-10",
+				"Custom__EarlyBirdPrice": "25.50",
+				"Custom__WalkabilityScore": 6.9,
+				"Custom__PartyTime": "2019-01-15T16:00:00Z",
+				"Custom__EstimatedAttendance__c": 100
+			},
+			"sortFields": {
+				"EventApi__Attendees__c": 320,
+				"EventApi__Capacity__c": 1400
+			}
+		},
+		{
+			"name": "London Summer Festival XXIV",
+			"id": "a1f1I000000hpToQAI",
+			"description": "It's happening!!",
+			"imageUrl": "https://placehold.it/300x300",
+			"startDate": "2017-09-01",
+			"endDate": "2017-09-10",
+			"lat": 34.3324,
+			"lon": -83.30094,
+			"filterFields": {
+				"EventApi__RegistrationType__c": "Conference",
+				"Custom__IsWheelchairAccessible__c": true,
+				"Custom__EarlyBird": "2018-10-10",
+				"Custom__EarlyBirdPrice": "25.50",
+				"Custom__WalkabilityScore": 6.9,
+				"Custom__PartyTime": "2019-01-15T16:00:00Z",
+				"Custom__EstimatedAttendance__c": 100
+			},
+			"sortFields": {
+				"EventApi__Attendees__c": 70,
+				"EventApi__Capacity__c": 1600
+			}
+		},
+		{
+			"name": "Roachella 2019",
+			"id": "a1f1I000000hpToQAI",
+			"description": "It's happening!!",
+			"imageUrl": "https://placehold.it/300x300",
+			"startDate": "2017-09-01",
+			"endDate": "2017-09-10",
+			"lat": 38.8448791,
+			"lon": -77.4758938,
+			"filterFields": {
+				"EventApi__RegistrationType__c": "Conference",
+				"Custom__IsWheelchairAccessible__c": true,
+				"Custom__EarlyBird": "2018-10-10",
+				"Custom__EarlyBirdPrice": "25.50",
+				"Custom__WalkabilityScore": 60,
+				"Custom__PartyTime": "2019-01-15T16:00:00Z",
+				"Custom__EstimatedAttendance__c": 100
+			},
+			"sortFields": {
+				"EventApi__Attendees__c": 270,
+				"EventApi__Capacity__c": 1080
+			}
+		}
+	]
 }
